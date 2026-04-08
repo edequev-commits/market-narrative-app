@@ -1,0 +1,84 @@
+PROJECT: MARKET NARRATIVE DASHBOARD v1.0
+
+OBJETIVO:
+Sistema automatizado para generar narrativa de mercado intradía basada en correos (Gmail), procesada con LLM y desplegada como dashboard web.
+
+ARQUITECTURA:
+
+1. FUENTE DE DATOS
+
+* Gmail (label: "Noticias Trading")
+* Ventana: 1:00 AM – 9:00 AM (Monterrey UTC-6)
+
+2. PROCESAMIENTO
+
+* Extracción de correos
+* Identificación:
+
+  * Vital Knowledge
+  * Reuters
+* Construcción de input estructurado
+* Filtro de señales (LLM)
+* Generación narrativa final (LLM)
+
+3. OUTPUTS
+
+* data/dashboard_payload.json
+* data/market_narrative.txt
+* data/vital_knowledge_extracted.json
+* data/reuters_extracted.json
+* data/filtered_signal.json
+* data/last_refresh.json
+
+4. DASHBOARD
+
+* dashboard.py (visual)
+* build_static_dashboard.py (genera HTML)
+* output final:
+  dist/index.html
+
+5. AUTOMATIZACIÓN
+
+* GitHub Actions:
+
+  * Ejecuta app.py
+  * Ejecuta build_static_dashboard.py
+  * Hace commit de data + dist
+
+CRON (UTC):
+
+* 08:00 → 2:00 AM Monterrey
+* 16:00 → 10:00 AM Monterrey
+* 21:00 → 3:00 PM Monterrey
+* 02:00 → 8:00 PM Monterrey
+
+6. DEPLOY
+
+* Render (Static Site)
+* Publish Directory: dist
+* Build Command: echo "static ready"
+
+7. TIMEZONE
+
+* Monterrey UTC -6
+* Aplicado en:
+  now = datetime.now(MONTERREY_TZ)
+  timezone_name="America/Monterrey"
+
+8. FLUJO COMPLETO
+
+Gmail → app.py → JSON → LLM → dashboard_payload → HTML → GitHub → Render → Web
+
+9. RECOVERY
+
+Para reconstruir:
+
+1. Clonar repo
+2. Instalar requirements
+3. Ejecutar:
+   python app.py
+   python build_static_dashboard.py
+4. Servir dist/
+
+ESTADO:
+Versión estable v1.0

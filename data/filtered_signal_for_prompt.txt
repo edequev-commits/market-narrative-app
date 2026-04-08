@@ -1,25 +1,25 @@
 {
-  "driver_principal": "La incertidumbre geopolítica y militar en torno a la crisis entre Estados Unidos e Irán, con un plazo límite impuesto por el presidente Trump para un acuerdo o una posible escalada militar, domina la percepción de riesgo y el comportamiento de los mercados globales.",
+  "driver_principal": "The announcement of a two-week ceasefire agreement between the United States and Iran, contingent on the reopening of the Strait of Hormuz, is the dominant factor driving a sharp risk-on rally in global equity markets and a significant decline in oil prices.",
   "hechos_confirmados": [
-    "El presidente Trump estableció un plazo límite para el 7 de abril de 2026 a las 8pm ET para que Irán acepte sus demandas, incluyendo la reapertura del Estrecho de Hormuz y un acuerdo de alto el fuego.",
-    "Irán ha rechazado la reapertura del Estrecho de Hormuz y no ha aceptado un acuerdo de alto el fuego antes del plazo, manteniéndose desafiante.",
-    "Las negociaciones continúan con mediadores de Pakistán, Egipto y Turquía intentando facilitar un acuerdo, aunque las esperanzas de un acuerdo final para la fecha límite están disminuyendo.",
-    "Estados Unidos ha logrado la mayoría de sus objetivos estratégicos en el conflicto, y las opciones de escalada militar disponibles para Trump implican costos muy altos y riesgos significativos."
+    "The US and Iran agreed to a two-week ceasefire with the condition of the complete, immediate, and safe reopening of the Strait of Hormuz.",
+    "The ceasefire announcement caused US equity futures and major global stock indices to surge broadly, while oil prices (Brent) dropped approximately 13.5% to below $100 per barrel.",
+    "Treasury yields declined modestly in response, with 2-year and 10-year US Treasury yields falling by 6-7 basis points.",
+    "Negotiations for a longer-term agreement between the US and Iran are scheduled to begin in Islamabad on Friday, with multiple unresolved issues remaining."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que no se alcance un acuerdo definitivo antes del plazo impuesto, pero una escalada militar significativa, especialmente una que implique un despliegue masivo de tropas estadounidenses, es moderadamente improbable. Se espera que el conflicto continúe generando presiones económicas y de mercado, incluyendo un impacto prolongado en la inflación global y en los precios de las materias primas, particularmente en el sector energético.",
-  "interpretacion_institucional": "La situación geopolítica en Medio Oriente sigue siendo la principal fuente de incertidumbre para los mercados globales. Aunque la retórica es belicosa, la falta de opciones militares viables y el logro de objetivos estratégicos por parte de Estados Unidos sugieren que la administración buscará una salida negociada o una desescalada gradual. Los mercados han mostrado resiliencia, con movimientos mixtos en acciones y commodities, reflejando la cautela ante posibles desarrollos. La persistencia del conflicto y sus efectos económicos, como la presión inflacionaria y la interrupción en el suministro energético, continuarán condicionando la dinámica macroeconómica y la política monetaria global en los próximos meses.",
+  "escenario_dominante": "There is a high probability that the two-week ceasefire will provide a temporary relief rally in risk assets and ease immediate supply concerns in oil markets. However, given the unresolved terms and skepticism about the durability of the agreement, geopolitical risk and commodity price volatility are likely to remain elevated over the medium term.",
+  "interpretacion_institucional": "The ceasefire announcement has triggered a strong technical rebound in equities and a sharp correction in oil prices, reflecting relief from the immediate threat to Middle East supply routes. Nonetheless, the market remains cautious due to lingering uncertainties about the full reopening of the Strait of Hormuz, potential fees imposed by Iran on shipping, and the broader geopolitical context including proxy conflicts and sanctions. The US appears to have achieved key military objectives, prompting a strategic de-escalation, but the risk premium embedded in commodity prices and regional tensions is expected to persist. Central banks outside the US are likely to continue tightening monetary policy, while the Federal Reserve may remain on hold for the remainder of the year. Sectors that benefited from the conflict, such as energy and defense, may face profit-taking, whereas consumer discretionary and cyclicals could outperform in the near term.",
   "riesgos_secundarios": [
-    "Una escalada militar inesperada que incluya ataques masivos a la infraestructura civil iraní o un despliegue terrestre significativo de tropas estadounidenses.",
-    "Intensificación de ataques terroristas o represalias de Irán y sus aliados en la región, afectando la estabilidad geopolítica y los mercados de energía.",
-    "Incertidumbre política interna en Irán, incluyendo la salud del líder supremo, que podría desestabilizar aún más la situación.",
-    "Intervención o apoyo directo de Rusia a Irán mediante inteligencia y ciberataques, complicando la dinámica del conflicto.",
-    "Retrasos o cambios en el plazo límite impuesto por Trump, que podrían generar volatilidad adicional en los mercados."
+    "The ceasefire may fail to hold beyond the initial two-week period, leading to renewed military escalation and supply disruptions.",
+    "Iran could impose fees or restrictions on shipping through the Strait of Hormuz, maintaining a structural risk premium on commodity prices.",
+    "Proxy conflicts in Lebanon and other regional hotspots may continue or intensify, complicating the peace process.",
+    "Political opposition in the US and international diplomatic challenges could delay or derail a comprehensive long-term agreement.",
+    "The elevated threat level from Iran to US domestic targets, as indicated by recent intelligence warnings, could trigger security incidents affecting market sentiment."
   ],
   "eventos_clave": [
-    "Plazo límite impuesto por Trump para un acuerdo con Irán el 7 de abril de 2026 a las 8pm ET.",
-    "Continuación de las negociaciones mediadas por Pakistán, Egipto y Turquía en los próximos días.",
-    "Publicación de datos macroeconómicos relevantes en EE.UU. y globales que reflejen el impacto económico del conflicto, incluyendo informes de inflación y producción.",
-    "Decisiones de política monetaria y declaraciones de la Reserva Federal y otros bancos centrales en respuesta a la evolución económica y geopolítica.",
-    "Resultados electorales y eventos políticos en EE.UU. que puedan influir en la estrategia y postura del gobierno respecto al conflicto."
+    "US-Iran negotiations scheduled to begin in Islamabad on Friday to discuss a longer-term agreement.",
+    "US CPI data release for March on Friday, expected to show a significant acceleration in headline inflation.",
+    "FOMC minutes release on Wednesday, which may provide insights into the Federal Reserve's policy stance amid the evolving geopolitical and inflationary environment.",
+    "US PCE inflation data for February on Thursday, which will inform inflation trends and monetary policy expectations.",
+    "Pentagon press briefing on Wednesday morning, potentially providing updates on military and geopolitical developments."
   ]
 }

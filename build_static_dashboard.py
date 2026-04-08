@@ -50,20 +50,32 @@ def render_paragraphs(text: str) -> str:
     )
 
 
+def clean_source_name(raw_name: str) -> str:
+    raw_name = (raw_name or "").strip()
+    if "<" in raw_name:
+        raw_name = raw_name.split("<", 1)[0].strip()
+    return raw_name.strip('" ').strip()
+
+
+def format_source_datetime(raw_date: str) -> str:
+    raw_date = (raw_date or "").strip()
+    if not raw_date:
+        return ""
+    try:
+        dt = datetime.fromisoformat(raw_date)
+        return dt.strftime("%d/%m/%Y - %H:%M")
+    except Exception:
+        return raw_date
+
 def render_sources(sources: list) -> str:
     if not sources:
         return '<div class="empty-note">No hay fuentes cargadas.</div>'
 
     blocks = []
     for src in sources:
-        fuente = html.escape(str(src.get("fuente", "")))
-        fecha = html.escape(str(src.get("fecha", "")))
+        fuente = html.escape(clean_source_name(str(src.get("fuente", ""))))
+        fecha = html.escape(format_source_datetime(str(src.get("fecha", ""))))
         detalle = html.escape(str(src.get("detalle", "")))
-        contribucion = src.get("contribucion")
-
-        contrib_html = ""
-        if contribucion is not None:
-            contrib_html = f'<div class="source-contrib">Contribución: {contribucion}%</div>'
 
         blocks.append(
             f"""
@@ -71,7 +83,6 @@ def render_sources(sources: list) -> str:
                 <div class="source-name">{fuente}</div>
                 <div class="source-date">{fecha}</div>
                 <div class="source-detail">{detalle}</div>
-                {contrib_html}
             </div>
             """
         )
@@ -178,11 +189,15 @@ def build_html(payload: dict) -> str:
     }}
 
     .narrative-card {{
-      min-height: 460px;
+      height: 460px;
+      overflow-y: auto;
+      overflow-x: hidden;
     }}
 
     .sources-card {{
-      min-height: 460px;
+      height: 460px;
+      overflow-y: auto;
+      overflow-x: hidden;
     }}
 
     .source-item {{
@@ -212,12 +227,6 @@ def build_html(payload: dict) -> str:
       font-size: 13px;
       line-height: 1.5;
       word-break: break-word;
-    }}
-
-    .source-contrib {{
-      color: #67e8f9;
-      font-size: 12px;
-      margin-top: 6px;
     }}
 
     .calendar-card {{

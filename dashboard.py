@@ -111,6 +111,22 @@ def build_narrative_component(narrative: str) -> str:
     </html>
     """
 
+def clean_source_name(raw_name: str) -> str:
+    raw_name = (raw_name or "").strip()
+    if "<" in raw_name:
+        raw_name = raw_name.split("<", 1)[0].strip()
+    return raw_name.strip('" ').strip()
+
+
+def format_source_datetime(raw_date: str) -> str:
+    raw_date = (raw_date or "").strip()
+    if not raw_date:
+        return ""
+    try:
+        dt = datetime.fromisoformat(raw_date)
+        return dt.strftime("%d/%m/%Y - %H:%M")
+    except Exception:
+        return raw_date
 
 def build_sources_component(sources: list) -> str:
     if not sources:
@@ -118,8 +134,8 @@ def build_sources_component(sources: list) -> str:
     else:
         blocks = []
         for src in sources:
-            fuente = html.escape(str(src.get("fuente", "")))
-            fecha = html.escape(str(src.get("fecha", "")))
+            fuente = html.escape(clean_source_name(str(src.get("fuente", ""))))
+            fecha = html.escape(format_source_datetime(str(src.get("fecha", ""))))
             detalle = html.escape(str(src.get("detalle", "")))
 
             blocks.append(
@@ -152,14 +168,13 @@ def build_sources_component(sources: list) -> str:
           box-sizing: border-box;
           height: 460px;
           overflow-y: auto;
-          overflow-x: auto;
+          overflow-x: hidden;
           color: #e5e7eb;
         }}
         .source-item {{
           border-bottom: 1px solid #172033;
           padding: 0 0 12px 0;
           margin: 0 0 12px 0;
-          min-width: 320px;
         }}
         .source-name {{
           color: #ffffff;
@@ -190,7 +205,6 @@ def build_sources_component(sources: list) -> str:
     </body>
     </html>
     """
-
 
 st.markdown("""
 <style>
