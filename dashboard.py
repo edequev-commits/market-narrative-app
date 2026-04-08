@@ -2,11 +2,15 @@ import json
 import subprocess
 import sys
 import html
+import os
 from datetime import datetime
 
 import streamlit as st
 import streamlit.components.v1 as components
+from dotenv import load_dotenv
 
+
+load_dotenv()
 
 st.set_page_config(
     page_title="Dailyt Market Dashboard v1.0",
@@ -299,20 +303,23 @@ div.stButton > button:hover {
 """, unsafe_allow_html=True)
 
 
+show_refresh = os.getenv("SHOW_REFRESH", "false").strip().lower() == "true"
+
 left, right = st.columns([5.4, 1.6])
 
 with left:
     st.markdown('<div class="title">Dailyt Market Dashboard v1.0</div>', unsafe_allow_html=True)
 
 with right:
-    if st.button("Refresh", use_container_width=True):
-        with st.spinner("Actualizando..."):
-            ok, output = run_pipeline()
-        st.session_state["pipeline_output"] = output
-        if ok:
-            st.rerun()
-        else:
-            st.error("La actualización falló.")
+    if show_refresh:
+        if st.button("Refresh", use_container_width=True):
+            with st.spinner("Actualizando..."):
+                ok, output = run_pipeline()
+            st.session_state["pipeline_output"] = output
+            if ok:
+                st.rerun()
+            else:
+                st.error("La actualización falló.")
 
 payload = load_json("data/dashboard_payload.json")
 meta = payload.get("meta", {})
@@ -325,7 +332,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-if "pipeline_output" in st.session_state:
+if show_refresh and "pipeline_output" in st.session_state:
     with st.expander("Ver log"):
         st.text(st.session_state["pipeline_output"])
 
