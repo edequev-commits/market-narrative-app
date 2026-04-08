@@ -1,25 +1,25 @@
 {
-  "driver_principal": "La incertidumbre geopolítica y militar en torno a la crisis entre Estados Unidos e Irán, con un inminente plazo impuesto por el presidente Trump para un acuerdo o una posible escalada militar, domina la percepción de riesgo y el comportamiento de los mercados globales.",
+  "driver_principal": "The dominant market driver is the escalating geopolitical tension surrounding the US-Iran conflict, specifically the imminent deadline set by US President Trump for Iran to reopen the Strait of Hormuz and accept a ceasefire, with significant implications for global energy markets and economic stagflation risks.",
   "hechos_confirmados": [
-    "El presidente Trump estableció un plazo para el 7 de abril a las 8pm ET para que Irán acepte sus demandas, incluyendo la reapertura del Estrecho de Hormuz y un acuerdo de alto al fuego.",
-    "Irán ha rechazado la reapertura del Estrecho de Hormuz y no ha aceptado un acuerdo de alto al fuego antes del plazo, manteniéndose desafiante.",
-    "Las negociaciones continúan con mediadores de Pakistán, Egipto y Turquía intentando facilitar un acuerdo, aunque las esperanzas de un acuerdo final para el plazo son bajas.",
-    "Estados Unidos ha logrado la mayoría de sus objetivos estratégicos en el conflicto, y las opciones de escalada militar disponibles para Trump implican costos muy altos y riesgos significativos."
+    "US President Trump set a deadline of April 7, 2026, 8pm ET for Iran to reopen the Strait of Hormuz and accept a ceasefire deal.",
+    "Iran has refused to reopen the Strait of Hormuz and rejected the ceasefire demand, maintaining defiance against US conditions.",
+    "Negotiations between the US and Iran are ongoing but a full and final agreement will not be reached by the April 7 deadline.",
+    "The US has achieved the bulk of its strategic objectives in the conflict, and Iran has made small concessions regarding the Strait of Hormuz."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que no se alcance un acuerdo definitivo antes del plazo del 7 de abril, pero también una moderada probabilidad de que se evite una escalada militar significativa inmediata debido a los altos costos y limitaciones estratégicas. Los mercados probablemente mantendrán una volatilidad contenida con sesgo positivo moderado, aunque persistirá la incertidumbre geopolítica y sus efectos económicos.",
-  "interpretacion_institucional": "La situación geopolítica en Medio Oriente sigue siendo el principal factor de riesgo para los mercados globales. Aunque la retórica es beligerante, la falta de opciones militares viables y la consecución de objetivos estratégicos por parte de Estados Unidos sugieren que se buscará una salida negociada o un aplazamiento del plazo. Los mercados han mostrado resiliencia, con sectores específicos beneficiándose de la dinámica actual, pero la persistencia de la crisis genera un entorno de stagflación que afectará la economía global en el mediano plazo. La atención debe centrarse en la evolución de las negociaciones y en la respuesta militar o diplomática de las partes involucradas.",
+  "escenario_dominante": "There is a moderate to high probability that the April 7 deadline will be extended or that a significant military escalation will be avoided in the immediate term, as the US administration faces limited viable escalatory options and ongoing negotiations continue. However, the risk of prolonged conflict and sustained stagflationary pressures on the global economy remains elevated.",
+  "interpretacion_institucional": "Despite President Trump's aggressive rhetoric and the looming deadline, the strategic and economic costs of a major escalation involving widespread bombing or ground troops are substantial, making such outcomes less likely in the near term. Markets are cautiously optimistic about an off-ramp or delay in the deadline, reflected in mixed but generally stable equity performance and subdued Treasury yields. Nonetheless, the conflict has already triggered a significant stagflationary shock globally, particularly through energy market disruptions, which will persist regardless of immediate ceasefire outcomes. Investors should remain vigilant to geopolitical developments and their macroeconomic ramifications, especially in energy and inflation-sensitive sectors.",
   "riesgos_secundarios": [
-    "Una escalada militar significativa que incluya ataques masivos a la infraestructura civil iraní o un despliegue terrestre prolongado de tropas estadounidenses.",
-    "Inestabilidad política interna en Irán, incluyendo la salud del líder supremo, que podría afectar la dirección del conflicto.",
-    "Intensificación de ataques terroristas o acciones militares de Irán y sus aliados en la región, complicando la situación geopolítica.",
-    "Intervención o apoyo directo de Rusia a Irán mediante inteligencia y ciberataques, aumentando la complejidad del conflicto.",
-    "Retrasos o cambios en el plazo impuesto por Trump que generen incertidumbre adicional en los mercados."
+    "A sudden and large-scale US or Israeli military strike on Iranian civilian infrastructure could occur, escalating the conflict rapidly.",
+    "Iran's Supreme Leader is reportedly unconscious and receiving medical treatment, creating potential political instability within Iran.",
+    "Iran and its proxies may intensify asymmetric attacks across the Middle East, increasing regional security risks.",
+    "Russian intelligence and cyber support to Iran could enhance Iran's military capabilities and complicate conflict dynamics.",
+    "The possibility of a protracted US ground campaign involving tens of thousands of troops remains, though currently considered unlikely."
   ],
   "eventos_clave": [
-    "Plazo del 7 de abril a las 8pm ET impuesto por Trump para un acuerdo con Irán.",
-    "Publicación de las minutas del FOMC el 8 de abril, que pueden reflejar la percepción del riesgo geopolítico en la política monetaria.",
-    "Elección especial en Georgia que puede ofrecer señales sobre el clima político en EE.UU. y su impacto en la política exterior.",
-    "Decisión de política monetaria de Nueva Zelanda y reportes económicos clave en EE.UU. y Europa durante la semana que pueden influir en la reacción de los mercados.",
-    "Evolución de las negociaciones mediadas por Pakistán, Egipto y Turquía y posibles anuncios relacionados."
+    "April 7, 2026, 8pm ET deadline set by President Trump for Iran to comply with demands.",
+    "Potential extension or modification of the April 7 deadline depending on negotiation progress.",
+    "US durable goods orders and consumer credit data releases on April 7, which may reflect economic impact of geopolitical tensions.",
+    "FOMC minutes release on April 8, providing insight into Federal Reserve's policy stance amid inflation and geopolitical uncertainty.",
+    "Special House election in Georgia on April 7, which may offer political signals relevant to US domestic policy and geopolitical posture."
   ]
 }
