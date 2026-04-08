@@ -2,10 +2,7 @@ name: Daily Market Dashboard
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # 2:00 AM Monterrey
-    - cron: "0 16 * * *"  # 10:00 AM Monterrey
-    - cron: "0 21 * * *"  # 3:00 PM Monterrey
-    - cron: "0 2 * * *"   # 8:00 PM Monterrey
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
