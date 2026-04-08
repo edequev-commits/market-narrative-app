@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -18,7 +18,7 @@ from src.signal_filter_llm import run_signal_filter
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 PROMPTS_DIR = BASE_DIR / "prompts"
-
+MONTERREY_TZ = timezone(timedelta(hours=-6))
 
 def main():
     load_dotenv()
@@ -26,7 +26,7 @@ def main():
     emails = read_messages_from_label(
         label_name="Noticias Trading",
         max_results=200,
-        timezone_name="America/Mexico_City",
+        timezone_name="America/Monterrey",
         start_hour=1,
         start_minute=0,
         end_hour=9,
@@ -84,7 +84,7 @@ def main():
     narrative = run_market_narrative(final_prompt)
     save_text(narrative, narrative_output_file)
 
-    now = datetime.now()
+    now = datetime.now(MONTERREY_TZ)
     refresh_meta = {
         "last_refresh_iso": now.isoformat(timespec="seconds"),
         "last_refresh_display": now.strftime("%d-%m-%Y %H:%M:%S"),
