@@ -1,0 +1,56 @@
+name: Daily Market Dashboard
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-dashboard:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Clonar repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Crear carpeta config
+        run: mkdir -p config
+
+      - name: Reconstruir credenciales Gmail
+        run: |
+          echo "${{ secrets.GMAIL_CREDENTIALS_B64 }}" | base64 -d > config/credentials.json
+          echo "${{ secrets.GMAIL_TOKEN_B64 }}" | base64 -d > config/token.json
+
+      - name: Setear variables
+        run: |
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
+
+      - name: Ejecutar app
+        run: python app.py
+
+      - name: Configurar git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit de outputs
+        run: |
+          git add data/dashboard_payload.json data/market_narrative.txt data/last_refresh.json data/filtered_signal.json data/vital_knowledge_extracted.json data/reuters_extracted.json
+          git diff --cached --quiet || git commit -m "Auto-update dashboard data"
+
+      - name: Push de outputs
+        run: |
+          git push

@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+logs/
+
+.env
+config/credentials.json
+config/token.json
+
+data/*
+!data/dashboard_payload.json
+!data/market_narrative.txt
+!data/last_refresh.json
+!data/filtered_signal.json
+!data/vital_knowledge_extracted.json
+!data/reuters_extracted.json
