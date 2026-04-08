@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 10000
+RUN chmod +x start.sh
 
-CMD ["sh", "-c", "python -m streamlit run dashboard.py --server.address=0.0.0.0 --server.port=$PORT"]
+CMD ["./start.sh"]
