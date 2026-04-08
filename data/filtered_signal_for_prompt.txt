@@ -1,25 +1,25 @@
 {
-  "driver_principal": "La incertidumbre geopolítica y militar en torno a la crisis entre Estados Unidos e Irán, con un inminente plazo impuesto por el presidente Trump para un acuerdo o una posible escalada militar, domina la percepción de riesgo y el comportamiento de los mercados globales.",
+  "driver_principal": "La incertidumbre geopolítica y militar en torno a la crisis entre Estados Unidos e Irán, con un plazo límite impuesto por el presidente Trump para un acuerdo o una posible escalada militar, domina la percepción de riesgo y el comportamiento de los mercados globales.",
   "hechos_confirmados": [
-    "El presidente Trump estableció un plazo para el 7 de abril a las 8pm ET para que Irán acepte sus demandas, incluyendo la reapertura del Estrecho de Hormuz y un acuerdo de alto al fuego.",
-    "Irán ha rechazado la reapertura del Estrecho de Hormuz y no ha aceptado un acuerdo de alto al fuego antes del plazo, manteniéndose desafiante.",
-    "Las negociaciones continúan con mediadores de Pakistán, Egipto y Turquía intentando facilitar un acuerdo, aunque las esperanzas de un acuerdo final para el plazo son bajas.",
+    "El presidente Trump estableció un plazo límite para el 7 de abril de 2026 a las 8pm ET para que Irán acepte sus demandas, incluyendo la reapertura del Estrecho de Hormuz y un acuerdo de alto el fuego.",
+    "Irán ha rechazado la reapertura del Estrecho de Hormuz y no ha aceptado un acuerdo de alto el fuego antes del plazo, manteniéndose desafiante.",
+    "Las negociaciones continúan con mediadores de Pakistán, Egipto y Turquía intentando facilitar un acuerdo, aunque las esperanzas de un acuerdo final para la fecha límite están disminuyendo.",
     "Estados Unidos ha logrado la mayoría de sus objetivos estratégicos en el conflicto, y las opciones de escalada militar disponibles para Trump implican costos muy altos y riesgos significativos."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que no se alcance un acuerdo definitivo antes del plazo del 7 de abril, pero también una moderada probabilidad de que se evite una escalada militar significativa inmediata debido a los altos costos y limitaciones estratégicas. Los mercados probablemente mantendrán una volatilidad contenida con sesgo positivo moderado, aunque persistirá la incertidumbre geopolítica y sus efectos económicos.",
-  "interpretacion_institucional": "La situación geopolítica en Medio Oriente sigue siendo el principal factor de riesgo para los mercados globales. Aunque la retórica es beligerante, la falta de opciones militares viables y la consecución de objetivos estratégicos por parte de Estados Unidos sugieren que se buscará una salida negociada o un aplazamiento del plazo. Los mercados han mostrado resiliencia, con sectores específicos beneficiándose de la dinámica actual, pero la persistencia de la crisis genera un entorno de stagflación que afectará la economía global en el mediano plazo. La atención debe centrarse en la evolución de las negociaciones y en la respuesta militar o diplomática de las partes involucradas.",
+  "escenario_dominante": "Existe una alta probabilidad de que no se alcance un acuerdo definitivo antes del plazo impuesto, pero una escalada militar significativa, especialmente una que implique un despliegue masivo de tropas estadounidenses, es moderadamente improbable. Se espera que el conflicto continúe generando presiones económicas y de mercado, incluyendo un impacto prolongado en la inflación global y en los precios de las materias primas, particularmente en el sector energético.",
+  "interpretacion_institucional": "La situación geopolítica en Medio Oriente sigue siendo la principal fuente de incertidumbre para los mercados globales. Aunque la retórica es belicosa, la falta de opciones militares viables y el logro de objetivos estratégicos por parte de Estados Unidos sugieren que la administración buscará una salida negociada o una desescalada gradual. Los mercados han mostrado resiliencia, con movimientos mixtos en acciones y commodities, reflejando la cautela ante posibles desarrollos. La persistencia del conflicto y sus efectos económicos, como la presión inflacionaria y la interrupción en el suministro energético, continuarán condicionando la dinámica macroeconómica y la política monetaria global en los próximos meses.",
   "riesgos_secundarios": [
-    "Una escalada militar significativa que incluya ataques masivos a la infraestructura civil iraní o un despliegue terrestre prolongado de tropas estadounidenses.",
-    "Inestabilidad política interna en Irán, incluyendo la salud del líder supremo, que podría afectar la dirección del conflicto.",
-    "Intensificación de ataques terroristas o acciones militares de Irán y sus aliados en la región, complicando la situación geopolítica.",
-    "Intervención o apoyo directo de Rusia a Irán mediante inteligencia y ciberataques, aumentando la complejidad del conflicto.",
-    "Retrasos o cambios en el plazo impuesto por Trump que generen incertidumbre adicional en los mercados."
+    "Una escalada militar inesperada que incluya ataques masivos a la infraestructura civil iraní o un despliegue terrestre significativo de tropas estadounidenses.",
+    "Intensificación de ataques terroristas o represalias de Irán y sus aliados en la región, afectando la estabilidad geopolítica y los mercados de energía.",
+    "Incertidumbre política interna en Irán, incluyendo la salud del líder supremo, que podría desestabilizar aún más la situación.",
+    "Intervención o apoyo directo de Rusia a Irán mediante inteligencia y ciberataques, complicando la dinámica del conflicto.",
+    "Retrasos o cambios en el plazo límite impuesto por Trump, que podrían generar volatilidad adicional en los mercados."
   ],
   "eventos_clave": [
-    "Plazo del 7 de abril a las 8pm ET impuesto por Trump para un acuerdo con Irán.",
-    "Publicación de las minutas del FOMC el 8 de abril, que pueden reflejar la percepción del riesgo geopolítico en la política monetaria.",
-    "Elección especial en Georgia que puede ofrecer señales sobre el clima político en EE.UU. y su impacto en la política exterior.",
-    "Decisión de política monetaria de Nueva Zelanda y reportes económicos clave en EE.UU. y Europa durante la semana que pueden influir en la reacción de los mercados.",
-    "Evolución de las negociaciones mediadas por Pakistán, Egipto y Turquía y posibles anuncios relacionados."
+    "Plazo límite impuesto por Trump para un acuerdo con Irán el 7 de abril de 2026 a las 8pm ET.",
+    "Continuación de las negociaciones mediadas por Pakistán, Egipto y Turquía en los próximos días.",
+    "Publicación de datos macroeconómicos relevantes en EE.UU. y globales que reflejen el impacto económico del conflicto, incluyendo informes de inflación y producción.",
+    "Decisiones de política monetaria y declaraciones de la Reserva Federal y otros bancos centrales en respuesta a la evolución económica y geopolítica.",
+    "Resultados electorales y eventos políticos en EE.UU. que puedan influir en la estrategia y postura del gobierno respecto al conflicto."
   ]
 }
