@@ -1,24 +1,672 @@
 {
-  "weekly_overview": [],
-  "daily_calendar": [],
-  "calendar_grouped_by_day": [],
-  "source_subject": "",
-  "source_from": "",
-  "source_date": "",
-  "market_levels": "",
-  "whats_happening": "",
+  "weekly_overview": [
+    {
+      "section_type": "weekly_overview",
+      "day": "Monday",
+      "time": "",
+      "event": "the main macro events this week include China’s imports/exports for Mar (Mon night)",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Wednesday",
+      "time": "",
+      "event": "US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon)",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Monday",
+      "time": "",
+      "event": "China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS )",
+      "meaning_for_economy": "Mide fortaleza del consumo.",
+      "market_relevance": "Puede mover la percepción de crecimiento.",
+      "impact": "High",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Tuesday",
+      "time": "",
+      "event": "Tues morning ( BLK",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "",
+      "time": "",
+      "event": "KMX , and WFC )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Wednesday",
+      "time": "",
+      "event": "Wed morning ( BAC",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "",
+      "time": "",
+      "event": "PNC , and MS )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Wednesday",
+      "time": "",
+      "event": "Wed night ( SLG )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Thursday",
+      "time": "",
+      "event": "Thurs morning ( ABT",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "",
+      "time": "",
+      "event": "TRV , and USB )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Thursday",
+      "time": "",
+      "event": "Thurs night ( AA and NFLX )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Friday",
+      "time": "",
+      "event": "and Fri morning ( RF",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Tuesday",
+      "time": "",
+      "event": "STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Wednesday",
+      "time": "",
+      "event": "Wed morning ( ASML and Hermes )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Thursday",
+      "time": "",
+      "event": "Thurs morning ( Entain and Pernod Ricard )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    },
+    {
+      "section_type": "weekly_overview",
+      "day": "Friday",
+      "time": "",
+      "event": "and Fri morning ( Ericsson )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "What to watch during the week of Monday 4/13 - the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson )."
+    }
+  ],
+  "daily_calendar": [
+    {
+      "section_type": "daily_calendar",
+      "day": "Monday",
+      "time": "6:30AM ET",
+      "event": "the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST",
+      "meaning_for_economy": "Mide inflación al consumidor.",
+      "market_relevance": "Puede mover expectativas de tasas, yields, dólar y acciones.",
+      "impact": "High",
+      "raw_line": "Calendar for Monday 4/13 - the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST, GS ), US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Monday",
+      "time": "10AM ET",
+      "event": "US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night)",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Monday 4/13 - the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST, GS ), US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Tuesday",
+      "time": "12:30AM ET",
+      "event": "the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Tuesday 4/14 - the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK, C, JNJ, JPM, KMX, WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Tuesday",
+      "time": "8:30AM ET",
+      "event": "WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night)",
+      "meaning_for_economy": "Mide inflación a nivel productor.",
+      "market_relevance": "Puede mover expectativas de inflación y sensibilidad a tasas.",
+      "impact": "High",
+      "raw_line": "Calendar for Tuesday 4/14 - the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK, C, JNJ, JPM, KMX, WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Wednesday",
+      "time": "",
+      "event": "the focus will be on earnings before the EU open ( Antofagasta",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Wednesday",
+      "time": "",
+      "event": "Hermes )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Wednesday",
+      "time": "5AM ET",
+      "event": "EU industrial production for Feb (5am ET), earnings before the US open ( BAC",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Wednesday",
+      "time": "8:30AM ET",
+      "event": "MTB ), the US Empire Manufacturing Index for Apr (8:30am ET)",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Wednesday",
+      "time": "8:30AM ET",
+      "event": "US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Wednesday",
+      "time": "",
+      "event": "SLG )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Wednesday",
+      "time": "",
+      "event": "China’s new home prices for Mar (Wed night)",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Wednesday",
+      "time": "",
+      "event": "Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)",
+      "meaning_for_economy": "Mide fortaleza del consumo.",
+      "market_relevance": "Puede mover la percepción de crecimiento.",
+      "impact": "High",
+      "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "",
+      "event": "the focus will be on earnings before the EU open ( Entain",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "",
+      "event": "Pernod Ricard",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "",
+      "event": "Rentokil",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "",
+      "event": "Tesco earnings )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "2AM ET",
+      "event": "UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT",
+      "meaning_for_economy": "Mide crecimiento económico general.",
+      "market_relevance": "Puede cambiar la lectura macro dominante.",
+      "impact": "High",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "",
+      "event": "USB )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "8:30AM ET",
+      "event": "US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET)",
+      "meaning_for_economy": "Da señales sobre la fortaleza del empleo.",
+      "market_relevance": "Puede afectar la lectura macro si sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "9:15AM ET",
+      "event": "US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Thursday",
+      "time": "",
+      "event": "NFLX )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Friday",
+      "time": "5AM ET",
+      "event": "the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Friday 4/17 - the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY, ALV, FITB, RF, STT, TFC )."
+    },
+    {
+      "section_type": "daily_calendar",
+      "day": "Friday",
+      "time": "",
+      "event": "TFC )",
+      "meaning_for_economy": "Evento macro relevante para monitorear.",
+      "market_relevance": "Puede mover expectativas si el dato sorprende.",
+      "impact": "Medium",
+      "raw_line": "Calendar for Friday 4/17 - the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY, ALV, FITB, RF, STT, TFC )."
+    }
+  ],
+  "calendar_grouped_by_day": [
+    {
+      "day": "Monday",
+      "events": [
+        {
+          "section_type": "daily_calendar",
+          "day": "Monday",
+          "time": "6:30AM ET",
+          "event": "the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST",
+          "meaning_for_economy": "Mide inflación al consumidor.",
+          "market_relevance": "Puede mover expectativas de tasas, yields, dólar y acciones.",
+          "impact": "High",
+          "raw_line": "Calendar for Monday 4/13 - the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST, GS ), US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Monday",
+          "time": "10AM ET",
+          "event": "US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night)",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Monday 4/13 - the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST, GS ), US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night)."
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "events": [
+        {
+          "section_type": "daily_calendar",
+          "day": "Tuesday",
+          "time": "12:30AM ET",
+          "event": "the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Tuesday 4/14 - the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK, C, JNJ, JPM, KMX, WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Tuesday",
+          "time": "8:30AM ET",
+          "event": "WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night)",
+          "meaning_for_economy": "Mide inflación a nivel productor.",
+          "market_relevance": "Puede mover expectativas de inflación y sensibilidad a tasas.",
+          "impact": "High",
+          "raw_line": "Calendar for Tuesday 4/14 - the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK, C, JNJ, JPM, KMX, WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night)."
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "events": [
+        {
+          "section_type": "daily_calendar",
+          "day": "Wednesday",
+          "time": "",
+          "event": "the focus will be on earnings before the EU open ( Antofagasta",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Wednesday",
+          "time": "",
+          "event": "Hermes )",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Wednesday",
+          "time": "5AM ET",
+          "event": "EU industrial production for Feb (5am ET), earnings before the US open ( BAC",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Wednesday",
+          "time": "8:30AM ET",
+          "event": "MTB ), the US Empire Manufacturing Index for Apr (8:30am ET)",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Wednesday",
+          "time": "8:30AM ET",
+          "event": "US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Wednesday",
+          "time": "",
+          "event": "SLG )",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Wednesday",
+          "time": "",
+          "event": "China’s new home prices for Mar (Wed night)",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Wednesday",
+          "time": "",
+          "event": "Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)",
+          "meaning_for_economy": "Mide fortaleza del consumo.",
+          "market_relevance": "Puede mover la percepción de crecimiento.",
+          "impact": "High",
+          "raw_line": "Calendar for Wednesday 4/15 - the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night)."
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "events": [
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "",
+          "event": "the focus will be on earnings before the EU open ( Entain",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "",
+          "event": "Pernod Ricard",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "",
+          "event": "Rentokil",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "",
+          "event": "Tesco earnings )",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "2AM ET",
+          "event": "UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT",
+          "meaning_for_economy": "Mide crecimiento económico general.",
+          "market_relevance": "Puede cambiar la lectura macro dominante.",
+          "impact": "High",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "",
+          "event": "USB )",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "8:30AM ET",
+          "event": "US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET)",
+          "meaning_for_economy": "Da señales sobre la fortaleza del empleo.",
+          "market_relevance": "Puede afectar la lectura macro si sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "9:15AM ET",
+          "event": "US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Thursday",
+          "time": "",
+          "event": "NFLX )",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Thursday 4/16 - the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX )."
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "events": [
+        {
+          "section_type": "daily_calendar",
+          "day": "Friday",
+          "time": "5AM ET",
+          "event": "the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Friday 4/17 - the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY, ALV, FITB, RF, STT, TFC )."
+        },
+        {
+          "section_type": "daily_calendar",
+          "day": "Friday",
+          "time": "",
+          "event": "TFC )",
+          "meaning_for_economy": "Evento macro relevante para monitorear.",
+          "market_relevance": "Puede mover expectativas si el dato sorprende.",
+          "impact": "Medium",
+          "raw_line": "Calendar for Friday 4/17 - the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY, ALV, FITB, RF, STT, TFC )."
+        }
+      ]
+    }
+  ],
+  "source_subject": "Vital Knowledge: Vital Dawn for Wednesday April 8, 2026",
+  "source_from": "Vital Knowledge <updates@vitalknowledge.net>",
+  "source_date": "2026-04-08T03:21:38-06:00",
+  "market_levels": "Market levels – the US equity futures are spiking: S&P +177 points/267bp, Dow +1135 points/242bp, Nasdaq +851 points/350bp, and R2 K +97 points/380bp. The major Eurozone indices are surging 350-430bp , and the gains are very broad (all the major sub-groups are trading higher w/the exception of energy , with the SXEP index down ~4%, and utilities ). Areas of outperformance include autos, industrials, basic resources, tech, banks, travel, and retail . In addition to energy and utilities , other areas of underperformance include telecom, insurance, and chemicals . Stocks surged in Asia : TPX +3.32%, NKY +5.39%, Hang Seng +3.09%, HSCEI +2.61%, SHCOMP +2.69%, Shenzhen +4.35%, Taiwan TAIEX +4.61%, Korea KOSPI +6.87% ( Samsung Electronics surged 10% while SK Hynix rocketed higher by 16%), Australia ASX 200 +2.56%, and India is up ~3.7-3.8%. Treasuries are climbing (2-year yields are down 7bp while 10-year yields slide 6bp). Fed expectations are moving in a dovish direction, with the market now pricing in 14bp of rate cuts this year. In Europe , 10-year yields are tumbling (down ~23bp in France , 27bp in Italy , 17bp in Germany , 21bp in the UK , etc.). The market is pricing in 54bp worth rate hikes this year from the ECB , 32bp from the BOE , and 51bp from the BOJ . The DXY is slumping 100bp. Brent is off 13.5% to $94.45 (the price was ~$70 before the war). Gold is advancing 195bp while silver rises 560bp. Bitcoin is jumping 370bp (to ~$71.86 K).\n•",
+  "whats_happening": "What’s happening this morning – the big news arrived at ~6:30pm ET Tues night when Trump formally announced a 2 -week ceasefire and Hormuz reopening deal . The market response to the development is as one would expect : stocks are spiking while Brent tumbles ~13.5% (to ~$94). Treasuries are rallying , although the move isn’t enormous (10-year yields are only down 6bp). Our full Iran thoughts , which we initially published last night, can be found at this link (they are also reprinted below). The one thing to add is that there is a lot of skepticism and cynicism about this ceasefire announcement , in part because several questions remain unanswered (the agreement apparently doesn’t apply to Lebanon, it’s not clear whether Iran will impose fees on ships traveling through Hormuz, Washington and Tehran still seem far apart on a final agreement, etc.) and while this is understandable, the response points to even more upside risk for equities in the immediate term as technical imbalances (positioning and sentiment) are forced to normalize . Other than geopolitics , and a beat-and-raise LEVI print , there weren’t any other major news items out since the Tues close.\n•",
   "watching_today": "",
-  "watching_next": "",
+  "watching_next": "What we’ll be watching on Wednesday – the focus will be on Delta’s Q1 earnings report before the open ( RPM reports BMO too), a Pentagon press briefing at 8am ET (with Hegseth and Caine), the FOMC minutes at 2pm ET, and a handful of earnings reports after the close ( APLD and STZ ). According to Trump’s daily schedule , the president will participate in a meeting w/the Sec of Agriculture at 11:30am ET, he will participate in an interview at 2pm ET, and he meets with the Sec General of NATO at 3:30pm ET.\n• What we’ll be watching on Thursday – the only major event on the calendar is the US PCE for Feb at 8:30am ET (the Street is modeling headline unchanged vs. Jan at +2.8% Y/Y while core cools 10bp to +3%).\n• What we’ll be watching on Friday – the major events will be the US CPI for Mar at 8:30am ET (the Street is looking for a sharp acceleration in headline to +3.4% vs. +2.4% in Feb while core climbs to +2.7% vs. +2.5% in Feb) and the first meeting of US and Iranian officials in Pakistan .\n• Market in a Minute (macro) – Japan’s wage numbers for Feb ran very hot (coming in at +1.9% vs. the Street +1.3%), strengthening the case for further BOJ policy tightening ( Bloomberg ); Chinese imports into the US haven’t dropped as much as the headline numbers might suggest as companies slash the value of their shipments “using tactics ranging from legal accounting tricks to outright fraud” ( NYT ); Insurance & private credit : the Treasury is looking to consult w/state insurance regulators about the massive holdings of private credit assets accumulating in insurance company investment portfolios ( WSJ ); Republican Clay Fuller won the special House election in Georgia , as expected, but only by ~12 points (down from the 37 points that Trump won the district by in 2024 ) ( NYT ); The Democratic-backed candidate in Wisconsin’s Supreme Court election won in a 20-point landslide ( Politico )\n• Market in a Minute (micro – Wednesday morning) – Danone is working on a potential purchase of Reckitt Benckiser’s Mead Johnson business according to a report in La Lettre (Bloomberg); Shell said Q1 gas volumes would be negatively impacted by events in the Middle East, but oil trading should see a large boost ( WSJ )\n• Market in a Minute (micro – Tuesday night) - F (Ford) has sought relief from the White House on aluminum tariffs until the Novelis facility in NY is back online following a fire, but its entreaties have been rebuffed ( WSJ ); LEVI (Levi Strauss) reported solid upside in FQ1 on EPS at 42c (vs. the Street 37c), w/the beat driven by higher sales (revenue came in +14% headline and +9% organic to $1.742 B vs. the Street $1.648 B) and better margins (op. margins of 12.5% were nearly 50bp ahead of plan), and the F26 guidance is moving higher; MGPI (MGP Ingredients) announced plans to temporarily idle two distilling operations as the company adjusts production levels to align with its current inventory levels (“The American whiskey market continues to be structurally oversupplied, with excess capacity and elevated inventory”); OWL (Blue Owl) : the outlook on Blue Owl Credit Income Corp. was cut to negative from stable by Moody’s (the rating was left unchanged at Baa2) ( Reuters ); SMCI (Supermicro) confirmed that an independent investigation is underway regarding the March 2026 indictment of three individuals who were associated with the Company at that time (the indictments related to illicit server sales to China)\n• Calendar for Thursday 4/9 – the focus will be on German exports and industrial production for Feb (2am ET), earnings before the US open ( SMPL ), US personal income/spending for Feb (8:30am ET), the US PCE for Feb (8:30am ET), the US GDP revisions for Q4 (8:30am ET ), US wholesale inventories/trade sales for Feb (10am ET), earnings after the US close ( WDFC ), Japan’s PPI for Mar (Thurs night), China’s PPI/CPI for Mar (Thurs night), and the Bank of Korea policy decision (Thurs night).\n• Calendar for Friday 4/10 – the focus will be on Taiwan’s imports/exports for Mar (4am ET), the US-Iran meeting in Pakistan , the US CPI for Mar (8:30am ET), US factory orders for Feb (10am ET), and the Michigan sentiment survey for Apr (10am ET).\n\nIran\n\n• Trump at 6:30pm ET Tues night (about 90 minutes prior to his 8pm ET deadline) said the US would suspend its bombing campaign against Iran for a period of two weeks . This is contingent on Iran agreeing to the “complete, immediate, and safe opening” of Hormuz .\n• Trump says he’s agreeing to a 14-day ceasefire because the US has “met and exceeded” all its military objectives and is “very far along” on a “definitive agreement” for “long term peace with Iran” . Trump goes on to claim that “ almost all of the various points of past contention ” between the US and Iran have been resolved, and the 2-week ceasefire will allow for an agreement “to be finalized and consummated” . The 10-point plan submitted by Iran is a “workable basis” on which to negotiate according to Trump.\n• Iran has approved the 2-week proposal according to media reports , including safe passage through Hormuz , although it’s not entirely clear whether it will impose fees on ships (Tehran issued a somewhat celebratory response , claiming that it forced Washington to accept its 10-point plan ). It looks like Israel will abide by the ceasefire in Iran (although Netanyahu said it doesn’t apply to Lebanon ).\n• According to Axios, the US and Iran will hold negotiations starting this Friday in Islamabad, and there is a lot of difficult negotiating to be done (on enrichment, nuclear material, missiles, reparations and/or Hormuz tolls, proxy groups, sanctions, etc.). Meanwhile, the Iran regime didn’t only survive , but it’s now embittered .\n• Our view for a while has been that since Trump faced only horrible escalatory options from here (destroying civilian infrastructure, militarily reopening Hormuz, and/or seizing the enriched uranium), since Iran obtained an ability and showed a willingness to wage a campaign of economic terror throughout the region , since the global economy was already buckling under the weight of a powerful burst of stagflationary pressure from the last 5 weeks of fighting (this is still going to pass through the data and company EPS for at least the next several months), since political opposition was growing in Washington (it’s doubtful a $200 B supplemental would have passed Congress, even via reconciliation), and since the US has achieved the bulk of its strategic objectives (degrading Iran’s nuclear and missile capabilities), an offramp was the more likely outcome .\n• The Iraq I scenario looks increasingly likely, which will likely require an enhanced US military presence to stay in the Middle East for years working to contain Tehran (this is much better than Iraq II , which would have meant a multi-year quagmire draining the US of both blood and money).\n• A 2-week ceasefire is obviously positive news, and stocks will celebrate , but keep in mind the SPX was struggling with the 6900-7000 level before the war, so that is likely to be even stronger resistance now . The economy (and Corporate America) are going to be forced to grapple with the fallout from the last 5 weeks ( this will be a months-long process, if not longer ). The FOMC is (at best) on the sidelines for the balance of the year, and the pace of Fed asset purchases will slide materiall y after this month (while the ECB, BOE, and BOJ are all likely to tighten ).\n• Stocks that benefited from the war (energy, commodity chemicals, defense contractors, etc.) will probably suffer aggressive profit taking while consumer discretionary (including housing-linked names) should see the biggest rally .\n• Hormuz will never go back to the way it was before – Iran’s ability to shut the waterway will embed a risk premium in the price of all commodities flowing through it for the foreseeable future (there will be an accelerated process of constructing infrastructure such that countries, including Saudi Arabia, can bypass Hormuz , but this will take years to come online ).\n• The NYT on Tuesday published a long profile article detailing Trump’s decision to launch the Iran war – the main takeaways in our view were 1) the amount of opposition that existed inside the White House to the campaign (Vance, Caine, and Rubio were all opposed to varying degrees) and 2) the degree of concern inside the Pentagon about how a conflict would deplete munition stockpiles to dangerously low levels (overall, the report suggests the White Houde doesn’t plan on sustaining a protracted campaign ).\n\nUS macro\n\n• A fierce burst of stagflationary pressure is going to soon start showing up in economic data around the world, and it will last (at least) for many months . The Manheim Used Car Index (out Tues morning) spiked 6.2% Y/Y and 1.4% M/M (the long-term average monthly move for Mar is flat on a sequential basis). The NY Fed’s consumer survey (which can be found here ) showed near-term (1-year) inflation expectations up 40bp M/M to +3.4% ( gas price expectations surged 530bp to +9.4%, the highest since Mar 2022). The US CPI for Mar on Fri is expected to show a massive acceleration (with headline going from +2.4% in Feb to +3.4% in Mar).\n• Medium and long-term US inflation expectations were muted in Mar despite the Iran war according to the Fed’s latest consumer survey (available here ).\n• Chinese imports into the US haven’t dropped as much as the headline numbers might suggest as companies slash the value of their shipments “using tactics ranging from legal accounting tricks to outright fraud” ( NYT )\n\nWashington\n\n• Republican Clay Fuller won the special House election in Georgia , as expected, but only by ~12 points (down from the 37 points that Trump won the district by in 2024 ) ( NYT )\n• The Democratic-backed candidate in Wisconsin’s Supreme Court election won in a 20-point landslide ( Politico )\n• Army Sec Dan Driscoll said he has no plans to resign or otherwise depart the Pentagon ( Washington Post )\n\nInternational macro\n\n• Germany’s factory orders for Feb fell a bit short of expectations at +0.9% M/M (vs. the Street +3%) (Bloomberg)\n• India’s central bank left rates unchanged, as was widely anticipated ( WSJ )\n• Japan’s wage numbers for Feb ran very hot (coming in at +1.9% vs. the Street +1.3%), strengthening the case for further BOJ policy tightening ( Bloomberg )\n• Taiwan’s headline CPI came in cooler than anticipated for Mar (+1.2% vs. the Street +1.6%), but core overshot the Street at +1.94% (vs. the Street +1.85%) (Bloomberg)\n\nConsumer\n\n• Danone is working on a potential purchase of Reckitt Benckiser’s Mead Johnson business according to a report in La Lettre (Bloomberg)\n• HTZ (Hertz)/CAR (Avis) shares jumped on Tues following a spike in the Manheim used car index for March .\n• LEVI (Levi Strauss) reported solid upside in FQ1 on EPS at 42c (vs. the Street 37c), w/the beat driven by higher sales (revenue came in +14% headline and +9% organic to $1.742 B vs. the Street $1.648 B) and better margins (op. margins of 12.5% were nearly 50bp ahead of plan) as mgmt. called out strength “across channels, regions, and categories” ( DTC was +10% organic, wholesale +8%, Asia +12%, Europe +10%, and Beyond Yoga +23%; the US was an area of relative weakness at +4%), and the F26 guidance is moving higher (they now see organic revenue +5% vs. the prior +4.5% w/ op. margins of 12% vs. the prior 11.9%). Despite the beat-and-raise, mgmt. acknowledges uncertainty in the environment (“the current domestic and international political environment, including volatile trade relations and military and civil conflicts, and most recently heightened military action in the Middle East, have resulted in uncertainty surrounding the future state of the global economy”). In addition to earnings, the company also announced a CFO transition .\n• MGPI (MGP Ingredients) announced plans to temporarily idle two distilling operations as the company adjusts production levels to align with its current inventory levels (“ The American whiskey market continues to be structurally oversupplied , with excess capacity and elevated inventory”) but despite this, the prior 2026 guidance is being reaffirmed .\n• Remy Cointreau announced an “ ambitious transformation plan ” as the company looks to “ regain momentum ” in its business.\n\nEnergy/Industrials\n\n• Airlines + fuel: the head of the IATA warns it could take months for jet fuel supplies to recover even if Hormuz is fully reopened ( Reuters )\n• F (Ford) has sought relief from the White House on aluminum tariffs until the Novelis facility in NY is back online following a fire, but its entreaties have been rebuffed ( WSJ )\n• Shell said Q1 gas volumes would be negatively impacted by events in the Middle East, but oil trading should see a large boost ( WSJ )\n• Trump recently heralded a massive refinery project in Texas he claimed was worth $300 B, but the initial investment is only $40 M ( FT )\n• US auto makers accuse Europe of keeping large American pick-up trucks off Eurozone roads ( FT )\n\nFinancials\n\n• Bitcoin: a NYT profile article says the creator of bitcoin is Adam Back ( NYT )\n• Insurance & private credit : the Treasury is looking to consult w/state insurance regulators about the massive holdings of private credit assets accumulating in insurance company investment portfolios ( WSJ )\n• OWL (Blue Owl) : the outlook on Blue Owl Credit Income Corp. was cut to negative from stable by Moody’s (the rating was left unchanged at Baa2) ( Reuters )\n\nM&A/Strategic Actions\n\n• BMC Helix could be sold by KKR to Montagu in a deal worth ~$900 MM ( Bloomberg )\n• Byte Dance valuation rises to more than $600 B following an equity sale by one of the founding shareholders ( SCMP )\n• Danone is working on a potential purchase of Reckitt Benckiser’s Mead Johnson business according to a report in La Lettre (Bloomberg)\n• TSLA (Tesla) – there is rising speculation that Musk could eventually merge Space X with Tesla ( WSJ )\n\nTMT\n\n• AAPL (Apple) remains on track to launch a foldable i Phone later this year despite reports of manufacturing hiccups ( Bloomberg )\n• AI update : a recent NYT article talked about “ code overload” becoming a problem as AI tools generate a tsunami of code (too much for engineers to handle) while The Information wrote about the “tokenmaxxing” trend in Silicon Valley (whereby individuals compete to see how much AI tokens they can generate) – both reports raise red flags about how much AI usage is actually productive vs. experimental and/or frivolous .\n• APP (App Lovin) announced succession plans relating to its executive management team and the appointment of Craig Billings as independent Chairperson of its Board of Directors .\n• Byte Dance valuation rises to more than $600 B following an equity sale by one of the founding shareholders ( SCMP )\n• Cybersecurity stocks rallied on Tues after Anthropic launched “Project Glasswing” , a partnership with firms such as Crowd Strike and Palo Alto Networks to help ensure cybersecurity technology can handle powerful new AI models ( Anthropic )\n• INTC (Intel) shares jumped on Tues after the company said it will work on the Space X/Tesla Terafab project .\n• NTNX (Nutanix) boosted its buyback authorization by $29 MM to $779 MM.\n• ORCL (Oracle) – PIMCO could help provide ~$14 B of debt financing for a massive Oracle data center in Michigan ( Bloomberg )\n• Perplexity has seen revenue spike as it pivots away from AI search toward agents ( FT )\n• SK Hynix is in talks on long-term memory deals w/ Google and Microsoft ( Digitimes )\n• SMCI (Supermicro) confirmed that an independent investigation is underway regarding the March 2026 indictment of three individuals who were associated with the Company at that time (the indictments related to illicit server sales to China). The independent directors have not set a definitive timetable for the investigation. The Company will provide an update when the investigation is complete and does not intend to comment further until that time.\n• Social media restrictions: Greece will ban social media access for children under 15 ( Bloomberg )\n• TSLA (Tesla) shares saw further pressure on Tues due to ongoing fallout from the soft Q1 delivery numbers along w/ doubts about Robotaxi and Optimus , a weak cash flow outlook (the Street is modeling FCF of -$5 B this year), and the Space X IPO (Space X will be carving out a huge chunk of the deal for retail investors, and some of those people could be freeing up room by selling Tesla so they can pivot into Musk’s rocket company).\n• TSLA (Tesla) – there is rising speculation that Musk could eventually merge Space X with Tesla ( WSJ )\n• TTD (Trade Desk) shares slumped during the Tues session on a report that three top executives will be departing the company ( Ad Week )\n\nCalendar for the week of Monday April 13\n\n• What to watch during the week of Monday 4/13 – the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson ).\n• Calendar for Monday 4/13 – the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST, GS ), US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night).\n• Calendar for Tuesday 4/14 – the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK, C, JNJ, JPM, KMX, WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night).\n• Calendar for Wednesday 4/15 – the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night).\n• Calendar for Thursday 4/16 – the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX ).\n• Calendar for Friday 4/17 – the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY, ALV, FITB, RF, STT, TFC ).\n\nCatalysts – big events to watch over the coming months\n\n• DAL, RPM earnings – Wed 4/8 before the US open\n• FDX/Fed Ex Freight investor day – Wed 4/8\n• FOMC meeting minutes – Wed 4/8 at 2pm ET\n• APLD, PSMT, STZ earnings – Wed 4/8 after the US close\n• SMPL earnings – Thurs 4/9 before the US open\n• US PCE for Feb – Thurs 4/9 at 8:30am ET\n• WDFC earnings – Thurs 4/9 after the US close\n• US/Iran meeting in Pakistan\n• US CPI for Mar – Fri 4/10 at 8:30am ET\n• FAST, GS earnings – Mon 4/13 before the US open\n• BLK, C, JNJ, JPM, KMX, WFC earnings – Tues 4/14 before the US open\n• Kering earnings – Tues 4/14 after the EU close\n• Antofagasta, ASML, Hermes earnings – Wed 4/15 before the EU open\n• BAC, PGR, PNC, MS, MTB earnings – Wed 4/15 before the US open\n• Fed Beige Book – Wed 4/15 at 2pm ET\n• HOMB, SLG earnings – Wed 4/15 after the US close\n• China’s retail sales/industrial production for Mar and GDP for Q1 – Wed night 4/15\n• Entain, Pernod Ricard, Rentokil, Tesco earnings – Thurs 4/16 before the EU open\n• ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB earnings – Thurs 4/16 before the US open\n• Senate banking committee hearing on Kevin Warsh’s Fed chair nomination – Thurs 4/16\n• AA, NFLX earnings – Thurs 4/16 after the US close\n• Ericsson earnings – Fri 4/17 before the EU open\n• ALLY, ALV, FITB, RF, STT, TFC earnings – Fri 4/17 before the US open\n• BOH, CLF earnings – Mon 4/20 before the US open\n• ALK, STLD, WTFC, ZION earnings – Mon 4/20 after the US close\n• CBSH, DGX, DHI, DHR, GE, GPC, HAL, MSCI, NOC, NTRS, RTX, SYF, TSCO, UNH, VMI earnings – Tues 4/21 before the US open\n• ADC, CALX, CB, COF, EQT, EWBC, HWC, IBKR, ISRG, MANH, OZK, RRC, SON, UAL, WRB, WRFD earnings – Tues 4/21 after the US close\n• ADBE analyst meeting at the Adobe Summit 2026 event – Tues 4/21 at 5pm ET\n• BA, BKU, BSX, CME, ELV, MAS, MCO, MHO, OTIS, PM, T, TEL, TMHC, WAB earnings – Wed 4/22 before the US open\n• CALX analyst meeting – Wed 4/22\n• AZZ, BANC, BANR, CHDN, CSX, FAF, FULT, GGG, GTY, HXL, IBM, KNX, LRCX, LUV, MEDP, MOH, NOW, OII, PKG, RJF, RS, TSLA, TXN earnings – Wed 4/22 after the US close\n• AXP, BX, CBRE, CMCSA, CNP, DOV, DOW, FCX, HBAN, HON, IRDM, KDP, LMT, NDAQ, PCG, PENN, PHM, R, ROP, TMO, UNP earnings – Thurs 4/23 before the US open\n• AMP, ASB, BKR, BYD, CHE, COLB, DLR, ERIE, GLPI, HIG, INTC, KN, KNSL, MXL, NEM, PFG, REXR, VRSN earnings – Thurs 4/23 after the US close\n• CHTR, FHB, GNTX, HCA, NSC, PG, SLB earnings – Fri 4/24 before the US open\n• DPZ, VZ earnings - Mon 4/27 before the US open\n• ARE, BRX, NOV, NUE earnings – Mon 4/27 after the US close\n• CNC, ECL, GLW, GM, SPGI, TRU, UPS earnings – Tues 4/28 before the US open\n• ACGL, HIW, LSTR, NXPI, OI, PEB, TMUS, WM earnings – Tues 4/28 after the US close\n• ADP, APH, EAT, HUM, PSX, REGN, SMG, TW earnings – Wed 4/29 before the US open\n• ALGN, ALL, CMG, EIG, F, FMC, MGM, REG earnings – Wed 4/29 after the US close\n• CAH, CAT, COP, BMY, FTI, ICE, IP, LKQ, LLY, MO, MRK, PBF, PH, SO, VLO earnings – Thurs 4/30 before the US open\n• ATR, COLM, DRH, PK, RHP, SKT, WY earnings – Thurs 4/30 after the US close\n• CBOE, CL, EL, XHR earnings – Fri 5/1 before the US open\n• BRK’b earnings and shareholder meeting – Sat 5/2\n• FERG, GPK, MPC, PFE earnings – Tues 5/5 before the US open\n• CTVA, EA, EOG earnings – Tues 5/5 after the US close\n• BWA, CVS, QSR earnings – Wed 5/6 before the US open\n• CF, HST earnings – Wed 5/6 after the US close\n• Trump to visit China - May 14-15\n• Apple WWDC – June 8-12\n\nREAD ONLINE\n\n© 2019-2026 Vital Knowledge Media LLC. All Rights Reserved.\n\nYou are receiving this email because you are subscribed to Vital Knowledge.net .\n\nTo\n\nGot questions, feedback or suggestions? You can contact our Financial Markets Questions , Subscriptions or Technical departments.\n\nVital Knowledge Media, LLC ( https://Vital Knowledge.net )\n\n210 Warren Street, 19 B NY, NY 10282\n\nPrincipal author: Adam Crisafulli ( Adam@Vital Knowledge.net ).",
   "thinking_about_markets": "",
-  "market_in_a_minute_macro": "",
+  "market_in_a_minute_macro": "Market in a Minute (macro) – Japan’s wage numbers for Feb ran very hot (coming in at +1.9% vs. the Street +1.3%), strengthening the case for further BOJ policy tightening ( Bloomberg ); Chinese imports into the US haven’t dropped as much as the headline numbers might suggest as companies slash the value of their shipments “using tactics ranging from legal accounting tricks to outright fraud” ( NYT ); Insurance & private credit : the Treasury is looking to consult w/state insurance regulators about the massive holdings of private credit assets accumulating in insurance company investment portfolios ( WSJ ); Republican Clay Fuller won the special House election in Georgia , as expected, but only by ~12 points (down from the 37 points that Trump won the district by in 2024 ) ( NYT ); The Democratic-backed candidate in Wisconsin’s Supreme Court election won in a 20-point landslide ( Politico )\n•",
   "market_in_a_minute_micro_tuesday_morning": "",
   "market_in_a_minute_micro_monday_night": "",
-  "iran_section": "",
-  "us_macro_section": "",
-  "international_macro_section": "",
-  "energy_section": "",
-  "tmt_section": "",
+  "iran_section": "Iran thoughts , which we initially published last night, can be found at this link (they are also reprinted below). The one thing to add is that there is a lot of skepticism and cynicism about this ceasefire announcement , in part because several questions remain unanswered (the agreement apparently doesn’t apply to Lebanon, it’s not clear whether Iran will impose fees on ships traveling through Hormuz, Washington and Tehran still seem far apart on a final agreement, etc.) and while this is understandable, the response points to even more upside risk for equities in the immediate term as technical imbalances (positioning and sentiment) are forced to normalize . Other than geopolitics , and a beat-and-raise LEVI print , there weren’t any other major news items out since the Tues close.\n• What we’ll be watching on Wednesday – the focus will be on Delta’s Q1 earnings report before the open ( RPM reports BMO too), a Pentagon press briefing at 8am ET (with Hegseth and Caine), the FOMC minutes at 2pm ET, and a handful of earnings reports after the close ( APLD and STZ ). According to Trump’s daily schedule , the president will participate in a meeting w/the Sec of Agriculture at 11:30am ET, he will participate in an interview at 2pm ET, and he meets with the Sec General of NATO at 3:30pm ET.\n• What we’ll be watching on Thursday – the only major event on the calendar is the US PCE for Feb at 8:30am ET (the Street is modeling headline unchanged vs. Jan at +2.8% Y/Y while core cools 10bp to +3%).\n• What we’ll be watching on Friday – the major events will be the US CPI for Mar at 8:30am ET (the Street is looking for a sharp acceleration in headline to +3.4% vs. +2.4% in Feb while core climbs to +2.7% vs. +2.5% in Feb) and the first meeting of US and Iranian officials in Pakistan .\n• Market in a Minute (macro) – Japan’s wage numbers for Feb ran very hot (coming in at +1.9% vs. the Street +1.3%), strengthening the case for further BOJ policy tightening ( Bloomberg ); Chinese imports into the US haven’t dropped as much as the headline numbers might suggest as companies slash the value of their shipments “using tactics ranging from legal accounting tricks to outright fraud” ( NYT ); Insurance & private credit : the Treasury is looking to consult w/state insurance regulators about the massive holdings of private credit assets accumulating in insurance company investment portfolios ( WSJ ); Republican Clay Fuller won the special House election in Georgia , as expected, but only by ~12 points (down from the 37 points that Trump won the district by in 2024 ) ( NYT ); The Democratic-backed candidate in Wisconsin’s Supreme Court election won in a 20-point landslide ( Politico )\n• Market in a Minute (micro – Wednesday morning) – Danone is working on a potential purchase of Reckitt Benckiser’s Mead Johnson business according to a report in La Lettre (Bloomberg); Shell said Q1 gas volumes would be negatively impacted by events in the Middle East, but oil trading should see a large boost ( WSJ )\n• Market in a Minute (micro – Tuesday night) - F (Ford) has sought relief from the White House on aluminum tariffs until the Novelis facility in NY is back online following a fire, but its entreaties have been rebuffed ( WSJ ); LEVI (Levi Strauss) reported solid upside in FQ1 on EPS at 42c (vs. the Street 37c), w/the beat driven by higher sales (revenue came in +14% headline and +9% organic to $1.742 B vs. the Street $1.648 B) and better margins (op. margins of 12.5% were nearly 50bp ahead of plan), and the F26 guidance is moving higher; MGPI (MGP Ingredients) announced plans to temporarily idle two distilling operations as the company adjusts production levels to align with its current inventory levels (“The American whiskey market continues to be structurally oversupplied, with excess capacity and elevated inventory”); OWL (Blue Owl) : the outlook on Blue Owl Credit Income Corp. was cut to negative from stable by Moody’s (the rating was left unchanged at Baa2) ( Reuters ); SMCI (Supermicro) confirmed that an independent investigation is underway regarding the March 2026 indictment of three individuals who were associated with the Company at that time (the indictments related to illicit server sales to China)\n• Calendar for Thursday 4/9 – the focus will be on German exports and industrial production for Feb (2am ET), earnings before the US open ( SMPL ), US personal income/spending for Feb (8:30am ET), the US PCE for Feb (8:30am ET), the US GDP revisions for Q4 (8:30am ET ), US wholesale inventories/trade sales for Feb (10am ET), earnings after the US close ( WDFC ), Japan’s PPI for Mar (Thurs night), China’s PPI/CPI for Mar (Thurs night), and the Bank of Korea policy decision (Thurs night).\n• Calendar for Friday 4/10 – the focus will be on Taiwan’s imports/exports for Mar (4am ET), the US-Iran meeting in Pakistan , the US CPI for Mar (8:30am ET), US factory orders for Feb (10am ET), and the Michigan sentiment survey for Apr (10am ET).\n\nIran\n\n• Trump at 6:30pm ET Tues night (about 90 minutes prior to his 8pm ET deadline) said the US would suspend its bombing campaign against Iran for a period of two weeks . This is contingent on Iran agreeing to the “complete, immediate, and safe opening” of Hormuz .\n• Trump says he’s agreeing to a 14-day ceasefire because the US has “met and exceeded” all its military objectives and is “very far along” on a “definitive agreement” for “long term peace with Iran” . Trump goes on to claim that “ almost all of the various points of past contention ” between the US and Iran have been resolved, and the 2-week ceasefire will allow for an agreement “to be finalized and consummated” . The 10-point plan submitted by Iran is a “workable basis” on which to negotiate according to Trump.\n• Iran has approved the 2-week proposal according to media reports , including safe passage through Hormuz , although it’s not entirely clear whether it will impose fees on ships (Tehran issued a somewhat celebratory response , claiming that it forced Washington to accept its 10-point plan ). It looks like Israel will abide by the ceasefire in Iran (although Netanyahu said it doesn’t apply to Lebanon ).\n• According to Axios, the US and Iran will hold negotiations starting this Friday in Islamabad, and there is a lot of difficult negotiating to be done (on enrichment, nuclear material, missiles, reparations and/or Hormuz tolls, proxy groups, sanctions, etc.). Meanwhile, the Iran regime didn’t only survive , but it’s now embittered .\n• Our view for a while has been that since Trump faced only horrible escalatory options from here (destroying civilian infrastructure, militarily reopening Hormuz, and/or seizing the enriched uranium), since Iran obtained an ability and showed a willingness to wage a campaign of economic terror throughout the region , since the global economy was already buckling under the weight of a powerful burst of stagflationary pressure from the last 5 weeks of fighting (this is still going to pass through the data and company EPS for at least the next several months), since political opposition was growing in Washington (it’s doubtful a $200 B supplemental would have passed Congress, even via reconciliation), and since the US has achieved the bulk of its strategic objectives (degrading Iran’s nuclear and missile capabilities), an offramp was the more likely outcome .\n• The Iraq I scenario looks increasingly likely, which will likely require an enhanced US military presence to stay in the Middle East for years working to contain Tehran (this is much better than Iraq II , which would have meant a multi-year quagmire draining the US of both blood and money).\n• A 2-week ceasefire is obviously positive news, and stocks will celebrate , but keep in mind the SPX was struggling with the 6900-7000 level before the war, so that is likely to be even stronger resistance now . The economy (and Corporate America) are going to be forced to grapple with the fallout from the last 5 weeks ( this will be a months-long process, if not longer ). The FOMC is (at best) on the sidelines for the balance of the year, and the pace of Fed asset purchases will slide materiall y after this month (while the ECB, BOE, and BOJ are all likely to tighten ).\n• Stocks that benefited from the war (energy, commodity chemicals, defense contractors, etc.) will probably suffer aggressive profit taking while consumer discretionary (including housing-linked names) should see the biggest rally .\n• Hormuz will never go back to the way it was before – Iran’s ability to shut the waterway will embed a risk premium in the price of all commodities flowing through it for the foreseeable future (there will be an accelerated process of constructing infrastructure such that countries, including Saudi Arabia, can bypass Hormuz , but this will take years to come online ).\n• The NYT on Tuesday published a long profile article detailing Trump’s decision to launch the Iran war – the main takeaways in our view were 1) the amount of opposition that existed inside the White House to the campaign (Vance, Caine, and Rubio were all opposed to varying degrees) and 2) the degree of concern inside the Pentagon about how a conflict would deplete munition stockpiles to dangerously low levels (overall, the report suggests the White Houde doesn’t plan on sustaining a protracted campaign ).",
+  "us_macro_section": "US macro\n\n• A fierce burst of stagflationary pressure is going to soon start showing up in economic data around the world, and it will last (at least) for many months . The Manheim Used Car Index (out Tues morning) spiked 6.2% Y/Y and 1.4% M/M (the long-term average monthly move for Mar is flat on a sequential basis). The NY Fed’s consumer survey (which can be found here ) showed near-term (1-year) inflation expectations up 40bp M/M to +3.4% ( gas price expectations surged 530bp to +9.4%, the highest since Mar 2022). The US CPI for Mar on Fri is expected to show a massive acceleration (with headline going from +2.4% in Feb to +3.4% in Mar).\n• Medium and long-term US inflation expectations were muted in Mar despite the Iran war according to the Fed’s latest consumer survey (available here ).\n• Chinese imports into the US haven’t dropped as much as the headline numbers might suggest as companies slash the value of their shipments “using tactics ranging from legal accounting tricks to outright fraud” ( NYT )\n\nWashington\n\n• Republican Clay Fuller won the special House election in Georgia , as expected, but only by ~12 points (down from the 37 points that Trump won the district by in 2024 ) ( NYT )\n• The Democratic-backed candidate in Wisconsin’s Supreme Court election won in a 20-point landslide ( Politico )\n• Army Sec Dan Driscoll said he has no plans to resign or otherwise depart the Pentagon ( Washington Post )",
+  "international_macro_section": "International macro\n\n• Germany’s factory orders for Feb fell a bit short of expectations at +0.9% M/M (vs. the Street +3%) (Bloomberg)\n• India’s central bank left rates unchanged, as was widely anticipated ( WSJ )\n• Japan’s wage numbers for Feb ran very hot (coming in at +1.9% vs. the Street +1.3%), strengthening the case for further BOJ policy tightening ( Bloomberg )\n• Taiwan’s headline CPI came in cooler than anticipated for Mar (+1.2% vs. the Street +1.6%), but core overshot the Street at +1.94% (vs. the Street +1.85%) (Bloomberg)",
+  "energy_section": "energy , with the SXEP index down ~4%, and utilities ). Areas of outperformance include autos, industrials, basic resources, tech, banks, travel, and retail . In addition to energy and utilities , other areas of underperformance include telecom, insurance, and chemicals . Stocks surged in Asia : TPX +3.32%, NKY +5.39%, Hang Seng +3.09%, HSCEI +2.61%, SHCOMP +2.69%, Shenzhen +4.35%, Taiwan TAIEX +4.61%, Korea KOSPI +6.87% ( Samsung Electronics surged 10% while SK Hynix rocketed higher by 16%), Australia ASX 200 +2.56%, and India is up ~3.7-3.8%. Treasuries are climbing (2-year yields are down 7bp while 10-year yields slide 6bp). Fed expectations are moving in a dovish direction, with the market now pricing in 14bp of rate cuts this year. In Europe , 10-year yields are tumbling (down ~23bp in France , 27bp in Italy , 17bp in Germany , 21bp in the UK , etc.). The market is pricing in 54bp worth rate hikes this year from the ECB , 32bp from the BOE , and 51bp from the BOJ . The DXY is slumping 100bp. Brent is off 13.5% to $94.45 (the price was ~$70 before the war). Gold is advancing 195bp while silver rises 560bp. Bitcoin is jumping 370bp (to ~$71.86 K).\n• What’s happening this morning – the big news arrived at ~6:30pm ET Tues night when Trump formally announced a 2 -week ceasefire and Hormuz reopening deal . The market response to the development is as one would expect : stocks are spiking while Brent tumbles ~13.5% (to ~$94). Treasuries are rallying , although the move isn’t enormous (10-year yields are only down 6bp). Our full Iran thoughts , which we initially published last night, can be found at this link (they are also reprinted below). The one thing to add is that there is a lot of skepticism and cynicism about this ceasefire announcement , in part because several questions remain unanswered (the agreement apparently doesn’t apply to Lebanon, it’s not clear whether Iran will impose fees on ships traveling through Hormuz, Washington and Tehran still seem far apart on a final agreement, etc.) and while this is understandable, the response points to even more upside risk for equities in the immediate term as technical imbalances (positioning and sentiment) are forced to normalize . Other than geopolitics , and a beat-and-raise LEVI print , there weren’t any other major news items out since the Tues close.\n• What we’ll be watching on Wednesday – the focus will be on Delta’s Q1 earnings report before the open ( RPM reports BMO too), a Pentagon press briefing at 8am ET (with Hegseth and Caine), the FOMC minutes at 2pm ET, and a handful of earnings reports after the close ( APLD and STZ ). According to Trump’s daily schedule , the president will participate in a meeting w/the Sec of Agriculture at 11:30am ET, he will participate in an interview at 2pm ET, and he meets with the Sec General of NATO at 3:30pm ET.\n• What we’ll be watching on Thursday – the only major event on the calendar is the US PCE for Feb at 8:30am ET (the Street is modeling headline unchanged vs. Jan at +2.8% Y/Y while core cools 10bp to +3%).\n• What we’ll be watching on Friday – the major events will be the US CPI for Mar at 8:30am ET (the Street is looking for a sharp acceleration in headline to +3.4% vs. +2.4% in Feb while core climbs to +2.7% vs. +2.5% in Feb) and the first meeting of US and Iranian officials in Pakistan .\n• Market in a Minute (macro) – Japan’s wage numbers for Feb ran very hot (coming in at +1.9% vs. the Street +1.3%), strengthening the case for further BOJ policy tightening ( Bloomberg ); Chinese imports into the US haven’t dropped as much as the headline numbers might suggest as companies slash the value of their shipments “using tactics ranging from legal accounting tricks to outright fraud” ( NYT ); Insurance & private credit : the Treasury is looking to consult w/state insurance regulators about the massive holdings of private credit assets accumulating in insurance company investment portfolios ( WSJ ); Republican Clay Fuller won the special House election in Georgia , as expected, but only by ~12 points (down from the 37 points that Trump won the district by in 2024 ) ( NYT ); The Democratic-backed candidate in Wisconsin’s Supreme Court election won in a 20-point landslide ( Politico )\n• Market in a Minute (micro – Wednesday morning) – Danone is working on a potential purchase of Reckitt Benckiser’s Mead Johnson business according to a report in La Lettre (Bloomberg); Shell said Q1 gas volumes would be negatively impacted by events in the Middle East, but oil trading should see a large boost ( WSJ )\n• Market in a Minute (micro – Tuesday night) - F (Ford) has sought relief from the White House on aluminum tariffs until the Novelis facility in NY is back online following a fire, but its entreaties have been rebuffed ( WSJ ); LEVI (Levi Strauss) reported solid upside in FQ1 on EPS at 42c (vs. the Street 37c), w/the beat driven by higher sales (revenue came in +14% headline and +9% organic to $1.742 B vs. the Street $1.648 B) and better margins (op. margins of 12.5% were nearly 50bp ahead of plan), and the F26 guidance is moving higher; MGPI (MGP Ingredients) announced plans to temporarily idle two distilling operations as the company adjusts production levels to align with its current inventory levels (“The American whiskey market continues to be structurally oversupplied, with excess capacity and elevated inventory”); OWL (Blue Owl) : the outlook on Blue Owl Credit Income Corp. was cut to negative from stable by Moody’s (the rating was left unchanged at Baa2) ( Reuters ); SMCI (Supermicro) confirmed that an independent investigation is underway regarding the March 2026 indictment of three individuals who were associated with the Company at that time (the indictments related to illicit server sales to China)\n• Calendar for Thursday 4/9 – the focus will be on German exports and industrial production for Feb (2am ET), earnings before the US open ( SMPL ), US personal income/spending for Feb (8:30am ET), the US PCE for Feb (8:30am ET), the US GDP revisions for Q4 (8:30am ET ), US wholesale inventories/trade sales for Feb (10am ET), earnings after the US close ( WDFC ), Japan’s PPI for Mar (Thurs night), China’s PPI/CPI for Mar (Thurs night), and the Bank of Korea policy decision (Thurs night).\n• Calendar for Friday 4/10 – the focus will be on Taiwan’s imports/exports for Mar (4am ET), the US-Iran meeting in Pakistan , the US CPI for Mar (8:30am ET), US factory orders for Feb (10am ET), and the Michigan sentiment survey for Apr (10am ET).\n\nIran\n\n• Trump at 6:30pm ET Tues night (about 90 minutes prior to his 8pm ET deadline) said the US would suspend its bombing campaign against Iran for a period of two weeks . This is contingent on Iran agreeing to the “complete, immediate, and safe opening” of Hormuz .\n• Trump says he’s agreeing to a 14-day ceasefire because the US has “met and exceeded” all its military objectives and is “very far along” on a “definitive agreement” for “long term peace with Iran” . Trump goes on to claim that “ almost all of the various points of past contention ” between the US and Iran have been resolved, and the 2-week ceasefire will allow for an agreement “to be finalized and consummated” . The 10-point plan submitted by Iran is a “workable basis” on which to negotiate according to Trump.\n• Iran has approved the 2-week proposal according to media reports , including safe passage through Hormuz , although it’s not entirely clear whether it will impose fees on ships (Tehran issued a somewhat celebratory response , claiming that it forced Washington to accept its 10-point plan ). It looks like Israel will abide by the ceasefire in Iran (although Netanyahu said it doesn’t apply to Lebanon ).\n• According to Axios, the US and Iran will hold negotiations starting this Friday in Islamabad, and there is a lot of difficult negotiating to be done (on enrichment, nuclear material, missiles, reparations and/or Hormuz tolls, proxy groups, sanctions, etc.). Meanwhile, the Iran regime didn’t only survive , but it’s now embittered .\n• Our view for a while has been that since Trump faced only horrible escalatory options from here (destroying civilian infrastructure, militarily reopening Hormuz, and/or seizing the enriched uranium), since Iran obtained an ability and showed a willingness to wage a campaign of economic terror throughout the region , since the global economy was already buckling under the weight of a powerful burst of stagflationary pressure from the last 5 weeks of fighting (this is still going to pass through the data and company EPS for at least the next several months), since political opposition was growing in Washington (it’s doubtful a $200 B supplemental would have passed Congress, even via reconciliation), and since the US has achieved the bulk of its strategic objectives (degrading Iran’s nuclear and missile capabilities), an offramp was the more likely outcome .\n• The Iraq I scenario looks increasingly likely, which will likely require an enhanced US military presence to stay in the Middle East for years working to contain Tehran (this is much better than Iraq II , which would have meant a multi-year quagmire draining the US of both blood and money).\n• A 2-week ceasefire is obviously positive news, and stocks will celebrate , but keep in mind the SPX was struggling with the 6900-7000 level before the war, so that is likely to be even stronger resistance now . The economy (and Corporate America) are going to be forced to grapple with the fallout from the last 5 weeks ( this will be a months-long process, if not longer ). The FOMC is (at best) on the sidelines for the balance of the year, and the pace of Fed asset purchases will slide materiall y after this month (while the ECB, BOE, and BOJ are all likely to tighten ).\n• Stocks that benefited from the war (energy, commodity chemicals, defense contractors, etc.) will probably suffer aggressive profit taking while consumer discretionary (including housing-linked names) should see the biggest rally .\n• Hormuz will never go back to the way it was before – Iran’s ability to shut the waterway will embed a risk premium in the price of all commodities flowing through it for the foreseeable future (there will be an accelerated process of constructing infrastructure such that countries, including Saudi Arabia, can bypass Hormuz , but this will take years to come online ).\n• The NYT on Tuesday published a long profile article detailing Trump’s decision to launch the Iran war – the main takeaways in our view were 1) the amount of opposition that existed inside the White House to the campaign (Vance, Caine, and Rubio were all opposed to varying degrees) and 2) the degree of concern inside the Pentagon about how a conflict would deplete munition stockpiles to dangerously low levels (overall, the report suggests the White Houde doesn’t plan on sustaining a protracted campaign ).\n\nUS macro\n\n• A fierce burst of stagflationary pressure is going to soon start showing up in economic data around the world, and it will last (at least) for many months . The Manheim Used Car Index (out Tues morning) spiked 6.2% Y/Y and 1.4% M/M (the long-term average monthly move for Mar is flat on a sequential basis). The NY Fed’s consumer survey (which can be found here ) showed near-term (1-year) inflation expectations up 40bp M/M to +3.4% ( gas price expectations surged 530bp to +9.4%, the highest since Mar 2022). The US CPI for Mar on Fri is expected to show a massive acceleration (with headline going from +2.4% in Feb to +3.4% in Mar).\n• Medium and long-term US inflation expectations were muted in Mar despite the Iran war according to the Fed’s latest consumer survey (available here ).\n• Chinese imports into the US haven’t dropped as much as the headline numbers might suggest as companies slash the value of their shipments “using tactics ranging from legal accounting tricks to outright fraud” ( NYT )\n\nWashington\n\n• Republican Clay Fuller won the special House election in Georgia , as expected, but only by ~12 points (down from the 37 points that Trump won the district by in 2024 ) ( NYT )\n• The Democratic-backed candidate in Wisconsin’s Supreme Court election won in a 20-point landslide ( Politico )\n• Army Sec Dan Driscoll said he has no plans to resign or otherwise depart the Pentagon ( Washington Post )\n\nInternational macro\n\n• Germany’s factory orders for Feb fell a bit short of expectations at +0.9% M/M (vs. the Street +3%) (Bloomberg)\n• India’s central bank left rates unchanged, as was widely anticipated ( WSJ )\n• Japan’s wage numbers for Feb ran very hot (coming in at +1.9% vs. the Street +1.3%), strengthening the case for further BOJ policy tightening ( Bloomberg )\n• Taiwan’s headline CPI came in cooler than anticipated for Mar (+1.2% vs. the Street +1.6%), but core overshot the Street at +1.94% (vs. the Street +1.85%) (Bloomberg)\n\nConsumer\n\n• Danone is working on a potential purchase of Reckitt Benckiser’s Mead Johnson business according to a report in La Lettre (Bloomberg)\n• HTZ (Hertz)/CAR (Avis) shares jumped on Tues following a spike in the Manheim used car index for March .\n• LEVI (Levi Strauss) reported solid upside in FQ1 on EPS at 42c (vs. the Street 37c), w/the beat driven by higher sales (revenue came in +14% headline and +9% organic to $1.742 B vs. the Street $1.648 B) and better margins (op. margins of 12.5% were nearly 50bp ahead of plan) as mgmt. called out strength “across channels, regions, and categories” ( DTC was +10% organic, wholesale +8%, Asia +12%, Europe +10%, and Beyond Yoga +23%; the US was an area of relative weakness at +4%), and the F26 guidance is moving higher (they now see organic revenue +5% vs. the prior +4.5% w/ op. margins of 12% vs. the prior 11.9%). Despite the beat-and-raise, mgmt. acknowledges uncertainty in the environment (“the current domestic and international political environment, including volatile trade relations and military and civil conflicts, and most recently heightened military action in the Middle East, have resulted in uncertainty surrounding the future state of the global economy”). In addition to earnings, the company also announced a CFO transition .\n• MGPI (MGP Ingredients) announced plans to temporarily idle two distilling operations as the company adjusts production levels to align with its current inventory levels (“ The American whiskey market continues to be structurally oversupplied , with excess capacity and elevated inventory”) but despite this, the prior 2026 guidance is being reaffirmed .\n• Remy Cointreau announced an “ ambitious transformation plan ” as the company looks to “ regain momentum ” in its business.\n\nEnergy/Industrials\n\n• Airlines + fuel: the head of the IATA warns it could take months for jet fuel supplies to recover even if Hormuz is fully reopened ( Reuters )\n• F (Ford) has sought relief from the White House on aluminum tariffs until the Novelis facility in NY is back online following a fire, but its entreaties have been rebuffed ( WSJ )\n• Shell said Q1 gas volumes would be negatively impacted by events in the Middle East, but oil trading should see a large boost ( WSJ )\n• Trump recently heralded a massive refinery project in Texas he claimed was worth $300 B, but the initial investment is only $40 M ( FT )\n• US auto makers accuse Europe of keeping large American pick-up trucks off Eurozone roads ( FT )",
+  "tmt_section": "TMT\n\n• AAPL (Apple) remains on track to launch a foldable i Phone later this year despite reports of manufacturing hiccups ( Bloomberg )\n• AI update : a recent NYT article talked about “ code overload” becoming a problem as AI tools generate a tsunami of code (too much for engineers to handle) while The Information wrote about the “tokenmaxxing” trend in Silicon Valley (whereby individuals compete to see how much AI tokens they can generate) – both reports raise red flags about how much AI usage is actually productive vs. experimental and/or frivolous .\n• APP (App Lovin) announced succession plans relating to its executive management team and the appointment of Craig Billings as independent Chairperson of its Board of Directors .\n• Byte Dance valuation rises to more than $600 B following an equity sale by one of the founding shareholders ( SCMP )\n• Cybersecurity stocks rallied on Tues after Anthropic launched “Project Glasswing” , a partnership with firms such as Crowd Strike and Palo Alto Networks to help ensure cybersecurity technology can handle powerful new AI models ( Anthropic )\n• INTC (Intel) shares jumped on Tues after the company said it will work on the Space X/Tesla Terafab project .\n• NTNX (Nutanix) boosted its buyback authorization by $29 MM to $779 MM.\n• ORCL (Oracle) – PIMCO could help provide ~$14 B of debt financing for a massive Oracle data center in Michigan ( Bloomberg )\n• Perplexity has seen revenue spike as it pivots away from AI search toward agents ( FT )\n• SK Hynix is in talks on long-term memory deals w/ Google and Microsoft ( Digitimes )\n• SMCI (Supermicro) confirmed that an independent investigation is underway regarding the March 2026 indictment of three individuals who were associated with the Company at that time (the indictments related to illicit server sales to China). The independent directors have not set a definitive timetable for the investigation. The Company will provide an update when the investigation is complete and does not intend to comment further until that time.\n• Social media restrictions: Greece will ban social media access for children under 15 ( Bloomberg )\n• TSLA (Tesla) shares saw further pressure on Tues due to ongoing fallout from the soft Q1 delivery numbers along w/ doubts about Robotaxi and Optimus , a weak cash flow outlook (the Street is modeling FCF of -$5 B this year), and the Space X IPO (Space X will be carving out a huge chunk of the deal for retail investors, and some of those people could be freeing up room by selling Tesla so they can pivot into Musk’s rocket company).\n• TSLA (Tesla) – there is rising speculation that Musk could eventually merge Space X with Tesla ( WSJ )\n• TTD (Trade Desk) shares slumped during the Tues session on a report that three top executives will be departing the company ( Ad Week )",
   "calendar_this_week": "",
-  "calendar_next_week": "",
-  "catalysts_section": ""
+  "calendar_next_week": "Calendar for the week of Monday April 13\n\n• What to watch during the week of Monday 4/13 – the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson ).\n• Calendar for Monday 4/13 – the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST, GS ), US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night).\n• Calendar for Tuesday 4/14 – the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK, C, JNJ, JPM, KMX, WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night).\n• Calendar for Wednesday 4/15 – the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night).\n• Calendar for Thursday 4/16 – the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX ).\n• Calendar for Friday 4/17 – the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY, ALV, FITB, RF, STT, TFC ).",
+  "catalysts_section": "Catalysts – big events to watch over the coming months\n\n• DAL, RPM earnings – Wed 4/8 before the US open\n• FDX/Fed Ex Freight investor day – Wed 4/8\n• FOMC meeting minutes – Wed 4/8 at 2pm ET\n• APLD, PSMT, STZ earnings – Wed 4/8 after the US close\n• SMPL earnings – Thurs 4/9 before the US open\n• US PCE for Feb – Thurs 4/9 at 8:30am ET\n• WDFC earnings – Thurs 4/9 after the US close\n• US/Iran meeting in Pakistan\n• US CPI for Mar – Fri 4/10 at 8:30am ET\n• FAST, GS earnings – Mon 4/13 before the US open\n• BLK, C, JNJ, JPM, KMX, WFC earnings – Tues 4/14 before the US open\n• Kering earnings – Tues 4/14 after the EU close\n• Antofagasta, ASML, Hermes earnings – Wed 4/15 before the EU open\n• BAC, PGR, PNC, MS, MTB earnings – Wed 4/15 before the US open\n• Fed Beige Book – Wed 4/15 at 2pm ET\n• HOMB, SLG earnings – Wed 4/15 after the US close\n• China’s retail sales/industrial production for Mar and GDP for Q1 – Wed night 4/15\n• Entain, Pernod Ricard, Rentokil, Tesco earnings – Thurs 4/16 before the EU open\n• ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB earnings – Thurs 4/16 before the US open\n• Senate banking committee hearing on Kevin Warsh’s Fed chair nomination – Thurs 4/16\n• AA, NFLX earnings – Thurs 4/16 after the US close\n• Ericsson earnings – Fri 4/17 before the EU open\n• ALLY, ALV, FITB, RF, STT, TFC earnings – Fri 4/17 before the US open\n• BOH, CLF earnings – Mon 4/20 before the US open\n• ALK, STLD, WTFC, ZION earnings – Mon 4/20 after the US close\n• CBSH, DGX, DHI, DHR, GE, GPC, HAL, MSCI, NOC, NTRS, RTX, SYF, TSCO, UNH, VMI earnings – Tues 4/21 before the US open\n• ADC, CALX, CB, COF, EQT, EWBC, HWC, IBKR, ISRG, MANH, OZK, RRC, SON, UAL, WRB, WRFD earnings – Tues 4/21 after the US close\n• ADBE analyst meeting at the Adobe Summit 2026 event – Tues 4/21 at 5pm ET\n• BA, BKU, BSX, CME, ELV, MAS, MCO, MHO, OTIS, PM, T, TEL, TMHC, WAB earnings – Wed 4/22 before the US open\n• CALX analyst meeting – Wed 4/22\n• AZZ, BANC, BANR, CHDN, CSX, FAF, FULT, GGG, GTY, HXL, IBM, KNX, LRCX, LUV, MEDP, MOH, NOW, OII, PKG, RJF, RS, TSLA, TXN earnings – Wed 4/22 after the US close\n• AXP, BX, CBRE, CMCSA, CNP, DOV, DOW, FCX, HBAN, HON, IRDM, KDP, LMT, NDAQ, PCG, PENN, PHM, R, ROP, TMO, UNP earnings – Thurs 4/23 before the US open\n• AMP, ASB, BKR, BYD, CHE, COLB, DLR, ERIE, GLPI, HIG, INTC, KN, KNSL, MXL, NEM, PFG, REXR, VRSN earnings – Thurs 4/23 after the US close\n• CHTR, FHB, GNTX, HCA, NSC, PG, SLB earnings – Fri 4/24 before the US open\n• DPZ, VZ earnings - Mon 4/27 before the US open\n• ARE, BRX, NOV, NUE earnings – Mon 4/27 after the US close\n• CNC, ECL, GLW, GM, SPGI, TRU, UPS earnings – Tues 4/28 before the US open\n• ACGL, HIW, LSTR, NXPI, OI, PEB, TMUS, WM earnings – Tues 4/28 after the US close\n• ADP, APH, EAT, HUM, PSX, REGN, SMG, TW earnings – Wed 4/29 before the US open\n• ALGN, ALL, CMG, EIG, F, FMC, MGM, REG earnings – Wed 4/29 after the US close\n• CAH, CAT, COP, BMY, FTI, ICE, IP, LKQ, LLY, MO, MRK, PBF, PH, SO, VLO earnings – Thurs 4/30 before the US open\n• ATR, COLM, DRH, PK, RHP, SKT, WY earnings – Thurs 4/30 after the US close\n• CBOE, CL, EL, XHR earnings – Fri 5/1 before the US open\n• BRK’b earnings and shareholder meeting – Sat 5/2\n• FERG, GPK, MPC, PFE earnings – Tues 5/5 before the US open\n• CTVA, EA, EOG earnings – Tues 5/5 after the US close\n• BWA, CVS, QSR earnings – Wed 5/6 before the US open\n• CF, HST earnings – Wed 5/6 after the US close\n• Trump to visit China - May 14-15\n• Apple WWDC – June 8-12\n\nREAD ONLINE\n\n© 2019-2026 Vital Knowledge Media LLC. All Rights Reserved.\n\nYou are receiving this email because you are subscribed to Vital Knowledge.net .\n\nTo\n\nGot questions, feedback or suggestions? You can contact our Financial Markets Questions , Subscriptions or Technical departments.\n\nVital Knowledge Media, LLC ( https://Vital Knowledge.net )\n\n210 Warren Street, 19 B NY, NY 10282\n\nPrincipal author: Adam Crisafulli ( Adam@Vital Knowledge.net )."
 }
