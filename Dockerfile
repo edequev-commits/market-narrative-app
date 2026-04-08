@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 10000
 
-CMD ["python", "-m", "streamlit", "run", "dashboard.py", "--server.address=0.0.0.0", "--server.port=10000", "--server.headless=true", "--browser.gatherUsageStats=false"]
+CMD ["sh", "-c", "python -m streamlit run dashboard.py --server.address=0.0.0.0 --server.port=$PORT"]
