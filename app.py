@@ -10,6 +10,7 @@ from src.prompt_input_builder import build_prompt_input_from_emails
 from src.llm_runner import load_prompt, run_market_narrative
 from src.vital_extractor import find_vital_knowledge_email, extract_vital_knowledge_sections
 from src.reuters_extractor import find_reuters_email, extract_reuters_sections
+from src.cnbc_extractor import find_cnbc_emails, extract_cnbc_sections
 from src.dashboard_mailer import send_dashboard_email
 from src.dashboard_sources import build_sources_payload
 from src.signal_filter_llm import run_signal_filter
@@ -19,6 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 PROMPTS_DIR = BASE_DIR / "prompts"
 MONTERREY_TZ = timezone(timedelta(hours=-6))
+
 
 def main():
     load_dotenv()
@@ -39,9 +41,12 @@ def main():
     filtered_signal_file = str(DATA_DIR / "filtered_signal.json")
     filtered_signal_text_file = str(DATA_DIR / "filtered_signal_for_prompt.txt")
     narrative_output_file = str(DATA_DIR / "market_narrative.txt")
+    regime_output_file = str(DATA_DIR / "market_regime.txt")
     prompt_debug_file = str(DATA_DIR / "final_prompt.txt")
+    regime_prompt_debug_file = str(DATA_DIR / "final_regime_prompt.txt")
     vital_output_file = str(DATA_DIR / "vital_knowledge_extracted.json")
     reuters_output_file = str(DATA_DIR / "reuters_extracted.json")
+    cnbc_output_file = str(DATA_DIR / "cnbc_extracted.json")
     refresh_meta_file = str(DATA_DIR / "last_refresh.json")
     dashboard_payload_file = str(DATA_DIR / "dashboard_payload.json")
 
@@ -55,10 +60,15 @@ def main():
     reuters_data = extract_reuters_sections(reuters_email)
     save_json(reuters_data, reuters_output_file)
 
+    cnbc_emails = find_cnbc_emails(emails, limit=3)
+    cnbc_data = extract_cnbc_sections(cnbc_emails)
+    save_json(cnbc_data, cnbc_output_file)
+
     raw_prompt_input = build_prompt_input_from_emails(
         emails=emails,
         vital_data=vital_data,
-        reuters_data=reuters_data
+        reuters_data=reuters_data,
+        cnbc_data=cnbc_data,
     )
     save_text(raw_prompt_input, raw_prompt_input_file)
 
@@ -76,13 +86,21 @@ def main():
         filtered_signal=filtered_signal
     )
 
-    prompt_template = load_prompt(str(PROMPTS_DIR / "market_narrative.txt"))
-    final_prompt = prompt_template.replace("{news_data}", filtered_signal_text)
+    narrative_prompt_template = load_prompt(str(PROMPTS_DIR / "market_narrative.txt"))
+    final_prompt = narrative_prompt_template.replace("{news_data}", filtered_signal_text)
     save_text(final_prompt, prompt_debug_file)
 
-    print("\nEjecutando modelo de narrativa final...\n")
+    print("\nEjecutando narrativa final...\n")
     narrative = run_market_narrative(final_prompt)
     save_text(narrative, narrative_output_file)
+
+    regime_prompt_template = load_prompt(str(PROMPTS_DIR / "market_regime_snapshot.txt"))
+    final_regime_prompt = regime_prompt_template.replace("{news_data}", filtered_signal_text)
+    save_text(final_regime_prompt, regime_prompt_debug_file)
+
+    print("\nEjecutando market regime...\n")
+    regime = run_market_narrative(final_regime_prompt)
+    save_text(regime, regime_output_file)
 
     now = datetime.now(MONTERREY_TZ)
     refresh_meta = {
@@ -96,8 +114,10 @@ def main():
     dashboard_payload = {
         "meta": refresh_meta,
         "narrative": narrative,
+        "regime": regime,
         "vital": vital_data,
         "reuters": reuters_data,
+        "cnbc": cnbc_data,
         "sources": sources_payload,
         "filtered_signal": filtered_signal,
         "email_count": len(emails),
@@ -115,8 +135,10 @@ def main():
     print("Archivo señal filtrada JSON:", filtered_signal_file)
     print("Archivo señal filtrada texto:", filtered_signal_text_file)
     print("Archivo narrativa:", narrative_output_file)
+    print("Archivo regime:", regime_output_file)
     print("Archivo Vital Knowledge:", vital_output_file)
     print("Archivo Reuters:", reuters_output_file)
+    print("Archivo CNBC:", cnbc_output_file)
     print("Archivo dashboard payload:", dashboard_payload_file)
     print("Última actualización:", refresh_meta["last_refresh_display"])
 

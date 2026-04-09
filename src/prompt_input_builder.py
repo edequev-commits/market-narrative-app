@@ -1,7 +1,8 @@
 def build_prompt_input_from_emails(
     emails: list,
     vital_data: dict | None = None,
-    reuters_data: dict | None = None
+    reuters_data: dict | None = None,
+    cnbc_data: dict | None = None,
 ) -> str:
     if not emails:
         return "No se encontraron correos en el rango definido."
@@ -90,6 +91,35 @@ def build_prompt_input_from_emails(
                     lines.append(f"  Detalle: {p}")
             lines.append("")
 
+    lines.append("=== FUENTE PRIORITARIA 3: CNBC BREAKING NEWS ===")
+    if cnbc_data:
+        lines.append(f"Remitente principal: {cnbc_data.get('source_from', '')}")
+        lines.append(f"Asunto principal: {cnbc_data.get('source_subject', '')}")
+        lines.append(f"Fecha principal: {cnbc_data.get('source_date', '')}")
+        lines.append("")
+
+        if cnbc_data.get("selected_emails"):
+            lines.append("CORREOS CNBC SELECCIONADOS (ORDENADOS POR RECIENCIA):")
+            for item in cnbc_data.get("selected_emails", []):
+                lines.append(
+                    f"- Rank {item.get('recency_rank', '')} | Fecha: {item.get('date', '')} | Asunto: {item.get('subject', '')}"
+                )
+            lines.append("")
+
+        lines.append("EXTRACTO CONSOLIDADO:")
+        lines.append(cnbc_data.get("body_excerpt", ""))
+        lines.append("")
+
+        if cnbc_data.get("fetched_links"):
+            lines.append("LINKS CNBC REVISADOS:")
+            for item in cnbc_data.get("fetched_links", []):
+                lines.append(f"- URL: {item.get('url', '')}")
+                lines.append(f"  Título: {item.get('title', '')}")
+                lines.append(f"  Resumen: {item.get('summary', '')}")
+                for p in item.get("key_paragraphs", []):
+                    lines.append(f"  Detalle: {p}")
+            lines.append("")
+
     lines.append("=== OTROS CORREOS DE MERCADO ===")
     for i, email in enumerate(emails, start=1):
         subject = email.get("subject", "").strip()
@@ -97,9 +127,12 @@ def build_prompt_input_from_emails(
         date = email.get("date", "").strip()
         body = email.get("body", "").strip()
 
-        if "vital knowledge" in sender.lower():
+        sender_lower = sender.lower()
+        if "vital knowledge" in sender_lower:
             continue
-        if "dailybriefing@thomsonreuters.com" in sender.lower():
+        if "dailybriefing@thomsonreuters.com" in sender_lower:
+            continue
+        if "breakingnews@response.cnbc.com" in sender_lower:
             continue
 
         lines.append(f"CORREO {i}")
