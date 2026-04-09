@@ -42,6 +42,13 @@ jobs:
       - name: Generar HTML estático
         run: python build_static_dashboard.py
 
+      - name: Validar JSON generado
+        run: |
+          python -m json.tool data/dashboard_payload.json > /dev/null
+          python -m json.tool data/filtered_signal.json > /dev/null
+          python -m json.tool data/vital_knowledge_extracted.json > /dev/null
+          python -m json.tool data/reuters_extracted.json > /dev/null
+
       - name: Validar artefacto HTML
         run: |
           test -f dist/index.html
