@@ -1,25 +1,25 @@
 {
-  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market sentiment and risk perception, with significant implications for global energy markets and inflation expectations.",
+  "driver_principal": "The fragile US-Iran ceasefire and its implications on Middle East geopolitical stability and global energy markets are the dominant forces shaping current market dynamics.",
   "hechos_confirmados": [
-    "A tentative two-week ceasefire between the US and Iran is currently in place, with a face-to-face meeting scheduled in Pakistan for the weekend.",
-    "Israel has continued bombing targets in Lebanon, which is not included in the ceasefire, putting the ceasefire at risk.",
-    "The Strait of Hormuz remains effectively closed to vessel traffic, with Iran maintaining control and proposing a toll on tankers passing through.",
-    "Oil prices have risen toward $100 per barrel amid concerns about the durability of the ceasefire and restricted energy flows."
+    "A tentative two-week ceasefire between the US and Iran is in place, with a face-to-face meeting scheduled in Pakistan for April 10-11, 2026.",
+    "Israel has continued bombing targets in Lebanon, causing significant casualties and jeopardizing the broader Middle East ceasefire.",
+    "Iran maintains control over the Strait of Hormuz and is pushing forward with plans to charge a toll on vessels passing through it.",
+    "Oil prices have risen above $100 per barrel due to concerns over restricted energy flows through the Strait of Hormuz amid the conflict."
   ],
-  "escenario_dominante": "There is a moderate to high probability that the ceasefire between the US and Iran will hold through the upcoming talks, supporting some near-term equity upside. However, ongoing regional tensions, particularly Israeli strikes in Lebanon and the blockade of the Strait of Hormuz, will sustain elevated risk premiums on energy prices and inflation, limiting Treasury rallies and maintaining market volatility.",
-  "interpretacion_institucional": "The market is cautiously optimistic about the ceasefire holding, as reflected in recent equity gains, but skepticism remains due to ongoing violations and unresolved issues in Lebanon and Hormuz. The persistent control of Iran over the Strait of Hormuz and its toll proposal embed a structural risk premium in energy markets, likely sustaining inflationary pressures globally. This dynamic complicates the Federal Reserve's policy outlook, as inflation risks remain elevated despite expectations of a rate pause or cuts later in the year. Investors should monitor the US-Iran talks closely, as their outcome will be pivotal for risk sentiment and commodity prices. Technical market imbalances and negative sentiment suggest potential for further equity upside in the short term, but resistance levels remain strong.",
+  "escenario_dominante": "There is a moderate to high probability that the ceasefire between the US and Iran will hold in the immediate term, supported by ongoing diplomatic efforts and scheduled talks. However, localized conflicts, such as Israeli strikes in Lebanon and tensions around the Strait of Hormuz, will likely persist, maintaining elevated risk premiums on energy markets and contributing to sustained inflationary pressures globally.",
+  "interpretacion_institucional": "The market is cautiously optimistic about the ceasefire holding, as reflected in recent equity rallies, but skepticism remains due to ongoing violations and regional tensions. The inability of Treasuries to rally signals concerns about persistent inflationary effects from the conflict. Control of the Strait of Hormuz by Iran introduces a structural risk premium on oil prices, likely sustaining elevated energy costs and influencing central bank policy stances. Investors should monitor diplomatic developments closely, as well as inflation data, to gauge the durability of the détente and its macroeconomic impact.",
   "riesgos_secundarios": [
-    "The ceasefire could collapse if Israeli strikes in Lebanon escalate, triggering broader regional conflict.",
-    "Iran might increase military activity or drone/missile launches, undermining the détente.",
-    "The Strait of Hormuz could remain closed or see further disruptions, exacerbating energy supply constraints.",
-    "US or allied military actions could intensify, altering the geopolitical risk landscape.",
-    "Inflationary pressures could prove more persistent and severe than currently anticipated, forcing more aggressive central bank responses."
+    "Escalada militar en el sur de Líbano debido a los ataques israelíes contra Hezbollah, que no están cubiertos por el alto el fuego.",
+    "Persistencia o intensificación del bloqueo o control iraní sobre el estrecho de Hormuz, afectando el flujo global de petróleo.",
+    "Fracaso o retraso en las negociaciones diplomáticas entre Estados Unidos e Irán en Pakistán.",
+    "Reacción negativa de los mercados financieros ante sorpresas inflacionarias mayores a las esperadas en los datos de CPI y PCE.",
+    "Posible aumento de tensiones geopolíticas derivadas de movimientos militares o sanciones adicionales en la región."
   ],
   "eventos_clave": [
-    "US-Iran face-to-face meeting in Pakistan scheduled for the weekend.",
-    "US CPI data release for March on Friday, expected to show acceleration in headline inflation.",
-    "US PCE data release for February on Thursday, providing insight into inflation trends.",
-    "Ongoing Israeli military activity in Lebanon and any announcements regarding changes in intensity.",
-    "Developments regarding the status of vessel traffic and toll implementation in the Strait of Hormuz."
+    "Reunión entre funcionarios de Estados Unidos e Irán en Pakistán el 10-11 de abril de 2026.",
+    "Publicación del índice de precios al consumidor (CPI) de Estados Unidos para marzo el 10 de abril de 2026.",
+    "Publicación del índice de gastos de consumo personal (PCE) de Estados Unidos para febrero el 9 de abril de 2026.",
+    "Evolución de los ataques israelíes en Líbano y su impacto en la estabilidad del alto el fuego.",
+    "Decisiones y comunicados de bancos centrales, especialmente la Reserva Federal, en respuesta a datos inflacionarios y riesgos geopolíticos."
   ]
 }
