@@ -1,0 +1,9 @@
+PROCESO ESTÁNDAR DE DEPLOY – DASHBOARD v1.0
+
+1) Modificar código local (dashboard.py / build_static_dashboard.py)
+2) Probar con Streamlit
+3) Generar versión estática (build_static_dashboard.py)
+4) Validar dist/index.html
+5) git add / commit / push
+6) Deploy en Render (manual si aplica)
+7) Validar en web (hard refresh)
