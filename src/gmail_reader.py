@@ -3,15 +3,16 @@ from __future__ import print_function
 import os
 import base64
 import re
-from datetime import datetime, time
+import time
+from datetime import datetime, time as dt_time
 from email.utils import parsedate_to_datetime
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
 
 SCOPES = [
@@ -32,6 +33,7 @@ def get_gmail_service():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
+            from google_auth_oauthlib.flow import InstalledAppFlow
             flow = InstalledAppFlow.from_client_secrets_file(credentials_path, SCOPES)
             creds = flow.run_local_server(port=0)
 
@@ -42,8 +44,56 @@ def get_gmail_service():
     return service
 
 
+def _execute_with_retry(request, max_attempts: int = 5, base_sleep: float = 1.5):
+    """
+    Reintenta errores transitorios de Gmail API.
+    """
+    last_error = None
+
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return request.execute()
+
+        except HttpError as e:
+            last_error = e
+            status = getattr(e.resp, "status", None)
+            message = str(e).lower()
+
+            retryable = (
+                status in (429, 500, 502, 503, 504)
+                or "backenderror" in message
+                or "rate limit" in message
+                or "quota" in message
+            )
+
+            if not retryable or attempt == max_attempts:
+                raise
+
+            sleep_time = base_sleep * (2 ** (attempt - 1))
+            print(
+                f"[GMAIL RETRY] intento {attempt}/{max_attempts} "
+                f"falló con status={status}. Reintentando en {sleep_time:.1f}s..."
+            )
+            time.sleep(sleep_time)
+
+        except Exception as e:
+            last_error = e
+            if attempt == max_attempts:
+                raise
+
+            sleep_time = base_sleep * (2 ** (attempt - 1))
+            print(
+                f"[GMAIL RETRY] intento {attempt}/{max_attempts} "
+                f"falló por error inesperado. Reintentando en {sleep_time:.1f}s..."
+            )
+            time.sleep(sleep_time)
+
+    if last_error:
+        raise last_error
+
+
 def get_label_id(service, label_name: str):
-    results = service.users().labels().list(userId="me").execute()
+    results = _execute_with_retry(service.users().labels().list(userId="me"))
     labels = results.get("labels", [])
 
     for label in labels:
@@ -57,6 +107,9 @@ def decode_base64_data(data: str) -> str:
     if not data:
         return ""
     try:
+        missing_padding = len(data) % 4
+        if missing_padding:
+            data += "=" * (4 - missing_padding)
         return base64.urlsafe_b64decode(data).decode("utf-8", errors="ignore")
     except Exception:
         return ""
@@ -229,19 +282,21 @@ def read_messages_from_label(
 
     tz = ZoneInfo(timezone_name)
     today = datetime.now(tz).date()
-    start_time = time(start_hour, start_minute, 0)
-    end_time = time(end_hour, end_minute, 0)
+    start_time = dt_time(start_hour, start_minute, 0)
+    end_time = dt_time(end_hour, end_minute, 0)
 
     collected_messages = []
     next_page_token = None
 
     while True:
-        response = service.users().messages().list(
-            userId="me",
-            labelIds=[label_id],
-            maxResults=100,
-            pageToken=next_page_token
-        ).execute()
+        response = _execute_with_retry(
+            service.users().messages().list(
+                userId="me",
+                labelIds=[label_id],
+                maxResults=100,
+                pageToken=next_page_token
+            )
+        )
 
         messages = response.get("messages", [])
         collected_messages.extend(messages)
@@ -257,11 +312,17 @@ def read_messages_from_label(
     output = []
 
     for msg in collected_messages:
-        msg_data = service.users().messages().get(
-            userId="me",
-            id=msg["id"],
-            format="full"
-        ).execute()
+        try:
+            msg_data = _execute_with_retry(
+                service.users().messages().get(
+                    userId="me",
+                    id=msg["id"],
+                    format="full"
+                )
+            )
+        except Exception as e:
+            print(f"[GMAIL SKIP] No se pudo leer el mensaje {msg.get('id', '')}: {e}")
+            continue
 
         payload = msg_data.get("payload", {})
         headers = payload.get("headers", [])
