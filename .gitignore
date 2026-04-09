@@ -14,3 +14,6 @@ data/*
 !data/filtered_signal.json
 !data/vital_knowledge_extracted.json
 !data/reuters_extracted.json
+!data/cnbc_extracted.json
+!data/market_regime.txt
+!data/final_regime_prompt.txt
