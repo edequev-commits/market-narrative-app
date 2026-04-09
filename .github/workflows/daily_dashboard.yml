@@ -67,3 +67,11 @@ jobs:
       - name: Push de outputs
         run: |
           git push
+
+      - name: Subir artefactos
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-build
+          path: |
+            data/dashboard_payload.json
+            dist/index.html
