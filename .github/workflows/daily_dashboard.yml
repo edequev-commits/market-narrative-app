@@ -38,8 +38,14 @@ jobs:
 
       - name: Ejecutar app
         run: python app.py
+
       - name: Generar HTML estático
         run: python build_static_dashboard.py
+
+      - name: Validar artefacto HTML
+        run: |
+          test -f dist/index.html
+          grep -q "Daily Market Dashboard" dist/index.html
 
       - name: Configurar git
         run: |
