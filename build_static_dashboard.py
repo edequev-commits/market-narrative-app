@@ -12,9 +12,18 @@ OUTPUT_FILE = DIST_DIR / "index.html"
 
 def load_payload():
     if not DATA_FILE.exists():
-        return {}
+        raise FileNotFoundError(f"No existe el archivo requerido: {DATA_FILE}")
+
     with DATA_FILE.open("r", encoding="utf-8") as f:
-        return json.load(f)
+        payload = json.load(f)
+
+    if not payload:
+        raise ValueError("dashboard_payload.json está vacío")
+
+    if not isinstance(payload, dict):
+        raise TypeError("dashboard_payload.json no tiene estructura JSON tipo objeto")
+
+    return payload
 
 
 def impact_badge(impact: str) -> str:
