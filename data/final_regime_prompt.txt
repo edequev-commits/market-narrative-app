@@ -48,27 +48,27 @@ REGLAS CRÍTICAS
 INPUT:
 
 {
-  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, driving elevated oil prices and inflation concerns amid ongoing geopolitical tensions and control of the Strait of Hormuz by Iran.",
+  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, driving elevated oil prices and cautious equity market behavior amid concerns over sustained inflationary pressures and geopolitical uncertainty.",
   "hechos_confirmados": [
-    "A tentative two-week ceasefire between the US and Iran is in place but remains fragile with violations reported and differing interpretations of its scope.",
+    "A tentative two-week ceasefire between the US and Iran is in place, with a face-to-face meeting scheduled in Pakistan for April 10-11, 2026.",
+    "Israel has continued bombing targets in Lebanon, which is not included in the ceasefire, threatening the truce's stability.",
     "Iran controls access to the Strait of Hormuz and is pushing forward with plans to charge a toll for tanker traffic, contributing to elevated oil prices above $100 per barrel.",
-    "Israel has intensified bombing in Lebanon, threatening the ceasefire and complicating regional stability.",
-    "US and Iranian officials are scheduled to hold face-to-face talks in Pakistan over the weekend to discuss the ceasefire and related issues."
+    "US equity futures and major global indices showed declines on April 9, 2026, while oil prices rallied significantly amid the geopolitical tensions."
   ],
-  "escenario_dominante": "There is a moderate to high probability that the ceasefire will hold through the upcoming US-Iran talks, supporting some near-term equity upside; however, geopolitical risks and Iran's control over Hormuz will sustain elevated oil prices and inflationary pressures, limiting Treasury rallies and maintaining market volatility.",
-  "interpretacion_institucional": "The market is cautiously optimistic about the ceasefire but remains skeptical due to ongoing violations and regional conflicts, particularly Israel's actions in Lebanon. Iran's strategic control of the Strait of Hormuz imposes a structural risk premium on energy markets, likely sustaining higher oil prices and inflation. This dynamic complicates the Federal Reserve's policy outlook, as inflation risks remain elevated despite expectations of limited rate hikes. Equity markets may experience short-term gains driven by technical positioning and consumer resilience, but resistance levels remain strong. Investors should monitor the US-Iran talks closely as a key event that could validate or undermine the fragile détente.",
+  "escenario_dominante": "There is a high probability that the ceasefire between the US and Iran will hold through the upcoming talks, supporting a cautious relief rally in equities. However, the ongoing conflict in Lebanon and Iran's control over the Strait of Hormuz will likely sustain elevated oil prices and inflationary pressures, leading to a stagflationary environment with moderate risks to global growth and market volatility.",
+  "interpretacion_institucional": "The market is balancing cautious optimism from the ceasefire and upcoming diplomatic talks against persistent geopolitical risks, particularly from Israel's actions in Lebanon and Iran's strategic control of Hormuz. Elevated oil prices reflect the embedded risk premium for energy supply disruptions, which may prolong inflationary pressures and complicate central bank policy decisions. Equity markets face resistance near pre-war levels, with technical imbalances and negative sentiment suggesting limited upside. Treasury market weakness signals concerns about durable inflation. Investors should monitor the US-Iran talks and inflation data closely, as these will influence risk appetite and asset allocation.",
   "riesgos_secundarios": [
-    "Escalada militar en Líbano o en el estrecho de Hormuz que podría romper el alto el fuego y aumentar la volatilidad en los mercados.",
-    "Fracaso o retraso en las negociaciones entre Estados Unidos e Irán que prolongue la incertidumbre geopolítica.",
-    "Decisiones políticas o militares de Israel que intensifiquen el conflicto regional a pesar de la tregua.",
-    "Persistencia o aumento de la inflación global debido a efectos duraderos del conflicto en los precios de la energía.",
-    "Cambios en la política monetaria de bancos centrales fuera de Estados Unidos que afecten la dinámica global de riesgo y liquidez."
+    "The ceasefire could break down if Israel intensifies military actions in Lebanon or if Iran escalates drone or missile attacks.",
+    "Iran's tolling of the Strait of Hormuz could lead to further disruptions in global energy supply beyond current expectations.",
+    "Inflation could accelerate more sharply than anticipated, prompting unexpected central bank tightening.",
+    "Geopolitical tensions could expand beyond the current theaters, involving other regional or global actors.",
+    "Market sentiment could deteriorate if consumer and corporate earnings signals weaken amid the uncertain macro environment."
   ],
   "eventos_clave": [
-    "Reunión cara a cara entre funcionarios de Estados Unidos e Irán en Pakistán programada para el fin de semana.",
-    "Publicación del índice de precios al consumidor (CPI) de Estados Unidos para marzo el viernes 10 de abril, esperado con aceleración inflacionaria.",
-    "Informe de gastos personales y PCE de Estados Unidos para febrero el jueves 9 de abril, indicador clave para la política monetaria.",
-    "Decisión de política monetaria del Banco de Corea y datos económicos de China y Japón durante la semana, que pueden influir en la percepción de riesgo global.",
-    "Evolución de la actividad militar israelí en Líbano y cualquier anuncio relacionado con la aplicación o extensión del alto el fuego."
+    "US-Iran face-to-face meeting in Pakistan scheduled for April 10-11, 2026.",
+    "US Consumer Price Index (CPI) release for March 2026 on April 10, 2026.",
+    "US Personal Consumption Expenditures (PCE) data for February 2026 on April 9, 2026.",
+    "Ongoing Israeli military activity in Lebanon and related developments.",
+    "Market reaction to inflation data and central bank communications in the coming week."
   ]
 }
