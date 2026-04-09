@@ -1,5 +1,6 @@
 import json
 import html
+import re
 from pathlib import Path
 from datetime import datetime
 
@@ -24,26 +25,6 @@ def load_payload():
         raise TypeError("dashboard_payload.json no tiene estructura JSON tipo objeto")
 
     return payload
-
-
-def impact_badge(impact: str) -> str:
-    impact = (impact or "Medium").lower()
-    if impact == "high":
-        return '<span class="badge badge-high">ALTO</span>'
-    if impact == "medium":
-        return '<span class="badge badge-medium">MEDIO</span>'
-    return '<span class="badge badge-low">BAJO</span>'
-
-
-def get_today_events(payload: dict) -> list:
-    weekday = payload.get("meta", {}).get("processed_weekday", datetime.now().strftime("%A"))
-    grouped = payload.get("vital", {}).get("calendar_grouped_by_day", [])
-
-    for block in grouped:
-        if block.get("day", "").lower() == weekday.lower():
-            return block.get("events", [])
-
-    return payload.get("vital", {}).get("daily_calendar", [])
 
 
 def clean_source_name(raw_name: str) -> str:
@@ -77,6 +58,41 @@ def render_paragraphs(text: str) -> str:
     )
 
 
+def format_regime_text(regime: str) -> str:
+    text = (regime or "").strip()
+    if not text:
+        return ""
+
+    text = re.sub(r"\r\n?", "\n", text)
+    text = re.sub(r"\s+", " ", text).strip()
+
+    pattern = re.compile(
+        r"^(?P<header>.*?MARKET REGIME:.*?)(?P<semaforo>[🟢🟡🔴])\s*(SEM[ÁA]FORO:\s*(?:Favorable|Mixto|Adverso))?\s*(?P<body>.*)$",
+        re.IGNORECASE,
+    )
+
+    match = pattern.match(text)
+
+    if match:
+        header = match.group("header").strip()
+        semaforo_icon = match.group("semaforo").strip()
+        body = match.group("body").strip()
+        new_header = f"{header} {semaforo_icon}"
+        return f"{new_header}\n\n{body}"
+
+    return text
+
+
+def get_regime_accent_color(regime: str) -> str:
+    text = (regime or "").strip()
+
+    if "🟢" in text:
+        return "#22c55e"
+    if "🔴" in text:
+        return "#ef4444"
+    return "#fbbf24"
+
+
 def render_sources(sources: list) -> str:
     if not sources:
         return '<div class="empty-note">No hay fuentes cargadas.</div>'
@@ -101,44 +117,17 @@ def render_sources(sources: list) -> str:
     return "".join(blocks)
 
 
-def render_events(events: list) -> str:
-    if not events:
-        return '<div class="info-box">No se encontraron eventos para el día procesado.</div>'
-
-    blocks = []
-    for event in events:
-        time_ = html.escape(str(event.get("time", "")))
-        title = html.escape(str(event.get("event", "")))
-        meaning = html.escape(str(event.get("meaning_for_economy", "")))
-        relevance = html.escape(str(event.get("market_relevance", "")))
-        impact = event.get("impact", "Medium")
-
-        blocks.append(
-            f"""
-            <div class="calendar-card">
-                <div class="calendar-top">
-                    <div class="event-time">{time_}</div>
-                    <div>{impact_badge(impact)}</div>
-                </div>
-                <div class="event-title">{title}</div>
-                <div class="event-text"><strong>Qué significa:</strong> {meaning}</div>
-                <div class="event-text" style="margin-top:6px;"><strong>Por qué le importa al mercado:</strong> {relevance}</div>
-            </div>
-            """
-        )
-    return "".join(blocks)
-
-
 def build_html(payload: dict) -> str:
     meta = payload.get("meta", {})
     narrative = payload.get("narrative", "")
+    regime = payload.get("regime", "")
     sources = payload.get("sources", [])
-    today_events = get_today_events(payload)
 
     last_refresh = html.escape(str(meta.get("last_refresh_display", "No disponible")))
     narrative_html = render_paragraphs(narrative)
+    regime_html = render_paragraphs(format_regime_text(regime))
+    regime_accent = get_regime_accent_color(regime)
     sources_html = render_sources(sources)
-    events_html = render_events(today_events)
 
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -147,6 +136,10 @@ def build_html(payload: dict) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daily Market Dashboard</title>
   <style>
+    :root {{
+      --regime-accent: {regime_accent};
+    }}
+
     html, body {{
       margin: 0;
       padding: 0;
@@ -177,7 +170,7 @@ def build_html(payload: dict) -> str:
 
     .grid {{
       display: grid;
-      grid-template-columns: 2.2fr 1fr;
+      grid-template-columns: 3fr 0.7fr;
       gap: 24px;
       align-items: start;
     }}
@@ -201,13 +194,22 @@ def build_html(payload: dict) -> str:
     }}
 
     .narrative-card {{
-      height: 460px;
+      height: 320px;
       overflow-y: auto;
       overflow-x: hidden;
     }}
 
+    .regime-card {{
+      height: 195px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      background: #111827;
+      border: 1px solid #374151;
+      border-left: 4px solid var(--regime-accent);
+    }}
+
     .sources-card {{
-      height: 460px;
+      height: 539px;
       overflow-y: auto;
       overflow-x: hidden;
       padding: 14px 14px 8px 14px;
@@ -254,68 +256,7 @@ def build_html(payload: dict) -> str:
       word-break: break-word;
     }}
 
-    .calendar-card {{
-      background: #0b1220;
-      border: 1px solid #1e293b;
-      border-radius: 14px;
-      padding: 18px 20px;
-      margin-bottom: 12px;
-    }}
-
-    .calendar-top {{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      margin-bottom:10px;
-    }}
-
-    .event-time {{
-      font-size: 20px;
-      font-weight: 800;
-      color: #f8fafc;
-    }}
-
-    .event-title {{
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-      line-height: 1.35;
-      margin-bottom: 8px;
-    }}
-
-    .event-text {{
-      font-size: 15px;
-      color: #cbd5e1;
-      line-height: 1.6;
-    }}
-
-    .badge {{
-      display: inline-block;
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-size: 12px;
-      font-weight: 800;
-    }}
-
-    .badge-high {{
-      background: rgba(239,68,68,0.15);
-      color: #f87171;
-      border: 1px solid rgba(239,68,68,0.30);
-    }}
-
-    .badge-medium {{
-      background: rgba(245,158,11,0.15);
-      color: #fbbf24;
-      border: 1px solid rgba(245,158,11,0.30);
-    }}
-
-    .badge-low {{
-      background: rgba(34,197,94,0.15);
-      color: #4ade80;
-      border: 1px solid rgba(34,197,94,0.30);
-    }}
-
-    .empty-note, .info-box {{
+    .empty-note {{
       color: #cbd5e1;
       font-size: 14px;
     }}
@@ -323,6 +264,10 @@ def build_html(payload: dict) -> str:
     @media (max-width: 1000px) {{
       .grid {{
         grid-template-columns: 1fr;
+      }}
+
+      .sources-card {{
+        height: 320px;
       }}
     }}
   </style>
@@ -338,6 +283,13 @@ def build_html(payload: dict) -> str:
         <div class="card narrative-card">
           {narrative_html}
         </div>
+
+        <div style="height:14px;"></div>
+
+        <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
+        <div class="card regime-card">
+          {regime_html}
+        </div>
       </div>
 
       <div>
@@ -347,9 +299,6 @@ def build_html(payload: dict) -> str:
         </div>
       </div>
     </div>
-
-    <div class="section-title" style="margin-top:24px;">Calendario económico — Hoy</div>
-    {events_html}
   </div>
 </body>
 </html>

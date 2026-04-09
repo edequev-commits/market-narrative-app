@@ -91,7 +91,7 @@ def build_prompt_input_from_emails(
                     lines.append(f"  Detalle: {p}")
             lines.append("")
 
-    lines.append("=== FUENTE PRIORITARIA 3: CNBC BREAKING NEWS ===")
+    lines.append("=== FUENTE PRIORITARIA 3: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===")
     if cnbc_data:
         lines.append(f"Remitente principal: {cnbc_data.get('source_from', '')}")
         lines.append(f"Asunto principal: {cnbc_data.get('source_subject', '')}")
@@ -99,25 +99,25 @@ def build_prompt_input_from_emails(
         lines.append("")
 
         if cnbc_data.get("selected_emails"):
-            lines.append("CORREOS CNBC SELECCIONADOS (ORDENADOS POR RECIENCIA):")
+            lines.append("HEADLINES CNBC PRIORIZADOS POR RECIENCIA:")
             for item in cnbc_data.get("selected_emails", []):
-                lines.append(
-                    f"- Rank {item.get('recency_rank', '')} | Fecha: {item.get('date', '')} | Asunto: {item.get('subject', '')}"
-                )
+                rank = item.get("recency_rank", "")
+                date = item.get("date", "")
+                subject = item.get("subject", "")
+                lines.append(f"- Prioridad {rank} | Fecha: {date} | Headline: {subject}")
             lines.append("")
 
-        lines.append("EXTRACTO CONSOLIDADO:")
-        lines.append(cnbc_data.get("body_excerpt", ""))
+        lines.append("REGLA DE USO PARA EL MODELO:")
+        lines.append(
+            "Los headlines de CNBC seleccionados por recencia deben tener mayor peso relativo que los más antiguos "
+            "al evaluar el tono inmediato del mercado, la narrativa de la mañana y el régimen de mercado. "
+            "No deben usarse como evidencia única ni definir por sí solos el régimen; deben complementar el resto de fuentes."
+        )
         lines.append("")
 
-        if cnbc_data.get("fetched_links"):
-            lines.append("LINKS CNBC REVISADOS:")
-            for item in cnbc_data.get("fetched_links", []):
-                lines.append(f"- URL: {item.get('url', '')}")
-                lines.append(f"  Título: {item.get('title', '')}")
-                lines.append(f"  Resumen: {item.get('summary', '')}")
-                for p in item.get("key_paragraphs", []):
-                    lines.append(f"  Detalle: {p}")
+        if cnbc_data.get("body_excerpt"):
+            lines.append("EXTRACTO CONSOLIDADO CNBC:")
+            lines.append(cnbc_data.get("body_excerpt", ""))
             lines.append("")
 
     lines.append("=== OTROS CORREOS DE MERCADO ===")

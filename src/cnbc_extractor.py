@@ -1,12 +1,4 @@
-import re
-import requests
-from bs4 import BeautifulSoup
 from datetime import datetime
-
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0"
-}
 
 
 def parse_iso_datetime(value: str) -> datetime:
@@ -14,6 +6,47 @@ def parse_iso_datetime(value: str) -> datetime:
         return datetime.fromisoformat((value or "").strip())
     except Exception:
         return datetime.min
+
+
+def clean_cnbc_body(body: str) -> str:
+    text = (body or "").strip()
+
+    if not text:
+        return ""
+
+    bad_markers = [
+        "Manage Newsletters",
+        "Terms of Service",
+        "Join the CNBC Panel",
+        "Digital Products",
+        "Feedback",
+        "Privacy Policy",
+        "CNBC Events",
+        "© 2026 CNBC LLC",
+        "A Versant Media company",
+        "900 Sylvan Avenue",
+        "Data is a real-time snapshot",
+        "Data also provided by THOMSON REUTERS",
+        "Follow @CNBC for breaking news and real-time market updates",
+    ]
+
+    lines = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+
+        if any(marker.lower() in line.lower() for marker in bad_markers):
+            continue
+
+        lines.append(line)
+
+    cleaned = "\n".join(lines).strip()
+
+    if len(cleaned) > 2000:
+        cleaned = cleaned[:2000]
+
+    return cleaned
 
 
 def find_cnbc_emails(emails: list, limit: int = 3) -> list:
@@ -27,12 +60,13 @@ def find_cnbc_emails(emails: list, limit: int = 3) -> list:
         if "breakingnews@response.cnbc.com" not in sender:
             continue
 
-        score = 0
-        score += 10
+        score = 10
 
         if "breaking news" in subject:
             score += 3
-        if "cnbc.com" in body:
+        if "cnbc" in subject:
+            score += 1
+        if "cnbc" in body:
             score += 1
 
         matches.append({
@@ -52,63 +86,6 @@ def find_cnbc_emails(emails: list, limit: int = 3) -> list:
     return selected
 
 
-def extract_links(text: str) -> list[str]:
-    if not text:
-        return []
-
-    links = re.findall(r"https?://[^\s<>\"]+", text)
-    clean_links = []
-
-    for link in links:
-        link = link.rstrip(").,;]")
-        if link not in clean_links:
-            clean_links.append(link)
-
-    return clean_links
-
-
-def fetch_link_summary(url: str) -> dict:
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=12)
-        resp.raise_for_status()
-
-        soup = BeautifulSoup(resp.text, "html.parser")
-
-        title = ""
-        if soup.title and soup.title.string:
-            title = soup.title.string.strip()
-
-        meta_desc = ""
-        meta = soup.find("meta", attrs={"name": "description"})
-        if meta and meta.get("content"):
-            meta_desc = meta.get("content", "").strip()
-
-        paragraphs = []
-        for p in soup.find_all("p"):
-            text = " ".join(p.get_text(" ", strip=True).split())
-            if len(text) >= 80:
-                paragraphs.append(text)
-            if len(paragraphs) >= 3:
-                break
-
-        return {
-            "url": url,
-            "title": title,
-            "summary": meta_desc,
-            "key_paragraphs": paragraphs,
-            "status": "ok"
-        }
-
-    except Exception as e:
-        return {
-            "url": url,
-            "title": "",
-            "summary": "",
-            "key_paragraphs": [],
-            "status": f"error: {str(e)}"
-        }
-
-
 def extract_cnbc_sections(cnbc_emails: list) -> dict:
     if not cnbc_emails:
         return {
@@ -123,15 +100,13 @@ def extract_cnbc_sections(cnbc_emails: list) -> dict:
         }
 
     selected_emails = []
-    all_links = []
-    seen_links = set()
     excerpts = []
 
     for email in cnbc_emails:
         subject = email.get("subject", "")
         sender = email.get("from", "")
         date = email.get("date", "")
-        body = email.get("body", "") or ""
+        body = clean_cnbc_body(email.get("body", "") or "")
         rank = email.get("_recency_rank", "")
 
         selected_emails.append({
@@ -141,18 +116,15 @@ def extract_cnbc_sections(cnbc_emails: list) -> dict:
             "recency_rank": rank,
         })
 
-        excerpts.append(
-            f"[CNBC #{rank}] {subject}\nFecha: {date}\n{body[:1500]}"
-        )
+        excerpt_block = [
+            f"[CNBC #{rank}] {subject}",
+            f"Fecha: {date}",
+        ]
 
-        for link in extract_links(body):
-            if link not in seen_links:
-                seen_links.add(link)
-                all_links.append(link)
+        if body:
+            excerpt_block.append(body)
 
-    fetched_links = []
-    for link in all_links[:8]:
-        fetched_links.append(fetch_link_summary(link))
+        excerpts.append("\n".join(excerpt_block))
 
     primary_email = cnbc_emails[0]
 
@@ -161,8 +133,8 @@ def extract_cnbc_sections(cnbc_emails: list) -> dict:
         "source_from": primary_email.get("from", ""),
         "source_date": primary_email.get("date", ""),
         "body_excerpt": "\n\n".join(excerpts)[:7000],
-        "links": all_links,
-        "fetched_links": fetched_links,
+        "links": [],
+        "fetched_links": [],
         "selected_emails": selected_emails,
         "parsed_at": datetime.now().isoformat(timespec="seconds"),
     }
