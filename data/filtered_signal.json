@@ -2,24 +2,24 @@
   "driver_principal": "The announcement of a two-week ceasefire agreement between the United States and Iran, contingent on the reopening of the Strait of Hormuz, is the dominant factor driving a sharp risk-on rally in global equity markets and a significant drop in oil prices.",
   "hechos_confirmados": [
     "The US and Iran agreed to a two-week ceasefire with the condition of the complete, immediate, and safe reopening of the Strait of Hormuz.",
-    "Following the ceasefire announcement, US equity futures surged significantly, with major indices rising by several percentage points.",
-    "Oil prices, including Brent crude, dropped sharply by approximately 13.5% to below $100 per barrel after the ceasefire was announced.",
-    "Treasury yields declined, reflecting a dovish shift in Fed rate expectations, with markets pricing in rate cuts this year."
+    "The ceasefire announcement caused US equity futures to surge significantly, with major indices rising by several percentage points.",
+    "Oil prices, including Brent crude, dropped sharply by approximately 13.5% following the ceasefire announcement.",
+    "Treasury yields declined modestly, and the US dollar index (DXY) weakened after the ceasefire news."
   ],
-  "escenario_dominante": "There is a high probability that the ceasefire will lead to a short-term easing of geopolitical risk, supporting equity market rallies and lower oil prices. However, given unresolved issues around the terms of the ceasefire and ongoing regional tensions, the risk premium on commodities and geopolitical uncertainty will remain elevated, and the ceasefire may be fragile or temporary.",
-  "interpretacion_institucional": "The two-week ceasefire represents a tactical de-escalation that has alleviated immediate market fears, prompting a strong relief rally in equities and a sharp correction in oil prices. Nonetheless, skepticism remains due to unclear details about the agreement's scope, including whether Iran will impose fees on shipping through Hormuz and the exclusion of Lebanon from the ceasefire. The market is likely to experience volatility as technical positioning normalizes and investors reassess the durability of the truce. The structural risk premium on commodities linked to the Strait of Hormuz is expected to persist given Iran's enhanced leverage over the waterway. Central banks outside the US are likely to continue tightening monetary policy, while the Fed may remain on hold or ease cautiously. Sectors that benefited from the conflict, such as energy and defense, may face profit-taking, whereas consumer discretionary sectors could see further gains.",
+  "escenario_dominante": "There is a high probability that the ceasefire will provide a temporary relief rally in risk assets and ease immediate supply concerns in oil markets. However, given unresolved issues around the terms of the ceasefire and ongoing geopolitical tensions, the risk premium on commodities and geopolitical risk perception will remain elevated. The market is likely to experience volatility as negotiations continue and the ceasefire's durability is tested.",
+  "interpretacion_institucional": "The two-week ceasefire represents a tactical de-escalation that alleviates immediate military conflict risks and supply disruptions in the Strait of Hormuz, prompting a strong positive reaction in equities and a sharp correction in oil prices. Nonetheless, skepticism remains due to unclear details about the agreement's scope, including exclusions such as Lebanon and potential fees on shipping. The ceasefire is unlikely to resolve underlying strategic tensions, suggesting that geopolitical risk will persist and continue to influence market dynamics. The US Federal Reserve is expected to remain on the sidelines for the remainder of the year, while other central banks may tighten policy. Sectors that benefited from the conflict, such as energy and defense, may face profit-taking, whereas consumer discretionary sectors could see further gains.",
   "riesgos_secundarios": [
-    "The ceasefire may fail to hold beyond the initial two-week period, leading to renewed hostilities and market volatility.",
-    "Unresolved negotiations on key issues such as nuclear enrichment, missile programs, sanctions, and proxy conflicts could prolong instability.",
-    "Iran might impose fees or restrictions on shipping through the Strait of Hormuz, sustaining elevated commodity price risk.",
-    "Regional actors like Israel may continue military actions outside the ceasefire scope, particularly in Lebanon, complicating the security environment.",
-    "The US may maintain or increase its military presence in the Middle East to contain Iran, implying a protracted geopolitical risk premium."
+    "The ceasefire may fail to hold or be extended, leading to renewed military conflict and a spike in oil prices and risk aversion.",
+    "Uncertainty remains about Iran's enforcement of the ceasefire terms, including whether it will impose fees on ships passing through the Strait of Hormuz.",
+    "Proxy conflicts and regional actors, such as Israel and Lebanon, may continue hostilities, complicating the ceasefire's effectiveness.",
+    "Geopolitical tensions could escalate if negotiations between the US and Iran on a longer-term agreement break down.",
+    "Economic data may reveal prolonged stagflationary pressures from the prior conflict period, impacting corporate earnings and market sentiment."
   ],
   "eventos_clave": [
-    "The US-Iran negotiations scheduled to begin in Islamabad on Friday, which will address the terms of a longer-term agreement.",
-    "The US CPI report for March, expected to show a significant acceleration in inflation, which will influence Fed policy expectations.",
-    "The FOMC minutes release, providing insight into the Federal Reserve's monetary policy stance amid the evolving geopolitical and economic backdrop.",
-    "Pentagon press briefing and other official communications that may clarify US military and diplomatic intentions in the region.",
-    "Economic data releases from major economies, including US personal income/spending and China’s import/export figures, which will impact global growth and risk sentiment."
+    "The US-Iran negotiations scheduled to begin in Islamabad on Friday, which will address key issues including nuclear enrichment, missiles, sanctions, and Hormuz tolls.",
+    "The US CPI report for March, expected to show a significant acceleration in headline inflation, which will influence monetary policy expectations.",
+    "The FOMC minutes release, providing insight into the Federal Reserve's policy stance amid the evolving geopolitical and economic environment.",
+    "Delta Air Lines' Q1 earnings report and operational updates, reflecting the impact of fuel cost pressures and broader economic conditions.",
+    "Ongoing monitoring of oil physical market inventories and flows through the Strait of Hormuz to assess supply stability."
   ]
 }
