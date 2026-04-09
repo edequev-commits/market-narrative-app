@@ -43,27 +43,27 @@ Explica qué eventos clave pueden validar o modificar la narrativa.
 INPUT:
 
 {
-  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, driving elevated oil prices and cautious equity market behavior amid concerns over sustained inflationary pressures and geopolitical uncertainty.",
+  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, driving elevated oil prices and inflation concerns.",
   "hechos_confirmados": [
     "A tentative two-week ceasefire between the US and Iran is in place, with a face-to-face meeting scheduled in Pakistan for April 10-11, 2026.",
-    "Israel has continued bombing targets in Lebanon, which is not included in the ceasefire, threatening the truce's stability.",
-    "Iran controls access to the Strait of Hormuz and is pushing forward with plans to charge a toll for tanker traffic, contributing to elevated oil prices above $100 per barrel.",
-    "US equity futures and major global indices showed declines on April 9, 2026, while oil prices rallied significantly amid the geopolitical tensions."
+    "Israel continues military strikes in Lebanon, a theater excluded from the ceasefire, threatening the truce's stability.",
+    "Iran maintains control over the Strait of Hormuz and is pushing plans to impose a toll on tanker traffic through the waterway.",
+    "US oil prices have risen back above $100 per barrel amid concerns over restricted energy flows through the Strait of Hormuz."
   ],
-  "escenario_dominante": "There is a high probability that the ceasefire between the US and Iran will hold through the upcoming talks, supporting a cautious relief rally in equities. However, the ongoing conflict in Lebanon and Iran's control over the Strait of Hormuz will likely sustain elevated oil prices and inflationary pressures, leading to a stagflationary environment with moderate risks to global growth and market volatility.",
-  "interpretacion_institucional": "The market is balancing cautious optimism from the ceasefire and upcoming diplomatic talks against persistent geopolitical risks, particularly from Israel's actions in Lebanon and Iran's strategic control of Hormuz. Elevated oil prices reflect the embedded risk premium for energy supply disruptions, which may prolong inflationary pressures and complicate central bank policy decisions. Equity markets face resistance near pre-war levels, with technical imbalances and negative sentiment suggesting limited upside. Treasury market weakness signals concerns about durable inflation. Investors should monitor the US-Iran talks and inflation data closely, as these will influence risk appetite and asset allocation.",
+  "escenario_dominante": "There is a high probability that the ceasefire between the US and Iran will hold through the upcoming talks, supporting some near-term equity upside. However, the ongoing military activity in Lebanon and Iran's control over Hormuz will likely sustain elevated oil prices and inflationary pressures, leading to a stagflationary environment with persistent market volatility.",
+  "interpretacion_institucional": "The market is cautiously optimistic about the ceasefire holding, as reflected in recent equity rallies, but skepticism remains due to ongoing conflict in Lebanon and Iran's strategic leverage over Hormuz. Elevated oil prices and inflation data suggest that the war's economic impact may be more durable than initially expected, complicating the Federal Reserve's policy outlook. Investors should monitor geopolitical developments closely, as well as upcoming US inflation releases, which will influence risk sentiment and asset allocation decisions.",
   "riesgos_secundarios": [
-    "The ceasefire could break down if Israel intensifies military actions in Lebanon or if Iran escalates drone or missile attacks.",
-    "Iran's tolling of the Strait of Hormuz could lead to further disruptions in global energy supply beyond current expectations.",
-    "Inflation could accelerate more sharply than anticipated, prompting unexpected central bank tightening.",
-    "Geopolitical tensions could expand beyond the current theaters, involving other regional or global actors.",
-    "Market sentiment could deteriorate if consumer and corporate earnings signals weaken amid the uncertain macro environment."
+    "Renewed escalation in Lebanon could unravel the ceasefire and trigger broader regional conflict.",
+    "Iran's enforcement of a toll on Hormuz shipping could further disrupt global energy markets and exacerbate inflation.",
+    "Potential failure or delay of the US-Iran talks in Pakistan could increase geopolitical uncertainty.",
+    "US domestic political dynamics, including mixed messages from leadership, may affect diplomatic progress and market confidence.",
+    "Unexpected hawkish shifts in Federal Reserve policy in response to inflation could dampen equity markets."
   ],
   "eventos_clave": [
     "US-Iran face-to-face meeting in Pakistan scheduled for April 10-11, 2026.",
-    "US Consumer Price Index (CPI) release for March 2026 on April 10, 2026.",
-    "US Personal Consumption Expenditures (PCE) data for February 2026 on April 9, 2026.",
-    "Ongoing Israeli military activity in Lebanon and related developments.",
-    "Market reaction to inflation data and central bank communications in the coming week."
+    "US Consumer Price Index (CPI) release for March on April 10, 2026.",
+    "US Personal Consumption Expenditures (PCE) data for February on April 9, 2026.",
+    "Ongoing monitoring of Israeli military activity in Lebanon and developments in the Strait of Hormuz.",
+    "Federal Reserve Beige Book release on April 15, 2026."
   ]
 }
