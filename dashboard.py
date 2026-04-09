@@ -111,6 +111,7 @@ def build_narrative_component(narrative: str) -> str:
     </html>
     """
 
+
 def clean_source_name(raw_name: str) -> str:
     raw_name = (raw_name or "").strip()
     if "<" in raw_name:
@@ -128,6 +129,7 @@ def format_source_datetime(raw_date: str) -> str:
     except Exception:
         return raw_date
 
+
 def build_sources_component(sources: list) -> str:
     if not sources:
         items_html = '<div style="color:#cbd5e1;font-size:13px;">No hay fuentes cargadas.</div>'
@@ -141,8 +143,10 @@ def build_sources_component(sources: list) -> str:
             blocks.append(
                 f"""
                 <div class="source-item">
-                    <div class="source-name">{fuente}</div>
-                    <div class="source-date">{fecha}</div>
+                    <div class="source-header">
+                        <div class="source-name">{fuente}</div>
+                        <div class="source-date">{fecha}</div>
+                    </div>
                     <div class="source-detail">{detalle}</div>
                 </div>
                 """
@@ -176,19 +180,30 @@ def build_sources_component(sources: list) -> str:
           padding: 0 0 12px 0;
           margin: 0 0 12px 0;
         }}
+        .source-header {{
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          gap: 12px;
+          margin-bottom: 4px;
+        }}
         .source-name {{
           color: #ffffff;
           font-size: 15px;
           font-weight: 700;
           line-height: 1.4;
-          margin-bottom: 4px;
+          flex: 1;
+          min-width: 0;
           word-break: break-word;
         }}
         .source-date {{
           color: #94a3b8;
           font-size: 12px;
-          margin-bottom: 4px;
-          word-break: break-word;
+          line-height: 1.4;
+          white-space: nowrap;
+          text-align: right;
+          flex-shrink: 0;
+          padding-top: 2px;
         }}
         .source-detail {{
           color: #cbd5e1;
@@ -205,6 +220,7 @@ def build_sources_component(sources: list) -> str:
     </body>
     </html>
     """
+
 
 st.markdown("""
 <style>

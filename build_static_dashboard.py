@@ -37,19 +37,6 @@ def get_today_events(payload: dict) -> list:
     return payload.get("vital", {}).get("daily_calendar", [])
 
 
-def render_paragraphs(text: str) -> str:
-    safe = html.escape(text or "")
-    paragraphs = [p.strip() for p in safe.split("\n\n") if p.strip()]
-    if not paragraphs:
-        cleaned = safe.replace("\n", " ").strip()
-        paragraphs = [cleaned] if cleaned else []
-
-    return "".join(
-        f'<p style="margin:0 0 16px 0; line-height:1.65;">{p.replace(chr(10), " ")}</p>'
-        for p in paragraphs
-    )
-
-
 def clean_source_name(raw_name: str) -> str:
     raw_name = (raw_name or "").strip()
     if "<" in raw_name:
@@ -67,6 +54,20 @@ def format_source_datetime(raw_date: str) -> str:
     except Exception:
         return raw_date
 
+
+def render_paragraphs(text: str) -> str:
+    safe = html.escape(text or "")
+    paragraphs = [p.strip() for p in safe.split("\n\n") if p.strip()]
+    if not paragraphs:
+        cleaned = safe.replace("\n", " ").strip()
+        paragraphs = [cleaned] if cleaned else []
+
+    return "".join(
+        f'<p style="margin:0 0 16px 0; line-height:1.65;">{p.replace(chr(10), " ")}</p>'
+        for p in paragraphs
+    )
+
+
 def render_sources(sources: list) -> str:
     if not sources:
         return '<div class="empty-note">No hay fuentes cargadas.</div>'
@@ -80,8 +81,10 @@ def render_sources(sources: list) -> str:
         blocks.append(
             f"""
             <div class="source-item">
-                <div class="source-name">{fuente}</div>
-                <div class="source-date">{fecha}</div>
+                <div class="source-header">
+                    <div class="source-name">{fuente}</div>
+                    <div class="source-date">{fecha}</div>
+                </div>
                 <div class="source-detail">{detalle}</div>
             </div>
             """
@@ -198,6 +201,7 @@ def build_html(payload: dict) -> str:
       height: 460px;
       overflow-y: auto;
       overflow-x: hidden;
+      padding: 14px 14px 8px 14px;
     }}
 
     .source-item {{
@@ -206,20 +210,32 @@ def build_html(payload: dict) -> str:
       margin: 0 0 12px 0;
     }}
 
+    .source-header {{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 4px;
+    }}
+
     .source-name {{
       color: #ffffff;
       font-size: 15px;
       font-weight: 700;
       line-height: 1.4;
-      margin-bottom: 4px;
+      flex: 1;
+      min-width: 0;
       word-break: break-word;
     }}
 
     .source-date {{
       color: #94a3b8;
       font-size: 12px;
-      margin-bottom: 4px;
-      word-break: break-word;
+      line-height: 1.4;
+      white-space: nowrap;
+      text-align: right;
+      flex-shrink: 0;
+      padding-top: 2px;
     }}
 
     .source-detail {{
