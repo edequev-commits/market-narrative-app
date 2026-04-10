@@ -1,25 +1,25 @@
 {
-  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, with Iran's control over the Strait of Hormuz driving oil price volatility and inflation concerns.",
+  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, driving elevated oil prices and inflation concerns amid ongoing geopolitical tensions and uncertainty about the ceasefire's durability.",
   "hechos_confirmados": [
     "A tentative two-week ceasefire between the US and Iran is in place, with a face-to-face meeting scheduled in Pakistan for April 10-11, 2026.",
-    "Iran controls access to the Strait of Hormuz and is pushing forward with plans to charge a toll for tanker traffic through the waterway.",
-    "Israel has intensified bombing in Lebanon, which is not included in the ceasefire, putting the truce at risk.",
+    "Israel has intensified bombing in Lebanon, causing significant casualties and threatening the ceasefire's stability.",
+    "Iran maintains control over the Strait of Hormuz and is pushing plans to impose a toll on tanker traffic through the waterway.",
     "US oil prices have risen back above $100 per barrel due to concerns over restricted energy flows through the Strait of Hormuz."
   ],
-  "escenario_dominante": "There is a high probability that the ceasefire between the US and Iran will hold through the upcoming talks, but with ongoing regional tensions, including Israeli strikes in Lebanon and Iran's control over Hormuz, oil prices are likely to remain elevated and inflationary pressures persistent in the near term.",
-  "interpretacion_institucional": "The market is cautiously optimistic about the ceasefire holding, as reflected in recent equity rallies, but skepticism remains due to violations and unresolved issues in Lebanon and Hormuz. The elevated oil prices and inability of Treasuries to rally suggest inflation risks from the conflict may be more durable than initially expected. The upcoming US-Iran talks are critical for confirming the ceasefire's durability. Investors should monitor inflation data closely, as a sharp acceleration is anticipated, which could influence Fed policy expectations. Geopolitical risk premiums are likely to remain embedded in commodity prices, particularly oil, given Iran's strategic leverage over Hormuz.",
+  "escenario_dominante": "There is a high probability that the ceasefire will hold through the upcoming US-Iran talks, supporting some near-term equity upside; however, geopolitical tensions, particularly Israeli strikes in Lebanon and Iran's control of Hormuz, will keep oil prices elevated and inflationary pressures persistent, leading to a stagflationary environment with cautious market sentiment.",
+  "interpretacion_institucional": "The market is cautiously optimistic about the ceasefire but remains skeptical given ongoing violations and regional conflicts outside the ceasefire scope, such as in Lebanon and Hormuz. Elevated oil prices reflect the risk premium for potential supply disruptions, which may sustain inflationary pressures and complicate central bank policy. Treasury market weakness signals concerns about inflation durability. Equity markets may experience volatility around key macroeconomic data releases and the US-Iran meeting. Investors should monitor geopolitical developments closely, as they will continue to shape risk appetite and sector performance, particularly in energy and defense.",
   "riesgos_secundarios": [
-    "The ceasefire could collapse if Israeli strikes in Lebanon escalate, leading to renewed broader conflict.",
-    "Iran might increase military activity or drone/missile launches, undermining the ceasefire.",
-    "The Strait of Hormuz could remain effectively closed or Iran could enforce tolls aggressively, causing prolonged supply disruptions.",
-    "US or allied military actions could intensify, complicating diplomatic efforts.",
-    "Inflationary pressures could accelerate beyond current expectations, forcing more aggressive central bank responses."
+    "The ceasefire could collapse if Israeli strikes in Lebanon escalate or if Iran increases military activity, leading to renewed conflict.",
+    "Iran's imposition of a toll on the Strait of Hormuz could provoke international naval responses, further disrupting oil supply.",
+    "Inflation could accelerate beyond current expectations if the war's inflationary effects prove more durable, forcing central banks to tighten policy unexpectedly.",
+    "US political dynamics, including mixed messages from leadership and domestic policy shifts, could affect diplomatic progress and market confidence.",
+    "Supply chain or demand shocks in key sectors like AI technology or consumer discretionary could exacerbate market volatility amid geopolitical uncertainty."
   ],
   "eventos_clave": [
     "US-Iran face-to-face meeting in Pakistan scheduled for April 10-11, 2026.",
-    "US Consumer Price Index (CPI) release for March on April 10, 2026, expected to show acceleration in headline and core inflation.",
-    "US Personal Consumption Expenditures (PCE) data for February on April 9, 2026.",
-    "Israeli military activity in Lebanon and any changes in the intensity of strikes during the ceasefire period.",
-    "Developments regarding Iran's enforcement of tolls on tanker traffic through the Strait of Hormuz."
+    "US Consumer Price Index (CPI) release for March on April 10, 2026, expected to show inflation acceleration.",
+    "US Personal Consumption Expenditures (PCE) data release for February on April 9, 2026.",
+    "Ongoing Israeli military activity in Lebanon and any related announcements or escalations.",
+    "Developments regarding Iran's toll plans on the Strait of Hormuz and international responses."
   ]
 }
