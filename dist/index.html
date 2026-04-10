@@ -18,7 +18,7 @@
     }
 
     .container {
-      max-width: 1600px;
+      max-width: 1720px;
       margin: 0 auto;
       padding: 28px 24px 40px 24px;
       box-sizing: border-box;
@@ -77,8 +77,97 @@
       border-left: 4px solid var(--regime-accent);
     }
 
+    .stocks-card {
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding: 18px 18px 14px 18px;
+    }
+
+    .stocks-subtle {
+      color: #94a3b8;
+      font-size: 13px;
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+
+    .stocks-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      border: 1px solid #172033;
+      border-radius: 14px;
+    }
+
+    .stocks-table {
+      width: 100%;
+      min-width: 1180px;
+      border-collapse: collapse;
+      background: #0f172a;
+    }
+
+    .stocks-table thead th {
+      position: sticky;
+      top: 0;
+      background: #111827;
+      color: #cbd5e1;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      text-align: left;
+      padding: 12px 10px;
+      border-bottom: 1px solid #1f2937;
+      white-space: nowrap;
+    }
+
+    .stocks-table tbody td {
+      font-size: 13px;
+      color: #e5e7eb;
+      padding: 12px 10px;
+      border-bottom: 1px solid #172033;
+      vertical-align: top;
+    }
+
+    .stocks-table tbody tr:hover {
+      background: rgba(148, 163, 184, 0.06);
+    }
+
+    .ticker-cell {
+      font-weight: 800;
+      color: #ffffff;
+      white-space: nowrap;
+    }
+
+    .description-cell {
+      min-width: 320px;
+      line-height: 1.45;
+      color: #cbd5e1;
+    }
+
+    .number-cell {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .positive {
+      color: #22c55e;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .negative {
+      color: #ef4444;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .neutral {
+      color: #cbd5e1;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
     .sources-card {
-      height: 539px;
+      height: 940px;
       overflow-y: auto;
       overflow-x: hidden;
       padding: 14px 14px 8px 14px;
@@ -130,7 +219,7 @@
       font-size: 14px;
     }
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1200px) {
       .grid {
         grid-template-columns: 1fr;
       }
@@ -144,20 +233,130 @@
 <body>
   <div class="container">
     <div class="title">Daily Market Dashboard v1.0</div>
-    <div class="subtle">Última actualización: 09-04-2026 17:04:16</div>
+    <div class="subtle">Última actualización: 09-04-2026 21:23:47</div>
 
     <div class="grid">
       <div>
         <div class="section-title">Narrativa macro</div>
         <div class="card narrative-card">
-          <p style="margin:0 0 16px 0; line-height:1.65;">El factor dominante en el mercado es la frágil tregua de dos semanas entre Estados Unidos e Irán, que condiciona la percepción de riesgo global. Esta pausa temporal en el conflicto, con una reunión cara a cara programada en Pakistán para el 10 y 11 de abril de 2026, genera expectativas de estabilidad, pero la continuidad de bombardeos israelíes en Líbano y la intención iraní de cobrar peaje por el paso en el estrecho de Ormuz mantienen la tensión geopolítica. Esta dinámica sostiene los precios del petróleo por encima de los 100 dólares el barril y alimenta preocupaciones inflacionarias, elementos clave que impactan en la valoración de activos y en la política monetaria.</p><p style="margin:0 0 16px 0; line-height:1.65;">El mercado responde con cautela ante este escenario. Los futuros de acciones en Estados Unidos muestran caídas moderadas, reflejando incertidumbre sobre la durabilidad de la tregua, mientras que los rendimientos de los bonos del Tesoro se mantienen estables, evidenciando una demanda por activos seguros sin un movimiento claro hacia una relajación monetaria. La persistencia de precios elevados en el crudo y la amenaza latente de nuevas hostilidades limitan el apetito por riesgo y mantienen la volatilidad en niveles elevados, condicionando la toma de decisiones de los inversores.</p><p style="margin:0 0 16px 0; line-height:1.65;">Desde una perspectiva institucional, se observa un optimismo contenido respecto a que la tregua se mantenga durante las próximas semanas, lo que podría favorecer un repunte moderado en las acciones. Sin embargo, la desconfianza persiste debido a las violaciones en Líbano y el control iraní sobre Hormuz, que sostienen un riesgo estructural en la oferta energética y, por ende, una prima inflacionaria elevada. Esto desafía las expectativas de un posible alivio en la política monetaria por parte de la Reserva Federal. El capital institucional probablemente se posiciona con prudencia, equilibrando exposición a renta variable con cobertura ante la inflación y volatilidad geopolítica, mientras monitorea de cerca los datos macroeconómicos y los desarrollos en la región.</p><p style="margin:0 0 16px 0; line-height:1.65;">Los eventos clave que pueden validar o modificar esta narrativa incluyen la reunión entre Estados Unidos e Irán en Pakistán, que será determinante para confirmar la vigencia de la tregua, y la publicación de datos inflacionarios estadounidenses, como el IPC y el PCE, que influirán en las decisiones de la Fed. Asimismo, la evolución de la actividad militar israelí en Líbano y las acciones iraníes en el estrecho de Ormuz serán indicadores críticos para evaluar riesgos de escalada. La publicación del Beige Book de la Fed también aportará señales sobre la percepción económica y la posible orientación de la política monetaria en un contexto de incertidumbre geopolítica persistente.</p>
+          <p style="margin:0 0 16px 0; line-height:1.65;">El factor dominante que está marcando la percepción de riesgo en los mercados es la frágil tregua de dos semanas entre Estados Unidos e Irán, vigente mientras se preparan para una reunión cara a cara en Pakistán el 10 y 11 de abril de 2026. Esta tregua es relevante porque Irán controla el estrecho de Hormuz, una vía estratégica para el transporte de petróleo, y está avanzando en su plan de cobrar un peaje a los petroleros que transitan por allí. La combinación de esta situación con el aumento de la violencia en la región, especialmente los bombardeos israelíes en Líbano que quedan fuera del acuerdo, genera una alta volatilidad en los precios del crudo y mantiene las presiones inflacionarias al alza.</p><p style="margin:0 0 16px 0; line-height:1.65;">El mercado ha reaccionado con cautela pero con cierto optimismo, reflejado en recientes repuntes en las acciones, aunque los precios del petróleo han vuelto a superar los 100 dólares por barril debido a las preocupaciones sobre posibles restricciones en el flujo energético a través del estrecho. Al mismo tiempo, los bonos del Tesoro de Estados Unidos no muestran un rally significativo, lo que indica que los inversores no descartan que las presiones inflacionarias derivadas del conflicto sean más persistentes de lo esperado inicialmente. La incertidumbre sobre la durabilidad de la tregua y las tensiones en Líbano mantienen un ambiente de riesgo latente.</p><p style="margin:0 0 16px 0; line-height:1.65;">Desde una perspectiva institucional, se interpreta que el capital está posicionado con prudencia, apostando a que la tregua se mantenga en el corto plazo pero sin ignorar los riesgos geopolíticos que podrían desatar un conflicto mayor. Se espera que las primas de riesgo asociadas a la geopolítica sigan incorporadas en los precios de las materias primas, especialmente el petróleo, debido al control estratégico iraní sobre Hormuz. Los inversores deben estar atentos a los datos de inflación en Estados Unidos, donde se anticipa una aceleración que podría modificar las expectativas sobre la política monetaria de la Reserva Federal, afectando la dinámica de los activos de riesgo y refugio.</p><p style="margin:0 0 16px 0; line-height:1.65;">Los eventos clave que pueden validar o modificar esta narrativa incluyen la reunión entre Estados Unidos e Irán en Pakistán, que será determinante para confirmar la estabilidad de la tregua. También serán críticos los datos de inflación en Estados Unidos, con el índice de precios al consumidor y el gasto en consumo personal próximos a publicarse, ya que podrían evidenciar un repunte inflacionario más fuerte. Además, la evolución de la actividad militar israelí en Líbano y cualquier cambio en la aplicación de los peajes por parte de Irán en el estrecho de Hormuz serán indicadores esenciales para evaluar el riesgo de una escalada o una interrupción prolongada en el suministro energético.</p>
         </div>
 
         <div style="height:14px;"></div>
 
         <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
         <div class="card regime-card">
-          <p style="margin:0 0 16px 0; line-height:1.65;">🏷️ MARKET REGIME: Régimen Transicional / Volátil 🟡</p><p style="margin:0 0 16px 0; line-height:1.65;">El mercado muestra rebotes comprados con cautela, pero la continuidad de rupturas es inconsistente, generando movimientos erráticos y volatilidad elevada. Típicamente, en situaciones como esta, la reacción a noticias es mixta y el sentimiento oscila entre optimismo limitado y preocupación latente. La falta de un impulso claro y la persistencia de riesgos subyacentes mantienen la incertidumbre, dificultando establecer tendencias sostenidas. Traders novatos deben priorizar gestión activa del riesgo y evitar posiciones direccionales fuertes.</p>
+          <p style="margin:0 0 16px 0; line-height:1.65;">🏷️ MARKET REGIME: Régimen Transicional / Volátil 🟡</p><p style="margin:0 0 16px 0; line-height:1.65;">El mercado muestra rebotes comprados pero con escepticismo, reflejando optimismo cauteloso que no termina de consolidarse. Las rupturas de niveles clave son inconsistentes, alternando avances con retrocesos rápidos. La volatilidad es errática, con movimientos amplios y reacciones mixtas ante noticias, especialmente en commodities como el petróleo. Típicamente, en situaciones como esta, la incertidumbre geopolítica genera un ambiente donde los traders deben ser flexibles y gestionar riesgos, ya que la continuidad del movimiento no está garantizada.</p>
+        </div>
+
+        <div style="height:14px;"></div>
+
+        <div class="section-title">Top 6 Stocks In Play Today</div>
+        <div class="card stocks-card">
+          
+    <div class="stocks-subtle">
+      Seleccionadas por alineación con narrativa, régimen y fuerza real de movimiento
+    </div>
+    <div class="stocks-table-wrap">
+      <table class="stocks-table">
+        <thead>
+          <tr>
+            <th>Ticker</th>
+            <th>Sector</th>
+            <th>Industria</th>
+            <th>Descripción</th>
+            <th>% Cambio</th>
+            <th>Precio</th>
+            <th>Volumen</th>
+            <th>Average Volume</th>
+            <th>Float</th>
+            <th>Relative Volume</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+                <td class="ticker-cell">STZ</td>
+                <td>Beverages - Brewers</td>
+                <td>USA</td>
+                <td class="description-cell">USA dentro de Beverages - Brewers; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
+                <td class="positive">8.53%</td>
+                <td class="number-cell">163.07</td>
+                <td class="number-cell">4.69M</td>
+                <td class="number-cell">2.23M</td>
+                <td class="number-cell">152.14M</td>
+                <td class="number-cell">2.10</td>
+            </tr>
+            
+            <tr>
+                <td class="ticker-cell">APLD</td>
+                <td>Information Technology Services</td>
+                <td>USA</td>
+                <td class="description-cell">USA dentro de Information Technology Services; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
+                <td class="negative">-7.99%</td>
+                <td class="number-cell">25.57</td>
+                <td class="number-cell">35.60M</td>
+                <td class="number-cell">25.36M</td>
+                <td class="number-cell">253.81M</td>
+                <td class="number-cell">1.40</td>
+            </tr>
+            
+            <tr>
+                <td class="ticker-cell">PSMT</td>
+                <td>Discount Stores</td>
+                <td>USA</td>
+                <td class="description-cell">USA dentro de Discount Stores; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
+                <td class="positive">2.91%</td>
+                <td class="number-cell">161.26</td>
+                <td class="number-cell">589.01K</td>
+                <td class="number-cell">227.97K</td>
+                <td class="number-cell">25.38M</td>
+                <td class="number-cell">2.58</td>
+            </tr>
+            
+            <tr>
+                <td class="ticker-cell">META</td>
+                <td>Internet Content &amp; Information</td>
+                <td>USA</td>
+                <td class="description-cell">USA dentro de Internet Content &amp; Information; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
+                <td class="positive">2.61%</td>
+                <td class="number-cell">628.39</td>
+                <td class="number-cell">18.95M</td>
+                <td class="number-cell">16.37M</td>
+                <td class="number-cell">2.18B</td>
+                <td class="number-cell">1.16</td>
+            </tr>
+            
+            <tr>
+                <td class="ticker-cell">TTWO</td>
+                <td>Electronic Gaming &amp; Multimedia</td>
+                <td>USA</td>
+                <td class="description-cell">USA dentro de Electronic Gaming &amp; Multimedia; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
+                <td class="negative">-2.02%</td>
+                <td class="number-cell">198.05</td>
+                <td class="number-cell">1.49M</td>
+                <td class="number-cell">2.30M</td>
+                <td class="number-cell">171.40M</td>
+                <td class="number-cell">0.65</td>
+            </tr>
+            
+            <tr>
+                <td class="ticker-cell">DIS</td>
+                <td>Entertainment</td>
+                <td>USA</td>
+                <td class="description-cell">USA dentro de Entertainment; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
+                <td class="positive">0.62%</td>
+                <td class="number-cell">99.79</td>
+                <td class="number-cell">8.85M</td>
+                <td class="number-cell">11.79M</td>
+                <td class="number-cell">1.77B</td>
+                <td class="number-cell">0.75</td>
+            </tr>
+            
+        </tbody>
+      </table>
+    </div>
+    
         </div>
       </div>
 
