@@ -201,12 +201,33 @@ Barbara Johnson has been fighting coal pollution for decades in her mostly Black
 Until recently, she had reason to believe things would improve: tougher federal soot standards adopted in 2024 under the Biden administration were scheduled to go into effect in 2027, requiring plants to slash emissions or shut down. That would have forced one of the area’s biggest polluters - Ameren’s Labadie Energy Center power plant - to cut its soot emissions in half to stay in bus
 
 === FUENTE PRIORITARIA 3: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===
-Remitente principal: 
-Asunto principal: 
-Fecha principal: 
+Remitente principal: CNBC Breaking News <breakingnews@response.cnbc.com>
+Asunto principal: Consumer sentiment tanks, inflation fears rise in March amid Iran war
+Fecha principal: 2026-04-10T08:08:03-06:00
+
+HEADLINES CNBC PRIORIZADOS POR RECIENCIA:
+- Prioridad 1 | Fecha: 2026-04-10T08:08:03-06:00 | Headline: Consumer sentiment tanks, inflation fears rise in March amid Iran war
+- Prioridad 2 | Fecha: 2026-04-10T07:31:09-06:00 | Headline: S&P 500 ticks higher Friday as benchmark wraps up big week following fragile Iran ceasefire: Live updates
+- Prioridad 3 | Fecha: 2026-04-10T06:32:05-06:00 | Headline: Consumer prices rose 3.3% in March, as expected
 
 REGLA DE USO PARA EL MODELO:
 Los headlines de CNBC seleccionados por recencia deben tener mayor peso relativo que los más antiguos al evaluar el tono inmediato del mercado, la narrativa de la mañana y el régimen de mercado. No deben usarse como evidencia única ni definir por sí solos el régimen; deben complementar el resto de fuentes.
+
+EXTRACTO CONSOLIDADO CNBC:
+[CNBC #1] Consumer sentiment tanks, inflation fears rise in March amid Iran war
+Fecha: 2026-04-10T08:08:03-06:00
+Consumer sentiment tanks, inflation fears rise in March amid Iran war
+This is a developing news story. Please check back for updates:
+
+[CNBC #2] S&P 500 ticks higher Friday as benchmark wraps up big week following fragile Iran ceasefire: Live updates
+Fecha: 2026-04-10T07:31:09-06:00
+S&P 500 ticks higher Friday as benchmark wraps up big week following fragile Iran ceasefire: Live updates
+This is a developing news story. Please check back for updates:
+
+[CNBC #3] Consumer prices rose 3.3% in March, as expected
+Fecha: 2026-04-10T06:32:05-06:00
+Consumer prices rose 3.3% in March, as expected
+This is a developing news story. Please check back for updates:
 
 === OTROS CORREOS DE MERCADO ===
 CORREO 2
@@ -454,4 +475,555 @@ Read The Full Story (
 # **SPONSORED CONTENT**
 
 # [**See How Modern Prop Firms Are Giving Traders A Path To Professio
+------------------------------------------------------------
+CORREO 8
+Remitente: Finviz Alert <no-reply@finviz.com>
+Asunto: Economic Calendar Alert [Core Inflation Rate Yo Y]
+Fecha: 2026-04-10T05:30:36-06:00
+Contenido:
+Economic Calendar Alert [Core Inflation Rate Yo Y]
+
+Event Core Inflation Rate Yo Y is scheduled for 1 hour from now.
+
+Please click the link below for more information:
+
+https://elite.finviz.com/calendar/economic?date From=2026-04-10
+
+You can manage your alerts here:
+
+https://elite.finviz.com/alerts.ashx
+
+Best regards,
+
+Finviz.com Team
+------------------------------------------------------------
+CORREO 9
+Remitente: Finviz Alert <no-reply@finviz.com>
+Asunto: Economic Calendar Alert [Inflation Rate Yo Y]
+Fecha: 2026-04-10T05:30:36-06:00
+Contenido:
+Economic Calendar Alert [Inflation Rate Yo Y]
+
+Event Inflation Rate Yo Y is scheduled for 1 hour from now.
+
+Please click the link below for more information:
+
+https://elite.finviz.com/calendar/economic?date From=2026-04-10
+
+You can manage your alerts here:
+
+https://elite.finviz.com/alerts.ashx
+
+Best regards,
+
+Finviz.com Team
+------------------------------------------------------------
+CORREO 10
+Remitente: Barchart Partner <bcmembers@partners.barchart.com>
+Asunto: Big Tech’s Valuation Reset
+Fecha: 2026-04-10T05:42:50-06:00
+Contenido:
+Understanding what the next phase won’t reward
+
+( )
+Below is a message from one of our sponsors Big Tech
+is facing a valuation reset.
+
+Scrutiny is rising over AI spending as investors question
+whether massive infrastructure outlays can justify today’s
+prices.
+
+Humanoid robot seated at a conference table in a courtroom-like
+setting, facing a group of suited professionals reviewing
+documents.
+( )
+That’s normal. It’s the natural next phase of every tech boom.
+
+Spending surges.
+
+Valuations stretch.
+
+Wall Street starts asking harder questions.
+
+And suddenly, multiple compression replaces multiple expansion.
+
+The companies that thrive aren’t always the ones with the
+biggest headlines.
+
+They’re the ones building real leverage.
+
+Users.
+
+Revenue.
+
+Infrastructure.
+
+Companies like Mode Mobile
+( )
+.
+
+While public tech names wrestle with valuation pressure…
+
+Mode Mobile has built a consumer platform before potentially
+going public
+( )
+.
+
+Mode pays users for their screen time: browsing… listening to
+music… using apps… even charging their device.
+
+That model has delivered something markets can’t deny: actual
+traction.
+
+Here’s what Mode has already built:
+• #1 fastest-growing software company in North America
+(Deloitte Technology Fast 500)
+• 50 M+ users across its ecosystem
+• $115 M+ in revenue
+• $1 B+ earned and saved by consumers
+• 59,000+ current investors
+All before potentially going public.
+
+And now Mode is expanding its ecosystem with its acquisition of
+NGL (a viral social platform with over 125 million monthly active
+users).
+
+Mode is no longer just a phone company, it’s turning into a
+consumer platform company
+( )
+.
+
+So while Big Tech navigates valuation pressure…
+
+Mode Mobile sits in the private window before potential
+institutional repricing and public volatility.
+
+With a Nasdaq ticker reserved ($MODE) and a potential path
+toward the public markets, Mode is possibly positioned ahead of
+the next capital cycle.
+
+And right now, investors can get pre-IPO shares at $0.50 with
+u
+------------------------------------------------------------
+CORREO 12
+Remitente: Reuters Tariff Watch <newsletters@email.reuters.com>
+Asunto: USTR: If China gets involved in Iran, will complicate matters
+Fecha: 2026-04-10T06:01:35-06:00
+Contenido:
+U.S. Trade Representative Jamieson ​Greer said on ‌Friday that the United States is trying ​to have a ​stable relationship with China, ⁠but if ​Beijing is going to ​be involved with Iran in a way that ​goes against ​U.S. interests, that would complicate ‌matters.
+
+Tariff Watch
+
+Tariff Watch
+
+Stay ahead of global tariff news with the day's latest headlines from Reuters .
+
+USTR: If China gets involved in Iran, will complicate matters
+
+US trade court weighs legality of Trump 10% global tariff
+
+European alcoholic drinks companies seek India tariff relief as shortages of cans, bottles loom
+
+Ecuador raises tariffs on Colombia to 100% from 50% as tensions escalate
+
+USTR's Greer sees no changes in data rules that bar Chinese vehicles from US
+
+Draw it yourself: Checking Trump’s tariff claims a year later
+
+Vape makers turn to 'Made in America' credentials amid Trump's tariffs, crackdown
+
+Bourbon demand is down and tariffs aren't helping. But distillers keep building.
+
+IMF's Georgieva expects war to trigger demand for up to $50 bln in Fund support
+
+Polestar CEO talks up used-car market as higher fuel prices spur shift to cheaper EVs
+
+Sponsors are not involved in the creation of newsletters or other Reuters news content. Advertise in this newsletter or on Reuters' website
+
+Reuters Tariff Watch is sent three days a week. Think your friend or colleague should know about us? Forward this newsletter to them. They can also sign up here .
+
+Want to stop receiving this email?
+
+This email includes limited tracking for Reuters to understand whether you’ve engaged with its contents. For more information on how we process your personal information and your rights, please see our Privacy Statement .
+
+Terms & Conditions
+
+© 2026 Thomson Reuters. All rights reserved.
+3 Times Square, New York, NY 10036
+------------------------------------------------------------
+CORREO 13
+Remitente: Finviz Alert <no-reply@finviz.com>
+Asunto: Economic Calendar Alert [Core Inflation Rate Yo Y]
+Fecha: 2026-04-10T06:31:31-06:00
+Contenido:
+Economic Calendar Alert [Core Inflation Rate Yo Y]
+
+Event Core Inflation Rate Yo Y is up now.
+
+Please click the link below for more information:
+
+https://elite.finviz.com/calendar/economic?date From=2026-04-10
+
+You can manage your alerts here:
+
+https://elite.finviz.com/alerts.ashx
+
+Best regards,
+
+Finviz.com Team
+------------------------------------------------------------
+CORREO 14
+Remitente: Finviz Alert <no-reply@finviz.com>
+Asunto: Economic Calendar Alert [Inflation Rate Yo Y]
+Fecha: 2026-04-10T06:31:32-06:00
+Contenido:
+Economic Calendar Alert [Inflation Rate Yo Y]
+
+Event Inflation Rate Yo Y is up now.
+
+Please click the link below for more information:
+
+https://elite.finviz.com/calendar/economic?date From=2026-04-10
+
+You can manage your alerts here:
+
+https://elite.finviz.com/alerts.ashx
+
+Best regards,
+
+Finviz.com Team
+------------------------------------------------------------
+CORREO 16
+Remitente: Open Outcrier <oyez@openoutcrier.com>
+Asunto: Open Outcrier Digest: 04-10-26
+Fecha: 2026-04-10T06:39:07-06:00
+Contenido:
+Macro
+
+Econ Calendar Fri 4/10/26<br /><br />CPI<br /> 8:30 AM ET<br /><br />Consumer Sentiment<br />Factory Orders<br /> 10:00 AM ET<br /><br />Baker Hughes Rig Count<br /> 1:00 PM ET<br /><br />Treasury Statement<br /> 2:00 PM ET
+
+US stock futures subdued ahead of inflation data, Mideast in focus - Reuters
+
+https://ooc.bz/l/98376
+
+U.S. Races to Keep Israel’s Fight in Lebanon From Derailing Cease-Fire - WSJ
+
+https://ooc.bz/l/98378
+
+Iran Keeps Hold Over Hormuz Ahead of Ceasefire Talks - BBG
+
+https://ooc.bz/l/98379
+
+U.S. oil climbs above $100 as U.S.-Iran ceasefire fails to boost tanker traffic via Strait of Hormuz - CNBC
+
+https://ooc.bz/l/98381
+
+Trump Demands Reopening of Hormuz Ahead of US-Iran Peace Talks; says Iran ‘better stop now’ if it’s charging oil tankers fees
+
+https://ooc.bz/l/98383
+
+Why Gulf Nations Would Bear the Brunt of Hormuz Tolls - WSJ
+
+https://ooc.bz/l/98385
+
+Netanyahu-Trump Divisions on Iran War Threaten to Box In US - BBG
+
+https://ooc.bz/l/98386
+
+Netanyahu Can’t Stop Fighting. But Is He Winning the War? - WSJ
+
+https://ooc.bz/l/98388
+
+Pakistan's high-stakes Iran peace bid is fraught with risk - Reuters
+
+https://ooc.bz/l/98390
+
+US Republicans block bid to rein in Trump Iran war powers - Reuters
+
+https://ooc.bz/l/98392
+
+Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC
+
+https://ooc.bz/l/98395
+
+Global Rate Path Veers Higher in Wake of Another Trump Shock - BBG
+
+https://ooc.bz/l/98397
+
+Bond Traders Hedge Against More Losses as Inflation Data Looms - BBG
+
+https://ooc.bz/l/98399
+
+Under Trump, DOJ Has Been Making Errors in Court, Testing Judges’ Patience - BBG
+
+https://ooc.bz/l/98401
+
+White House Warns Staff on Insider Trading Amid Iran War Bets - BBG
+
+https://ooc.bz/l/98403
+
+Automatic U.S. military draft registration planned by December, filing shows - CNBC
+
+https://ooc.bz/l/98405
+
+Melania Trump Denies Any Epstein Connection in Surprise White House Appearance - WSJ
+
+https://ooc.bz/l/98407
+
+Landslides Destroyed Thei
+------------------------------------------------------------
+CORREO 17
+Remitente: Stock Analysis <contact@stockanalysis.com>
+Asunto: Market Bullets: Inflation hits 2-year high of 3.3%, TSMC's revenue surges, utility companies see strong gains
+Fecha: 2026-04-10T06:56:40-06:00
+Contenido:
+​
+
+🏈 NFL faces DOJ investigation |
+
+Friday - April 10, 2026 |
+
+Market Overview
+
+S&P 500
+
++0.62%
+
+Pre: +0.19%
+
+Nasdaq
+
++0.83%
+
+Pre: +0.29%
+
+Dow
+
++0.58%
+
+Pre: +0.04%
+
+Stock & Market News
+
+•
+TSMC revenue jumps on AI: Taiwan Semiconductor ( TSM ) posted a 35% Q1 revenue surge, beating forecasts, amid strong AI chip demand from clients like Nvidia ( NVDA ). TSMC shares rose 2.3% premarket. Source: Reuters .
+
+•
+Car Max settles with activist: Car Max ( KMX ) will add 2 board members after reaching a deal with Starboard Value, which withdrew its nominations, as the investor pushes pricing, cost cuts, and digital improvements. Shares rose 2.4%. Source: WSJ .
+
+•
+Utilities rally on AI demand: Nextera ( NEE ), Duke ( DUK ), American Electric ( AEP ), Dominion ( D ), and Xcel ( XEL ) are leading a utilities surge as AI-driven data center demand boosts power use. Shares are up 9-19% YTD. Source: Reuters .
+
+•
+Sandisk, Intel surge: Sandisk ( WDC ) surged 9% yesterday — and another 3% premarket — as AI-driven demand for enterprise solid-state drives (SSDs) boosted revenue and outlook. Meanwhile, Intel ( INTC ) gained 5% yesterday and is up 1% premarket. Source: Barron's .
+
+•
+Alibaba admits creating top AI model: Alibaba ( BABA ) confirmed it developed a viral video AI model that's topping global benchmarks, strengthening its position in generative video. Shares rose 2% yesterday and another 1% premarket. Source: CNBC .
+
+•
+Apple leads shrinking smartphone market: Apple ( AAPL ) gained 5% Yo Y in i Phone shipments in Q1 and took a 21% market share. However, the overall market declined 6%. Apple shares are down 4% YTD. Source: Reuters .
+
+•
+Airlines raise bag fees: American ( AAL ) has become the latest airline to hike checked bag fees, especially for basic economy, joining Delta ( DAL ), United ( UAL ), and others. American shares are down 26% YTD. Source: CNBC .
+
+•
+Amazon expands drug access: Amazon ( AMZN ) will offer Eli Lilly's ( LLY ) new weight loss pill via pharmacy kiosks and s
+------------------------------------------------------------
+CORREO 19
+Remitente: Macro View Daily <account@seekingalpha.com>
+Asunto: March CPI: Inflation Pumps Up As Gasoline Soars
+Fecha: 2026-04-10T08:05:40-06:00
+Contenido:
+Macro View Daily
+
+Macro View Daily
+
+Market Outlook
+
+March CPI: Inflation Pumps Up As Gasoline Soars
+
+By Justin Purohit
+
+Momentum Factor Leads As Wall Street Bets On A Fragile Ceasefire
+
+By James Picerno
+
+Taiwan's Trade Growth Smashes All Forecasts, Lifting The 2026 Growth Outlook
+
+By ING Economic and Financial Analysis
+
+Marching Through Iran - A First Quarter 2026 Review
+
+By Valu Engine
+
+Corporate Profits Are Very Healthy
+
+By Calafia Beach Pundit
+
+The Rally Around The World
+
+By Bespoke Investment Group
+
+S&P 500: A Euphoric Market With A Sobering Ceasefire And GDP Reality
+
+By Dhierin Bechai
+
+How Europe Can Reduce Reliance On Imported Gas And What It Means For Business Leaders
+
+By ING Economic and Financial Analysis
+
+AAII Sentiment Survey: Pessimism Retreats
+
+By AAII
+
+Dow Jones And U.S. Stock Market Outlook - Ceasefire Uncertainty Clears And Wall Street Persists
+
+By Market Pulse by OANDA Group
+
+Global Market Perspectives: Hope For The Best, Ready For The Worst
+
+By Principal Financial Group
+
+S&P 500: Don't Buy The Dip When Macroeconomic Conditions Are Worsening
+
+By Vladimir Dimitrov, CFA
+
+Ceasefire? I Don't Buy It, And Neither Should Markets
+
+By Agar Capital
+
+S&P 500: This Is Still A Very Weak Market From A Bottom-Up View
+
+By Sungarden Investment Publishing
+
+Iran Ceasefire Deepens The Cracks In The Splintering Global Order
+
+By JR Research
+
+This Ceasefire Rally Could Collapse Tomorrow: Here's What I'm Buying Anyway
+
+By Deep Value Investing
+
+More Market Outlook Analysis »
+
+FEATURED: Join Seeking Alpha Premium—with a special introductory offer Claim Offer »
+
+Gold & Precious Metals
+
+Gold ETF Flows: March 2026
+
+By World Gold Council
+
+More Gold & Precious Metals Analysis »
+
+Commodities
+
+Manganese Mining Costs Amid Global Oil Price Spikes
+
+By Markit
+
+How Energy Market Swings Are Reshaping Monetary Policy
+
+By CME Group
+
+Commodities: Oil Supported By Ongoing Supply Risks
+
+By ING Economic and Financial Analysis
+
+Rare Earths: Rare Earths Funding Boom Could Cause Longer-Term 'Glut
+------------------------------------------------------------
+CORREO 21
+Remitente: Chart of the Day <newsletters@newsdesk.barchart.com>
+Asunto: Jim’s ‘Onto’ the Next Winner
+Fecha: 2026-04-10T08:21:29-06:00
+Contenido:
+This picks-and-shovels stock is trading at new all-time highs
+Chart of the Day for April 10, 2026
+
+Barchart Brief logo
+( ) Together With
+trading pub
+( )
+• Onto Innovation (ONTO) leads in advanced process
+control tools for semiconductors and high-tech industries.
+• ONTO demonstrates strong technical momentum with a 100% “Buy”
+opinion from Barchart.
+• Shares are up more than 85% over the past year.
+• Wall Street sentiment is bullish with 7 “Strong Buy” analyst
+ratings.
+• One ticker. Over 132% in 51 days. Vantage Point AI saw it
+coming. Free live class. No replays. See what’s next >
+( )
+• Today’s Featured Stock
+
+Valued at $11.96 billion, Onto Innovation (ONTO)
+( )
+is the leading global manufacturer of avant-garde process
+control tools for inspection, metrology, and lithography. Its
+products are used in several high-technology industries like
+silicon wafer substrates, power devices, and data storage.
+
+What I’m Watching
+
+I found today’s Chart of the Day by using Barchart’s powerful
+screening functions to sort for stocks with the highest technical
+buy signals; superior current momentum in both strength and
+direction; and a Trend Seeker “buy” signal
+( )
+. I then used Barchart’s Flipcharts feature
+( )
+to review the charts for consistent price appreciation. ONTO
+checks those boxes. Trend Seeker issued a new “Buy” signal on
+April 8.
+
+ONTO stock chart
+( )
+Sponsored By Vantage Point
+
+Promotional graphic for Vantage Point AI showing a rising stock
+chart, trading gains, and a “Join the AI Forecast Now”
+call-to-action.
+( )
+Stop trading on hope.
+
+Vantage Point AI uses millions of data points daily to forecast
+stock and options trends before they happen.
+
+One asset recently saw over 132% gain in 51 days, and the AI
+called it in advance.
+
+Join your free live training
+( )
+to see what’s next. Spots limited.
+
+Register Here
+( )
+
+Barchart Technical Indicators for Onto Innovation
+
+Editor’s Note: The technical indicators below are updated live
+during the session every 20 minutes and can the
+------------------------------------------------------------
+CORREO 22
+Remitente: Morning Download <hi@morningdownload.com>
+Asunto: A Strategic Mineral Story Washington Is Watching
+Fecha: 2026-04-10T08:49:21-06:00
+Contenido:
+_This is from a carefully selected newsletter sponsor we thought you might find interesting._
+
+———————————————————————————
+
+# **BONUS CONTENT**
+
+### **From Coins to Dreams: How to Teach Kids the Power of Saving**
+
+Saving money is more than just stashing coins in a piggy bank—it’s a superpower that shapes lifelong habits. In a world of instant gratification, teaching children to save builds patience, goal-setting, and financial independence. Parents who start early give their kids a head start that compounds like interest itself.
+
+The foundation begins with understanding why saving matters. Kids need to see money as a tool, not just something to spend. A simple jar system works wonders: label three clear jars “Save,” “Spend,” and “Share.” Every allowance or birthday gift gets divided. The Save jar funds big dreams like a new bike or tablet. Spend covers small treats, while Share teaches generosity. Children as young as five grasp this because they watch their jars grow. Visual progress keeps them motivated—no lectures required.
+
+Parents can supercharge saving with real-world examples. Turn grocery shopping into a game: give your child a small budget and let them compare prices. “Which cereal gives us more for the money?” Suddenly math feels fun. For older kids, open a youth savings account at a bank or credit union. Many offer no-fee options with parent oversight. Watching the balance tick upward with interest sparks curiosity about how money works harder than they do.
+
+Storytelling adds magic. Read books like “The Richest Man in Babylon” (kid-friendly version) or watch age-appropriate videos on compound interest. One family turned saving into a 30-day challenge: each child picked a goal and tracked weekly progress on a colorful chart. The winner earned an extra 10 percent “interest” from Mom and Dad. Competition plus celebration made saving exciting instead of a chore.
+
+Challenges arise when kids see friends spending freely on social media. Counter this by sharing y
 ------------------------------------------------------------

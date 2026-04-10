@@ -43,27 +43,27 @@ Explica qué eventos clave pueden validar o modificar la narrativa.
 INPUT:
 
 {
-  "driver_principal": "La fragilidad y evolución incierta del alto el fuego entre Estados Unidos e Irán, junto con las tensiones persistentes en el Estrecho de Hormuz y el conflicto en Líbano, están generando un riesgo geopolítico significativo que impacta la percepción de riesgo global y la dinámica de los mercados, especialmente en energía e inflación.",
+  "driver_principal": "La fragilidad y la incertidumbre en torno a la durabilidad del alto al fuego entre Estados Unidos e Irán, junto con las tensiones persistentes en el Estrecho de Hormuz y el conflicto en Líbano, están generando presiones inflacionarias y riesgos geopolíticos que afectan la percepción de riesgo y el comportamiento de los mercados globales.",
   "hechos_confirmados": [
-    "Se mantiene un alto el fuego precario entre Estados Unidos e Irán, con violaciones reportadas y tensiones en Líbano entre Israel y Hezbollah.",
-    "El Estrecho de Hormuz permanece cerrado o con tráfico muy reducido, y Teherán planea implementar un peaje para el paso de barcos, lo que ha sido advertido por Estados Unidos.",
-    "Israel acordó reducir la intensidad de sus ataques en Líbano y mantener conversaciones con el gobierno libanés, pero continúa su campaña contra Hezbollah.",
-    "El precio del petróleo Brent se mantiene elevado cerca de 98-100 dólares por barril, reflejando un riesgo geopolítico persistente y daños en la infraestructura petrolera de Medio Oriente."
+    "Se mantiene un alto al fuego precario de dos semanas entre Estados Unidos e Irán, con negociaciones programadas en Pakistán para buscar un acuerdo más duradero.",
+    "El tráfico marítimo en el Estrecho de Hormuz sigue muy deprimido y cerrado, con planes de Irán para imponer un peaje a los barcos que atraviesen, lo que ha sido advertido por Estados Unidos.",
+    "Israel ha reducido la intensidad de sus ataques en Líbano y acordó iniciar negociaciones directas con el gobierno libanés, pero mantiene su campaña contra Hezbollah.",
+    "El índice de precios al consumidor (CPI) de Estados Unidos para marzo mostró una aceleración significativa, con un aumento del 3.3% interanual, reflejando presiones inflacionarias crecientes."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que el alto el fuego entre Estados Unidos e Irán se mantenga de forma frágil en el corto plazo, con negociaciones en curso que podrían prolongar la tregua. Sin embargo, es moderadamente probable que las tensiones en Líbano y el bloqueo parcial del Estrecho de Hormuz continúen generando riesgos para el suministro energético y presiones inflacionarias globales, limitando una recuperación plena y rápida de la estabilidad regional y de los mercados.",
-  "interpretacion_institucional": "La situación geopolítica en Medio Oriente sigue siendo el principal factor de riesgo para los mercados globales, especialmente para los precios de la energía y la inflación. Aunque el alto el fuego ha permitido un alivio temporal en los mercados, la fragilidad del acuerdo y las tensiones en puntos clave como Hormuz y Líbano mantienen un riesgo elevado de interrupciones en el suministro energético. Esto se traduce en un entorno de stagflación que podría persistir, afectando la política monetaria y la confianza inversora. La atención institucional debe centrarse en la evolución de las negociaciones en Pakistán y en la capacidad de Estados Unidos y sus aliados para asegurar rutas marítimas críticas. La cautela es prudente ante la posibilidad de que el optimismo actual se vea limitado por eventos adversos en la región.",
+  "escenario_dominante": "Existe una alta probabilidad de que el alto al fuego entre Estados Unidos e Irán se mantenga de forma frágil en el corto plazo, permitiendo cierta recuperación en los mercados de acciones, aunque con volatilidad y riesgos latentes. Se espera que las tensiones en el Estrecho de Hormuz y en Líbano continúen generando primas de riesgo geopolítico que mantendrán presiones inflacionarias y afectarán la dinámica económica global.",
+  "interpretacion_institucional": "La persistencia del alto al fuego, aunque frágil, ofrece un respiro temporal para los mercados, favoreciendo un rebote técnico en índices como el S&P 500. Sin embargo, la imposición de peajes en Hormuz y la continuidad del conflicto en Líbano mantienen un riesgo geopolítico elevado que se traduce en un aumento sostenido de los precios del petróleo y presiones inflacionarias globales. Esto sugiere un entorno macroeconómico caracterizado por un riesgo de estagflación, con inflación al alza y crecimiento económico debilitado. La política monetaria estadounidense podría endurecerse ante la aceleración inflacionaria, limitando el espacio para recortes de tasas en el corto plazo. La negociación en Pakistán será clave para definir la evolución del conflicto y su impacto en los mercados.",
   "riesgos_secundarios": [
-    "Reanudación de hostilidades militares significativas entre Israel y Hezbollah en Líbano que desestabilice el alto el fuego.",
-    "Fracaso en las negociaciones entre Estados Unidos e Irán que provoque la reanudación de ataques militares o sanciones adicionales.",
-    "Implementación efectiva del peaje en el Estrecho de Hormuz que reduzca aún más el tráfico marítimo y eleve los precios del petróleo.",
-    "Escalada en la guerra de Ucrania que, aunque no es el foco principal, podría aumentar la volatilidad global y afectar la percepción de riesgo.",
-    "Retrasos o cambios en la política monetaria estadounidense derivados de sorpresas inflacionarias vinculadas a la crisis energética."
+    "El alto al fuego podría romperse debido a incidentes en Líbano o nuevas acciones militares en la región, escalando el conflicto.",
+    "Irán podría implementar efectivamente el peaje en Hormuz, afectando gravemente el comercio energético global y elevando aún más los precios del petróleo.",
+    "Las negociaciones entre Estados Unidos e Irán podrían fracasar, provocando una reanudación de hostilidades militares.",
+    "La presión política interna en Estados Unidos, incluyendo bloqueos legislativos y retrasos en confirmaciones clave, podría limitar la capacidad de respuesta y negociación del gobierno.",
+    "La participación o influencia de China en el conflicto o en las negociaciones podría complicar la dinámica geopolítica y comercial."
   ],
   "eventos_clave": [
     "Reunión entre funcionarios de Estados Unidos e Irán en Pakistán programada para el sábado 11 de abril de 2026.",
-    "Publicación del índice de precios al consumidor (CPI) de Estados Unidos para marzo, esperado con una aceleración significativa.",
-    "Audiencia en la Corte de Comercio Internacional sobre el impuesto global del 10% a las importaciones impuesto por la administración Trump.",
-    "Decisión y acciones de Estados Unidos y aliados para asegurar el tránsito marítimo en el Estrecho de Hormuz.",
-    "Evolución de las conversaciones entre Israel y Líbano para reducir las hostilidades y negociar un acuerdo."
+    "Publicación del índice de precios al consumidor (CPI) de Estados Unidos para marzo el viernes 10 de abril de 2026 a las 8:30 am ET.",
+    "Audiencia en la Corte de Comercio Internacional de Estados Unidos sobre el arancel global del 10% impuesto por la administración Trump.",
+    "Decisión y evolución de la situación en el Estrecho de Hormuz respecto al tránsito marítimo y posibles medidas para incentivar el tráfico.",
+    "Desarrollo de las negociaciones entre Israel y Líbano para reducir la intensidad del conflicto y posibles acuerdos."
   ]
 }
