@@ -1,25 +1,25 @@
 {
-  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, driving elevated oil prices and cautious equity market behavior amid ongoing geopolitical tensions and inflation concerns.",
+  "driver_principal": "La fragilidad y evolución incierta del alto el fuego entre Estados Unidos e Irán, junto con las tensiones persistentes en el Estrecho de Hormuz y el conflicto en Líbano, están generando un riesgo geopolítico significativo que impacta la percepción de riesgo global y la dinámica de los mercados, especialmente en energía e inflación.",
   "hechos_confirmados": [
-    "A tentative two-week ceasefire between the US and Iran was announced, with a face-to-face meeting scheduled in Pakistan for April 10-11, 2026.",
-    "Israel conducted intense bombing campaigns in Lebanon, causing significant casualties and threatening the ceasefire's stability.",
-    "Iran maintains control over the Strait of Hormuz and is pushing plans to impose a toll on tanker traffic through the waterway.",
-    "US oil prices have risen back above $100 per barrel due to concerns over restricted energy flows through the Strait of Hormuz."
+    "Se mantiene un alto el fuego precario entre Estados Unidos e Irán, con violaciones reportadas y tensiones en Líbano entre Israel y Hezbollah.",
+    "El Estrecho de Hormuz permanece cerrado o con tráfico muy reducido, y Teherán planea implementar un peaje para el paso de barcos, lo que ha sido advertido por Estados Unidos.",
+    "Israel acordó reducir la intensidad de sus ataques en Líbano y mantener conversaciones con el gobierno libanés, pero continúa su campaña contra Hezbollah.",
+    "El precio del petróleo Brent se mantiene elevado cerca de 98-100 dólares por barril, reflejando un riesgo geopolítico persistente y daños en la infraestructura petrolera de Medio Oriente."
   ],
-  "escenario_dominante": "There is a high probability that the ceasefire between the US and Iran will hold in the immediate term, supported by ongoing diplomatic engagement, but with moderate probability of localized escalations such as Israeli strikes in Lebanon and continued disruptions in the Strait of Hormuz. This environment is likely to sustain elevated oil prices and inflationary pressures, while equity markets may experience volatility with cautious investor positioning.",
-  "interpretacion_institucional": "The market is navigating a complex geopolitical landscape where the ceasefire reduces the risk of full-scale conflict but does not eliminate regional flashpoints, notably in Lebanon and the Strait of Hormuz. Elevated oil prices reflect the embedded risk premium for supply disruptions, contributing to inflation concerns that may limit Treasury rallies and influence central bank policy expectations. Equity markets show mixed signals, with technical imbalances and skepticism about the ceasefire's durability counterbalanced by some positive corporate earnings and consumer resilience. Investors should remain vigilant to developments in US-Iran talks and regional military actions, as these will materially impact risk sentiment and asset price trajectories.",
+  "escenario_dominante": "Existe una alta probabilidad de que el alto el fuego entre Estados Unidos e Irán se mantenga de forma frágil en el corto plazo, con negociaciones en curso que podrían prolongar la tregua. Sin embargo, es moderadamente probable que las tensiones en Líbano y el bloqueo parcial del Estrecho de Hormuz continúen generando riesgos para el suministro energético y presiones inflacionarias globales, limitando una recuperación plena y rápida de la estabilidad regional y de los mercados.",
+  "interpretacion_institucional": "La situación geopolítica en Medio Oriente sigue siendo el principal factor de riesgo para los mercados globales, especialmente para los precios de la energía y la inflación. Aunque el alto el fuego ha permitido un alivio temporal en los mercados, la fragilidad del acuerdo y las tensiones en puntos clave como Hormuz y Líbano mantienen un riesgo elevado de interrupciones en el suministro energético. Esto se traduce en un entorno de stagflación que podría persistir, afectando la política monetaria y la confianza inversora. La atención institucional debe centrarse en la evolución de las negociaciones en Pakistán y en la capacidad de Estados Unidos y sus aliados para asegurar rutas marítimas críticas. La cautela es prudente ante la posibilidad de que el optimismo actual se vea limitado por eventos adversos en la región.",
   "riesgos_secundarios": [
-    "Renewed or intensified Israeli military actions in Lebanon could unravel the ceasefire and escalate regional conflict.",
-    "Iran's enforcement of a toll on the Strait of Hormuz could lead to prolonged disruptions in global energy supply chains.",
-    "Potential failure or delay of the US-Iran diplomatic talks scheduled in Pakistan.",
-    "Inflationary pressures may prove more persistent and severe than currently anticipated, prompting unexpected central bank tightening.",
-    "Geopolitical shifts such as changes in US troop deployments in the Middle East or NATO dynamics could alter market risk perceptions."
+    "Reanudación de hostilidades militares significativas entre Israel y Hezbollah en Líbano que desestabilice el alto el fuego.",
+    "Fracaso en las negociaciones entre Estados Unidos e Irán que provoque la reanudación de ataques militares o sanciones adicionales.",
+    "Implementación efectiva del peaje en el Estrecho de Hormuz que reduzca aún más el tráfico marítimo y eleve los precios del petróleo.",
+    "Escalada en la guerra de Ucrania que, aunque no es el foco principal, podría aumentar la volatilidad global y afectar la percepción de riesgo.",
+    "Retrasos o cambios en la política monetaria estadounidense derivados de sorpresas inflacionarias vinculadas a la crisis energética."
   ],
   "eventos_clave": [
-    "US-Iran face-to-face meeting in Pakistan scheduled for April 10-11, 2026.",
-    "US Consumer Price Index (CPI) release for March 2026 on April 10, 2026.",
-    "US Personal Consumption Expenditures (PCE) data for February 2026 on April 9, 2026.",
-    "Israeli military activity developments in Lebanon over the next two weeks.",
-    "Market reaction to oil price movements and supply flow status through the Strait of Hormuz."
+    "Reunión entre funcionarios de Estados Unidos e Irán en Pakistán programada para el sábado 11 de abril de 2026.",
+    "Publicación del índice de precios al consumidor (CPI) de Estados Unidos para marzo, esperado con una aceleración significativa.",
+    "Audiencia en la Corte de Comercio Internacional sobre el impuesto global del 10% a las importaciones impuesto por la administración Trump.",
+    "Decisión y acciones de Estados Unidos y aliados para asegurar el tránsito marítimo en el Estrecho de Hormuz.",
+    "Evolución de las conversaciones entre Israel y Líbano para reducir las hostilidades y negociar un acuerdo."
   ]
 }

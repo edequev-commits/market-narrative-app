@@ -1,192 +1,73 @@
 === FUENTE PRIORITARIA 1: VITAL KNOWLEDGE ===
 Remitente: Vital Knowledge <updates@vitalknowledge.net>
-Asunto: Vital Knowledge: Vital Dawn for Thursday April 9, 2026
-Fecha: 2026-04-09T03:21:15-06:00
+Asunto: Vital Knowledge: Vital Dawn for Friday April 10, 2026
+Fecha: 2026-04-10T03:20:16-06:00
 
 MARKET LEVELS:
-Market levels – the US equity futures are in the red so far this morning: S&P -30 points/43bp, Dow -196 points/41bp, Nasdaq -104 points/42bp, and R2 K -19.8 points/75bp. The major Eurozone indices are down 70-90bp, with underperformance in autos, industrials, luxury, tech, and media while utilities, energy, insurance, and chemicals outperform . Stocks in Asia mostly saw losses on Thursday (with some exceptions): TPX -0.9%, NKY -0.73%, Hang Seng -0.54%, HSCEI -0.75%, SHCOMP -0.72%, Shenzhen -0.61%, Taiwan TAIEX +0.29%, Korea KOSPI -1.61%, Australia ASX 200 +0.24%, and India is down ~1.1-1.3%. Treasuries are flat across the curve, and Fed expectations aren’t moving much either (the market is pricing in 7bp of rate cuts this year). The DXY is ticking down 10bp. Brent is rallying 340bp to ~$98 (the recent low was ~$90.40 from Wed morning). Gold is rallying 30bp while silver trades flat. Bitcoin is about unchanged at ~$71.3 K.
+Market levels – the US equity futures are seeing losses so far this morning: S&P -8.75 points/13bp, Dow -96 points/20bp, Nasdaq -33 points/13bp, and R2 K -7.3 points/28bp. The major Eurozone indices area flat-to-up 10bp, with outperformance in luxury, tech, media, and healthcare while utilities, energy, telecoms, insurance, and basic resources underperform . Stocks in Asia generally saw gains on Friday: TPX -0.04%, NKY +1.84%, Hang Seng +0.55%, HSCEI +0.5%, SHCOMP +0.51%, Shenzhen +1.54%, Taiwan TAIEX +1.6%, Korea KOSPI +1.4%, Australia ASX 200 -0.14%, and India is up ~90bp. Treasuries are for sale, w/yields up ~2-3bp across the curve ahead of the Mar CPI that’s expected to be very hot . The market is pricing in ~6bp of Fed rate cuts this year. The DXY is ticking up 13bp following several days of declines. Brent is rising ~220bp to ~$98 while gold falls 50bp and silver drops 30bp. Bitcoin is sliding 100bp to ~$71.66 K.
 •
 
 WHAT'S HAPPENING THIS MORNING:
-What’s happening this morning – equities are giving back a bit of the Wed rally as investors sit on the edge of their seats to see whether the fragile ceasefire holds . Incremental news since the US close yesterday has been pretty quiet , and the next major (scheduled) event will be the (tentative) US-Iran meeting set to take place Sat morning in Pakistan (late on Friday in the US). While there were ceasefire violations earlier Wed, it seems like the détente is very much in place so far Thurs – there were no reports of strikes on Iran, and Iran seems to have fired off no drones/missiles of its own , while the foreign ministers of Iran and Saudi Arabia spoke this morning for the first time since the war commenced . The two big flies in the ceasefire ointment are Lebanon (Israel apparently promised Washington it would dial back the intensity of its strikes against Hezbollah for the next two weeks, but this theater is not included in the ceasefire) and Hormuz (where traffic remains depressed and Iran seems to be pushing forward with plans for a toll). In AI , the big news isn’t Meta’s Muse Spark (which we wrote about here on Wed) but instead the new models from Anthropic and Open AI . Anthropic’s warnings about its new model being so powerful that it couldn’t be released right away to the public weighed heavily on software sentiment , and it sounds like Open AI will be adopting a similar approach to its latest model (according to Axios ).
+What’s happening this morning – it’s fairly quiet as investors remain on the edge of their seats regarding the Middle East ceasefire ahead of the upcoming talks between US and Iranian officials in Pakistan (Iranian officials are on the ground in Pakistan according to reports, and the meeting is set to occur early Sat morning Pakistan time). The two big impediments to a deal include Hormuz (traffic remains very depressed, and Tehran seems to be pushing forward with plans for a toll, something Trump Thurs night warned against) and Lebanon (Netanyahu agreed to dial back the intensity of IDF strikes and will hold talks with the Lebanon gov’t, but Israel vowed to continue its campaign against Hezbollah). In terms of non-Iran news , we didn’t see anything too dramatic since the Thurs close ( China’s inflation was mixed, the Bank of Korea left rates unchanged as expected, TSMC’s Q1 revenue came in a bit better w/Mar sales surging ~45% Y/Y vs. ~22% in Feb, The Information published Space X P&L details from 2025 that seem to fall far short of the types of numbers required for a ~$1.75 T+ market cap, and the latest Barron’s cover story talks about a Space X/Tesla merger ).
 •
 
 HOW WE'RE THINKING ABOUT MARKETS:
-How we’re thinking about markets – there is a lot of skepticism and cynicism when it comes to the cease fire and this, coupled with continued technical imbalances (in terms of lean long positioning and negative sentiment) point to more equity upside in the immediate term (we think the ceasefire will hold , for reasons outlined in a piece published Wed morning; the next major event will probably be the face-to-face talks between US and Iranian officials tentatively scheduled for Friday in Pakistan ). In addition, consumer-linked firms sounded fairly sanguine about the macro landscape (including earnings from DAL and LEVI , and remarks from WMT’s CFO), and this was in reference to a time before the ceasefire took effect . However, since the SPX was struggling with 6900-7000 even before the war , that range is going to be even stronger resistance now . Meanwhile, the inability of Treasuries to rally Wed (and so far Thurs) is a big red flag , and points to the risk of the war’s inflationary effects being larger and more durable than anticipated (the Mar CPI on Fri is expected to show a huge acceleration vs. Feb).
-• What we’ll be watching on Thursday – the only major event on the calendar is the US PCE for Feb at 8:30am ET (the Street is modeling headline unchanged vs. Jan at +2.8% Y/Y while core cools 10bp to +3%).
-• What we’ll be watching on Friday – the major events will be the US CPI for Mar at 8:30am ET (the Street is looking for a sharp acceleration in headline to +3.4% vs. +2.4% in Feb while core climbs to +2.7% vs. +2.5% in Feb) and the first meeting of US and Iranian officials in Pakistan (which is set to commence Sat morning Pakistan time).
+How we’re thinking about markets – there’s still a lot of cynicism and skepticism about the durability of the ceasefire and to the extent the détente’s permanency outperforms expectations (which is our view), this will place further upward pressure on the SPX , especially given the technical backdrop (characterized by lean long positioning and negative sentiment). However, the SPX has already bounced ~8% trough-to-peak in just a few days, and the index is nearing the ~6900-7000 zone , which was a problem area even before the war started . And while we have a brighter view on the Middle East ceasefire than the consensus , the region will never go back to where it stood before (~$90 is probably the new ~$70 when it comes to Brent), and a substantial burst of stagflationary pressure is washing over the global economy from the last 5 weeks of fighting (the US CPI for Mar due out Fri morning is expected to show a significant acceleration vs. Feb).
+• What we’ll be watching on Friday – the major events will be the US CPI for Mar at 8:30am ET (the Street is looking for a sharp acceleration in headline to +3.4% vs. +2.4% in Feb while core climbs to +2.7% vs. +2.5% in Feb) and the first meeting of US and Iranian officials in Pakistan (which is set to commence Sat morning Pakistan time). In addition, a hearing will take place before the Court of Int’l Trade about Trump’s 10% Section 122 blanket tariff that was implemented after the SCOTUS decision (and that Trump said would go to 15% but hasn’t).
 •
 
 MARKET IN A MINUTE (MACRO):
-Market in a Minute (macro) – US/Iran: 8 reasons why the ceasefire is likely to hold ( Vital Knowledge ); Vance will lead a delegation of American officials to Pakistan for talks w/ Iran this weekend ( Axios ); Israel offers to dial back its activity in Lebanon during the US-Iran negotiations ( Axios ); Israel is preparing for a permanent war state despite the efforts by Washington and Tehran to strike a détente ( Reuters ); White House will likely extend a current waiver of certain Russian/Iran oil sanctions ( Semafor ); Eurozone economy is set to be hit with a “stagflationary shock” according to the EU’s top economic official ( FT ); New Zealand left rates unchanged , as expected, but the accompanying language was hawkish , with the central bank warning that it stood ready to tighten policy forcefully if the Middle East war pushed inflation higher ( WSJ ); NATO and the US : the White House is considering a plan to shift American troops out of countries deemed unhelpful during the recent Iran campaign ( WSJ ); Private credit redemptions exceeded $20 B in Q1 as investors pivoted away from the category ( FT )
+Market in a Minute (macro) – US is considering options to encourage ships to begin traveling through Hormuz in greater numbers ( Axios ); Trump is demanding commitments from NATO allies to help provide support for securing Hormuz ( Reuters ); Trump told NBC News that he was “very optimistic” about reaching a deal w/Iran (“Iran’s leaders talk much differently when you’re at a meeting than they do to the press . They’re much more reasonable . They’re agreeing to all the things that they have to agree to”) ( NBC ); China/US relations : China is playing a key role in helping negotiate peace in the Middle East and Xi hopes this will set the stage for a successful summit with Trump next month ( WSJ ); China/US relations: the White House is deliberately adopting a more conciliatory approach to China compared to the antagonism of Trump’s first term ( WSJ ); China’s PPI came in a bit firmer than anticipated at +0.5% Y/Y (vs. the Street +0.4% and up from -0.9% in Feb) while the CPI ran a touch cooler at +1% (vs. the Street +1.1% and down from +1.3% in Feb) ( Reuters ); Warsh’s confirmation hearing, preliminarily planned for Thurs 4/16, will be pushed back ( Punchbowl , CNBC )
 •
 
 IRAN:
-Iran meeting set to take place Sat morning in Pakistan (late on Friday in the US). While there were ceasefire violations earlier Wed, it seems like the détente is very much in place so far Thurs – there were no reports of strikes on Iran, and Iran seems to have fired off no drones/missiles of its own , while the foreign ministers of Iran and Saudi Arabia spoke this morning for the first time since the war commenced . The two big flies in the ceasefire ointment are Lebanon (Israel apparently promised Washington it would dial back the intensity of its strikes against Hezbollah for the next two weeks, but this theater is not included in the ceasefire) and Hormuz (where traffic remains depressed and Iran seems to be pushing forward with plans for a toll). In AI , the big news isn’t Meta’s Muse Spark (which we wrote about here on Wed) but instead the new models from Anthropic and Open AI . Anthropic’s warnings about its new model being so powerful that it couldn’t be released right away to the public weighed heavily on software sentiment , and it sounds like Open AI will be adopting a similar approach to its latest model (according to Axios ).
-• How we’re thinking about markets – there is a lot of skepticism and cynicism when it comes to the cease fire and this, coupled with continued technical imbalances (in terms of lean long positioning and negative sentiment) point to more equity upside in the immediate term (we think the ceasefire will hold , for reasons outlined in a piece published Wed morning; the next major event will probably be the face-to-face talks between US and Iranian officials tentatively scheduled for Friday in Pakistan ). In addition, consumer-linked firms sounded fairly sanguine about the macro landscape (including earnings from DAL and LEVI , and remarks from WMT’s CFO), and this was in reference to a time before the ceasefire took effect . However, since the SPX was struggling with 6900-7000 even before the war , that range is going to be even stronger resistance now . Meanwhile, the inability of Treasuries to rally Wed (and so far Thurs) is a big red flag , and points to the risk of the war’s inflationary effects being larger and more durable than anticipated (the Mar CPI on Fri is expected to show a huge acceleration vs. Feb).
-• What we’ll be watching on Thursday – the only major event on the calendar is the US PCE for Feb at 8:30am ET (the Street is modeling headline unchanged vs. Jan at +2.8% Y/Y while core cools 10bp to +3%).
-• What we’ll be watching on Friday – the major events will be the US CPI for Mar at 8:30am ET (the Street is looking for a sharp acceleration in headline to +3.4% vs. +2.4% in Feb while core climbs to +2.7% vs. +2.5% in Feb) and the first meeting of US and Iranian officials in Pakistan (which is set to commence Sat morning Pakistan time).
-• Market in a Minute (macro) – US/Iran: 8 reasons why the ceasefire is likely to hold ( Vital Knowledge ); Vance will lead a delegation of American officials to Pakistan for talks w/ Iran this weekend ( Axios ); Israel offers to dial back its activity in Lebanon during the US-Iran negotiations ( Axios ); Israel is preparing for a permanent war state despite the efforts by Washington and Tehran to strike a détente ( Reuters ); White House will likely extend a current waiver of certain Russian/Iran oil sanctions ( Semafor ); Eurozone economy is set to be hit with a “stagflationary shock” according to the EU’s top economic official ( FT ); New Zealand left rates unchanged , as expected, but the accompanying language was hawkish , with the central bank warning that it stood ready to tighten policy forcefully if the Middle East war pushed inflation higher ( WSJ ); NATO and the US : the White House is considering a plan to shift American troops out of countries deemed unhelpful during the recent Iran campaign ( WSJ ); Private credit redemptions exceeded $20 B in Q1 as investors pivoted away from the category ( FT )
-• Market in a Minute (micro – Thursday morning) – Fast Retailing boosted its FY profit/sales forecast following strong H1 results ( Nikkei ); Open AI will copy Anthropic and release its new model in a staggered fashion given powerful capabilities that increase cybersecurity risks ( Axios ); Seven & I said it would delay an IPO of its North America business ( Reuters )
-• Market in a Minute (micro – Friday morning) – APLD (Applied Digital) reported upside in FQ3 on sales (+139% to $126.6 MM vs. the Street $76.5 MM) and EBITDA ($44.1 MM vs. the Street $20.7 MM), w/mgmt. very bullish on the macro demand backdrop, although free cash flow was ugly due to extremely elevated capex (op. cash flow was $55 MM but purchases of property & equipment was $775 MM, producing free cash flow of -$720 MM vs. the Street -$120 MM); DIS (Disney) is planning to cut as many as 1 K jobs in the coming weeks ( WSJ ); STZ (Constellation Brands) reported solid upside in FQ4 on EPS (1.90 vs. the Street 1.73), w/the beat driven by higher sales ($1.92 B vs. the Street $1.87 B, w/upside in both Beer and esp. Wines & Spirits) and better margins (the margin declines weren’t as bad as feared in Beer or Wines & Spirits), but the F27 guidance is underwhelming (the EPS mid-point is $11.55 vs. the Street $12.44) due to persistent headwinds.
-• Calendar for Thursday 4/9 – the focus will be on earnings before the US open ( SMPL ), US personal income/spending for Feb (8:30am ET), the US PCE for Feb (8:30am ET), the US GDP revisions for Q4 (8:30am ET ), US wholesale inventories/trade sales for Feb (10am ET), earnings after the US close ( WDFC ), Japan’s PPI for Mar (Thurs night), China’s PPI/CPI for Mar (Thurs night), and the Bank of Korea policy decision (Thurs night).
-• Calendar for Friday 4/10 – the focus will be on Taiwan’s imports/exports for Mar (4am ET), the US-Iran meeting in Pakistan , the US CPI for Mar (8:30am ET), US factory orders for Feb (10am ET), and the Michigan sentiment survey for Apr (10am ET).
-• What to watch during the week of Monday 4/13 – the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson ).
+Iranian officials in Pakistan (Iranian officials are on the ground in Pakistan according to reports, and the meeting is set to occur early Sat morning Pakistan time). The two big impediments to a deal include Hormuz (traffic remains very depressed, and Tehran seems to be pushing forward with plans for a toll, something Trump Thurs night warned against) and Lebanon (Netanyahu agreed to dial back the intensity of IDF strikes and will hold talks with the Lebanon gov’t, but Israel vowed to continue its campaign against Hezbollah). In terms of non-Iran news , we didn’t see anything too dramatic since the Thurs close ( China’s inflation was mixed, the Bank of Korea left rates unchanged as expected, TSMC’s Q1 revenue came in a bit better w/Mar sales surging ~45% Y/Y vs. ~22% in Feb, The Information published Space X P&L details from 2025 that seem to fall far short of the types of numbers required for a ~$1.75 T+ market cap, and the latest Barron’s cover story talks about a Space X/Tesla merger ).
+• How we’re thinking about markets – there’s still a lot of cynicism and skepticism about the durability of the ceasefire and to the extent the détente’s permanency outperforms expectations (which is our view), this will place further upward pressure on the SPX , especially given the technical backdrop (characterized by lean long positioning and negative sentiment). However, the SPX has already bounced ~8% trough-to-peak in just a few days, and the index is nearing the ~6900-7000 zone , which was a problem area even before the war started . And while we have a brighter view on the Middle East ceasefire than the consensus , the region will never go back to where it stood before (~$90 is probably the new ~$70 when it comes to Brent), and a substantial burst of stagflationary pressure is washing over the global economy from the last 5 weeks of fighting (the US CPI for Mar due out Fri morning is expected to show a significant acceleration vs. Feb).
+• What we’ll be watching on Friday – the major events will be the US CPI for Mar at 8:30am ET (the Street is looking for a sharp acceleration in headline to +3.4% vs. +2.4% in Feb while core climbs to +2.7% vs. +2.5% in Feb) and the first meeting of US and Iranian officials in Pakistan (which is set to commence Sat morning Pakistan time). In addition, a hearing will take place before the Court of Int’l Trade about Trump’s 10% Section 122 blanket tariff that was implemented after the SCOTUS decision (and that Trump said would go to 15% but hasn’t).
+• Market in a Minute (macro) – US is considering options to encourage ships to begin traveling through Hormuz in greater numbers ( Axios ); Trump is demanding commitments from NATO allies to help provide support for securing Hormuz ( Reuters ); Trump told NBC News that he was “very optimistic” about reaching a deal w/Iran (“Iran’s leaders talk much differently when you’re at a meeting than they do to the press . They’re much more reasonable . They’re agreeing to all the things that they have to agree to”) ( NBC ); China/US relations : China is playing a key role in helping negotiate peace in the Middle East and Xi hopes this will set the stage for a successful summit with Trump next month ( WSJ ); China/US relations: the White House is deliberately adopting a more conciliatory approach to China compared to the antagonism of Trump’s first term ( WSJ ); China’s PPI came in a bit firmer than anticipated at +0.5% Y/Y (vs. the Street +0.4% and up from -0.9% in Feb) while the CPI ran a touch cooler at +1% (vs. the Street +1.1% and down from +1.3% in Feb) ( Reuters ); Warsh’s confirmation hearing, preliminarily planned for Thurs 4/16, will be pushed back ( Punchbowl , CNBC )
+• Market in a Minute (micro – Friday morning) – BABA (Alibaba) is pivoting towards monetizing its AI models rather than making them all open source ( FT ); Brunello Cucinelli shares jump in European trading after the company reported strong Q1 revenue growth (+14% on an FXN basis, more than 300bp ahead of the consensus), thanks to strength in DTC/retail (+20.1%); LITE (Lumentum)’s CEO made bullish remarks in a Bloomberg interview, stating that demand is accelerating while its 2028 order book fills up (“the capex numbers from the US hyperscalers are enormous and there seems to be no end in sight”) ( Bloomberg ); Sodexo shares slump in European trading after the company cut its guidance due to ongoing execution challenges and industry competition ( Sodexo ); TSLA (Tesla) : the cover story in the latest Barron’s discusses how Space X might eventually merge with Tesla ( Barron’s ); TSM (TSMC) reported Q1 revenue +35% to TWD1.13 T, slightly ahead of the Street forecast of TWD1.12 T (TSMC reports earnings on Thurs 4/16) ( CNBC )
+• Market in a Minute (micro – Thursday night) - Anthropic is considering a plan that would see it build its own AI chips ( Reuters ); Banks & cyber risks: Bessent summoned the heads of major banks to discuss the risks posed to the industry’s cyber defenses by powerful new AI models like Anthropic’s Claude Mythos ( FT ); FSK (FS KKR) was downgraded to BB+ from BBB- by Fitch; Space X generated $6.5 B of adjusted EBITDA last year, but the company posted a net income loss of just under $5 B (thanks to huge depreciation expense given elevated capex and massive equity-based comp) on more than $18.5 B in revenue ( The Information ); WDFC (WD-40) reported solid upside in FQ2 on EPS/revenue (1.50/$161.7 MM vs. the Street 1.43/$155 MM) and reiterated its prior FY guidance.
+• What to watch during the week of Monday 4/13 – the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), and China’s retail sales/industrial production for Mar (Wed night). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Mon night ( LVMH ), Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain , Pernod Ricard, and TSMC ); and Fri morning ( Ericsson ).
+
 Iran
 
-• Despite obstacles and friction on Wed to the ceasefire (Tehran accused the ceasefire of being violated while countries in the Middle East were forced to defend themselves from Iranian drones and missiles, and the war in Lebanon continues to rage), and ongoing questions about Hormuz , both the US and Iran seem to be pushing forward with diplomacy for the time being , with a face-to-face meeting set to take place in Pakistan this weekend .
-• US/Iran: 8 reasons why the ceasefire is likely to hold ( Vital Knowledge )
-• Trump said US military assets will stay in the Middle East and warned that fighting will recommence if a deal w/Iran isn’t reached (Trump added that he anticipates an agreement will ultimately be struck ) (Truth Social)
-• Vance will lead a delegation of American officials to Pakistan for talks w/ Iran this weekend ( Axios )
-• White House warned against declaring victory prematurely in the Middle East – Iran’s regime remains firmly entrenched , it still possesses powerful missile capabilities , and its control over Hormuz is as strong as ever ( WSJ )
-• The Middle East won’t just go back to the way it was before . The market will embed a significant risk premium on all commodities traveling through Hormuz for the foreseeable future, especially since Iran still seems to have full control over the waterway (according to the FT , Iran will charge a $1/barrel “tolling fee” , payable in bitcoin , for all tankers moving through Hormuz).
-• Israel offers to dial back its activity in Lebanon during the US-Iran negotiations ( Axios )
-• Israel is preparing for a permanent war state despite the efforts by Washington and Tehran to strike a détente ( Reuters )
-• White House will likely extend a current waiver of certain Russian/Iran oil sanctions ( Semafor )
-• US oil exports are set to hit a record high in April as demand climbs due to Middle East disruptions ( FT )
-• Oil industry execs urge the White House to block Iran’s proposed Hormuz toll ( Politico )
+• What bulls are talking about : while there were ceasefire violations earlier Wed, on Thurs and into Fri the détente between the US/Israel and Iran was holding in place reasonably well . Trump told NBC News that he was “very optimistic” about reaching a deal w/Iran (“Iran’s leaders talk much differently when you’re at a meeting than they do to the press. They’re much more reasonable. They’re agreeing to all the things that they have to agree to”). Importantly, it looks like the situation in Lebanon could cool , removing a substantial source of pressure from the Iran ceasefire . Netanyahu on Thurs said Israel was seeking to “ open direct negotiations with Lebanon as soon as possible ” (according to an NBC News report, Trump asked Netanyahu to dial back the intensity of the IDF’s strikes on Lebanon, and the Israeli PM agreed “to be a helpful partner” ).
+• What bears are talking about : the Middle East ceasefire is very fragile and risks being undermined by the situation in Lebanon ( Netanyahu might be seeking to hold talks w/Lebanon, but he was explicit in stating that no cease fire exists between the two countries , and vowed to continue striking Hezbollah “with force” ) and Hormuz ( volumes through the waterway remain depressed , and Tehran seems very serious about proceeding with plans for a toll, something Trump at 5:10pm ET Thurs afternoon warned them not to do). The US and Iran have some huge differences that need to be ironed out for a full deal to be implemented, and time is very much of the essence (Trump warned Wed night that the Pentagon will resume its campaign against Iran if an agreement isn’t reached ). Even if the US and Iran are able to secure a permanent détente, the situation in the Middle East won’t go back to the way it was in the near or immediate term – every commodity and product going through Hormuz will embed a significant geopolitical risk premium for the foreseeable future , ensuring the global economy faces a persistent source of stagflationary pressure . Significant damage was inflicted to key infrastructure in the Middle East over the last several weeks, and it will take a long time to bring all this back online ( Saudi Arabia on Thurs said it lost ~600 K BPD of oil capacity due to damage from the war). The IMF on Thurs warned that the Middle East war will deal a major blow to the global economy , even with the recent ceasefire.
+• US is considering options to encourage ships to begin traveling through Hormuz in greater numbers ( Axios )
+• UAE official says that Hormuz is not open despite the ceasefire ( CNBC )
+• Trump is demanding commitments from NATO allies to help provide support for securing Hormuz ( Reuters )
+
+Washington/
 
 US MACRO:
 US macro
 
-• The stagflationary pulse sparked by the ~5-week war is coursing through the global economy , and it’s not clear when (or if) this will dissipate (it might not be fully out of the data until the late summer or fall).
-• The Fed will probably (at best) be on the sidelines this year when it comes to the Funds Rate , and the pace of asset purchases is set to slide meaningfully after this month (while the BOE, ECB, and BOJ are all likely to hike rates this year).
-• The Fed minutes Wed afternoon contained a lot of hawkish commentary about upside inflation risks, and some central bank officials wanted to warn markets of the risk for potential rate hikes . That said, Fed officials are still inclined to cut rates assuming data unfolds as anticipated (“many participants judged that, in time, it would likely become appropriate to lower the target range for the federal funds rate if inflation were to decline in line with their expectations”).
-• US fertility rate fell to a fresh record low in 2025 , hitting 53.1 births per 1000 women of childbearing age (down from 53.8 in 2024) ( NYT )
+• Warsh’s confirmation hearing, preliminarily planned for Thurs 4/16, will be pushed back ( Punchbowl , CNBC )
+• White House expresses confidence that Warsh will be leading the Fed in May ( Reuters )
+• Chinese auto OEMs are unlikely to sell vehicles in the US anytime soon due to restrictions on foreign technology ( Bloomberg )
+• Washington could ratchet up restrictions on the ability of Chinese telecom firms to operate in the US ( Reuters )
+• USPS plans to increase the price of a stamp from 78c to 82c (the price has risen 34% since 2021) ( Bloomberg )
+• White House warns staff not to use prediction markets to make bets on policy changes ( WSJ )
+• US/NATO : Trump is considering pulling some US troops from Europe in an expression of displeasure with NATO’s behavior during the Iran war ( Reuters )
 
-Washington
+INTERNATIONAL MACRO:
+International macro
 
-• White House will press forward with a pro-AI regulatory stance despite rising pushback to the technology ( WSJ )
-• Republicans increasingly concerned about the party’s mid-term prospects despite the Iran ceasefire ( Politico )
-• Chris Phelan , an advisor at the Minneapolis Fed, is the lead candidate to replace Stephen Miran as chair of the Council of Economic Advisors ( Politico )
-
-Int’l macro
-
-• Chinese auto sales slumped 12.5% Y/Y in Mar, the 6 th straight month of declines ( Reuters )
-• Chinese autos : GAC said it would begin assembling vehicles in Mexico in H2, becoming the first Chinese auto OEM to establish a production facility in the country ( Motor Trend )
-• Eurozone economy is set to be hit with a “stagflationary shock” according to the EU’s top economic official ( FT )
-• German industrial production for Feb fell short (-0.3% vs. the Street +0.7%) while exports came in ahead of plan (+3.6% vs. the Street +1.3%) (Bloomberg)
-• Japanese consumer confidence slumped to 33.3 in Mar (down from 39.7 in Feb and below the consensus forecast of 38.3) (Bloomberg)
-• Mexico will dramatically increase domestic gas production as the country looks to reduce its dependence on American supplies ( FT )
-• NATO and the US : the White House is considering a plan to shift American troops out of countries deemed unhelpful during the recent Iran campaign ( WSJ )
-• Saudi Arabia abandons plans to expand its massive SWF into semiconductor manufacturing ( Semafor )
-• New Zealand left rates unchanged , as expected, but the accompanying language was hawkish , with the central bank warning that it stood ready to tighten policy forcefully if the Middle East war pushed inflation higher ( WSJ )
-
-Consumer
-
-• COST (Costco) reported a modest uptick in core US comps in Mar (+6.2% vs. +6% in Feb) while Canada and Other Int’l both cooled ( Canada came in at +5.4% vs. +9.3% in Feb and Other Int’l was +6.6% vs. +10.9% in Feb).
-• Fast Retailing boosted its FY profit/sales forecast following strong H1 results ( Nikkei )
-• Indiana became the second state (after Georgia) to suspend its gas tax as governors look to provide relief for their consumers ( Reuters )
-• PSMT (Price Smart) reported solid upside in FQ2 on EPS ($1.62 vs. the Street $1.57), EBITDA ($99.7 MM vs. the Street $94 MM), and sales (+9.7% to $1.495 B vs. the Street $1.475 B).
-• Seven & I said it would delay an IPO of its North America business ( Reuters )
-• STZ (Constellation Brands) reported solid upside in FQ4 on EPS (1.90 vs. the Street 1.73), w/the beat driven by higher sales ($1.92 B vs. the Street $1.87 B, w/ upside in both Beer and esp. Wines & Spirits ) and better margins (the margin declines weren’t as bad as feared in Beer or Wines & Spirits), but the F27 guidance is underwhelming (the EPS mid-point is $11.55 vs. the Street $12.44) due to persistent headwinds (“while we are encouraged by the momentum displayed during the fourth quarter across our Beer and Wine & Spirits businesses, we expect the operating environment to remain dynamic given the evolving socioeconomic backdrop and limited near-term visibility ”).
-• WMT (Walmart)’s CFO spoke at a JPMorgan event on Wed and sounded relatively sanguine about the macro landscape despite all the macro uncertainty (“I am probably more constructive on the consumer than what one would glean from reading the headlines of news publications. There's a lot of alarmist headlines and what the impact can be on the consumer. But the consumer continues to be very resilient ”)
-Financials
-
-• BLK (Black Rock) shares have performed very well of late as investors focus on its traditional asset mgmt. business instead of the recent private credit-related acquisitions ( WSJ )
-• Private credit redemptions exceeded $20 B in Q1 as investors pivoted away from the category ( FT )
-M&A/Strategic Actions
-
-• Open AI’s CFO said the company will dedicate a chunk of its upcoming IPO for retail investors ( CNBC )
-• Seven & I said it would delay an IPO of its North America business ( Reuters )
-TMT
-
-• Anthropic: an appeals court declined to block the Pentagon from blacklisting Anthropic ( Reuters )
-• APLD (Applied Digital) reported upside in FQ3 on sales (+139% to $126.6 MM vs. the Street $76.5 MM) and EBITDA ($44.1 MM vs. the Street $20.7 MM), w/ mgmt. very bullish on the macro demand backdrop (“We are seeing a clear acceleration in demand for high-performance AI data center capacity, with hyperscalers as aggressive as we have ever seen them . Just three months ago, we referenced approximately $400 B in annual capital expenditures from the largest U.S. hyperscalers. That figure has now been reported to have increased to nearly $700 B), although free cash flow was ugly due to extremely elevated capex (op. cash flow was $55 MM but purchases of property & equipment was $775 MM, producing free cash flow of -$720 MM vs. the Street -$120 MM ).
-• ARM (Arm)’s CEO is expected to take on the additional role of running much of Softbank’s int’l business ( FT )
-• DIS (Disney) is planning to cut as many as 1 K jobs in the coming weeks ( WSJ )
-• META (Meta) shares spiked on Wed after the company released the first AI model (dubbed Muse Spark) since its recent aggressive hiring/spending spree. Following a NYT report back in Mar about how Meta’s new model was underperforming on internal tests , investors were happy to see Muse Spark formally unveiled , and that it seemed to do decently on benchmarks vs. peers (according to the WSJ , Meta claimed Muse Spark significantly outperformed Grok and did better than Gemini on certain tests while being competitive against Chat GPT and Claude on others ). All that said, there remain a lot of questions about why Meta is pouring so much money into AI given that it has fairly little to show for it (Meta’s various AI initiatives and products lag far behind other frontier firms like Anthropic, Open AI, and Google in terms of market and mindshare , and Muse Spark might, at best, be at parity with those other firms technically , all of whom are rushing to release updated products). It’s a testament to the strength of Meta’s core business that mgmt. can expend so many resources on AI without having to constantly raise fresh capital (a luxury x AI, Open AI, and Anthropic don’t have), but that still doesn’t mean it’s a good idea from an ROI perspective (so far, Apple’s approach to AI, whereby it’s expending minimal cash to repurpose Gemini and earning fees via the App Store on the whole industry, seems like the wisest from a free cash flow perspective).
-• Open AI will copy Anthropic and release its new model in a staggered fashion given powerful capabilities that increase cybersecurity risks ( Axios )
-• Open AI’s CFO said the company will dedicate a chunk of its upcoming IPO for retail investors ( CNBC )
-• Saudi Arabia abandons plans to expand its massive SWF into semiconductor manufacturing ( Semafor )
-• TTWO (Take Two)’s GTA 6 may finally see the light of day as the Nov 19 launch date is unlikely to be pushed back further ( Seeking Alpha )
-• White House will press forward with a pro-AI regulatory stance despite rising pushback to the technology ( WSJ )
-
-Calendar for the week of Monday April 13
-
-• What to watch during the week of Monday 4/13 – the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain and Pernod Ricard ); and Fri morning ( Ericsson ).
-• Calendar for Monday 4/13 – the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST, GS ), US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night).
-• Calendar for Tuesday 4/14 – the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK, C, JNJ, JPM, KMX, WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night).
-• Calendar for Wednesday 4/15 – the focus will be on earnings before the EU open ( Antofagasta, ASML, Hermes ), EU industrial production for Feb (5am ET), earnings before the US open ( BAC, PGR, PNC, MS, MTB ), the US Empire Manufacturing Index for Apr (8:30am ET), US import/export prices for Mar (8:30am ET), the NAHB housing market index for Apr (10am ET), the Fed’s Beige Book (2pm ET), earnings after the US close ( HOMB, SLG ), China’s new home prices for Mar (Wed night), Australia’s jobs report for Mar (Wed night), and China’s retail sales/industrial production for Mar and GDP for Q1 (Wed night).
-• Calendar for Thursday 4/16 – the focus will be on earnings before the EU open ( Entain, Pernod Ricard, Rentokil, Tesco earnings ), UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB ), US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET), US industrial/manufacturing production for March (9:15am ET), and earnings after the US close ( AA, NFLX ).
-• Calendar for Friday 4/17 – the focus will be on earnings before the EU open ( Ericsson ), the Eurozone trade balance for Feb (5am ET), and earnings before the US open ( ALLY, ALV, FITB, RF, STT, TFC ).
-
-Catalysts – big events to watch over the coming months
-
-• SMPL earnings – Thurs 4/9 before the US open
-• US PCE for Feb – Thurs 4/9 at 8:30am ET
-• WDFC earnings – Thurs 4/9 after the US close
-• US/Iran meeting in Pakistan
-• US CPI for Mar – Fri 4/10 at 8:30am ET
-• FAST, GS earnings – Mon 4/13 before the US open
-• BLK, C, JNJ, JPM, KMX, WFC earnings – Tues 4/14 before the US open
-• Kering earnings – Tues 4/14 after the EU close
-• Antofagasta, ASML, Hermes earnings – Wed 4/15 before the EU open
-• BAC, PGR, PNC, MS, MTB earnings – Wed 4/15 before the US open
-• Fed Beige Book – Wed 4/15 at 2pm ET
-• HOMB, SLG earnings – Wed 4/15 after the US close
-• China’s retail sales/industrial production for Mar and GDP for Q1 – Wed night 4/15
-• Entain, Pernod Ricard, Rentokil, Tesco earnings – Thurs 4/16 before the EU open
-• ABT, BK, CFG, KEY, MRSH, PEP, PLD, SCHW, TRV, USB earnings – Thurs 4/16 before the US open
-• Senate banking committee hearing on Kevin Warsh’s Fed chair nomination – Thurs 4/16
-• AA, NFLX earnings – Thurs 4/16 after the US close
-• Ericsson earnings – Fri 4/17 before the EU open
-• ALLY, ALV, FITB, RF, STT, TFC earnings – Fri 4/17 before the US open
-• BOH, CLF earnings – Mon 4/20 before the US open
-• ALK, STLD, WTFC, ZION earnings – Mon 4/20 after the US close
-• CBSH, DGX, DHI, DHR, GE, GPC, HAL, MSCI, NOC, NTRS, RTX, SYF, TSCO, UNH, VMI earnings – Tues 4/21 before the US open
-• ADC, CALX, CB, COF, EQT, EWBC, HWC, IBKR, ISRG, MANH, OZK, RRC, SON, UAL, WRB, WRFD earnings – Tues 4/21 after the US close
-• ADBE analyst meeting at the Adobe Summit 2026 event – Tues 4/21 at 5pm ET
-• BA, BKU, BSX, CME, ELV, MAS, MCO, MHO, OTIS, PM, T, TEL, TMHC, WAB earnings – Wed 4/22 before the US open
-• CALX analyst meeting – Wed 4/22
-• AZZ, BANC, BANR, CHDN, CSX, FAF, FULT, GGG, GTY, HXL, IBM, KNX, LRCX, LUV, MEDP, MOH, NOW, OII, PKG, RJF, RS, TSLA, TXN earnings – Wed 4/22 after the US close
-• AXP, BX, CBRE, CMCSA, CNP, DOV, DOW, FCX, HBAN, HON, IRDM, KDP, LMT, NDAQ, PCG, PENN, PHM, R, ROP, TMO, UNP earnings – Thurs 4/23 before the US open
-• AMP, ASB, BKR, BYD, CHE, COLB, DLR, ERIE, GLPI, HIG, INTC, KN, KNSL, MXL, NEM, PFG, REXR, VRSN earnings – Thurs 4/23 after the US close
-• CHTR, FHB, GNTX, HCA, NSC, PG, SLB earnings – Fri 4/24 before the US open
-• DPZ, VZ earnings - Mon 4/27 before the US open
-• AMKR, ARE, AVB, BRO, BRX, CCK, CDNS, CR, KRC, NOV, NUE, RMBS, UHS earnings – Mon 4/27 after the US close
-• ABG, AIT, AMT, ARCB, AVY, AWI, BEN, CMS, CNC, CVLT, ECL, GLW, GM, HLT, IVZ, KMB, KO, LGIH, NEO, PII, SHW, SPGI, SYY, TRU, UPS, XYL earnings – Tues 4/28 before the US open
-• ACGL, AKR, BKNG, BXP, CSGP, CZR, EIX, EHPH, ESS, EXR, FE, FFIV, GEF, HIW, HOOD, LSTR, NXPI, OI, OKE, OMC, PEB, PPG, RNR, RUSHA, TMUS, TRMK, UCTT, UNM, WERN, WM, WPC earnings – Tues 4/28 after the US close
-• ABBV, ADP, APH, AVTR, BG, BIIB, CRS, EAT, EXTR, GEHC, GRMN, HUM, IEX, KRG, NAVI, ODFL, LXP, PB, PRG, PSX, REGN, SMG, SWK, TW, VIRT, VMC, WING, YUM earnings – Wed 4/29 before the US open
-• ALGN, ALL, AWK, CHRW, CLB, CMG, CVNA, EG, EIG, EQIX, F, FMC, GOOGL, KLAC, MAA, MGM, MTG, MUSA, NWE, ORLY, PI, REG, RNST, RRR, SFM, VICI, WH earnings – Wed 4/29 after the US close
-• AOS, ATI, AXTA, BMY, CAH, CAT, CFR, CHH, CI, CNX, COP, CRH, BMY, FTI, FTV, H, HSY, ICE, IP, ITGR, JLL, LECO, LH, LHX, LKQ, LLY, MO, MRK, PBF, PH, PHIN, SAH, SAIA, SO, TAP, THC, TXT, VLO, XEL, XPO earnings – Thurs 4/30 before the US open
-• AAPL, AIG, AMGN, ATR, AX, COLM, CPT, CUBE, CWST, DRH, DXCM, EHC, GDDY, GDYN, LNT, MHK, MTX, PK, RHP, RMD, RYAN, SKT, SNDK, SNDR, SYK, WY earnings – Thurs 4/30 after the US close
-• ARES, CBOE, CHD, CL, CVX, DINO, EL, FRT, LEA, LIN, LYB, NWL, POR, XHR, XOM earnings – Fri 5/1 before the US open
-• BRK’b earnings and shareholder meeting – Sat 5/2
-• PNW earnings – Mon 5/4 before the US open
-• ADEA, APLE, BWXT, CRBG, DUOL, EQH, FANG, INSP, PGS, VNO, VNOM, VRTX earnings – Mon 5/4 after the US close
-• APTV, BLD, CMI, DUK, EMBC, ENR, EXPD, FERG, GPK, KBR, KKR, LDOS, MPC, PFE, PYPL, SHO, WEC earnings – Tues 5/5 before the US open
-• AIZ, ANDE, ANET, CE, CRC, CRK, CTVA, DEI, EA, EOG, LITE, MBC, MCY, OXY, VGNT, VOYA earnings – Tues 5/5 after the US close
-• ADNT, APO, BALL, BWA, COR, CVS, EXC, LIVN, LPX, PODD, QSR, SOLS earnings – Wed 5/6 before the US open
-• GLW analyst meeting – Wed 5/6
-• ALB, APP, CF, CXW, DV, DVN, ECPG, FTNT, HMN, HST, MAC, MUR, ORA, RUN, SM, TKO, UGI earnings – Wed 5/6 after the US close
-• AVNT, BSY, EPAM, FUN, GWW, HAE, HTZ, LNC, LQDT, MCD, NXST, RXO, VST earnings – Thurs 5/7 before the US open
-• C analyst meeting – Thurs 5/7
-• AKAM, MCK, OLN, RSG, TNDM, XYZ earnings – Thurs 5/7 after the US close
-• FLR, SLVM earnings – Fri 5/8 before the US open
-• Trump to visit China - May 14-15
-• Apple WWDC – June 8-12
-
-READ ONLINE
-
-© 2019-2026 Vital Knowledge Media LLC. All Rights Reserved.
-
-You are receiving this email because you are subscribed to Vital Knowledge.net .
-
-To
-
-Got questions, feedback or suggestions? You can contact our Financial Markets Questions , Subscriptions or Technical departments.
-
-Vital Knowledge Media, LLC ( https://Vital Knowledge.net )
-
-210 Warren Street, 19 B NY, NY 10282
-
-Principal author: Adam Crisafulli ( Adam@Vital Knowledge.net ).
+• China/US relations: the White House is deliberately adopting a more conciliatory approach to China compared to the antagonism of Trump’s first term ( WSJ )
+• China/US relations : China is playing a key role in helping negotiate peace in the Middle East and Xi hopes this will set the stage for a successful summit with Trump next month ( WSJ )
+• China/Taiwan relations : Xi tells Taiwan’s opposition leader that unification is an “historical inevitability” ( FT )
+• China’s PPI came in a bit firmer than anticipated at +0.5% Y/Y (vs. the Street +0.4% and up from -0.9% in Feb) while the CPI ran a touch cooler at +1% (vs. the Street +1.1% and down from +1.3% in Feb) ( Reuters )
+• Europe boosted imports of Russian LNG in Q1 amid strains in Middle Eastern supplies ( FT )
+• Europe and the US are close to a deal on producing/sourcing critical materials ( Bloomberg )
+• Japan’s PPI for Mar came in at +0.8% M/M (vs. the Street +0.7%) and +2.6% Y/Y (vs. the Street +2.3%) (Bloomberg)
+• Russia/Ukraine will observe a 32-hour ceasefire on Orthodox Easter ( Reuters )
+• Russia/Ukraine : Zelensky is skeptical about a breakthrough in peace talks w/Russia ( NYT )
+• South Korea’s central bank left rates unchanged at 2.5%, as expected ( WSJ )
+• Taiwan’s exports surged 61.8% Y/Y in Mar, far ahead of the Street consensus forecast of +34.7% (Bloomberg)
 
 WEEKLY OVERVIEW:
 - Día: Monday | Hora:  | Evento: the main macro events this week include China’s imports/exports for Mar (Mon night) | Impacto: Medium
-- Día: Wednesday | Hora:  | Evento: US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon) | Impacto: Medium
-- Día: Monday | Hora:  | Evento: China’s retail sales/industrial production for Mar (Wed night), and Kevin Warsh’s confirmation hearing before the Senate Banking Committee (Thurs). For US earnings , the key reports include: Mon morning ( GS ) | Impacto: High
+- Día: Monday | Hora:  | Evento: US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), and China’s retail sales/industrial production for Mar (Wed night). For US earnings , the key reports include: Mon morning ( GS ) | Impacto: High
 - Día: Tuesday | Hora:  | Evento: Tues morning ( BLK | Impacto: Medium
 - Día:  | Hora:  | Evento: KMX , and WFC ) | Impacto: Medium
 - Día: Wednesday | Hora:  | Evento: Wed morning ( BAC | Impacto: Medium
@@ -196,14 +77,16 @@ WEEKLY OVERVIEW:
 - Día:  | Hora:  | Evento: TRV , and USB ) | Impacto: Medium
 - Día: Thursday | Hora:  | Evento: Thurs night ( AA and NFLX ) | Impacto: Medium
 - Día: Friday | Hora:  | Evento: and Fri morning ( RF | Impacto: Medium
-- Día: Tuesday | Hora:  | Evento: STT , and TFC ). In Europe, the key earnings reports include: Tues night ( Kering ) | Impacto: Medium
+- Día: Monday | Hora:  | Evento: STT , and TFC ). In Europe, the key earnings reports include: Mon night ( LVMH ) | Impacto: Medium
+- Día: Tuesday | Hora:  | Evento: Tues night ( Kering ) | Impacto: Medium
 - Día: Wednesday | Hora:  | Evento: Wed morning ( ASML and Hermes ) | Impacto: Medium
-- Día: Thursday | Hora:  | Evento: Thurs morning ( Entain and Pernod Ricard ) | Impacto: Medium
+- Día: Thursday | Hora:  | Evento: Thurs morning ( Entain | Impacto: Medium
+- Día:  | Hora:  | Evento: Pernod Ricard, and TSMC ) | Impacto: Medium
 - Día: Friday | Hora:  | Evento: and Fri morning ( Ericsson ) | Impacto: Medium
 
 CALENDARIO DIARIO:
 - Día: Monday | Hora: 6:30AM ET | Evento: the focus will be on India’s CPI for Mar (6:30am ET), earnings before the US open ( FAST | Impacto: High
-- Día: Monday | Hora: 10AM ET | Evento: US existing home sales for Mar (10am ET), and China’s imports/exports for Mar (Mon night) | Impacto: Medium
+- Día: Monday | Hora: 10AM ET | Evento: US existing home sales for Mar (10am ET), earnings after the EU close ( LVMH ), and China’s imports/exports for Mar (Mon night) | Impacto: Medium
 - Día: Tuesday | Hora: 12:30AM ET | Evento: the focus will be on Japan’s industrial production for Feb (12:30am ET), earnings before the US open ( BLK | Impacto: Medium
 - Día: Tuesday | Hora: 8:30AM ET | Evento: WFC ), the US PPI for Mar (8:30am ET), earnings after the EU close ( Kering ), and South Korea’s import/export prices and unemployment rate for Mar (Tues night) | Impacto: High
 - Día: Wednesday | Hora:  | Evento: the focus will be on earnings before the EU open ( Antofagasta | Impacto: Medium
@@ -217,7 +100,8 @@ CALENDARIO DIARIO:
 - Día: Thursday | Hora:  | Evento: the focus will be on earnings before the EU open ( Entain | Impacto: Medium
 - Día: Thursday | Hora:  | Evento: Pernod Ricard | Impacto: Medium
 - Día: Thursday | Hora:  | Evento: Rentokil | Impacto: Medium
-- Día: Thursday | Hora:  | Evento: Tesco earnings ) | Impacto: Medium
+- Día: Thursday | Hora:  | Evento: Tesco | Impacto: Medium
+- Día: Thursday | Hora:  | Evento: TSM ) | Impacto: Medium
 - Día: Thursday | Hora: 2AM ET | Evento: UK GDP and industrial/manufacturing production for Feb (2am ET), earnings before the US open ( ABT | Impacto: High
 - Día: Thursday | Hora:  | Evento: USB ) | Impacto: Medium
 - Día: Thursday | Hora: 8:30AM ET | Evento: US weekly jobless claims (8:30am ET), the Philadelphia Fed index for April (8:30am ET) | Impacto: Medium
@@ -228,10 +112,10 @@ CALENDARIO DIARIO:
 
 === FUENTE PRIORITARIA 2: REUTERS DAILY BRIEFING ===
 Remitente: Reuters Daily Briefing <dailybriefing@thomsonreuters.com>
-Asunto: Middle ​East ceasefire in jeopardy
-Fecha: 2026-04-09T05:03:56-06:00
+Asunto: Lebanon fighting strains truce
+Fecha: 2026-04-10T05:00:58-06:00
 Extracto:
-Plus, Tesla is developing a new smaller, cheaper EV.
+Plus, shippers weigh unusual routes.
 
 Daily Briefing
 
@@ -239,169 +123,162 @@ Daily Briefing
 
 By Kate Turton
 
-Hello. Israel's bombing of Lebanon puts the Middle East ceasefire in further jeopardy , and Iran emerges from the war with a powerful chokehold on the Strait of Hormuz.
+Hello. The US-Iran ceasefire is under strain ahead of talks, and shippers weigh unusual routes as high air cargo rates and ocean gridlock persist.
 
-Elsewhere, Tesla is developing a new smaller, cheaper EV , and patients searching for estrogen patches report pharmacy-hopping and dose changes.
+Elsewhere, Putin announces an Orthodox Easter ceasefire , and this is how the AI boom derailed clean‑air efforts in one of America's most polluted cities.
+
+Plus, a runaway wolf in South Korea
 
 Today's Top News
 
-A man walks at the site of an Israeli strike, in Al-Mazraa in Beirut, Lebanon. REUTERS/Yara Nard
+Damaged buildings at Kafr Kila following Israeli army activity across the border between Israel and Lebanon. REUTERS/Ammar Awad
 
 War in the Middle East
 
 •
 
-Israel bombed more targets in Lebanon, putting the Middle East ceasefire in further jeopardy after its biggest attacks of the war on its neighbor killed more than 250 people and threatened to torpedo Donald Trump's truce from the outset .
+The Strait of Hormuz remained shut and Israel traded fire with Hezbollah in Lebanon, which the United States and Iran each described as violations of their ceasefire deal on the eve of their first peace talks of the war .
 
-• Hundreds were killed in Lebanon yesterday during the most intense Israeli strikes since its current campaign against Hezbollah began. Reuters Bureau Chief for Lebanon Maya Gebeily tells the Reuters World News podcast why people across the country are worried.
+• US House of Representatives Republicans blocked a Democratic effort to end US attacks on Iran, as Donald Trump's party continued to prevent efforts to rein in the president's war powers .
 •
 
-Nearly six weeks of war in Iran have ended, for now, with Trump claiming victory, but the US-Iran ceasefire locks in a harsh reality: an entrenched, radical government with control over the Strait of Hormuz and a powerful lever over global energy markets and Gulf rivals, analysts say.
-•
-
-Investors placed an approximately $950 million bet on oil prices falling just hours before the US and Iran announced a ceasefire , the latest large wager on the direction of the world's most traded commodity ahead of a major policy announcement by President Donald Trump.
+Prime Minister Keir Starmer said the Iran war must become a turning point for Britain after two decades of crises, and he promised to strengthen the country's economy and military to cope with a more "volatile and dangerous" world.
 
 In other news
 
 •
 
-A lobbying firm led by one of Donald Trump Jr.'s hunting buddies helped a Chinese company make its case to a US national security watchdog against a US startup that was seeking to have the Chinese firm removed as one of its investors, public filings show.
+Russian President Vladimir Putin announced a 32-hour ceasefire over a two-day period for Orthodox ‌Easter and his Ukrainian counterpart Volodymyr Zelenskiy said Kyiv would abide by the measure.
 •
 
-A US Army veteran was charged with providing classified information to a journalist for a book that alleged drug trafficking, murder ‌and corruption at a military base where she had worked, the Department of Justice said.
+" Sometimes I could hear her voice just catch a little bit." White House reporter Bo Erickson was inside the room when Melania Trump delivered an emotional address distancing herself from Jeffrey Epstein. He tells the Reuters World News podcast about the surprising speech.
+
+• The finale to NASA's celebrated 10-day mission is expected ‌to begin with the separation of Orion's crew capsule from its service module, followed by a fiery re-entry through Earth's atmosphere.
 •
 
-Britain's defense minister ‌John Healey said the UK ⁠had tracked Russian submarines in the north Atlantic for a month, ‌which ⁠he said was a threat to ⁠British cables and pipelines.
+A court in Eswatini has ruled that the first five migrants the Trump administration sent to the African kingdom have a right to a lawyer , after they were denied legal representation on their transfer from the US to a Swazi jail in July.
 •
-Pope Leo's upcoming visit to four countries in Africa will be an ambitious tour to urge global leaders to address the needs of the continent where more than a fifth of the world's Catholics live on his first major overseas trip of ‌2026.
+
+Taiwanese officials are tracking what they view as a worrying rise in Chinese naval activity and military pressure against the island, even as Beijing presses a message of peace and cooperation in meetings with Taiwan's opposition leader.
 
 Business & Markets
 
+Cargo ship with shipping containers at the port of Oakland , Oakland, California. February 23, 2026. REUTERS/Carlos Barria/File Photo
+
 •
 
-Share markets sagged as cracks quickly began to appear in the fragile Gulf truce, nudging oil prices back up toward $100 a barrel and reminding investors the inflationary fallout would last a long while yet . And the Iran war doubles Russia's main oil revenue to $9 billion. Read our exclusive.
+Some shippers caught between high jet fuel prices and congestion in vital Middle East waterways are now looking for transport routes ‌in unexpected places , with a recent ceasefire between Iran and the United States unlikely to offer quick relief.
 
-• A Washington, D.C., federal appeals court declined to block the Pentagon's national security blacklisting of AI ‌company Anthropic for now, a win for the Trump administration that comes after another appeals court came to the opposite conclusion in a separate legal challenge by Anthropic.
-•
-Tesla is developing an all-new smaller, cheaper electric SUV, four people familiar with the matter told Reuters. The automaker has contacted suppliers in recent weeks to discuss details of the plan for the compact SUV. For more on the EV revolution and sustainable business, sign up for Ross Kerber's Sustainable Finance Newsletter .
-
-• Car exports, an increasingly important source of growth for China's hyper-competitive auto sector , picked up pace in March despite shipment disruptions from the crisis in ‌the Middle East, one of the industry's key overseas markets.
+• A US trade court will consider the legality of a 10% global import tax imposed by the Trump administration, which several states and small businesses say sidesteps a US Supreme Court ruling ‌that invalidated most of Trump's previous tariffs.
 •
 
-A surge in demand since last year for estrogen patches to ease menopause symptoms has strained supplies and led to shortages, sparking a scramble for medicines that industry sources say could last up to three years.
+Trump warned Tehran not to charge tolls on ships crossing the Strait of Hormuz, as a mounting global energy crisis prompted Japan to announce a further emergency oil release .
 •
 
-Whether it’s Kraft Heinz weighing a split or Unilever sealing a $65 billion mayonnaise deal, edible empires are coming apart. In this week’s Viewsroom podcast , Breakingviews columnists debate consumer groups’ sticky spot.
+Meta said it is pulling ads from Facebook and Instagram aimed at recruiting new plaintiffs for ongoing litigation accusing it and other social media companies of designing their platforms ‌to be addictive to young users.
+•
 
-Trump’s mixed messages and Iran’s bombs kept the Kurds out of the war
+Diminishing demand for late-night drinking and rising operating costs mean London's nightclubs are having to work harder than ever to keep their doors open.
 
-A female fighter from from the Kurdistan Freedom Party, known as PAK, carries a weapon and gestures while training near Erbil, Iraq, in mid-February. REUTERS/Stringer
+The Week Ahead
 
-Iran’s Revolutionary Guards deterred the Kurds from rising up through a combination of military strikes in neighboring Iraq and threats against Kurds on both sides of the border. Ambiguous messages from the US and Israel also left the Kurds confused about their role.
+•
+Voters in Hungary could deliver a boon to bond investors, while Peru's weekend polls will help determine the next step for its economy, the latest in a string of key elections worldwide this year .
 
-Read our special report
+• Finance chiefs from around the globe will gather in Washington for spring meetings of the International Monetary Fund and the World Bank Group.
+•
+Key Chinese data on Thursday will offer a first look at how the world's second biggest economy is adapting to a slower growth trajectory and the war.
+•
 
-Is this the toughest hole in golf?
+Here's everything you need to know about the week ahead in financial markets.
 
-Northern Ireland's Rory Mc Ilroy plays out from the bunker on the 12th hole during a practice round REUTERS/Eloisa Lopez
+How the AI boom derailed clean‑air efforts in one of America's most polluted cities
 
-Considered the toughest hole in golf by none other than 18-times major winner Jack Nicklaus, the 12th hole at Augusta National
+Barbara Johnson stands beside her husband as he uses an oxygen concentrator, Florissant, Missouri. REUTERS/Lawrence Bryant
+
+Barbara Johnson has been fighting coal pollution for decades in her mostly Black neighborhood of North St. Louis as an organizer with Metropolitan Congregations United.
+
+Until recently, she had reason to believe things would improve: tougher federal soot standards adopted in 2024 under the Biden administration were scheduled to go into effect in 2027, requiring plants to slash emissions or shut down. That would have forced one of the area’s biggest polluters - Ameren’s Labadie Energy Center power plant - to cut its soot emissions in half to stay in bus
 
 === FUENTE PRIORITARIA 3: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===
-Remitente principal: CNBC Breaking News <breakingnews@response.cnbc.com>
-Asunto principal: U.S. oil price jumps back above $100 as Iran controls access through Strait of Hormuz
-Fecha principal: 2026-04-09T08:00:02-06:00
-
-HEADLINES CNBC PRIORIZADOS POR RECIENCIA:
-- Prioridad 1 | Fecha: 2026-04-09T08:00:02-06:00 | Headline: U.S. oil price jumps back above $100 as Iran controls access through Strait of Hormuz
-- Prioridad 2 | Fecha: 2026-04-09T07:33:04-06:00 | Headline: S&P 500 slips as oil rises, traders keep eye on U.S.-Iran ceasefire: Live updates
-- Prioridad 3 | Fecha: 2026-04-09T06:36:04-06:00 | Headline: Core inflation was 3% in February, as expected, key Fed gauge shows
+Remitente principal: 
+Asunto principal: 
+Fecha principal: 
 
 REGLA DE USO PARA EL MODELO:
 Los headlines de CNBC seleccionados por recencia deben tener mayor peso relativo que los más antiguos al evaluar el tono inmediato del mercado, la narrativa de la mañana y el régimen de mercado. No deben usarse como evidencia única ni definir por sí solos el régimen; deben complementar el resto de fuentes.
 
-EXTRACTO CONSOLIDADO CNBC:
-[CNBC #1] U.S. oil price jumps back above $100 as Iran controls access through Strait of Hormuz
-Fecha: 2026-04-09T08:00:02-06:00
-U.S. oil price jumps back above $100 as Iran controls access through Strait of Hormuz
-This is a developing news story. Please check back for updates:
-
-[CNBC #2] S&P 500 slips as oil rises, traders keep eye on U.S.-Iran ceasefire: Live updates
-Fecha: 2026-04-09T07:33:04-06:00
-S&P 500 slips as oil rises, traders keep eye on U.S.-Iran ceasefire: Live updates
-This is a developing news story. Please check back for updates:
-
-[CNBC #3] Core inflation was 3% in February, as expected, key Fed gauge shows
-Fecha: 2026-04-09T06:36:04-06:00
-Core inflation was 3% in February, as expected, key Fed gauge shows
-This is a developing news story. Please check back for updates:
-
 === OTROS CORREOS DE MERCADO ===
 CORREO 2
 Remitente: Morning Brew <crew@morningbrew.com>
-Asunto: ☕ Status pending
-Fecha: 2026-04-09T04:28:35-06:00
+Asunto: ☕ Irreversible
+Fecha: 2026-04-10T03:27:22-06:00
 Contenido:
-Stocks rise and oil falls, but ceasefire seems tenuous…
+The long-term economic impacts of the Iran war...
 
-April 09, 2026
+April 10, 2026
 
 Presented By
 
-Good morning. REI’s first full-time employee and manager, Jim Whittaker, died on Tuesday at age 97. What a life he led :
+Happy Friday. By the authority vested in us, we hereby declare today the start of iced coffee season.
+Having trouble remembering when the season begins? It’s the same day every year: the Friday after Beans the Coffee Gargoyle lets out his first mating call of the spring harvest.
+—Sam Klebanov, Molly Liebergall, Matty Merritt, Adam Epstein, Holly Van Leuven
+In today’s newsletter, we’ll get into:
 
-• In 1963, just a decade after Tenzing Norgay and Edmund Hillary became the first confirmed climbers to reach the top of Mount Everest, Whittaker—an REI employee at the time—became the first American to summit Everest.
-• The next year, sales at REI reached $1 million for the first time, thanks to his feat.
-• In 1975, he attempted to summit K2, but was forced back due to weather. In 1978, he led a K2 expedition in which he intentionally remained at lower camps to help the first Americans reach the top without him. In 2013, he told The Seattle Times of mountain-climbing in uncertain conditions, “You always start up, because you can always turn around.” Wise words…
-— Matty Merritt, Dave Lozo, Molly Liebergall, Holly Van Leuven
-In today’s newsletter, we’ll look at:
-
-• The “relief rally” following the US–Iran ceasefire announcement
-• Meta’s brand-new AI model rollout
-• A rat that changed the world for good getting his due
+• The long-term economic impacts of the Iran war
+• Amazon CEO Andy Jassy’s spicy shareholder letter
+• Gen Z starting to get sketched out by AI
 
 MARKETS
 
 Nasdaq
-22,634.99
-+2.80%
+22,822.42
++0.83%
 
 S&P
-6,782.81
-+2.51%
+6,824.66
++0.62%
 
 Dow
-47,909.92
-+2.85%
+48,185.80
++0.58%
 
 10-Year
-4.291%
--5.0 bps
+4.293%
++0.0 bps
 
 Bitcoin
-$71,487.67
-+1.77%
+$72,050.12
++0.89%
 
-Meta
-$612.42
-+6.50%
+Palantir
+$130.54
+-7.26%
 
 Data is provided by
 
-*Stock data as of market close, cryptocurrency data as of 6:00pm ET. Here's what these numbers mean.
+*Stock data as of market close, cryptocurrency data as of 4:00pm ET. Here's what these numbers mean.
 
-• Markets: The major indexes jumped for joy , closing way up on Wednesday, following President Trump’s announcement on Tuesday evening of a “double sided CEASEFIRE,” even as concerns lingered about whether the deal will hold.
-• Stock spotlight: Investors gave Meta a boost after it announced Muse Spark, the first AI model it’s rolled out since assembling its “Superintelligence Labs”—its Avengers-coded team of engineers trying to catch up to and surpass the chatbot leaders.
+• Markets: Stocks did an impression of Miley Cyrus circa 2009 and climbed yesterday, as investors hoped that the Iran ceasefire would hold. Meanwhile, Palantir plummeted after The Big Short investor Michael Burry wrote that Anthropic is “eating Palantir’s lunch” in a now-deleted post on X.
 
-Markets Sponsored by Frontieras
-Final day: Their Nasdaq ticker (FASF) is reserved. You have until midnight t
+Markets Sponsored by Avalara
+Every transaction is a compliance moment. Avalara’s agentic AI platform for global tax and compliance helps businesses keep pace with growth, new markets, and increasing transaction volume. Learn how .
+
+IRREVERSIBLE
+
+The long-term economic impacts of the Iran war
+
+Majid Saeedi/Getty Images
+
+The precarious two-week ceasefire between the US and Iran held yesterday, but the dust is far from settled. The agreement’s durability remains up in the air, and economic chaos is still afoot.
+Whether the peace lasts hinges on talks in Pakistan this weekend, where the US is dispatching Vice President JD Vance to negotiate a longer-term accord with Iran. Meanwhile, Israel agreed to talk directly with Lebanon to end its military campaign against the militant group Hezbollah, which Ir
 ------------------------------------------------------------
 CORREO 3
 Remitente: Reuters Iran Briefing <newsletters@email.reuters.com>
-Asunto: Gulf states eye cheap Ukrainian interceptor drone as Iranian attacks drain missile stocks
-Fecha: 2026-04-09T04:31:06-06:00
+Asunto: At Beirut hospital, grieving families identify mangled bodies after Israeli strikes
+Fecha: 2026-04-10T04:31:06-06:00
 Contenido:
-Gulf states including Saudi ‌Arabia and the UAE are exploring a $2,500 Ukrainian-designed interceptor drone as a cheaper way to counter Iranian attacks that are depleting stockpiles of U.S.-made missiles, a Japanese firm marketing the technology overseas told Reuters.
+Ambulances arriving at a Beirut hospital on Thursday bypassed the emergency room and drove straight to the morgue, where exhausted medics unloaded a succession of bags of body parts ​for relatives to identify before burial.
 
 Iran Briefing
 
@@ -409,25 +286,25 @@ Iran Briefing
 
 Stay informed with the latest developments and analysis of the Iran war . For our coverage from the region in Arabic, visit Reuters.com/ar .
 
-Gulf states eye cheap Ukrainian interceptor drone as Iranian attacks drain missile stocks
+At Beirut hospital, grieving families identify mangled bodies after Israeli strikes
 
-Airline and travel industries see no immediate relief from Iran ceasefire
+Strait still shut and Lebanon fighting strains truce as US and Iran aim for first talks
 
-Israel launches fresh strikes on Lebanon after huge attacks jeopardise truce
+World Food Programme warns Lebanon facing food security crisis due to Iran war
 
-As US and Iran talk truce, Israel digs in for a 'forever war'
+Middle East producers prepare for oil export resumption via Hormuz, sources say
 
-Trump threatens 50% tariffs on countries supplying Iran with weapons
+Airline pilots fear retribution over refusing to fly in Middle East, aviators' group says
 
-Iran ceasefire eases fears but LNG sector left scarred, industry executive says
+Dubai limits foreign flights until May 31, letters show, hitting Indian airlines hardest
 
-Spain condemns Israeli attacks on Lebanon, reopens Tehran embassy
+Ukraine in talks with Oman, Kuwait, Bahrain on security cooperation, Zelenskiy says
 
-Gulf stocks slip as fragile truce jitters investors
+Hormuz at near standstill as Iran warns ships to keep to its waters
 
-Italy working to restore freedom of navigation in Hormuz, Meloni says
+Pakistan's high-stakes Iran peace bid is fraught with risk
 
-Trump's abrupt Iran reversal exposes limits of his leverage
+Saudi Arabia says attacks cut oil output and East-West Pipeline flow
 
 Sponsors are not involved in the creation of newsletters or other Reuters news content. Advertise in this newsletter or on Reuters' website
 
@@ -443,604 +320,138 @@ Terms & Conditions
 3 Times Square, New York, NY 10036
 ------------------------------------------------------------
 CORREO 4
-Remitente: "Morning Bid U.S." <morningbid@thomsonreuters.com>
-Asunto: Relief rally hits pause
-Fecha: 2026-04-09T04:37:13-06:00
+Remitente: Reuters Morning Bid <morningbid@thomsonreuters.com>
+Asunto: Back from the brink?
+Fecha: 2026-04-10T04:40:16-06:00
 Contenido:
-What matters in U.S. and global markets today
+Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend.
 
-Morning Bid U.S.
+Morning Bid Weekend
 
-Morning Bid U.S.
+Morning Bid Weekend
 
 A Reuters Open Interest newsletter
 
-What matters in U.S. and global markets today
+Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend.
 
-By Amanda Cooper , Breaking News Editor, Finance and Markets - Europe
+From the Editor
 
-Wednesday’s relief rally looked fragile heading into Thursday, as the recently agreed two‑week Iran ceasefire wobbled , with Washington and Tehran differing on what the deal actually covers.
+Hello Morning Bid readers!
 
-Oil prices rose and stocks slipped as the Strait of Hormuz remained effectively shut to vessels and another war of words broke out between the two sides, even as weekend peace talks looked set to go ahead.
+Markets returned from the long holiday weekend anything but rested, as U.S. President Donald Trump threatened civilizational destruction if Iran didn’t reopen the Strait of Hormuz before his deadline on Tuesday. But instead of hellfire came news of a two-week ceasefire, which was initially cheered by markets. The question now is whether that optimism will last as investors consider the wide gap between Washington and Tehran and the damage to energy supply chains caused by this conflict.
 
-I’ll get into all that and more below.
+No one knows what will happen next, of course, but it seems likely that conditions will be less benign than many traders currently seem to believe .
 
-But first, listen to the latest episode of the Morning Bid daily podcast . Subscribe to hear Reuters journalists discuss the biggest news in markets and finance seven days a week.
+The eleventh-hour ceasefire announcement late on Tuesday sent both Brent and West Texas Intermediate (WTI) crude prices tumbling from upwards of $110/bbl to under $100 a barrel .
 
-Data refreshes every time you open this email. For more U.S. market news, click here . Please send any feedback to morningbid@thomsonreuters.com .
+This, in turn, allowed global stocks and bonds to stage a relief rally on Wednesday , as U.S. equity indexes finished sharply higher , Asian markets surged , and Europe’s STOXX 600 logged its best day in over 4 years . Government bonds rallied as well, while the dollar weakened against developed-market peers on hopes of a lasting end to the conflict.
 
-Today's Market Minute
+However, cracks quickly emerged in the Pakistan-brokered ceasefire, pushing crude prices back towards $100/bbl on Thursday and stalling the global equity relief rally .
 
-•
-
-Israel bombed more targets in Lebanon on Thursday, putting the Middle East ceasefire in further jeopardy after its biggest attacks of the war on its neighbour so far threatened to torpedo U.S. President Donald Trump's truce from the outset .
-
-• Oil prices rose on Thursday as doubts over the two-week Middle East ceasefire raised concerns that energy flows through the Strait of ‌Hormuz would remain restricted .
-• A growing group of Federal Reserve policymakers felt last month that interest rate hikes might be needed to counter inflation, according ‌to the minutes of their March 17-18 meeting .
-•
-
-Tehran's demand to act as toll booth keeper at the Strait of Hormuz could leave energy markets vulnerable and hardwire higher prices for years, writes ROI Energy Columnist Ron Bousso .
-•
-
-Prices for refined fuels in Asia fell sharply in the wake of the tentative ceasefire between the United States and Iran - but remain at levels that point to a supply crunch, write
+The deal appeared increasingly fragile after Israel on Wednesday staged its largest attack on Hezbollah during this conflict, with Washington and Tehran disagreeing about whether strikes on the Lebanese militant group were meant to be included in the ceasefire agreement. Additionally, Iran attacked Saudi Arabia's East-West Pipelin
 ------------------------------------------------------------
-CORREO 6
+CORREO 5
+Remitente: Morning Download <hi@morningdownload.com>
+Asunto: New inflation report
+Fecha: 2026-04-10T04:46:22-06:00
+Contenido:
+**Good morning investors! **The truce remains and so do the bulls.
+
+**Today we cover:**
+• The inflation report
+• AI is a game changer
+• Filing jointly.. may be not?
+
+———————————————————————————
+
+📊 **Economy and News**** **
+
+### **Core Inflation Holds at 3% in February Ahead of Iran War**
+
+The Federal Reserve’s preferred inflation [gauge showed core PCE prices rising 3% annually in February]( right in line with expectations and just before the U.S.-Israel conflict with Iran drove energy prices sharply higher.
+
+Headline PCE inflation came in at 2.8%. Both core and headline prices rose 0.4% for the month.
+
+Consumer spending increased 0.5% in February, while personal income unexpectedly fell 0.1%. Economists had forecast stronger gains in both.
+
+Separately, fourth-quarter 2025 GDP growth was revised down to just 0.5% annualized from a previous 0.7% estimate, signaling weaker economic momentum even before the war.
+
+“Stagflation was a little worse than expected,” said Trade Station’s David Russell, noting growing parallels to the 1970s.
+
+### **Global hits:**
+• Maine [set to become first state ](https://www.wsj.com/us-news/maine-data-center-ban-e768fb18)with data center ban.
+• Iran attacks on crucial Saudi pipeline and production facilities [slash kingdom’s oil output](
+• Prime Minister [Benjamin Netanyahu said Israel would negotiate]( with Lebanon “as soon as possible.”
+
+**Reminder**: First-class mail [stamps would increase from 78 cents to 82 cents]( effective July 12 if the proposal by the U.S. Postal Service is approved.
+
+———————————————————————————
+
+👨 **Sponsored**
+
+### [**Why This Titanium Explorer Caught Rio Tinto’s Eye**](
+
+Operation Epic Fury showed the scale and speed at which modern warfare can mobilize - with the U.S. striking more than 2,000 Iranian military targets in just 96 hours.
+
+Stealth bombers. Fighter jets. Cruise missiles. Autonomous drones… every one of those systems relies on titanium.
+
+Today, the U.S. imports **more than 95% of its supply**, while 
+------------------------------------------------------------
+CORREO 7
 Remitente: Benzinga Ring The Bell <benzingaringthebell@mail.beehiiv.com>
-Asunto: Michael Burry Just Dropped A Warning Wall Street Can’t Ignore
-Fecha: 2026-04-09T05:05:12-06:00
+Asunto: Death Cross Hits Tesla — Why Anthropic’s $6 B Deal Missed Expectations
+Fecha: 2026-04-10T05:04:29-06:00
 Contenido:
 View image: (?t=1704988871)
 Caption:
 
-View image: (?t=1773697432)
-Follow image link: (https://www.benzinga.com/money/motley-fool-etf)
-Caption:
-
-**Happy Thursday!** Wall Street’s AI darlings might not be as untouchable as they seem. Michael Burry is sounding the alarm on a surprising twist in the AI battle, and it could upend the market in ways most investors aren’t ready for. [Read on for all the details.](
-
-Analysts are quietly lowering expectations for this earnings season, but that could be the perfect setup for some surprising wins this quarter. [Explore which sectors could steal the spotlight and what market watchers are betting on]( before the earnings season officially kicks off.
-
-**Plus,** if you’re looking for a smart way to diversify your portfolio with ETFs backed by decades of research, [check out today’s sponsor](https://www.benzinga.com/money/motley-fool-etf).
-
-———————————————————————————
-
-———————————————————————————
-
-## [🏆 ]( TRIVIA LEADERBOARD ](
-
-View image: (?t=1775711254)
+View image: (?t=1775765516)
 Follow image link: (
 Caption:
 
-Your chance to win a **Benzinga PRO or Edge subscription** this week is still alive — but every point counts. [Take today’s quiz and start climbing the leaderboard. ](
+**Happy Friday!** Shares of Tesla just triggered a “death cross,” but that’s not stopping Cathie Wood from buying the dip. What does she know that the market doesn’t? [Read on for the full breakdown.](
 
-Missed yesterday’s challenge? [Catch up here.]( Remember, scores are cumulative, the more you play, the higher your chance to win.
+And despite surging revenue at Anthropic, [its secondary share sale fell short of expectations]( With experts like Michael Burry claiming the company is “[eating Palantir’s lunch,”]( read on to see why most employees aren’t selling shares and what it means for a potential IPO this year.
 
-Here’s a look at this week’s hardest and easiest questions so far.
-• **Easiest Question**: “_What valuation range did Space X reportedly file for its June 2026 IPO?” _(78% of readers got this one right)
-• **Toughest Question**: “_What Bitcoin price range is acting as key resistance for a breakout?_” (Only 20% of readers got this one right)
+**Plus,** if you’re looking for a smarter way to trade stocks and futures with structured risk management and funding opportunities, [check out today’s sponsor](
 
-Play Now — Take The Quiz (
+———————————————————————————
+
+# **BENZINGA TRIVIA CHALLENGE **
+
+View image: (?t=1774858829)
+Follow image link: (
+Caption:
+
+Time is almost up.
+
+Today is your final chance this week to earn points and stay in the race for a **Benzinga PRO or Edge subscription**. Take the quiz and start climbing the leaderboard.
+
+Missed yesterday’s quiz? [Catch up here]( Remember, scores are cumulative — the more you play, the higher your score, and the greater your chances of winning.
+
+Take Today’s Quiz (
 
 ———————————————————————————
 
 # **TOP STORY**
 
-## [Michael Burry: 'Anthropic is Eating Palantir's Lunch’](
+# [Tesla’s Death Cross Just Hit — But Cathie Wood Is Buying The Dip](
 
-View image: (?t=1770369150)
+View image: ( [Tesla Model S Bluefire at Tesla Servicecenter Bern Switzerland]
 Follow image link: (
 Caption:
 
-Legendary investor [Michael Burry is back with a new warning]( and it centers on a powerful shift in the AI arms race.
+Shares of Tesla just triggered a “death cross,” a widely watched technical signal that often signals bearish trends and momentum.
 
-With 
-------------------------------------------------------------
-CORREO 7
-Remitente: Barchart Partner <bcmembers@partners.barchart.com>
-Asunto: Why Is Wall Street Ignoring This $100 M Company?
-Fecha: 2026-04-09T05:23:02-06:00
-Contenido:
-Its closest peer is worth $3.9 billion.
+But that’s not stopping Cathie Wood from buying the dip.
 
-( )
-Below is a message from one of our sponsors 96
-*|MC:SUBJECT|* *|MC_PREVIEW_TEXT|*
-Mining Stocks
-( )
-Dear Investor,
+The Wall Street veteran continues to add to her position, even as bearish indicators pile up. Read on for the full breakdown to see why some traders see warnings, while others see opportunity.
 
-Why is one company worth $3.9 billion while another pursuing a
-similar opportunity is worth just $100 million?
-
-Valuation gaps like this usually exist for good reasons.
-
-One company may have more advanced projects, control
-dramatically larger resources, or may hold assets in more
-advantageous jurisdictions.
-
-But occasionally, you find a situation where the gap isn't
-explained by fundamentals — it's explained by attention.
-
-One company has already captured Wall Street's imagination.
-
-The other is still flying quietly beneath the radar.
-
-And markets have a tendency to correct extreme valuation gaps
-once investors start asking the right questions.
-
-In fact, it's just the kind of hidden-in-plain-sight setup that
-can produce an extraordinary investment outcome... so when I come
-across one, I immediately dig deeper.
-
-That's why I've been investigating a small, early-stage mineral
-exploration company
-( )
-operating deep in the Nevada desert.
-
-You see, it mines a little-known metal called antimony.
-
-Without antimony, the lead in bullets is too soft... rounds
-deform... weapons jam... and ammunition becomes unreliable.
-
-It's also used in military electronics... semiconductors...
-batteries... and the flame-retardant materials used in aircraft,
-vehicles, and the protective gear on U.S. soldiers' backs.
-
-Yet right now, the U.S. produces virtually none of it.
-
-China is the world's leading producer of this critical war
-metal, accounting for 48 percent of global antimony production
-and 63 percent of U.S. imports.
-
-Russia and Tajikistan supply much of the rest, with this
-terrible trio altogether controlling about 90% of global supply.
-
-Which means the country that fields the most powerful military
-on Earth is almost entirely dependent on foreign adversaries for
-a critical component to power its national defense.
-
-That makes a
-------------------------------------------------------------
-CORREO 9
-Remitente: Benzinga <hello@markets.benzinga.com>
-Asunto: The Market Is Splitting in Two — Here's Which Side to Be On
-Fecha: 2026-04-09T06:00:45-06:00
-Contenido:
-Benzinga Pro traders Update Newsletter The market is pricing in something most
-
-investors aren't fully positioned for: a world where growth slows, costs stay
-
-high, and geopolitical tension doesn't fade. In that environment, not every
-
-stock reacts the same way — and the gap between the ones that hold and the ones
-
-that stall is exactly where the trade lives.
-
-You're receiving this email as a Benzinga subscriber. Update email preferences
-
-using links at bottom.
-
-<https://www.benzinga.com/>
-
-Trending
-• The Market Is Splitting in Two — Here's Which Side to Be On
-
-<
-• This Overlooked Stock Is Up 13% — and Options Flow Shows More Upside Ahead
-
-<
-• Markets Are Reacting Faster Than Most Traders — Here’s Your Edge
-
-<
-
-The Market Is Splitting in Two — Here's Which Side to Be On
-
-<
-
-<
-
-The market is pricing in something most investors aren't fully positioned
-
-for: a world where growth slows, costs stay high, and geopolitical tension
-
-doesn't fade. In that environment, not every stock reacts the same way — and
-
-the gap between the ones that hold and the ones that stall is exactly where the
-
-trade lives.
-
-Right now, two stocks are responding to the same macro backdrop from
-
-completely opposite sides. One is tied to defense spending and geopolitical
-
-necessity. The other is tied to consumer demand and discretionary travel. Both
-
-are approaching key price levels at the same time. What happens next at those
-
-levels will tell traders a great deal about where capital is actually committed
-
-— and where it's just renting space.
-
-Here's exactly how each stock is positioned, what the options activity is
-
-signaling, and what price needs to do to confirm which side of this environment
-
-has the stronger hand.
-
-The trigger points are specific and close — here's what to watch and when to
-
-act.
-
-<
-
-Markets Are Reacting Faster Than Most Traders — Here’s Your Edge
-
-<
-
-Headlines are driving immediate moves across stocks, and those moves are
-
-reversing just as quickly. That’s creating opportunit
-------------------------------------------------------------
-CORREO 11
-Remitente: Stock Analysis <contact@stockanalysis.com>
-Asunto: Market Bullets: Dow soars 1,300 points, core inflation eases slightly to 3%, Meta unveils powerful new AI model
-Fecha: 2026-04-09T06:54:26-06:00
-Contenido:
-​
-
-🫐 Black Berry gains 10% premarket |
-
-Thursday - April 09, 2026 |
-
-Presented by Vantage Point
-
-Market Overview
-
-S&P 500
-
-+2.51%
-
-Pre: -0.28%
-
-Nasdaq
-
-+2.80%
-
-Pre: -0.18%
-
-Dow
-
-+2.85%
-
-Pre: -0.37%
-
-Stock & Market News
-
-•
-Market recap: Yesterday, the Dow saw its best day in the past year, climbing over 1,300 points. The S&P 500 and the Nasdaq were also both up over 2.5%. Micron ( MU ) and Broadcom ( AVGO ) were particular winners, gaining 5–7%, though oil stocks like Exxon ( XOM ) and Chevron ( CVX ) fell over 4%. Source: CNBC .
-
-•
-Meta launches new AI model: Meta ( META ) unveiled Muse Spark, the first model from its Superintelligence team. Early tests show competitive performance, sending shares up 6.5%. Source: Reuters .
-
-•
-Paramount president exits amid scandal: Paramount ( PSKY ) president Jeff Shell stepped down to focus on a legal dispute with a professional gambler, adding uncertainty as the company pursues its $111 B merger with Warner Bros. Discovery ( WBD ). Source: NY Times .
-
-•
-Amazon's AWS run rate tops $15 B: Amazon's ( AMZN ) cloud unit, AWS, has reached an AI revenue run rate exceeding $15 B, with growth accelerating despite capacity constraints. CEO Andy Jassy also noted strong demand for Amazon’s chip business. Shares rose 3.5% yesterday and another 1.4% premarket. Source: Reuters .
-
-•
-Disney plans job cuts: Disney ( DIS ) is preparing to cut up to 1 K jobs, largely in marketing, as new CEO Josh D’Amaro pushes cost reductions and restructuring. Shares rose 3.6%. Source: WSJ .
-
-•
-Black Berry forecasts revenue growth: Black Berry ( BB ) projected fiscal 2027 revenue of $584 M–$611 M, above expectations, after returning to profit with strong automotive software demand. Shares rallied 10% premarket. Source: WSJ .
-
-•
-Ares to acquire Whitestone REIT: Ares Management ( ARES ) will buy Whitestone REIT ( WSR ) for $1.7 B in cash, a 12% premium, to expand its real estate portfolio. Whitestone rose 12% premarket. Source: WSJ .
-
-•
-Core Weave-Meta AI deal expa
-------------------------------------------------------------
-CORREO 12
-Remitente: Open Outcrier <oyez@openoutcrier.com>
-Asunto: Open Outcrier Digest: 04-09-26
-Fecha: 2026-04-09T07:04:30-06:00
-Contenido:
-Macro
-
-Econ Calendar Th 4/9/26<br /><br />GDP<br />Jobless Claims<br />Personal Income and Outlays<br />Corporate Profits<br /> 8:30 AM ET<br /><br />Wholesale Inventories (Preliminary)<br /> 10:00 AM ET<br /><br />EIA Natural Gas Report<br /> 10:30 AM ET<br /><br />Treasury Buyback & Bill Announcements<br /> 11:00 AM ET<br /><br />4 & 8 -Week Bill Auction<br /> 11:30 AM ET<br /><br />30-Yr Bond Auction<br /> 1:00 PM ET<br /><br />Treasury Buyback Results<br /> 2:00 PM ET<br /><br />Fed Balance Sheet<br /> 4:30 PM ET
-
-US stock futures dip over shaky Mideast truce; inflation in focus - Reuters
-
-https://ooc.bz/l/98243
-
-Trump Allies, U.S. Officials Fear Iran Victory Lap Is Premature - WSJ
-
-https://ooc.bz/l/98245
-
-Trump says U.S. ready for ‘next conquest,’ warns military to remain near Iran until ‘real agreement’ is honored - CNBC
-
-https://ooc.bz/l/98247
-
-Why Iran Thinks It Won the War Despite Huge Military Losses - WSJ
-
-https://ooc.bz/l/98249
-
-Iran Tightens Its Grip on Hormuz Despite Cease-Fire - WSJ
-
-https://ooc.bz/l/98251
-
-US Asks Allies for Quick Plans to Secure Hormuz After Ceasefire - BBG
-
-https://ooc.bz/l/98253
-
-Trump's abrupt Iran reversal exposes limits of his leverage - Reuters
-
-https://ooc.bz/l/98254
-
-U.S. has violated ceasefire agreement, Iran parliamentary speaker says - CNBC
-
-https://ooc.bz/l/98255
-
-Israel launches fresh strikes on Lebanon after huge attacks jeopardise truce - Reuters
-
-https://ooc.bz/l/98257
-
-As US and Iran talk truce, Israel digs in for a 'forever war' - Reuters
-
-https://ooc.bz/l/98259
-
-Evangelicals amplify Trump's religious framing of Iran war - Reuters
-
-https://ooc.bz/l/98260
-
-US Senate to vote on resolution to curb Trump's Iran war powers - Reuters
-
-https://ooc.bz/l/98262
-
-NATO chief says some European allies were tested and failed in Iran war - Reuters
-
-https://ooc.bz/l/98263
-
-‘Poorly run, piece of ice’: Trump targets Greenland again as Iran war deepens NATO rift - CNBC
-
-https://ooc.bz/l/98264
-
-Pirro’s Powell probe faces a difficult r
-------------------------------------------------------------
-CORREO 14
-Remitente: Reuters Econ World <econworld@thomsonreuters.com>
-Asunto: Small country, big election
-Fecha: 2026-04-09T07:57:21-06:00
-Contenido:
-Plus, what does safe really mean in the global economy?
-
-Econ World
-
-Econ World
-
-By Balazs Koranyi, Chief ECB Correspondent
-
-Hello there,
-
-Carmel is away, so this week’s newsletter is coming to you from Frankfurt, where I cover European economics and the European Central Bank.
-
-This week’s yarn is about Hungary, my native land, which is holding elections on Sunday in possibly the most consequential vote until the U.S. midterms in November.
-
-The outcome is likely to shape Russia’s war in Ukraine, impact thorny relations between the U.S. and the European Union and influence Europe’s long-stalled internal reform process.
-
-Viktor Orbán, the incumbent prime minister, has been a thorn in the EU’s side for 16 tumultuous years, but is now at risk of losing power .
-
-Supporters say he is a Christian patriot, who fights against the EU’s liberal “wokeism” and takes a pragmatic foreign policy stance, keeping friendly ties with like-minded politicians such as U.S. President Donald Trump, Russian President Vladimir Putin and Israeli Prime Minister Benjamin Netanyahu.
-
-Critics say he’s a corrupt, far-right nationalist, who has systematically dismantled democratic institutions and serves foreign interests from within the EU.
-He seemed untouchable for years but allegations of corruption, which he denies, damaging leaks that laid bare the prevalence of Russian influence and lacklustre economic growth have now pushed Orbán to the brink of defeat.
-
-Most polls show political newcomer Peter Magyar, who has built an opposition from scratch in just two years, well ahead, possibly on course for a two-thirds majority, and Polymarket puts his chances of victory at about 70%.
-
-But Hungarian polls are notoriously inaccurate and Orbán has rewritten election laws to favour his party, redrawing electoral districts in the process. He controls a vast media empire, uses state funds to spread his message - and this week enlisted U.S. Vice President JD Vance for a campaign stop.
-
-The $1 million question
-------------------------------------------------------------
-CORREO 16
-Remitente: Macro View Daily <account@seekingalpha.com>
-Asunto: Higher Crack Spreads Are The Real Nightmare For Airlines
-Fecha: 2026-04-09T08:05:42-06:00
-Contenido:
-Macro View Daily
-
-Macro View Daily
-
-Market Outlook
-
-Higher Crack Spreads Are The Real Nightmare For Airlines
-
-By Dhierin Bechai
-
-We Are Not Out Of The Woods Yet With A Ceasefire In Name Only
-
-By Lawrence Fuller
-
-Weak Dollar Is The Real Threat To The U.S. Stock Market
-
-By Damir Tokic
-
-Iranian Conflict Fallout: Probability Of Stagflation Rises
-
-By Bret Jensen
-
-U.S. Pet Insurance Market Growth Slows In 2025, But Still Robust
-
-By Markit
-
-Oil Price Shocks Are Testing Resilience Across Methodologies Among S&P Small Cap 600 Indices
-
-By Markit
-
-A Box Office Boom? What Hollywood's 2026 Spring And Summer Slate Means For The Economy
-
-By Christine Short
-
-Rare Earths: State Intervention Needed To Reshape Rare Earths Market
-
-By Markit
-
-Oral GLP-1 Is Here - Have Credit Markets Caught Up?
-
-By Neuberger Berman
-
-Middle Eastern Banks: Tested By Conflict
-
-By CME Group
-
-Treasury Bond Trading Surges As Market Rethinks Likelihood Of Rate Cuts
-
-By Michael Gray
-
-U.S. Defense Stock Underperformance: What The Market Is Telling Us
-
-By Dividend and Value Investor
-
-Dow Jones And U.S. Stock Market Outlook - Bulls Are Back In Vengeance After The U.S.-Iran Ceasefire
-
-By Market Pulse by OANDA Group
-
-Short Selling Points To Higher Prices
-
-By Michael James Mc Donald
-
-5 Markets Getting Pummeled Right Now
-
-By Bret Jensen
-
-More Market Outlook Analysis »
-
-FEATURED: Join Seeking Alpha Premium—with a special introductory offer Claim Offer »
-
-Gold & Precious Metals
-
-Gold Volatility Amid Geopolitical Crises: What History Tells Us
-
-By Van Eck
-
-Gold Market Commentary: Anatomy Of A Fall
-
-By World Gold Council
-
-Gold Stalls At Critical $4900/Oz Resistance As Bear Signal Flashes
-
-By Market Pulse by OANDA Group
-
-More Gold & Precious Metals Analysis »
-
-Commodities
-
-Commodities: Hormuz Remains Blocked For Now
-
-By ING Economic and Financial Analysis
-
-Commodity Prices Rise On Energy Disruptions
-
-By Van Eck
-
-14-Day Ceasefire With Iran: Sell Oil And Buy Oil Companies
-
-By Multiplo Invest
-
-More Commodities Analysis »
-
-Econo
-------------------------------------------------------------
-CORREO 17
-Remitente: Chart of the Day <newsletters@newsdesk.barchart.com>
-Asunto: This Stock Just Went Nuclear (+814%)
-Fecha: 2026-04-09T08:27:19-06:00
-Contenido:
-Jim found a flyer, but it may already be crashing back to earth
-Chart of the Day for April 9, 2026
-
-Barchart Brief logo ( ) Together With trading pub
-( )
-• Ciena (CIEN) has surged 814% over 52 weeks, driven
-by strong technical momentum and a Trend Seeker “Buy” signal.
-• CIEN’s fundamentals show projected revenue growth of 28.27%
-this year and 20.19% next, with earnings expected to rise 132.44%
-and 34.52%.
-• Despite analyst optimism, CIEN trades at a lofty 189.63x P/E,
-and Morningstar deems it 258% overvalued.
-• Short interest remains low at 3.57%, suggesting limited bearish
-conviction despite valuation concerns.
-• Before Palantir, before Anthropic — This is where smart AI
-investors are looking next
-( )
-• Today’s Featured Stock
-
-Valued at $63.33 billion, Ciena (CIEN)
-( )
-is a leading provider of optical networking equipment,
-software, and services.
-
-What I’m Watching
-
-I found today’s Chart of the Day by using Barchart’s powerful
-screening functions to sort for stocks with the highest technical
-buy signals; superior current momentum in both strength and
-direction; and a Trend Seeker “buy” signal
-( )
-. I then used Barchart’s Flipcharts feature
-( )
-to review the charts for consistent price appreciation. CIEN
-checks those boxes. Since the Trend Seeker issued a new “buy” on
-March 10, CIEN stock is up 46.43%.
-
-CIEN stock chart
-( )
-Sponsored by Frontieras North America
-
-Frontieras North America building with industrial facilities,
-storage tanks, and an American flag at sunset.
-( )
-Unlocking $2.1 T in Energy Potential
-
-Founders Matt Mc Kean and Joseph Witherspoon are commercializing
-tech that extracts valuable resources from coal without burning
-it. From hydrogen to diesel, Frontieras
-( )
-could address $2.1 T in markets.
-
-John D. Rockefeller commercialized oil refining technology. If
-Frontieras captures just 2% of the global coal market, they have
-a path to a $1 T valuation
-( )
-.
-
-They just purchased land for their $850 M flagship facility and
-reserved their Nasdaq ticker (F
-------------------------------------------------------------
-CORREO 18
-Remitente: Morning Download <hi@morningdownload.com>
-Asunto: Why This Titanium Explorer Caught Rio Tinto’s Eye
-Fecha: 2026-04-09T08:37:20-06:00
-Contenido:
-This is from a carefully selected newsletter sponsor we thought you might find interesting.
+Read The Full Story (
 
 ———————————————————————————
 
-## **BONUS CONTENT**
+# **SPONSORED CONTENT**
 
-### **Rewiring Your Mind for Financial Freedom – The Neuroscience of Saving and Investing**
-
-Most people fail at saving and investing not because of lack of knowledge, but because their brains are wired for instant gratification. The limbic system lights up at the sight of a new gadget or vacation deal, while the prefrontal cortex — responsible for long-term planning — stays quiet. Understanding this neurological tug-of-war is the first step toward lasting financial change.
-
-**How Dopamine Hijacks Your Savings**
-
-Every notification ping or “limited-time offer” triggers a dopamine hit, the same chemical released during gambling. This creates a cycle where spending feels rewarding and saving feels like deprivation. In 2026, with AI-powered shopping algorithms predicting your desires before you voice them, this effect has intensified. The solution? Pre-commitment devices. Set up automatic transfers to a high-yield savings account the day after payday. By removing the decision point, you bypass the emotional brain entirely.
-
-**Neuroplasticity as Your Investing Superpower**
-
-The brain can literally rewire itself. Small, consistent actions — reviewing your investment portfolio for just five minutes every Sunday — build new neural pathways that associate investing with calm confidence rather than anxiety. Apps that gamify micro-investing (rounding up purchases into index funds) leverage this by turning repetition into habit. Over 12–18 months, investors who practice this “habit stacking” report 40% higher contribution rates than those relying on willpower alone.
-
-**Practical Rewiring Techniques**
-
-Start with the “10-Second Rule”: before any non-essential purchase over $50, wait ten seconds and ask, “Will this purchase move me closer to my freedom number?” Pair this with visualization — spend two minutes daily picturing your future 
+# [**See How Modern Prop Firms Are Giving Traders A Path To Professio
 ------------------------------------------------------------
