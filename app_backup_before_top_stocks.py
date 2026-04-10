@@ -14,7 +14,6 @@ from src.cnbc_extractor import find_cnbc_emails, extract_cnbc_sections
 from src.dashboard_mailer import send_dashboard_email
 from src.dashboard_sources import build_sources_payload
 from src.signal_filter_llm import run_signal_filter
-from src.top_stocks_builder import build_top_stocks_in_play
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -50,7 +49,6 @@ def main():
     cnbc_output_file = str(DATA_DIR / "cnbc_extracted.json")
     refresh_meta_file = str(DATA_DIR / "last_refresh.json")
     dashboard_payload_file = str(DATA_DIR / "dashboard_payload.json")
-    top_stocks_output_file = str(DATA_DIR / "top_stocks_in_play.json")
 
     save_json(emails, json_output_file)
 
@@ -104,18 +102,6 @@ def main():
     regime = run_market_narrative(final_regime_prompt)
     save_text(regime, regime_output_file)
 
-    print("\nConstruyendo top stocks in play...\n")
-    top_stocks_in_play = build_top_stocks_in_play(
-        filtered_signal=filtered_signal,
-        vital_data=vital_data,
-        reuters_data=reuters_data,
-        cnbc_data=cnbc_data,
-        narrative=narrative,
-        regime=regime,
-        max_stocks=6,
-    )
-    save_json(top_stocks_in_play, top_stocks_output_file)
-
     now = datetime.now(MONTERREY_TZ)
     refresh_meta = {
         "last_refresh_iso": now.isoformat(timespec="seconds"),
@@ -129,7 +115,6 @@ def main():
         "meta": refresh_meta,
         "narrative": narrative,
         "regime": regime,
-        "top_stocks_in_play": top_stocks_in_play,
         "vital": vital_data,
         "reuters": reuters_data,
         "cnbc": cnbc_data,
@@ -151,7 +136,6 @@ def main():
     print("Archivo señal filtrada texto:", filtered_signal_text_file)
     print("Archivo narrativa:", narrative_output_file)
     print("Archivo regime:", regime_output_file)
-    print("Archivo top stocks:", top_stocks_output_file)
     print("Archivo Vital Knowledge:", vital_output_file)
     print("Archivo Reuters:", reuters_output_file)
     print("Archivo CNBC:", cnbc_output_file)

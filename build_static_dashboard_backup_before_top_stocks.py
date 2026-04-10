@@ -117,140 +117,17 @@ def render_sources(sources: list) -> str:
     return "".join(blocks)
 
 
-def format_number(value):
-    if value is None or value == "":
-        return "-"
-
-    try:
-        number = float(value)
-    except Exception:
-        return html.escape(str(value))
-
-    if abs(number) >= 1_000_000_000:
-        return f"{number / 1_000_000_000:.2f}B"
-    if abs(number) >= 1_000_000:
-        return f"{number / 1_000_000:.2f}M"
-    if abs(number) >= 1_000:
-        return f"{number / 1_000:.2f}K"
-
-    if number.is_integer():
-        return f"{int(number)}"
-
-    return f"{number:.2f}"
-
-
-def format_price(value):
-    if value is None or value == "":
-        return "-"
-    try:
-        return f"{float(value):.2f}"
-    except Exception:
-        return html.escape(str(value))
-
-
-def format_change_pct(value):
-    if value is None or value == "":
-        return "-", ""
-
-    try:
-        number = float(value)
-    except Exception:
-        return html.escape(str(value)), ""
-
-    css_class = "neutral"
-    if number > 0:
-        css_class = "positive"
-    elif number < 0:
-        css_class = "negative"
-
-    return f"{number:.2f}%", css_class
-
-
-def format_rel_volume(value):
-    if value is None or value == "":
-        return "-"
-    try:
-        return f"{float(value):.2f}"
-    except Exception:
-        return html.escape(str(value))
-
-
-def render_top_stocks(top_stocks: list) -> str:
-    if not top_stocks:
-        return '<div class="empty-note">No se encontraron acciones destacadas para hoy.</div>'
-
-    rows = []
-
-    for item in top_stocks:
-        ticker = html.escape(str(item.get("ticker", "")))
-        sector = html.escape(str(item.get("sector", "")))
-        industry = html.escape(str(item.get("industry", "")))
-        description = html.escape(str(item.get("description", "")))
-        price = format_price(item.get("price"))
-        volume = format_number(item.get("volume"))
-        average_volume = format_number(item.get("average_volume"))
-        stock_float = html.escape(str(item.get("float", "")) or "-")
-        relative_volume = format_rel_volume(item.get("relative_volume"))
-        change_text, change_class = format_change_pct(item.get("change_pct"))
-
-        rows.append(
-            f"""
-            <tr>
-                <td class="ticker-cell">{ticker}</td>
-                <td>{sector}</td>
-                <td>{industry}</td>
-                <td class="description-cell">{description}</td>
-                <td class="{change_class}">{change_text}</td>
-                <td class="number-cell">{price}</td>
-                <td class="number-cell">{volume}</td>
-                <td class="number-cell">{average_volume}</td>
-                <td class="number-cell">{stock_float}</td>
-                <td class="number-cell">{relative_volume}</td>
-            </tr>
-            """
-        )
-
-    return f"""
-    <div class="stocks-subtle">
-      Seleccionadas por alineación con narrativa, régimen y fuerza real de movimiento
-    </div>
-    <div class="stocks-table-wrap">
-      <table class="stocks-table">
-        <thead>
-          <tr>
-            <th>Ticker</th>
-            <th>Sector</th>
-            <th>Industria</th>
-            <th>Descripción</th>
-            <th>% Cambio</th>
-            <th>Precio</th>
-            <th>Volumen</th>
-            <th>Average Volume</th>
-            <th>Float</th>
-            <th>Relative Volume</th>
-          </tr>
-        </thead>
-        <tbody>
-          {''.join(rows)}
-        </tbody>
-      </table>
-    </div>
-    """
-
-
 def build_html(payload: dict) -> str:
     meta = payload.get("meta", {})
     narrative = payload.get("narrative", "")
     regime = payload.get("regime", "")
     sources = payload.get("sources", [])
-    top_stocks = payload.get("top_stocks_in_play", [])
 
     last_refresh = html.escape(str(meta.get("last_refresh_display", "No disponible")))
     narrative_html = render_paragraphs(narrative)
     regime_html = render_paragraphs(format_regime_text(regime))
     regime_accent = get_regime_accent_color(regime)
     sources_html = render_sources(sources)
-    top_stocks_html = render_top_stocks(top_stocks)
 
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -272,7 +149,7 @@ def build_html(payload: dict) -> str:
     }}
 
     .container {{
-      max-width: 1720px;
+      max-width: 1600px;
       margin: 0 auto;
       padding: 28px 24px 40px 24px;
       box-sizing: border-box;
@@ -331,97 +208,8 @@ def build_html(payload: dict) -> str:
       border-left: 4px solid var(--regime-accent);
     }}
 
-    .stocks-card {{
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding: 18px 18px 14px 18px;
-    }}
-
-    .stocks-subtle {{
-      color: #94a3b8;
-      font-size: 13px;
-      margin-bottom: 12px;
-      line-height: 1.5;
-    }}
-
-    .stocks-table-wrap {{
-      width: 100%;
-      overflow-x: auto;
-      overflow-y: hidden;
-      border: 1px solid #172033;
-      border-radius: 14px;
-    }}
-
-    .stocks-table {{
-      width: 100%;
-      min-width: 1180px;
-      border-collapse: collapse;
-      background: #0f172a;
-    }}
-
-    .stocks-table thead th {{
-      position: sticky;
-      top: 0;
-      background: #111827;
-      color: #cbd5e1;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-      text-align: left;
-      padding: 12px 10px;
-      border-bottom: 1px solid #1f2937;
-      white-space: nowrap;
-    }}
-
-    .stocks-table tbody td {{
-      font-size: 13px;
-      color: #e5e7eb;
-      padding: 12px 10px;
-      border-bottom: 1px solid #172033;
-      vertical-align: top;
-    }}
-
-    .stocks-table tbody tr:hover {{
-      background: rgba(148, 163, 184, 0.06);
-    }}
-
-    .ticker-cell {{
-      font-weight: 800;
-      color: #ffffff;
-      white-space: nowrap;
-    }}
-
-    .description-cell {{
-      min-width: 320px;
-      line-height: 1.45;
-      color: #cbd5e1;
-    }}
-
-    .number-cell {{
-      text-align: right;
-      white-space: nowrap;
-    }}
-
-    .positive {{
-      color: #22c55e;
-      font-weight: 700;
-      white-space: nowrap;
-    }}
-
-    .negative {{
-      color: #ef4444;
-      font-weight: 700;
-      white-space: nowrap;
-    }}
-
-    .neutral {{
-      color: #cbd5e1;
-      font-weight: 700;
-      white-space: nowrap;
-    }}
-
     .sources-card {{
-      height: 940px;
+      height: 539px;
       overflow-y: auto;
       overflow-x: hidden;
       padding: 14px 14px 8px 14px;
@@ -473,7 +261,7 @@ def build_html(payload: dict) -> str:
       font-size: 14px;
     }}
 
-    @media (max-width: 1200px) {{
+    @media (max-width: 1000px) {{
       .grid {{
         grid-template-columns: 1fr;
       }}
@@ -501,13 +289,6 @@ def build_html(payload: dict) -> str:
         <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
         <div class="card regime-card">
           {regime_html}
-        </div>
-
-        <div style="height:14px;"></div>
-
-        <div class="section-title">Top 6 Stocks In Play Today</div>
-        <div class="card stocks-card">
-          {top_stocks_html}
         </div>
       </div>
 
