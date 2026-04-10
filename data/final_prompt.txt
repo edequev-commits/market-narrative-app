@@ -43,27 +43,27 @@ Explica qué eventos clave pueden validar o modificar la narrativa.
 INPUT:
 
 {
-  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, driving elevated oil prices and inflation concerns amid ongoing geopolitical tensions and uncertainty about the ceasefire's durability.",
+  "driver_principal": "The fragile Middle East ceasefire between the US and Iran is the dominant factor influencing market risk perception, driving elevated oil prices and cautious equity market behavior amid ongoing geopolitical tensions and inflation concerns.",
   "hechos_confirmados": [
-    "A tentative two-week ceasefire between the US and Iran is in place, with a face-to-face meeting scheduled in Pakistan for April 10-11, 2026.",
-    "Israel has intensified bombing in Lebanon, causing significant casualties and threatening the ceasefire's stability.",
+    "A tentative two-week ceasefire between the US and Iran was announced, with a face-to-face meeting scheduled in Pakistan for April 10-11, 2026.",
+    "Israel conducted intense bombing campaigns in Lebanon, causing significant casualties and threatening the ceasefire's stability.",
     "Iran maintains control over the Strait of Hormuz and is pushing plans to impose a toll on tanker traffic through the waterway.",
     "US oil prices have risen back above $100 per barrel due to concerns over restricted energy flows through the Strait of Hormuz."
   ],
-  "escenario_dominante": "There is a high probability that the ceasefire will hold through the upcoming US-Iran talks, supporting some near-term equity upside; however, geopolitical tensions, particularly Israeli strikes in Lebanon and Iran's control of Hormuz, will keep oil prices elevated and inflationary pressures persistent, leading to a stagflationary environment with cautious market sentiment.",
-  "interpretacion_institucional": "The market is cautiously optimistic about the ceasefire but remains skeptical given ongoing violations and regional conflicts outside the ceasefire scope, such as in Lebanon and Hormuz. Elevated oil prices reflect the risk premium for potential supply disruptions, which may sustain inflationary pressures and complicate central bank policy. Treasury market weakness signals concerns about inflation durability. Equity markets may experience volatility around key macroeconomic data releases and the US-Iran meeting. Investors should monitor geopolitical developments closely, as they will continue to shape risk appetite and sector performance, particularly in energy and defense.",
+  "escenario_dominante": "There is a high probability that the ceasefire between the US and Iran will hold in the immediate term, supported by ongoing diplomatic engagement, but with moderate probability of localized escalations such as Israeli strikes in Lebanon and continued disruptions in the Strait of Hormuz. This environment is likely to sustain elevated oil prices and inflationary pressures, while equity markets may experience volatility with cautious investor positioning.",
+  "interpretacion_institucional": "The market is navigating a complex geopolitical landscape where the ceasefire reduces the risk of full-scale conflict but does not eliminate regional flashpoints, notably in Lebanon and the Strait of Hormuz. Elevated oil prices reflect the embedded risk premium for supply disruptions, contributing to inflation concerns that may limit Treasury rallies and influence central bank policy expectations. Equity markets show mixed signals, with technical imbalances and skepticism about the ceasefire's durability counterbalanced by some positive corporate earnings and consumer resilience. Investors should remain vigilant to developments in US-Iran talks and regional military actions, as these will materially impact risk sentiment and asset price trajectories.",
   "riesgos_secundarios": [
-    "The ceasefire could collapse if Israeli strikes in Lebanon escalate or if Iran increases military activity, leading to renewed conflict.",
-    "Iran's imposition of a toll on the Strait of Hormuz could provoke international naval responses, further disrupting oil supply.",
-    "Inflation could accelerate beyond current expectations if the war's inflationary effects prove more durable, forcing central banks to tighten policy unexpectedly.",
-    "US political dynamics, including mixed messages from leadership and domestic policy shifts, could affect diplomatic progress and market confidence.",
-    "Supply chain or demand shocks in key sectors like AI technology or consumer discretionary could exacerbate market volatility amid geopolitical uncertainty."
+    "Renewed or intensified Israeli military actions in Lebanon could unravel the ceasefire and escalate regional conflict.",
+    "Iran's enforcement of a toll on the Strait of Hormuz could lead to prolonged disruptions in global energy supply chains.",
+    "Potential failure or delay of the US-Iran diplomatic talks scheduled in Pakistan.",
+    "Inflationary pressures may prove more persistent and severe than currently anticipated, prompting unexpected central bank tightening.",
+    "Geopolitical shifts such as changes in US troop deployments in the Middle East or NATO dynamics could alter market risk perceptions."
   ],
   "eventos_clave": [
     "US-Iran face-to-face meeting in Pakistan scheduled for April 10-11, 2026.",
-    "US Consumer Price Index (CPI) release for March on April 10, 2026, expected to show inflation acceleration.",
-    "US Personal Consumption Expenditures (PCE) data release for February on April 9, 2026.",
-    "Ongoing Israeli military activity in Lebanon and any related announcements or escalations.",
-    "Developments regarding Iran's toll plans on the Strait of Hormuz and international responses."
+    "US Consumer Price Index (CPI) release for March 2026 on April 10, 2026.",
+    "US Personal Consumption Expenditures (PCE) data for February 2026 on April 9, 2026.",
+    "Israeli military activity developments in Lebanon over the next two weeks.",
+    "Market reaction to oil price movements and supply flow status through the Strait of Hormuz."
   ]
 }
