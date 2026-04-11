@@ -41,12 +41,93 @@ def build_email_body(payload: dict) -> str:
 
     return "\n".join(lines)
 
+def _clean_text(value: str) -> str:
+    return (value or "").strip()
+
+
+def _format_top_stocks(top_stocks: list[dict]) -> str:
+    if not top_stocks:
+        return "Sin acciones destacadas hoy."
+
+    lines = []
+    for item in top_stocks:
+        ticker = item.get("ticker", "")
+        change_pct = item.get("change_pct", "")
+        price = item.get("price", "")
+        sector = item.get("sector", "")
+        industry = item.get("industry", "")
+        description = item.get("description", "")
+
+        lines.append(
+            f"- {ticker} | %Cambio: {change_pct} | Precio: {price} | Sector: {sector} | Industria: {industry}\n"
+            f"  {description}"
+        )
+
+    return "\n".join(lines)
+
+
+def _format_sources(sources: list[dict]) -> str:
+    if not sources:
+        return "Sin fuentes disponibles."
+
+    lines = []
+    for src in sources:
+        fuente = src.get("fuente", "")
+        fecha = src.get("fecha", "")
+        detalle = src.get("detalle", "")
+        lines.append(f"- {fuente} | {fecha} | {detalle}")
+
+    return "\n".join(lines)
+
+
+def build_dashboard_email_body(dashboard_payload: dict) -> str:
+    meta = dashboard_payload.get("meta", {})
+    narrative = _clean_text(dashboard_payload.get("narrative", ""))
+    regime = _clean_text(dashboard_payload.get("regime", ""))
+    market_drivers = _clean_text(dashboard_payload.get("market_drivers", ""))
+    top_stocks = dashboard_payload.get("top_stocks_in_play", [])
+    sources = dashboard_payload.get("sources", [])
+
+    last_refresh = meta.get("last_refresh_display", "No disponible")
+
+    body = f"""DAILY MARKET DASHBOARD
+
+Última actualización: {last_refresh}
+
+==============================
+NARRATIVA MACRO
+==============================
+{narrative}
+
+==============================
+MARKET REGIME
+==============================
+{regime}
+
+==============================
+MARKET DRIVERS TODAY
+==============================
+{market_drivers}
+
+==============================
+TOP STOCKS IN PLAY TODAY
+==============================
+{_format_top_stocks(top_stocks)}
+
+==============================
+FUENTES
+==============================
+{_format_sources(sources)}
+"""
+    return body
+
+
 
 def send_dashboard_email(to_email: str, subject_date: str, dashboard_payload: dict):
     service = get_gmail_service()
 
     subject = f"Daily Market Dashboard {subject_date}"
-    body = build_email_body(dashboard_payload)
+    body = build_dashboard_email_body(dashboard_payload)
 
     message = MIMEText(body, "plain", "utf-8")
     message["to"] = to_email

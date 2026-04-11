@@ -188,7 +188,7 @@ def fetch_finviz_quote_page(ticker: str) -> str:
     import time
     import random
 
-    url = f"https://finviz.com/quote.ashx?t={ticker}"
+    url = f"https://finviz.com/quote.ashx?t={quote(ticker)}"
 
     headers = {
         "User-Agent": random.choice([
@@ -208,6 +208,7 @@ def fetch_finviz_quote_page(ticker: str) -> str:
         raise Exception(f"HTTP {response.status_code}")
 
     return response.text
+
 
 def parse_finviz_snapshot(html_text: str, ticker: str) -> dict | None:
     soup = BeautifulSoup(html_text, "html.parser")
@@ -340,14 +341,12 @@ def score_stock_candidate(
     volume = stock_data.get("volume") or 0
     average_volume = stock_data.get("average_volume") or 0
 
-    # 1) Catalizador / relevancia
     score += min(mentions * 4, 12)
     score += min(len(sources) * 4, 12)
 
     if any(word in context_text for word in ["earnings", "guidance", "revenue", "eps", "fda", "approval", "deal", "contract", "oil", "iran", "ai", "chip"]):
         score += 6
 
-    # 2) Fuerza de movimiento
     if change_pct >= 2:
         score += 8
     elif change_pct >= 1:
@@ -369,11 +368,9 @@ def score_stock_candidate(
         elif ratio >= 0.25:
             score += 3
 
-    # 3) Alineación con narrativa
     if any(word in narrative_text and word in context_text for word in ["oil", "iran", "energy", "ai", "chip", "rates", "fed"]):
         score += 12
 
-    # 4) Ajuste al régimen
     if "transicional" in regime_text or "volátil" in regime_text:
         if relative_volume >= 1.2:
             score += 6
@@ -413,6 +410,7 @@ def passes_minimum_filters(stock_data: dict, regime: str) -> bool:
 
     return True
 
+
 def rank_and_select_top_stocks(
     enriched_candidates: list[dict],
     max_stocks: int = 6,
@@ -427,7 +425,6 @@ def rank_and_select_top_stocks(
     selected_tickers = set()
     theme_counter: dict[str, int] = {}
 
-    # Primera pasada: intenta diversidad, pero no sacrifica demasiada cobertura
     for item in sorted_items:
         ticker = item.get("ticker")
         theme = item.get("theme", "General")
@@ -446,7 +443,6 @@ def rank_and_select_top_stocks(
         if len(selected) >= max_stocks:
             break
 
-    # Segunda pasada: rellena hasta llegar a 6 aunque repita tema
     if len(selected) < max_stocks:
         for item in sorted_items:
             ticker = item.get("ticker")
@@ -482,20 +478,16 @@ def build_top_stocks_in_play(
     )
 
     consolidated = consolidate_candidates(candidates)
-    print(f"[TOP STOCKS] candidatos extraídos: {len(candidates)}")
-    print(f"[TOP STOCKS] candidatos consolidados: {len(consolidated)}")
-
     enriched: list[dict] = []
 
     for item in consolidated:
         ticker = item["ticker"]
         finviz_data = enrich_with_finviz_data(ticker)
+
         if not finviz_data:
-            print(f"[TOP STOCKS] Finviz sin datos para: {ticker}")
-            continue    
-     
+            continue
+
         if not passes_minimum_filters(finviz_data, regime):
-            print(f"[TOP STOCKS] ticker descartado por filtros: {ticker}")
             continue
 
         theme, catalyst, description = infer_theme_and_catalyst(
@@ -533,5 +525,4 @@ def build_top_stocks_in_play(
             "source_reference": " + ".join(item["sources"]),
         })
 
-    print(f"[TOP STOCKS] candidatos enriquecidos finales: {len(enriched)}")
     return rank_and_select_top_stocks(enriched, max_stocks=max_stocks)

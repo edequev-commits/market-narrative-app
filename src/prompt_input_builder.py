@@ -143,4 +143,33 @@ def build_prompt_input_from_emails(
         lines.append(body[:2000])
         lines.append("-" * 60)
 
+     # =========================
+    # 🔥 MICRO DRIVERS DINÁMICOS (ROBUSTO)
+    # =========================
+    lines.append("=== MICRO DRIVERS (ACCIONES Y SECTORES) ===")
+
+    if vital_data:
+        for key, value in vital_data.items():
+            key_lower = key.lower()
+
+            if any(word in key_lower for word in [
+                "micro",
+                "consumer",
+                "tmt",
+                "financial",
+                "energy",
+                "industrial",
+                "m&a",
+                "strategic",
+                "market in a minute (micro"
+            ]):
+                if value:
+                    lines.append(f"{key.upper()}:")
+                    if isinstance(value, list):
+                        for item in value:
+                            lines.append(str(item))
+                    else:
+                        lines.append(str(value))
+                    lines.append("")
+
     return "\n".join(lines)

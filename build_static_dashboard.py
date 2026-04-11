@@ -53,7 +53,7 @@ def render_paragraphs(text: str) -> str:
         paragraphs = [cleaned] if cleaned else []
 
     return "".join(
-        f'<p style="margin:0 0 16px 0; line-height:1.65;">{p.replace(chr(10), " ")}</p>'
+        f'<p style="margin:0 0 10px 0; line-height:1.3;">{p.replace(chr(10), " ")}</p>'
         for p in paragraphs
     )
 
@@ -238,16 +238,64 @@ def render_top_stocks(top_stocks: list) -> str:
     """
 
 
+def render_market_drivers_table(market_drivers: str) -> str:
+    text = (market_drivers or "").strip()
+
+    if not text:
+        return '<div class="empty-note">No se identificaron drivers relevantes para hoy.</div>'
+
+    raw_lines = [line.strip() for line in text.splitlines() if line.strip()]
+
+    cleaned_lines = []
+    for line in raw_lines:
+        line = line.lstrip("-•● ").strip()
+
+        if not line:
+            continue
+
+        normalized = line.replace("─", "").replace("-", "").strip()
+        if not normalized:
+            continue
+
+        cleaned_lines.append(line)
+
+    if not cleaned_lines:
+        return '<div class="empty-note">No se identificaron drivers relevantes para hoy.</div>'
+
+    rows = []
+    for line in cleaned_lines:
+        rows.append(
+            f"""
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">{html.escape(line)}</td>
+            </tr>
+            """
+        )
+
+    return f"""
+    <div class="drivers-table-wrap">
+      <table class="drivers-table">
+        <tbody>
+          {''.join(rows)}
+        </tbody>
+      </table>
+    </div>
+    """
+
+
 def build_html(payload: dict) -> str:
     meta = payload.get("meta", {})
     narrative = payload.get("narrative", "")
     regime = payload.get("regime", "")
+    market_drivers = payload.get("market_drivers", "")
     sources = payload.get("sources", [])
     top_stocks = payload.get("top_stocks_in_play", [])
 
     last_refresh = html.escape(str(meta.get("last_refresh_display", "No disponible")))
     narrative_html = render_paragraphs(narrative)
     regime_html = render_paragraphs(format_regime_text(regime))
+    market_drivers_html = render_market_drivers_table(market_drivers)
     regime_accent = get_regime_accent_color(regime)
     sources_html = render_sources(sources)
     top_stocks_html = render_top_stocks(top_stocks)
@@ -320,6 +368,8 @@ def build_html(payload: dict) -> str:
       height: 320px;
       overflow-y: auto;
       overflow-x: hidden;
+      font-size: 14px;
+      line-height: 1.3;
     }}
 
     .regime-card {{
@@ -329,6 +379,54 @@ def build_html(payload: dict) -> str:
       background: #111827;
       border: 1px solid #374151;
       border-left: 4px solid var(--regime-accent);
+      font-size: 14px;
+      line-height: 1.3;
+    }}
+
+    .drivers-card {{
+      max-height: 260px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 10px 16px;
+      background: #0f172a;
+      border: 1px solid #1f2937;
+    }}
+
+    .drivers-table-wrap {{
+      width: 100%;
+      overflow-x: hidden;
+    }}
+
+    .drivers-table {{
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }}
+
+    .drivers-table tbody tr {{
+      border-bottom: 1px solid rgba(148, 163, 184, 0.10);
+    }}
+
+    .drivers-table tbody tr:last-child {{
+      border-bottom: none;
+    }}
+
+    .driver-bullet {{
+      width: 18px;
+      vertical-align: top;
+      padding: 3px 6px 3px 0;
+      color: #e5e7eb;
+      font-size: 14px;
+      line-height: 1.25;
+      white-space: nowrap;
+    }}
+
+    .driver-text {{
+      padding: 3px 0;
+      color: #e5e7eb;
+      font-size: 14px;
+      line-height: 1.3;
+      word-break: break-word;
     }}
 
     .stocks-card {{
@@ -501,6 +599,13 @@ def build_html(payload: dict) -> str:
         <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
         <div class="card regime-card">
           {regime_html}
+        </div>
+
+        <div style="height:14px;"></div>
+
+        <div class="section-title">Market Drivers Today</div>
+        <div class="card drivers-card">
+          {market_drivers_html}
         </div>
 
         <div style="height:14px;"></div>
