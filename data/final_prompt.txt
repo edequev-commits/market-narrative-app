@@ -44,101 +44,30 @@ INPUT:
 
 
 {
-  "driver_principal": "La incertidumbre y fragilidad del alto el fuego entre Estados Unidos e Irán, junto con las tensiones persistentes en el Estrecho de Hormuz y Líbano, están generando presiones inflacionarias y riesgos geopolíticos que afectan la percepción de riesgo y la dinámica de los mercados globales.",
+  "driver_principal": "Las negociaciones de paz entre Estados Unidos e Irán en Pakistán y las condiciones impuestas por Irán generan incertidumbre sobre la estabilidad en Medio Oriente y el impacto en los precios del petróleo y la inflación global.",
   "hechos_confirmados": [
-    "Existe un alto el fuego frágil entre Estados Unidos e Irán que se mantiene razonablemente bien, pero con violaciones y tensiones en Líbano y el Estrecho de Hormuz.",
-    "El tráfico marítimo en el Estrecho de Hormuz permanece muy deprimido y Teherán planea implementar un peaje para el paso de barcos, lo que ha sido advertido por Donald Trump.",
-    "Israel ha acordado reducir la intensidad de sus ataques en Líbano y mantener conversaciones con el gobierno libanés, pero continúa su campaña contra Hezbollah.",
-    "El índice de precios al consumidor (CPI) de Estados Unidos para marzo mostró una aceleración significativa, con un aumento del 3.3% anual, reflejando presiones inflacionarias crecientes."
+    "Equipos de Estados Unidos e Irán llegaron a Islamabad para negociaciones destinadas a poner fin a la guerra de seis semanas entre ambos países.",
+    "Irán demandó que Israel detenga los ataques contra militantes de Hezbollah y que Estados Unidos desbloquee activos iraníes como condiciones para las conversaciones de paz.",
+    "Israel y Estados Unidos declararon que Líbano no forma parte del alto el fuego entre Estados Unidos e Irán.",
+    "Los precios del consumidor en Estados Unidos aumentaron en marzo debido al incremento en los precios de la gasolina y el diésel, atribuible al conflicto con Irán."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que el alto el fuego se mantenga en el corto plazo, pero con tensiones latentes que podrían generar episodios de volatilidad. Se espera que los precios del petróleo se mantengan elevados en torno a niveles superiores a los previos al conflicto, incorporando una prima de riesgo geopolítico persistente. La inflación global podría continuar presionada al alza debido a estos factores, afectando la dinámica macroeconómica y la política monetaria.",
-  "interpretacion_institucional": "La fragilidad del alto el fuego y las tensiones en puntos clave como Hormuz y Líbano mantienen un entorno de incertidumbre geopolítica que se traduce en una prima de riesgo para los mercados globales. Aunque el mercado accionario estadounidense ha mostrado recuperación técnica, la cercanía a zonas de resistencia y el contexto inflacionario sugieren cautela. La persistencia de precios elevados en energía y la posibilidad de interrupciones en el suministro implican riesgos de estancamiento inflacionario (stagflation) que podrían limitar la expansión económica y condicionar la política monetaria futura. La negociación entre Estados Unidos e Irán en Pakistán será un evento clave para definir la evolución del conflicto y su impacto económico.",
+  "escenario_dominante": "Existe una alta probabilidad de que las negociaciones entre Estados Unidos e Irán continúen con dificultades debido a las demandas de Irán y la postura de Israel, manteniendo un riesgo elevado de tensiones regionales que podrían sostener la volatilidad en los precios del petróleo y la inflación global en niveles elevados.",
+  "interpretacion_institucional": "La dinámica actual de las negociaciones refleja una compleja interacción entre actores regionales con intereses divergentes, lo que sugiere que, aunque se busca un alto el fuego, la persistencia de condiciones estrictas y la exclusión de ciertos actores del acuerdo podrían limitar la efectividad y duración de la paz. Esto mantiene un entorno de riesgo geopolítico que impacta en los mercados energéticos y en la inflación, lo que requiere una gestión prudente de la exposición a activos sensibles a estos factores.",
   "riesgos_secundarios": [
-    "El alto el fuego podría romperse debido a acciones militares en Líbano o nuevas restricciones en el Estrecho de Hormuz.",
-    "La imposición del peaje en Hormuz podría escalar las tensiones y afectar significativamente el comercio energético global.",
-    "Retrasos o fracaso en las negociaciones entre Estados Unidos e Irán podrían reactivar operaciones militares y aumentar la volatilidad.",
-    "Daños prolongados en la infraestructura energética de Medio Oriente podrían extender la presión inflacionaria y afectar el crecimiento global.",
-    "Intervenciones o posturas más agresivas de actores externos, como China o Rusia, podrían complicar la resolución del conflicto."
+    "La recuperación del nuevo líder supremo de Irán tras heridas graves podría influir en la estabilidad política interna y en la postura negociadora del país.",
+    "Informes de inteligencia indican que China podría estar preparando un envío de armas a Irán, lo que podría escalar tensiones en la región.",
+    "La creación de zonas de amortiguamiento por parte de Israel en Gaza, Siria y Líbano indica una posible permanencia en un estado de conflicto semi-permanente.",
+    "La posibilidad de que Irán imponga peajes a los petroleros que transitan por el Estrecho de Hormuz, lo que podría afectar el flujo de petróleo y la estabilidad del mercado energético.",
+    "La incertidumbre sobre la extensión de las exenciones de sanciones de Estados Unidos para la compra de petróleo ruso, que podría impactar los precios globales del crudo."
   ],
   "eventos_clave": [
-    "Reunión entre funcionarios de Estados Unidos e Irán en Pakistán programada para el sábado temprano hora local.",
-    "Publicación del índice de precios al consumidor (CPI) de Estados Unidos para marzo, que ya mostró una aceleración significativa.",
-    "Audiencia en la Corte de Comercio Internacional sobre el arancel global del 10% impuesto por la administración Trump.",
-    "Decisión y acciones de Estados Unidos y aliados de la OTAN para asegurar el tránsito marítimo en el Estrecho de Hormuz.",
-    "Evolución de las conversaciones y posibles negociaciones directas entre Israel y Líbano."
+    "Continuación y resultados de las negociaciones de paz entre Estados Unidos e Irán en Pakistán.",
+    "Decisiones de Israel respecto a sus operaciones militares en Líbano y Gaza durante el proceso de negociación.",
+    "Anuncios oficiales sobre el desbloqueo o liberación de activos iraníes por parte de Estados Unidos.",
+    "Evolución de los precios del petróleo y su impacto en la inflación en Estados Unidos en los próximos meses.",
+    "Posibles movimientos diplomáticos o militares relacionados con el Estrecho de Hormuz y la seguridad del transporte marítimo."
   ]
 }
 
 === MICRO DRIVERS RAW (NO FILTRADOS) ===
 
-[ENERGY_SECTION]
-energy, telecoms, insurance, and basic resources underperform . Stocks in Asia generally saw gains on Friday: TPX -0.04%, NKY +1.84%, Hang Seng +0.55%, HSCEI +0.5%, SHCOMP +0.51%, Shenzhen +1.54%, Taiwan TAIEX +1.6%, Korea KOSPI +1.4%, Australia ASX 200 -0.14%, and India is up ~90bp. Treasuries are for sale, w/yields up ~2-3bp across the curve ahead of the Mar CPI that’s expected to be very hot . The market is pricing in ~6bp of Fed rate cuts this year. The DXY is ticking up 13bp following several days of declines. Brent is rising ~220bp to ~$98 while gold falls 50bp and silver drops 30bp. Bitcoin is sliding 100bp to ~$71.66 K.
-• What’s happening this morning – it’s fairly quiet as investors remain on the edge of their seats regarding the Middle East ceasefire ahead of the upcoming talks between US and Iranian officials in Pakistan (Iranian officials are on the ground in Pakistan according to reports, and the meeting is set to occur early Sat morning Pakistan time). The two big impediments to a deal include Hormuz (traffic remains very depressed, and Tehran seems to be pushing forward with plans for a toll, something Trump Thurs night warned against) and Lebanon (Netanyahu agreed to dial back the intensity of IDF strikes and will hold talks with the Lebanon gov’t, but Israel vowed to continue its campaign against Hezbollah). In terms of non-Iran news , we didn’t see anything too dramatic since the Thurs close ( China’s inflation was mixed, the Bank of Korea left rates unchanged as expected, TSMC’s Q1 revenue came in a bit better w/Mar sales surging ~45% Y/Y vs. ~22% in Feb, The Information published Space X P&L details from 2025 that seem to fall far short of the types of numbers required for a ~$1.75 T+ market cap, and the latest Barron’s cover story talks about a Space X/Tesla merger ).
-• How we’re thinking about markets – there’s still a lot of cynicism and skepticism about the durability of the ceasefire and to the extent the détente’s permanency outperforms expectations (which is our view), this will place further upward pressure on the SPX , especially given the technical backdrop (characterized by lean long positioning and negative sentiment). However, the SPX has already bounced ~8% trough-to-peak in just a few days, and the index is nearing the ~6900-7000 zone , which was a problem area even before the war started . And while we have a brighter view on the Middle East ceasefire than the consensus , the region will never go back to where it stood before (~$90 is probably the new ~$70 when it comes to Brent), and a substantial burst of stagflationary pressure is washing over the global economy from the last 5 weeks of fighting (the US CPI for Mar due out Fri morning is expected to show a significant acceleration vs. Feb).
-• What we’ll be watching on Friday – the major events will be the US CPI for Mar at 8:30am ET (the Street is looking for a sharp acceleration in headline to +3.4% vs. +2.4% in Feb while core climbs to +2.7% vs. +2.5% in Feb) and the first meeting of US and Iranian officials in Pakistan (which is set to commence Sat morning Pakistan time). In addition, a hearing will take place before the Court of Int’l Trade about Trump’s 10% Section 122 blanket tariff that was implemented after the SCOTUS decision (and that Trump said would go to 15% but hasn’t).
-• Market in a Minute (macro) – US is considering options to encourage ships to begin traveling through Hormuz in greater numbers ( Axios ); Trump is demanding commitments from NATO allies to help provide support for securing Hormuz ( Reuters ); Trump told NBC News that he was “very optimistic” about reaching a deal w/Iran (“Iran’s leaders talk much differently when you’re at a meeting than they do to the press . They’re much more reasonable . They’re agreeing to all the things that they have to agree to”) ( NBC ); China/US relations : China is playing a key role in helping negotiate peace in the Middle East and Xi hopes this will set the stage for a successful summit with Trump next month ( WSJ ); China/US relations: the White House is deliberately adopting a more conciliatory approach to China compared to the antagonism of Trump’s first term ( WSJ ); China’s PPI came in a bit firmer than anticipated at +0.5% Y/Y (vs. the Street +0.4% and up from -0.9% in Feb) while the CPI ran a touch cooler at +1% (vs. the Street +1.1% and down from +1.3% in Feb) ( Reuters ); Warsh’s confirmation hearing, preliminarily planned for Thurs 4/16, will be pushed back ( Punchbowl , CNBC )
-• Market in a Minute (micro – Friday morning) – BABA (Alibaba) is pivoting towards monetizing its AI models rather than making them all open source ( FT ); Brunello Cucinelli shares jump in European trading after the company reported strong Q1 revenue growth (+14% on an FXN basis, more than 300bp ahead of the consensus), thanks to strength in DTC/retail (+20.1%); LITE (Lumentum)’s CEO made bullish remarks in a Bloomberg interview, stating that demand is accelerating while its 2028 order book fills up (“the capex numbers from the US hyperscalers are enormous and there seems to be no end in sight”) ( Bloomberg ); Sodexo shares slump in European trading after the company cut its guidance due to ongoing execution challenges and industry competition ( Sodexo ); TSLA (Tesla) : the cover story in the latest Barron’s discusses how Space X might eventually merge with Tesla ( Barron’s ); TSM (TSMC) reported Q1 revenue +35% to TWD1.13 T, slightly ahead of the Street forecast of TWD1.12 T (TSMC reports earnings on Thurs 4/16) ( CNBC )
-• Market in a Minute (micro – Thursday night) - Anthropic is considering a plan that would see it build its own AI chips ( Reuters ); Banks & cyber risks: Bessent summoned the heads of major banks to discuss the risks posed to the industry’s cyber defenses by powerful new AI models like Anthropic’s Claude Mythos ( FT ); FSK (FS KKR) was downgraded to BB+ from BBB- by Fitch; Space X generated $6.5 B of adjusted EBITDA last year, but the company posted a net income loss of just under $5 B (thanks to huge depreciation expense given elevated capex and massive equity-based comp) on more than $18.5 B in revenue ( The Information ); WDFC (WD-40) reported solid upside in FQ2 on EPS/revenue (1.50/$161.7 MM vs. the Street 1.43/$155 MM) and reiterated its prior FY guidance.
-• What to watch during the week of Monday 4/13 – the main macro events this week include China’s imports/exports for Mar (Mon night), US import/export prices for Mar (Wed morning), the Fed’s Beige Book (Wed afternoon), and China’s retail sales/industrial production for Mar (Wed night). For US earnings , the key reports include: Mon morning ( GS ); Tues morning ( BLK, C, JNJ, JPM, KMX , and WFC ); Wed morning ( BAC, PNC , and MS ); Wed night ( SLG ); Thurs morning ( ABT, BK, CFG, KEY, MRSH, PEP, SCHW, TRV , and USB ); Thurs night ( AA and NFLX ); and Fri morning ( RF, STT , and TFC ). In Europe, the key earnings reports include: Mon night ( LVMH ), Tues night ( Kering ); Wed morning ( ASML and Hermes ); Thurs morning ( Entain , Pernod Ricard, and TSMC ); and Fri morning ( Ericsson ).
-
-Iran
-
-• What bulls are talking about : while there were ceasefire violations earlier Wed, on Thurs and into Fri the détente between the US/Israel and Iran was holding in place reasonably well . Trump told NBC News that he was “very optimistic” about reaching a deal w/Iran (“Iran’s leaders talk much differently when you’re at a meeting than they do to the press. They’re much more reasonable. They’re agreeing to all the things that they have to agree to”). Importantly, it looks like the situation in Lebanon could cool , removing a substantial source of pressure from the Iran ceasefire . Netanyahu on Thurs said Israel was seeking to “ open direct negotiations with Lebanon as soon as possible ” (according to an NBC News report, Trump asked Netanyahu to dial back the intensity of the IDF’s strikes on Lebanon, and the Israeli PM agreed “to be a helpful partner” ).
-• What bears are talking about : the Middle East ceasefire is very fragile and risks being undermined by the situation in Lebanon ( Netanyahu might be seeking to hold talks w/Lebanon, but he was explicit in stating that no cease fire exists between the two countries , and vowed to continue striking Hezbollah “with force” ) and Hormuz ( volumes through the waterway remain depressed , and Tehran seems very serious about proceeding with plans for a toll, something Trump at 5:10pm ET Thurs afternoon warned them not to do). The US and Iran have some huge differences that need to be ironed out for a full deal to be implemented, and time is very much of the essence (Trump warned Wed night that the Pentagon will resume its campaign against Iran if an agreement isn’t reached ). Even if the US and Iran are able to secure a permanent détente, the situation in the Middle East won’t go back to the way it was in the near or immediate term – every commodity and product going through Hormuz will embed a significant geopolitical risk premium for the foreseeable future , ensuring the global economy faces a persistent source of stagflationary pressure . Significant damage was inflicted to key infrastructure in the Middle East over the last several weeks, and it will take a long time to bring all this back online ( Saudi Arabia on Thurs said it lost ~600 K BPD of oil capacity due to damage from the war). The IMF on Thurs warned that the Middle East war will deal a major blow to the global economy , even with the recent ceasefire.
-• US is considering options to encourage ships to begin traveling through Hormuz in greater numbers ( Axios )
-• UAE official says that Hormuz is not open despite the ceasefire ( CNBC )
-• Trump is demanding commitments from NATO allies to help provide support for securing Hormuz ( Reuters )
-
-Washington/US macro
-
-• Warsh’s confirmation hearing, preliminarily planned for Thurs 4/16, will be pushed back ( Punchbowl , CNBC )
-• White House expresses confidence that Warsh will be leading the Fed in May ( Reuters )
-• Chinese auto OEMs are unlikely to sell vehicles in the US anytime soon due to restrictions on foreign technology ( Bloomberg )
-• Washington could ratchet up restrictions on the ability of Chinese telecom firms to operate in the US ( Reuters )
-• USPS plans to increase the price of a stamp from 78c to 82c (the price has risen 34% since 2021) ( Bloomberg )
-• White House warns staff not to use prediction markets to make bets on policy changes ( WSJ )
-• US/NATO : Trump is considering pulling some US troops from Europe in an expression of displeasure with NATO’s behavior during the Iran war ( Reuters )
-
-International macro
-
-• China/US relations: the White House is deliberately adopting a more conciliatory approach to China compared to the antagonism of Trump’s first term ( WSJ )
-• China/US relations : China is playing a key role in helping negotiate peace in the Middle East and Xi hopes this will set the stage for a successful summit with Trump next month ( WSJ )
-• China/Taiwan relations : Xi tells Taiwan’s opposition leader that unification is an “historical inevitability” ( FT )
-• China’s PPI came in a bit firmer than anticipated at +0.5% Y/Y (vs. the Street +0.4% and up from -0.9% in Feb) while the CPI ran a touch cooler at +1% (vs. the Street +1.1% and down from +1.3% in Feb) ( Reuters )
-• Europe boosted imports of Russian LNG in Q1 amid strains in Middle Eastern supplies ( FT )
-• Europe and the US are close to a deal on producing/sourcing critical materials ( Bloomberg )
-• Japan’s PPI for Mar came in at +0.8% M/M (vs. the Street +0.7%) and +2.6% Y/Y (vs. the Street +2.3%) (Bloomberg)
-• Russia/Ukraine will observe a 32-hour ceasefire on Orthodox Easter ( Reuters )
-• Russia/Ukraine : Zelensky is skeptical about a breakthrough in peace talks w/Russia ( NYT )
-• South Korea’s central bank left rates unchanged at 2.5%, as expected ( WSJ )
-• Taiwan’s exports surged 61.8% Y/Y in Mar, far ahead of the Street consensus forecast of +34.7% (Bloomberg)
-
-Consumer
-
-• BF’b (Brown-Forman) was the subject of more deal chatter , w/the WSJ on Thurs reporting that the firm was approached about a potential deal by privately held Sazerac ( WSJ )
-• Brunello Cucinelli shares jump in European trading after the company reported strong Q1 revenue growth (+14% on an FXN basis, more than 300bp ahead of the consensus), thanks to strength in DTC/retail (+20.1%)
-• Furniture – a NYT profile article detailed the terrible sales trends in the furniture industry amid tepid housing fundamentals and elevated interest rates ( NYT )
-• KMX (Car Max) will add two people to its board following discussions w/activist Starboard ( WSJ )
-• NKE (Nike) is set to become the official ball sponsor/manufacturer for the UEFA Champions League in Europe , capturing the relationship away from Adidas ( FT )
-• Porsche Q1 deliveries slumped 15% Y/Y to 60.991 K units, with China -21% ( Reuters )
-• Sodexo shares slump in European trading after the company cut its guidance due to ongoing execution challenges and industry competition ( Sodexo )
-
-[TMT_SECTION]
-TMT
-
-• AI update : Glasswing , Muse Spark , Trainium , and office leasing volumes ( Vital Knowledge )
-• AI regulatory scrutiny : while investors love AI, politicians increasingly do not , and the industry is coming under more scrutiny from various states (from Florida's AG on Thurs : "today, we launched an investigation into Open AI and Chat GPT . AI should advance mankind, not destroy it. We’re demanding answers on Open AI’s activities that have hurt kids, endangered Americans, and facilitated the recent FSU mass shooting. Wrongdoers must be held accountable”).
-• AMZN (Amazon) : Jassy's annual letter is very bullish on AI , and especially Amazon's AI chip opportunity ( Vital Knowledge )
-• Anthropic is considering a plan that would see it build its own AI chips ( Reuters )
-• BABA (Alibaba) is pivoting towards monetizing its AI models rather than making them all open source ( FT )
-• Banks & cyber risks: Bessent summoned the heads of major banks to discuss the risks posed to the industry’s cyber defenses by powerful new AI models like Anthropic’s Claude Mythos ( FT )
-• LITE (Lumentum)’s CEO made bullish remarks in a Bloomberg interview, stating that demand is accelerating while its 2028 order book fills up (“the capex numbers from the US hyperscalers are enormous and there seems to be no end in sight”) ( Bloomberg )
-• NFL faces a DOJ investigation into whether the league has engaged in uncompetitive practices that harm consumers ( WSJ )
-• Open AI says its significant computing infrastructure footprint gives it a major advantage over competitor Anthropic ( Bloomberg , CNBC )
-• Open AI : three senior Open AI execs tied to Stargate are set to depart the company ( The Information )
-• Space X generated $6.5 B of adjusted EBITDA last year, but the company posted a net income loss of just under $5 B (thanks to huge depreciation expense given elevated capex and massive equity-based comp) on more than $18.5 B in revenue ( The Information )
-• Space X – the executive shakeup at x AI continues , with the company’s CFO recently departing the company ( The Information )
-• Space X’s bankers are considering options to prevent a flood of selling after the upcoming IPO ( Semafor )
-• TNET (Tri Net) announced it has entered into a definitive agreement to acquire Cocoon , a market leader in leave management technology.
-• TSLA (Tesla) : the cover story in Barron’s discusses how Space X might eventually merge with Tesla ( Barron’s )
-• TSM (TSMC) reported Q1 revenue +35% to TWD1.13 T, slightly ahead of the Street forecast of TWD1.12 T (TSMC reports earnings on Thurs 4/16) ( CNBC )

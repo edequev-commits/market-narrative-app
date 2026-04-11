@@ -1,29 +1,10 @@
 {
-  "source_subject": "Consumer sentiment tanks, inflation fears rise in March amid Iran war",
-  "source_from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-  "source_date": "2026-04-10T08:08:03-06:00",
-  "body_excerpt": "[CNBC #1] Consumer sentiment tanks, inflation fears rise in March amid Iran war\nFecha: 2026-04-10T08:08:03-06:00\nConsumer sentiment tanks, inflation fears rise in March amid Iran war\nThis is a developing news story. Please check back for updates:\n\n[CNBC #2] S&P 500 ticks higher Friday as benchmark wraps up big week following fragile Iran ceasefire: Live updates\nFecha: 2026-04-10T07:31:09-06:00\nS&P 500 ticks higher Friday as benchmark wraps up big week following fragile Iran ceasefire: Live updates\nThis is a developing news story. Please check back for updates:\n\n[CNBC #3] Consumer prices rose 3.3% in March, as expected\nFecha: 2026-04-10T06:32:05-06:00\nConsumer prices rose 3.3% in March, as expected\nThis is a developing news story. Please check back for updates:",
+  "source_subject": "",
+  "source_from": "",
+  "source_date": "",
+  "body_excerpt": "",
   "links": [],
   "fetched_links": [],
-  "selected_emails": [
-    {
-      "subject": "Consumer sentiment tanks, inflation fears rise in March amid Iran war",
-      "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-      "date": "2026-04-10T08:08:03-06:00",
-      "recency_rank": 1
-    },
-    {
-      "subject": "S&P 500 ticks higher Friday as benchmark wraps up big week following fragile Iran ceasefire: Live updates",
-      "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-      "date": "2026-04-10T07:31:09-06:00",
-      "recency_rank": 2
-    },
-    {
-      "subject": "Consumer prices rose 3.3% in March, as expected",
-      "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-      "date": "2026-04-10T06:32:05-06:00",
-      "recency_rank": 3
-    }
-  ],
-  "parsed_at": "2026-04-11T01:56:59"
+  "selected_emails": [],
+  "parsed_at": "2026-04-11T17:57:09"
 }
