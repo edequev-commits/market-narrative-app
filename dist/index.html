@@ -66,6 +66,8 @@
       height: 320px;
       overflow-y: auto;
       overflow-x: hidden;
+      font-size: 14px;
+      line-height: 1.3;
     }
 
     .regime-card {
@@ -75,6 +77,54 @@
       background: #111827;
       border: 1px solid #374151;
       border-left: 4px solid var(--regime-accent);
+      font-size: 14px;
+      line-height: 1.3;
+    }
+
+    .drivers-card {
+      max-height: 260px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 10px 16px;
+      background: #0f172a;
+      border: 1px solid #1f2937;
+    }
+
+    .drivers-table-wrap {
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    .drivers-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    .drivers-table tbody tr {
+      border-bottom: 1px solid rgba(148, 163, 184, 0.10);
+    }
+
+    .drivers-table tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    .driver-bullet {
+      width: 18px;
+      vertical-align: top;
+      padding: 3px 6px 3px 0;
+      color: #e5e7eb;
+      font-size: 14px;
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .driver-text {
+      padding: 3px 0;
+      color: #e5e7eb;
+      font-size: 14px;
+      line-height: 1.3;
+      word-break: break-word;
     }
 
     .stocks-card {
@@ -233,20 +283,75 @@
 <body>
   <div class="container">
     <div class="title">Daily Market Dashboard v1.0</div>
-    <div class="subtle">Última actualización: 10-04-2026 13:01:48</div>
+    <div class="subtle">Última actualización: 10-04-2026 19:47:32</div>
 
     <div class="grid">
       <div>
         <div class="section-title">Narrativa macro</div>
         <div class="card narrative-card">
-          <p style="margin:0 0 16px 0; line-height:1.65;">La fragilidad y la incertidumbre en torno a la durabilidad del alto al fuego entre Estados Unidos e Irán constituyen el driver principal que domina el escenario actual. Este alto al fuego, vigente de manera precaria por dos semanas, es relevante porque condiciona la estabilidad geopolítica en una región clave para el suministro energético global. A su vez, las tensiones persistentes en el Estrecho de Hormuz, donde el tráfico marítimo permanece muy deprimido y con la amenaza de un peaje iraní, junto con el conflicto en Líbano y la campaña continua contra Hezbollah, generan presiones inflacionarias y elevan las primas de riesgo que afectan la percepción global de riesgo y la dinámica económica.</p><p style="margin:0 0 16px 0; line-height:1.65;">El mercado ha reaccionado con un rebote técnico en los principales índices accionarios, como el S&amp;P 500, aprovechando el respiro temporal que ofrece la continuidad del alto al fuego. Sin embargo, esta recuperación se da en un contexto de alta volatilidad y riesgos latentes, dado que las tensiones en el Estrecho de Hormuz y en Líbano mantienen un elevado nivel de incertidumbre. La inflación en Estados Unidos se ha acelerado, reflejada en un aumento del 3.3% interanual del CPI en marzo, lo que ha generado preocupación sobre la persistencia de presiones inflacionarias globales y la posible respuesta más restrictiva de la política monetaria.</p><p style="margin:0 0 16px 0; line-height:1.65;">Desde una lectura institucional, el escenario apunta a un entorno macroeconómico complejo, caracterizado por un riesgo creciente de estagflación, donde la inflación se mantiene al alza mientras el crecimiento económico se debilita. El capital institucional se posiciona con cautela, favoreciendo la exposición a activos que puedan beneficiarse de la recuperación técnica en acciones, pero con una gestión activa del riesgo ante la posibilidad de nuevas escaladas geopolíticas. La continuidad del alto al fuego, aunque frágil, limita la aversión extrema al riesgo, pero la imposición del peaje en Hormuz y la persistencia del conflicto en Líbano sostienen la presión sobre los precios del petróleo y la inflación, condicionando la política monetaria estadounidense hacia un endurecimiento que reduce el espacio para recortes de tasas en el corto plazo.</p><p style="margin:0 0 16px 0; line-height:1.65;">Los eventos clave que pueden validar o modificar esta narrativa incluyen la reunión programada para el 11 de abril entre funcionarios de Estados Unidos e Irán en Pakistán, que podría consolidar o romper el alto al fuego; la publicación del CPI de marzo el 10 de abril, que confirmará la tendencia inflacionaria; y la evolución del tránsito marítimo en el Estrecho de Hormuz, donde cualquier medida iraní para imponer peajes o incentivar el tráfico tendrá un impacto directo en los precios energéticos. Además, el desarrollo de las negociaciones entre Israel y Líbano será un factor determinante para la estabilidad regional. La ruptura del alto al fuego, un fracaso en las negociaciones o una escalada en cualquiera de estos frentes podrían revertir rápidamente la percepción de riesgo y la dinámica de mercado.</p>
+          <p style="margin:0 0 10px 0; line-height:1.3;">La incertidumbre y fragilidad del alto el fuego entre Estados Unidos e Irán, junto con las tensiones persistentes en el Medio Oriente, constituyen el driver dominante del mercado. Este escenario es relevante porque, aunque el alto el fuego se mantiene razonablemente bien en el corto plazo, las violaciones y tensiones en puntos críticos como Líbano y el Estrecho de Hormuz generan riesgos geopolíticos que presionan al alza la inflación global, especialmente a través del encarecimiento del petróleo. La persistencia de estos riesgos mantiene un entorno de incertidumbre que impacta la percepción de riesgo y condiciona el comportamiento de los mercados financieros a nivel global.</p><p style="margin:0 0 10px 0; line-height:1.3;">El mercado reacciona con cautela y volatilidad ante esta situación. Los precios del petróleo se mantienen elevados, en torno a los 90-100 dólares por barril, reflejando el premio por riesgo geopolítico incorporado. Los índices accionarios han mostrado cierta recuperación técnica, con un rebote cercano al 8% en el S&amp;P 500 desde los mínimos recientes, pero enfrentan resistencia en zonas clave que limitan un avance sostenido. Los inversores mantienen una postura escéptica sobre la durabilidad del alto el fuego, lo que se traduce en una volatilidad persistente y una demanda cautelosa por activos de riesgo. Al mismo tiempo, la inflación en Estados Unidos se acelera, con un índice de precios al consumidor para marzo que confirma presiones inflacionarias crecientes, complicando el panorama para la política monetaria.</p><p style="margin:0 0 10px 0; line-height:1.3;">Desde una lectura institucional, el escenario configura un contexto de stagflación global, donde la inflación elevada y el crecimiento económico moderado o débil coexisten, afectando la asignación de capital. El riesgo geopolítico en Medio Oriente sostiene un premio por riesgo en las materias primas, especialmente en el petróleo, que se traduce en costos energéticos más altos y presiones inflacionarias duraderas. Los fondos institucionales probablemente mantendrán posiciones defensivas, con exposición limitada a activos de riesgo y un enfoque en activos refugio o con protección contra la inflación. La política monetaria estadounidense enfrenta un dilema complejo, con la Fed evaluando ajustes en su trayectoria de tasas para contener la inflación sin comprometer la recuperación económica, lo que añade un factor adicional de incertidumbre para los mercados.</p><p style="margin:0 0 10px 0; line-height:1.3;">Los eventos clave que pueden validar o modificar esta narrativa incluyen la reunión entre funcionarios de Estados Unidos e Irán en Pakistán, programada para el sábado, que podría consolidar un acuerdo más duradero o, en caso contrario, aumentar las tensiones. La evolución del tráfico marítimo en el Estrecho de Hormuz y la posible implementación de un peaje por parte de Teherán son factores críticos que podrían intensificar la crisis energética global. Asimismo, la situación en Líbano y las decisiones de Israel respecto a su campaña militar son determinantes para la estabilidad regional. Finalmente, la publicación del índice de precios al consumidor en Estados Unidos y las decisiones en la política monetaria, incluyendo la confirmación del presidente de la Fed, serán indicadores clave para ajustar la estrategia institucional en función de la evolución macroeconómica y geopolítica.</p>
         </div>
 
         <div style="height:14px;"></div>
 
         <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
         <div class="card regime-card">
-          <p style="margin:0 0 16px 0; line-height:1.65;">🏷️ MARKET REGIME: Régimen Transicional / Volátil 🟡</p><p style="margin:0 0 16px 0; line-height:1.65;">El mercado muestra rebotes técnicos comprados, pero con alta sensibilidad a la información y movimientos erráticos. Las rupturas de niveles clave tienden a fallar o revertirse rápidamente, reflejando incertidumbre y falta de continuidad en las tendencias. La volatilidad es elevada y las reacciones a noticias generan oscilaciones amplias, sin un sesgo claro y sostenido. En situaciones como esta, típicamente los traders deben esperar movimientos impredecibles y gestionar riesgos con disciplina, priorizando la flexibilidad sobre posiciones direccionales fuertes.</p>
+          <p style="margin:0 0 10px 0; line-height:1.3;">🏷️ MARKET REGIME: Régimen Transicional / Volátil 🟡</p><p style="margin:0 0 10px 0; line-height:1.3;">El mercado muestra una alta volatilidad con movimientos erráticos y rupturas que no logran consolidarse consistentemente. Los rebotes son mixtos, con compras cautelosas que se ven rápidamente contrarrestadas por ventas, reflejando escepticismo sobre la durabilidad de las mejoras recientes. La reacción a noticias es irregular, alternando entre optimismo técnico y aversión al riesgo por la persistencia de incertidumbres. En situaciones como esta, típicamente los traders deben priorizar la gestión activa del riesgo y evitar posiciones direccionales fuertes hasta que se confirme un patrón claro de continuidad o reversión.</p>
+        </div>
+
+        <div style="height:14px;"></div>
+
+        <div class="section-title">Market Drivers Today</div>
+        <div class="card drivers-card">
+          
+    <div class="drivers-table-wrap">
+      <table class="drivers-table">
+        <tbody>
+          
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">TSMC ($TSM) reporta ingresos del primer trimestre un 35% superiores, superando estimaciones, impulsando sector tecnológico hoy.</td>
+            </tr>
+            
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">Brunello Cucinelli sube tras reportar crecimiento de ingresos del primer trimestre del 14%, superando expectativas, favoreciendo consumo de lujo.</td>
+            </tr>
+            
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">Lumentum ($LITE) CEO destaca aceleración en demanda y cartera de pedidos para 2028, apoyando al sector tecnológico y semiconductores.</td>
+            </tr>
+            
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">Sodexo cae tras recortar guía por desafíos operativos y competencia, presionando acciones del sector servicios hoy.</td>
+            </tr>
+            
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">Tesla ($TSLA) en foco por posible fusión con Space X, generando especulación y volatilidad en el sector tecnológico.</td>
+            </tr>
+            
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">Índice de precios al consumidor en EE.UU. sube 3.3% interanual en marzo, aumentando presión inflacionaria y volatilidad en mercados.</td>
+            </tr>
+            
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">Precio del petróleo se mantiene elevado cerca de 98 dólares por barril por tensiones en el Estrecho de Hormuz, afectando energía hoy.</td>
+            </tr>
+            
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">Reunión entre EE.UU. e Irán en Pakistán genera expectativa sobre estabilidad del alto el fuego y posible impacto en mercados energéticos.</td>
+            </tr>
+            
+        </tbody>
+      </table>
+    </div>
+    
         </div>
 
         <div style="height:14px;"></div>
@@ -280,12 +385,12 @@
                 <td>Specialty Chemicals</td>
                 <td>USA</td>
                 <td class="description-cell">USA dentro de Specialty Chemicals; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
-                <td class="negative">-3.20%</td>
-                <td class="number-cell">215.88</td>
-                <td class="number-cell">305.11K</td>
+                <td class="negative">-4.04%</td>
+                <td class="number-cell">214.01</td>
+                <td class="number-cell">398.47K</td>
                 <td class="number-cell">170.73K</td>
                 <td class="number-cell">13.42M</td>
-                <td class="number-cell">2.18</td>
+                <td class="number-cell">2.33</td>
             </tr>
             
             <tr>
@@ -293,12 +398,12 @@
                 <td>Gold</td>
                 <td>Canada</td>
                 <td class="description-cell">Canada dentro de Gold; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
-                <td class="positive">2.83%</td>
-                <td class="number-cell">43.63</td>
-                <td class="number-cell">6.50M</td>
+                <td class="positive">2.64%</td>
+                <td class="number-cell">43.55</td>
+                <td class="number-cell">9.67M</td>
                 <td class="number-cell">15.91M</td>
                 <td class="number-cell">1.66B</td>
-                <td class="number-cell">0.50</td>
+                <td class="number-cell">0.61</td>
             </tr>
             
             <tr>
@@ -306,12 +411,12 @@
                 <td>Semiconductors</td>
                 <td>Taiwan</td>
                 <td class="description-cell">Taiwan dentro de Semiconductors; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
-                <td class="positive">1.85%</td>
-                <td class="number-cell">372.24</td>
-                <td class="number-cell">10.20M</td>
+                <td class="positive">1.40%</td>
+                <td class="number-cell">370.60</td>
+                <td class="number-cell">13.12M</td>
                 <td class="number-cell">13.80M</td>
                 <td class="number-cell">5.18B</td>
-                <td class="number-cell">0.90</td>
+                <td class="number-cell">0.95</td>
             </tr>
             
             <tr>
@@ -319,9 +424,9 @@
                 <td>Communication Equipment</td>
                 <td>USA</td>
                 <td class="description-cell">USA dentro de Communication Equipment; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
-                <td class="positive">0.38%</td>
-                <td class="number-cell">897.50</td>
-                <td class="number-cell">5.84M</td>
+                <td class="positive">0.35%</td>
+                <td class="number-cell">897.30</td>
+                <td class="number-cell">7.12M</td>
                 <td class="number-cell">6.14M</td>
                 <td class="number-cell">68.79M</td>
                 <td class="number-cell">1.16</td>
@@ -332,12 +437,12 @@
                 <td>Telecom Services</td>
                 <td>USA</td>
                 <td class="description-cell">USA dentro de Telecom Services; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
-                <td class="negative">-1.77%</td>
-                <td class="number-cell">26.36</td>
-                <td class="number-cell">16.96M</td>
+                <td class="negative">-1.42%</td>
+                <td class="number-cell">26.46</td>
+                <td class="number-cell">31.97M</td>
                 <td class="number-cell">45.27M</td>
                 <td class="number-cell">6.99B</td>
-                <td class="number-cell">0.46</td>
+                <td class="number-cell">0.71</td>
             </tr>
             
             <tr>
@@ -345,12 +450,12 @@
                 <td>Auto Manufacturers</td>
                 <td>USA</td>
                 <td class="description-cell">USA dentro de Auto Manufacturers; nombre con catalizador vigente y potencial de movimiento intradía En un mercado mixto, exige confirmación antes de entrar.</td>
-                <td class="negative">-0.12%</td>
-                <td class="number-cell">345.22</td>
-                <td class="number-cell">39.66M</td>
+                <td class="positive">0.96%</td>
+                <td class="number-cell">348.95</td>
+                <td class="number-cell">50.44M</td>
                 <td class="number-cell">61.79M</td>
                 <td class="number-cell">2.69B</td>
-                <td class="number-cell">0.78</td>
+                <td class="number-cell">0.82</td>
             </tr>
             
         </tbody>
@@ -414,10 +519,10 @@
             
             <div class="source-item">
                 <div class="source-header">
-                    <div class="source-name">Macro View Daily</div>
-                    <div class="source-date">10/04/2026 - 08:05</div>
+                    <div class="source-name">Reuters Tariff Watch</div>
+                    <div class="source-date">10/04/2026 - 06:01</div>
                 </div>
-                <div class="source-detail">March CPI: Inflation Pumps Up As Gasoline Soars</div>
+                <div class="source-detail">USTR: If China gets involved in Iran, will complicate matters</div>
             </div>
             
             <div class="source-item">
@@ -430,18 +535,10 @@
             
             <div class="source-item">
                 <div class="source-header">
-                    <div class="source-name">Reuters Tariff Watch</div>
-                    <div class="source-date">10/04/2026 - 06:01</div>
+                    <div class="source-name">Macro View Daily</div>
+                    <div class="source-date">10/04/2026 - 08:05</div>
                 </div>
-                <div class="source-detail">USTR: If China gets involved in Iran, will complicate matters</div>
-            </div>
-            
-            <div class="source-item">
-                <div class="source-header">
-                    <div class="source-name">Finviz Alert</div>
-                    <div class="source-date">10/04/2026 - 05:30</div>
-                </div>
-                <div class="source-detail">Economic Calendar Alert [Core Inflation Rate Yo Y]</div>
+                <div class="source-detail">March CPI: Inflation Pumps Up As Gasoline Soars</div>
             </div>
             
         </div>
