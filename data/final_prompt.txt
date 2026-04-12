@@ -44,28 +44,28 @@ INPUT:
 
 
 {
-  "driver_principal": "Las negociaciones de paz entre Estados Unidos e Irán en Pakistán y las condiciones impuestas por Irán generan incertidumbre sobre la estabilidad en Medio Oriente y el impacto en los precios del petróleo y la inflación global.",
+  "driver_principal": "Las negociaciones de paz entre Estados Unidos e Irán en Pakistán y las condiciones impuestas por Irán, junto con la postura de Israel y la situación en el Estrecho de Hormuz, dominan la percepción de riesgo y el movimiento del mercado.",
   "hechos_confirmados": [
-    "Equipos de Estados Unidos e Irán llegaron a Islamabad para negociaciones destinadas a poner fin a la guerra de seis semanas entre ambos países.",
-    "Irán demandó que Israel detenga los ataques contra militantes de Hezbollah y que Estados Unidos desbloquee activos iraníes como condiciones para las conversaciones de paz.",
+    "Equipos de Estados Unidos e Irán llegaron a Islamabad para negociaciones destinadas a poner fin a la guerra de seis semanas.",
+    "Irán demandó que Israel detenga los ataques contra militantes de Hezbollah y que Estados Unidos desbloquee activos iraníes como condiciones para las conversaciones.",
     "Israel y Estados Unidos declararon que Líbano no forma parte del alto el fuego entre Estados Unidos e Irán.",
-    "Los precios del consumidor en Estados Unidos aumentaron en marzo debido al incremento en los precios de la gasolina y el diésel, atribuible al conflicto con Irán."
+    "Productores de petróleo de Medio Oriente solicitaron a refinadores asiáticos programas de carga de crudo para abril y mayo, indicando preparativos para la reanudación del envío en el Estrecho de Hormuz."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que las negociaciones entre Estados Unidos e Irán continúen con dificultades debido a las demandas de Irán y la postura de Israel, manteniendo un riesgo elevado de tensiones regionales que podrían sostener la volatilidad en los precios del petróleo y la inflación global en niveles elevados.",
-  "interpretacion_institucional": "La dinámica actual de las negociaciones refleja una compleja interacción entre actores regionales con intereses divergentes, lo que sugiere que, aunque se busca un alto el fuego, la persistencia de condiciones estrictas y la exclusión de ciertos actores del acuerdo podrían limitar la efectividad y duración de la paz. Esto mantiene un entorno de riesgo geopolítico que impacta en los mercados energéticos y en la inflación, lo que requiere una gestión prudente de la exposición a activos sensibles a estos factores.",
+  "escenario_dominante": "Existe una alta probabilidad de que las negociaciones entre Estados Unidos e Irán avancen hacia un acuerdo de alto el fuego limitado, aunque con condiciones que podrían retrasar o complicar su implementación. La postura de Israel y la situación en el Estrecho de Hormuz mantendrán la tensión regional en niveles moderados, afectando la estabilidad del suministro energético y la volatilidad de los precios del petróleo.",
+  "interpretacion_institucional": "Las negociaciones en Pakistán reflejan un intento significativo de reducir el conflicto entre Estados Unidos e Irán, lo que podría aliviar presiones inflacionarias derivadas del aumento en precios de combustibles. Sin embargo, las demandas de Irán y la negativa de Israel a integrarse en el alto el fuego sugieren que la paz podría ser parcial y frágil. La preparación para reanudar el tránsito petrolero en el Estrecho de Hormuz indica expectativas de estabilización en el suministro energético, aunque la región seguirá siendo un foco de riesgo geopolítico que podría influir en la volatilidad de los mercados globales.",
   "riesgos_secundarios": [
-    "La recuperación del nuevo líder supremo de Irán tras heridas graves podría influir en la estabilidad política interna y en la postura negociadora del país.",
-    "Informes de inteligencia indican que China podría estar preparando un envío de armas a Irán, lo que podría escalar tensiones en la región.",
-    "La creación de zonas de amortiguamiento por parte de Israel en Gaza, Siria y Líbano indica una posible permanencia en un estado de conflicto semi-permanente.",
-    "La posibilidad de que Irán imponga peajes a los petroleros que transitan por el Estrecho de Hormuz, lo que podría afectar el flujo de petróleo y la estabilidad del mercado energético.",
-    "La incertidumbre sobre la extensión de las exenciones de sanciones de Estados Unidos para la compra de petróleo ruso, que podría impactar los precios globales del crudo."
+    "La recuperación del nuevo líder supremo de Irán tras heridas graves podría afectar la dinámica interna y la postura negociadora del país.",
+    "Informes de inteligencia indican que China podría estar preparando un envío de armas a Irán, lo que podría escalar tensiones regionales.",
+    "La creación de zonas de amortiguamiento por parte de Israel en Gaza, Siria y Líbano sugiere una disposición a mantener un estado de conflicto prolongado.",
+    "La posibilidad de que Irán imponga un peaje a los petroleros que transitan por el Estrecho de Hormuz, lo que podría afectar el comercio energético global.",
+    "La incertidumbre sobre la extensión y efectividad de las exenciones de sanciones estadounidenses para la compra de petróleo ruso, que impacta los precios del combustible."
   ],
   "eventos_clave": [
-    "Continuación y resultados de las negociaciones de paz entre Estados Unidos e Irán en Pakistán.",
-    "Decisiones de Israel respecto a sus operaciones militares en Líbano y Gaza durante el proceso de negociación.",
-    "Anuncios oficiales sobre el desbloqueo o liberación de activos iraníes por parte de Estados Unidos.",
-    "Evolución de los precios del petróleo y su impacto en la inflación en Estados Unidos en los próximos meses.",
-    "Posibles movimientos diplomáticos o militares relacionados con el Estrecho de Hormuz y la seguridad del transporte marítimo."
+    "Desarrollo y resultados de las negociaciones de paz entre Estados Unidos e Irán en Pakistán en los próximos días.",
+    "Decisiones de Israel respecto a su postura en el conflicto y la creación o mantenimiento de zonas de amortiguamiento en la región.",
+    "Anuncios oficiales sobre la reanudación o interrupción del tránsito de petróleo a través del Estrecho de Hormuz.",
+    "Medidas del gobierno de Estados Unidos sobre la extensión o modificación de las exenciones de sanciones para la compra de petróleo ruso.",
+    "Informes adicionales sobre la salud y rol del nuevo líder supremo de Irán en la conducción de la política exterior y militar."
   ]
 }
 
