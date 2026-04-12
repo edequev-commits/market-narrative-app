@@ -44,28 +44,28 @@ INPUT:
 
 
 {
-  "driver_principal": "El fracaso de las negociaciones de paz entre Estados Unidos e Irán y la posterior amenaza de bloqueo del Estrecho de Hormuz por parte de Estados Unidos.",
+  "driver_principal": "El fracaso de las negociaciones de paz entre Estados Unidos e Irán y la posterior amenaza de bloqueo del Estrecho de Hormuz por parte de Estados Unidos, incrementan la tensión geopolítica en el Medio Oriente y elevan la percepción de riesgo en los mercados energéticos y regionales.",
   "hechos_confirmados": [
     "Las negociaciones de paz entre Estados Unidos e Irán en Pakistán concluyeron sin acuerdo tras 14 horas de diálogo.",
-    "Las delegaciones de Estados Unidos e Irán abandonaron Pakistán tras el fin de las negociaciones.",
-    "Un funcionario estadounidense anunció que Estados Unidos establecerá un bloqueo en el Estrecho de Hormuz tras el fracaso de las negociaciones.",
-    "El gobierno iraní informó que planea restaurar la mayoría de su capacidad de refinación en un plazo de dos meses."
+    "Las delegaciones de Estados Unidos e Irán abandonaron Pakistán tras el fracaso de las negociaciones.",
+    "Un funcionario del Ministerio de Petróleo de Irán declaró que Irán apunta a restaurar la mayoría de su capacidad de refinación en dos meses.",
+    "El expresidente Trump declaró que Estados Unidos bloqueará el Estrecho de Hormuz tras el fracaso de las negociaciones de paz con Irán."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que la tensión geopolítica en el Golfo Pérsico se mantenga elevada, con riesgos de interrupciones en el suministro energético debido a la amenaza de bloqueo del Estrecho de Hormuz y la falta de avances en las negociaciones de paz. Se espera que los mercados reflejen esta incertidumbre con volatilidad y posibles caídas en activos regionales.",
-  "interpretacion_institucional": "El fracaso de las negociaciones y la amenaza explícita de bloqueo del Estrecho de Hormuz por parte de Estados Unidos incrementan el riesgo geopolítico en una región clave para el suministro energético global. Esto puede generar presiones alcistas en los precios del petróleo y aumentar la aversión al riesgo en los mercados emergentes y globales. La restauración de la capacidad de refinación iraní en dos meses podría mitigar parcialmente el impacto en el mediano plazo, pero la incertidumbre inmediata prevalece. Los inversores deben monitorear de cerca la evolución de las tensiones y la respuesta militar en la región.",
+  "escenario_dominante": "Existe una alta probabilidad de que la tensión geopolítica en el Medio Oriente se mantenga elevada en el corto plazo, con riesgos persistentes para el suministro energético global debido a la amenaza de bloqueo del Estrecho de Hormuz y la falta de avances en el diálogo diplomático entre Estados Unidos e Irán.",
+  "interpretacion_institucional": "El fracaso de las negociaciones y la amenaza explícita de bloqueo del Estrecho de Hormuz por parte de Estados Unidos sugieren un aumento en la percepción de riesgo geopolítico que podría traducirse en volatilidad en los mercados energéticos y regionales. La intención de Irán de restaurar su capacidad de refinación indica un esfuerzo por mitigar el impacto económico de las sanciones y tensiones actuales. Los mercados podrían reaccionar con cautela ante la posibilidad de interrupciones en el suministro de petróleo, mientras que la comunidad internacional podría buscar vías alternativas para evitar una escalada mayor. La situación demanda monitoreo constante de los desarrollos diplomáticos y militares en la región.",
   "riesgos_secundarios": [
-    "Posible escalada militar directa en el Golfo Pérsico que podría afectar significativamente el comercio marítimo y la estabilidad regional.",
-    "Intervenciones o reacciones de terceros países del Golfo que podrían complicar la dinámica geopolítica.",
-    "Impactos económicos negativos que podrían afectar las reuniones del FMI y el Banco Mundial debido al shock en la región.",
-    "Posibles operaciones encubiertas o ciberataques relacionados con el conflicto que no han sido confirmados oficialmente.",
-    "Reacciones inesperadas en los mercados financieros globales que podrían amplificar la volatilidad más allá de la región."
+    "La posibilidad de que Estados Unidos efectivamente implemente el bloqueo del Estrecho de Hormuz, lo que podría desencadenar una escalada militar en la región.",
+    "Reacciones militares o políticas de otros países del Golfo Pérsico que podrían complicar aún más la situación regional.",
+    "Intervenciones o mediaciones internacionales que podrían modificar el curso actual de las tensiones.",
+    "Incremento en ataques o sabotajes a infraestructuras energéticas en la región que afecten la producción o transporte de petróleo.",
+    "Cambios repentinos en la postura de Irán respecto a las negociaciones o acciones militares."
   ],
   "eventos_clave": [
-    "Intercambio de documentos técnicos entre expertos de Estados Unidos e Irán tras las negociaciones.",
-    "Evolución de la implementación del bloqueo del Estrecho de Hormuz por parte de Estados Unidos.",
-    "Restauración de la capacidad de refinación iraní en los próximos dos meses.",
-    "Reuniones del FMI y Banco Mundial donde se evaluará el impacto económico del conflicto en Medio Oriente.",
-    "Movimientos militares y de seguridad en el Estrecho de Hormuz y alrededores en las próximas semanas."
+    "Intercambio de documentos técnicos entre expertos de Estados Unidos e Irán tras la conclusión de las negociaciones.",
+    "Decisiones o anuncios oficiales sobre la implementación o no del bloqueo del Estrecho de Hormuz por parte de Estados Unidos.",
+    "Reportes sobre la restauración de la capacidad de refinación de Irán en los próximos dos meses.",
+    "Reacciones y movimientos militares en el Estrecho de Hormuz y alrededores en las próximas semanas.",
+    "Reuniones o declaraciones de actores regionales y globales relacionadas con la crisis en Medio Oriente."
   ]
 }
 
