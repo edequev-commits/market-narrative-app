@@ -37,6 +37,36 @@
       margin-bottom: 18px;
     }
 
+    .tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .tab-button {
+      background: #111827;
+      color: #cbd5e1;
+      border: 1px solid #374151;
+      border-radius: 10px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .tab-button.active {
+      background: #2563eb;
+      color: #ffffff;
+      border-color: #2563eb;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: 3fr 0.7fr;
@@ -67,7 +97,7 @@
       overflow-y: auto;
       overflow-x: hidden;
       font-size: 14px;
-      line-height: 1.3;
+      line-height: 2.5;
     }
 
     .regime-card {
@@ -107,6 +137,13 @@
 
     .drivers-table tbody tr:last-child {
       border-bottom: none;
+    }
+
+    .last-update {
+      color: #94a3b8;
+      font-style: italic;
+      font-size: 13px;
+      margin-bottom: 10px;
     }
 
     .driver-bullet {
@@ -283,27 +320,37 @@
 <body>
   <div class="container">
     <div class="title">Daily Market Dashboard v1.0</div>
-    <div class="subtle">Última actualización: 12-04-2026 16:01:17</div>
+  
+    <div class="tabs">
+      <button class="tab-button active" onclick="showTab('macro-tab', this)">Noticias Macro</button>
+      <button class="tab-button" onclick="showTab('ticker-tab', this)">Ticker Intelligence</button>
+    </div>
 
-    <div class="grid">
-      <div>
-        <div class="section-title">Narrativa macro</div>
-        <div class="card narrative-card">
-          <p style="margin:0 0 10px 0; line-height:1.3;">El driver dominante en el mercado es el fracaso de las negociaciones de paz entre Estados Unidos e Irán, que culminaron sin acuerdo tras 14 horas de diálogo en Pakistán, y la posterior amenaza explícita de Estados Unidos de bloquear el Estrecho de Hormuz. Esta situación eleva significativamente la tensión geopolítica en el Medio Oriente, una región clave para el suministro energético global, lo que incrementa la percepción de riesgo en los mercados energéticos y en las economías regionales. La relevancia radica en que el bloqueo del Estrecho de Hormuz podría interrumpir el flujo de petróleo, generando volatilidad y presiones alcistas en los precios del crudo, además de aumentar la incertidumbre política y militar en un contexto ya delicado.</p><p style="margin:0 0 10px 0; line-height:1.3;">El mercado está reaccionando con cautela ante este escenario. La falta de avances diplomáticos y la amenaza de bloqueo han generado un aumento en la volatilidad de los precios del petróleo y activos relacionados con la región. Los inversores muestran aversión al riesgo, reflejada en movimientos defensivos y en la búsqueda de activos refugio. Al mismo tiempo, la declaración de Irán sobre su intención de restaurar la mayoría de su capacidad de refinación en dos meses introduce un elemento de mitigación, aunque no elimina la preocupación por posibles interrupciones en el suministro. En conjunto, el mercado se mantiene atento a cualquier señal que pueda indicar una escalada o una posible desescalada del conflicto.</p><p style="margin:0 0 10px 0; line-height:1.3;">Desde una lectura institucional, este escenario implica un posicionamiento prudente y vigilante del capital. La percepción de riesgo geopolítico elevado sugiere que los fondos podrían reducir exposición en activos sensibles a la región y al petróleo, o bien adoptar estrategias de cobertura para protegerse ante la volatilidad. La intención de Irán de recuperar su capacidad de refinación es interpretada como un intento de amortiguar el impacto económico de las sanciones y tensiones, lo que podría limitar en parte la presión alcista en los precios energéticos. Sin embargo, la amenaza de bloqueo y la ausencia de avances diplomáticos mantienen un sesgo de riesgo que exige monitoreo constante de los desarrollos militares y políticos para ajustar posiciones oportunamente.</p><p style="margin:0 0 10px 0; line-height:1.3;">Los eventos clave que pueden validar o modificar esta narrativa incluyen el intercambio técnico entre expertos de Estados Unidos e Irán tras las negociaciones, que podría abrir una vía para futuras conversaciones o acuerdos parciales. La decisión oficial de Estados Unidos sobre la implementación o no del bloqueo del Estrecho de Hormuz será un punto crítico que podría desencadenar una escalada o una contención del conflicto. Asimismo, los reportes sobre la restauración de la capacidad de refinación iraní en los próximos dos meses serán indicadores importantes para evaluar el impacto en el mercado energético. Finalmente, cualquier movimiento militar en el Estrecho de Hormuz o declaraciones de actores regionales y globales pueden alterar significativamente el panorama, por lo que se requiere un seguimiento estrecho y dinámico de estos desarrollos.</p>
-        </div>
+    <div id="macro-tab" class="tab-content active">
+      <div class="grid">
+        <div>
+          <div class="section-title">Narrativa macro</div>
+          <div class="card narrative-card">
+            
+    <div class="last-update">Última actualización: 12-04-2026 16:01:17</div>
+    <p style="margin:0 0 14px 0; line-height:1.8;">El driver dominante en el mercado es el fracaso de las negociaciones de paz entre Estados Unidos e Irán, que culminaron sin acuerdo tras 14 horas de diálogo en Pakistán, y la posterior amenaza explícita de Estados Unidos de bloquear el Estrecho de Hormuz. Esta situación eleva significativamente la tensión geopolítica en el Medio Oriente, una región clave para el suministro energético global, lo que incrementa la percepción de riesgo en los mercados energéticos y en las economías regionales. La relevancia radica en que el bloqueo del Estrecho de Hormuz podría interrumpir el flujo de petróleo, generando volatilidad y presiones alcistas en los precios del crudo, además de aumentar la incertidumbre política y militar en un contexto ya delicado.</p><p style="margin:0 0 14px 0; line-height:1.8;">El mercado está reaccionando con cautela ante este escenario. La falta de avances diplomáticos y la amenaza de bloqueo han generado un aumento en la volatilidad de los precios del petróleo y activos relacionados con la región. Los inversores muestran aversión al riesgo, reflejada en movimientos defensivos y en la búsqueda de activos refugio. Al mismo tiempo, la declaración de Irán sobre su intención de restaurar la mayoría de su capacidad de refinación en dos meses introduce un elemento de mitigación, aunque no elimina la preocupación por posibles interrupciones en el suministro. En conjunto, el mercado se mantiene atento a cualquier señal que pueda indicar una escalada o una posible desescalada del conflicto.</p><p style="margin:0 0 14px 0; line-height:1.8;">Desde una lectura institucional, este escenario implica un posicionamiento prudente y vigilante del capital. La percepción de riesgo geopolítico elevado sugiere que los fondos podrían reducir exposición en activos sensibles a la región y al petróleo, o bien adoptar estrategias de cobertura para protegerse ante la volatilidad. La intención de Irán de recuperar su capacidad de refinación es interpretada como un intento de amortiguar el impacto económico de las sanciones y tensiones, lo que podría limitar en parte la presión alcista en los precios energéticos. Sin embargo, la amenaza de bloqueo y la ausencia de avances diplomáticos mantienen un sesgo de riesgo que exige monitoreo constante de los desarrollos militares y políticos para ajustar posiciones oportunamente.</p><p style="margin:0 0 14px 0; line-height:1.8;">Los eventos clave que pueden validar o modificar esta narrativa incluyen el intercambio técnico entre expertos de Estados Unidos e Irán tras las negociaciones, que podría abrir una vía para futuras conversaciones o acuerdos parciales. La decisión oficial de Estados Unidos sobre la implementación o no del bloqueo del Estrecho de Hormuz será un punto crítico que podría desencadenar una escalada o una contención del conflicto. Asimismo, los reportes sobre la restauración de la capacidad de refinación iraní en los próximos dos meses serán indicadores importantes para evaluar el impacto en el mercado energético. Finalmente, cualquier movimiento militar en el Estrecho de Hormuz o declaraciones de actores regionales y globales pueden alterar significativamente el panorama, por lo que se requiere un seguimiento estrecho y dinámico de estos desarrollos.</p>
+    
+          </div>
 
-        <div style="height:14px;"></div>
+          <div style="height:14px;"></div>
 
-        <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
-        <div class="card regime-card">
-          <p style="margin:0 0 10px 0; line-height:1.3;">🏷️ MARKET REGIME: Régimen Transicional / Volátil 🟡</p><p style="margin:0 0 10px 0; line-height:1.3;">El mercado muestra alta sensibilidad a la incertidumbre, con rebotes que se compran y venden rápidamente, reflejando dudas sobre la dirección clara. Las rupturas de niveles clave tienden a fallar o revertirse, generando movimientos erráticos y falta de continuidad. La volatilidad es elevada y las reacciones a noticias son intensas pero poco consistentes, dificultando la formación de tendencias sostenidas. En situaciones como esta, típicamente los traders deben priorizar la gestión del riesgo y evitar posiciones direccionales fuertes hasta que el mercado defina un rumbo más claro.</p>
-        </div>
+          <!--
+          <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
+          <div class="card regime-card">
+            <p style="margin:0 0 14px 0; line-height:1.8;">🏷️ MARKET REGIME: Régimen Transicional / Volátil 🟡</p><p style="margin:0 0 14px 0; line-height:1.8;">El mercado muestra alta sensibilidad a la incertidumbre, con rebotes que se compran y venden rápidamente, reflejando dudas sobre la dirección clara. Las rupturas de niveles clave tienden a fallar o revertirse, generando movimientos erráticos y falta de continuidad. La volatilidad es elevada y las reacciones a noticias son intensas pero poco consistentes, dificultando la formación de tendencias sostenidas. En situaciones como esta, típicamente los traders deben priorizar la gestión del riesgo y evitar posiciones direccionales fuertes hasta que el mercado defina un rumbo más claro.</p>
+          </div>
+          -->
 
-        <div style="height:14px;"></div>
+          <div style="height:14px;"></div>
 
-        <div class="section-title">Market Drivers Today</div>
-        <div class="card drivers-card">
-          
+          <div class="section-title">Market Drivers Today</div>
+          <div class="card drivers-card">
+            
     <div class="drivers-table-wrap">
       <table class="drivers-table">
         <tbody>
@@ -312,68 +359,68 @@
                 <td class="driver-bullet">●</td>
                 <td class="driver-text">Trump anuncia posible bloqueo del Estrecho de Hormuz, elevando riesgo y volatilidad en mercados energéticos hoy</td>
             </tr>
-            
+        
             <tr>
                 <td class="driver-bullet">●</td>
                 <td class="driver-text">Irán planea restaurar su capacidad de refinación en dos meses, presionando oferta y precios del petróleo</td>
             </tr>
-            
+        
             <tr>
                 <td class="driver-bullet">●</td>
                 <td class="driver-text">Falta de acuerdo en negociaciones EE.UU.-Irán aumenta incertidumbre y riesgo geopolítico en Medio Oriente</td>
             </tr>
-            
+        
             <tr>
                 <td class="driver-bullet">●</td>
                 <td class="driver-text">Movimientos militares en Estrecho de Hormuz podrían generar interrupciones en suministro energético y volatilidad en mercados</td>
             </tr>
-            
+        
             <tr>
                 <td class="driver-bullet">●</td>
                 <td class="driver-text">Reportes sobre intercambio técnico EE.UU.-Irán mantienen atención en posibles avances o retrocesos diplomáticos hoy</td>
             </tr>
-            
+        
             <tr>
                 <td class="driver-bullet">●</td>
                 <td class="driver-text">Reacciones de países del Golfo Pérsico pueden intensificar tensión regional y afectar precios del petróleo</td>
             </tr>
-            
+        
             <tr>
                 <td class="driver-bullet">●</td>
                 <td class="driver-text">Posible escalada militar en Medio Oriente genera cautela en sectores energéticos y financieros hoy</td>
             </tr>
-            
+        
             <tr>
                 <td class="driver-bullet">●</td>
                 <td class="driver-text">Datos de producción petrolera global estables, pero riesgo geopolítico mantiene precios con alta volatilidad hoy</td>
             </tr>
-            
+        
         </tbody>
       </table>
     </div>
     
+          </div>
+
+          <div style="height:14px;"></div>
+
+          <div class="section-title">Top 6 Stocks In Play Today</div>
+          <div class="card stocks-card">
+            <div class="empty-note">No hay acciones disponibles.</div>
+          </div>
         </div>
 
-        <div style="height:14px;"></div>
-
-        <div class="section-title">Top 6 Stocks In Play Today</div>
-        <div class="card stocks-card">
-          <div class="empty-note">No se encontraron acciones destacadas para hoy.</div>
-        </div>
-      </div>
-
-      <div>
-        <div class="section-title">Fuentes</div>
-        <div class="card sources-card">
-          
+        <div>
+          <div class="section-title">Fuentes</div>
+          <div class="card sources-card">
+            
             <div class="source-item">
                 <div class="source-header">
-                    <div class="source-name">CNBC Breaking News</div>
+                    <div class="source-name">CNBC Breaking News &lt;breakingnews@response.cnbc.com&gt;</div>
                     <div class="source-date">12/04/2026 - 07:02</div>
                 </div>
                 <div class="source-detail">Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail</div>
             </div>
-            
+        
             <div class="source-item">
                 <div class="source-header">
                     <div class="source-name">Reuters Daily Briefing</div>
@@ -381,26 +428,91 @@
                 </div>
                 <div class="source-detail">US-Iran peace talks end without agreement, delegations leave Pakistan</div>
             </div>
-            
+        
             <div class="source-item">
                 <div class="source-header">
-                    <div class="source-name">Reuters Iran Briefing</div>
+                    <div class="source-name">Reuters Iran Briefing &lt;newsletters@email.reuters.com&gt;</div>
                     <div class="source-date">12/04/2026 - 04:31</div>
                 </div>
                 <div class="source-detail">US-Iran peace talks end without agreement, delegations leave Pakistan</div>
             </div>
-            
+        
             <div class="source-item">
                 <div class="source-header">
-                    <div class="source-name">Barchart Partner</div>
+                    <div class="source-name">Barchart Partner &lt;bcmembers@partners.barchart.com&gt;</div>
                     <div class="source-date">12/04/2026 - 05:39</div>
                 </div>
-                <div class="source-detail">Mark Cuban&#x27;s Biggest Regret?</div>
+                <div class="source-detail">Mark Cuban&#39;s Biggest Regret?</div>
             </div>
-            
+        
+          </div>
         </div>
       </div>
     </div>
+
+    <div id="ticker-tab" class="tab-content">
+      <div class="section-title">Ticker Intelligence</div>
+      <div class="card stocks-card">
+        <div class="last-update">Última actualización: 12-04-2026 13:54:02</div>
+        <div class="stocks-table-wrap">
+          <table class="stocks-table">
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>% GAP</th>
+                <th>Volumen</th>
+                <th>Relative Volume</th>
+                <th>¿Qué está pasando?</th>
+                <th>Calificación del catalizador</th>
+                <th>Sentiment</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            <tr>
+                <td class="ticker-cell">AMZN</td>
+                <td>2.02%</td>
+                <td>56,742,120</td>
+                <td>1.12</td>
+                <td class="description-cell">No hay evento corporativo, earnings, guidance, upgrade/downgrade, contrato, M&amp;A o cambio regulatorio nuevo que afecte a Amazon hoy.</td>
+                <td class="negative">
+                    LOW
+                </td>
+                <td class="neutral">
+                    Neutral
+                </td>
+            </tr>
+        
+            <tr>
+                <td class="ticker-cell">GOOGL</td>
+                <td>-0.39%</td>
+                <td>18,907,437</td>
+                <td>0.56</td>
+                <td class="description-cell">No hay evento específico que cambie las expectativas del negocio de Alphabet hoy.</td>
+                <td class="negative">
+                    LOW
+                </td>
+                <td class="neutral">
+                    Neutral
+                </td>
+            </tr>
+        
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
   </div>
+
+  <script>
+    function showTab(tabId, buttonElement) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-button').forEach(el => el.classList.remove('active'));
+
+      document.getElementById(tabId).classList.add('active');
+      buttonElement.classList.add('active');
+    }
+  </script>
 </body>
 </html>

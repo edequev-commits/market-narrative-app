@@ -1,214 +1,161 @@
-import json
-import html
-import re
 from pathlib import Path
+import json
 from datetime import datetime
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_FILE = BASE_DIR / "data" / "dashboard_payload.json"
-DIST_DIR = BASE_DIR / "dist"
-OUTPUT_FILE = DIST_DIR / "index.html"
+MACRO_PAYLOAD_PATH = BASE_DIR / "data" / "dashboard_payload.json"
+TICKER_PAYLOAD_PATH = BASE_DIR / "data" / "ticker" / "ticker_dashboard_payload.json"
+OUTPUT_PATH = BASE_DIR / "dist" / "index.html"
 
 
-def load_payload():
-    if not DATA_FILE.exists():
-        raise FileNotFoundError(f"No existe el archivo requerido: {DATA_FILE}")
-
-    with DATA_FILE.open("r", encoding="utf-8") as f:
-        payload = json.load(f)
-
-    if not payload:
-        raise ValueError("dashboard_payload.json está vacío")
-
-    if not isinstance(payload, dict):
-        raise TypeError("dashboard_payload.json no tiene estructura JSON tipo objeto")
-
-    return payload
+def load_json(path: Path, default: dict) -> dict:
+    if not path.exists():
+        return default
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def clean_source_name(raw_name: str) -> str:
-    raw_name = (raw_name or "").strip()
-    if "<" in raw_name:
-        raw_name = raw_name.split("<", 1)[0].strip()
-    return raw_name.strip('" ').strip()
-
-
-def format_source_datetime(raw_date: str) -> str:
-    raw_date = (raw_date or "").strip()
-    if not raw_date:
+def html_escape(text: str) -> str:
+    if text is None:
         return ""
-    try:
-        dt = datetime.fromisoformat(raw_date)
-        return dt.strftime("%d/%m/%Y - %H:%M")
-    except Exception:
-        return raw_date
+    return (
+        str(text)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#39;")
+    )
 
 
-def render_paragraphs(text: str) -> str:
-    safe = html.escape(text or "")
-    paragraphs = [p.strip() for p in safe.split("\n\n") if p.strip()]
-    if not paragraphs:
-        cleaned = safe.replace("\n", " ").strip()
-        paragraphs = [cleaned] if cleaned else []
+def paragraphs_from_text(text: str) -> str:
+    text = str(text or "").strip()
+    if not text:
+        return '<p class="empty-note">Sin información disponible.</p>'
+
+    parts = [p.strip() for p in text.split("\n\n") if p.strip()]
+    if not parts:
+        parts = [text]
 
     return "".join(
-        f'<p style="margin:0 0 10px 0; line-height:1.3;">{p.replace(chr(10), " ")}</p>'
-        for p in paragraphs
+        f'<p style="margin:0 0 14px 0; line-height:1.8;">{html_escape(part)}</p>'
+        for part in parts
+
     )
 
 
-def format_regime_text(regime: str) -> str:
-    text = (regime or "").strip()
+def render_market_drivers(drivers_text: str) -> str:
+    text = str(drivers_text or "").strip()
     if not text:
+        return '<div class="empty-note">No hay drivers disponibles.</div>'
+
+    items = []
+    raw_items = [item.strip() for item in text.split("●") if item.strip()]
+
+    for item in raw_items:
+        items.append(f"""
+            <tr>
+                <td class="driver-bullet">●</td>
+                <td class="driver-text">{html_escape(item)}</td>
+            </tr>
+        """)
+
+    return f"""
+    <div class="drivers-table-wrap">
+      <table class="drivers-table">
+        <tbody>
+          {''.join(items)}
+        </tbody>
+      </table>
+    </div>
+    """
+
+
+def format_number(value) -> str:
+    if value in (None, "", "nan"):
         return ""
 
-    text = re.sub(r"\r\n?", "\n", text)
-    text = re.sub(r"\s+", " ", text).strip()
-
-    pattern = re.compile(
-        r"^(?P<header>.*?MARKET REGIME:.*?)(?P<semaforo>[🟢🟡🔴])\s*(SEM[ÁA]FORO:\s*(?:Favorable|Mixto|Adverso))?\s*(?P<body>.*)$",
-        re.IGNORECASE,
-    )
-
-    match = pattern.match(text)
-
-    if match:
-        header = match.group("header").strip()
-        semaforo_icon = match.group("semaforo").strip()
-        body = match.group("body").strip()
-        new_header = f"{header} {semaforo_icon}"
-        return f"{new_header}\n\n{body}"
-
-    return text
-
-
-def get_regime_accent_color(regime: str) -> str:
-    text = (regime or "").strip()
-
-    if "🟢" in text:
-        return "#22c55e"
-    if "🔴" in text:
-        return "#ef4444"
-    return "#fbbf24"
-
-
-def render_sources(sources: list) -> str:
-    if not sources:
-        return '<div class="empty-note">No hay fuentes cargadas.</div>'
-
-    blocks = []
-    for src in sources:
-        fuente = html.escape(clean_source_name(str(src.get("fuente", ""))))
-        fecha = html.escape(format_source_datetime(str(src.get("fecha", ""))))
-        detalle = html.escape(str(src.get("detalle", "")))
-
-        blocks.append(
-            f"""
-            <div class="source-item">
-                <div class="source-header">
-                    <div class="source-name">{fuente}</div>
-                    <div class="source-date">{fecha}</div>
-                </div>
-                <div class="source-detail">{detalle}</div>
-            </div>
-            """
-        )
-    return "".join(blocks)
-
-
-def format_number(value):
-    if value is None or value == "":
-        return "-"
-
     try:
-        number = float(value)
+        num = float(value)
     except Exception:
-        return html.escape(str(value))
+        return html_escape(str(value))
 
-    if abs(number) >= 1_000_000_000:
-        return f"{number / 1_000_000_000:.2f}B"
-    if abs(number) >= 1_000_000:
-        return f"{number / 1_000_000:.2f}M"
-    if abs(number) >= 1_000:
-        return f"{number / 1_000:.2f}K"
+    abs_num = abs(num)
 
-    if number.is_integer():
-        return f"{int(number)}"
+    if abs_num >= 1_000_000_000:
+        return f"{num / 1_000_000_000:.2f}B"
+    if abs_num >= 1_000_000:
+        return f"{num / 1_000_000:.2f}M"
+    if abs_num >= 1_000:
+        return f"{num / 1_000:.2f}K"
 
-    return f"{number:.2f}"
+    if num.is_integer():
+        return str(int(num))
+    return f"{num:.2f}"
 
 
-def format_price(value):
-    if value is None or value == "":
-        return "-"
+def format_price(value) -> str:
+    if value in (None, "", "nan"):
+        return ""
     try:
         return f"{float(value):.2f}"
     except Exception:
-        return html.escape(str(value))
+        return html_escape(str(value))
 
 
-def format_change_pct(value):
-    if value is None or value == "":
-        return "-", ""
+def format_pct(value) -> tuple[str, str]:
+    if value in (None, "", "nan"):
+        return "", "neutral"
 
     try:
-        number = float(value)
+        num = float(str(value).replace("%", ""))
     except Exception:
-        return html.escape(str(value)), ""
+        return html_escape(str(value)), "neutral"
 
-    css_class = "neutral"
-    if number > 0:
-        css_class = "positive"
-    elif number < 0:
-        css_class = "negative"
+    css = "neutral"
+    if num > 0:
+        css = "positive"
+    elif num < 0:
+        css = "negative"
 
-    return f"{number:.2f}%", css_class
+    return f"{num:.2f}%", css
 
 
-def format_rel_volume(value):
-    if value is None or value == "":
-        return "-"
+def format_source_date(value: str) -> str:
+    value = str(value or "").strip()
+    if not value:
+        return ""
+
     try:
-        return f"{float(value):.2f}"
+        dt = datetime.fromisoformat(value)
+        return dt.strftime("%d/%m/%Y - %H:%M")
     except Exception:
-        return html.escape(str(value))
+        return html_escape(value)
 
 
-def render_top_stocks(top_stocks: list) -> str:
-    if not top_stocks:
-        return '<div class="empty-note">No se encontraron acciones destacadas para hoy.</div>'
+def render_top_stocks(rows: list[dict]) -> str:
+    if not rows:
+        return '<div class="empty-note">No hay acciones disponibles.</div>'
 
-    rows = []
+    html_rows = []
 
-    for item in top_stocks:
-        ticker = html.escape(str(item.get("ticker", "")))
-        sector = html.escape(str(item.get("sector", "")))
-        industry = html.escape(str(item.get("industry", "")))
-        description = html.escape(str(item.get("description", "")))
-        price = format_price(item.get("price"))
-        volume = format_number(item.get("volume"))
-        average_volume = format_number(item.get("average_volume"))
-        stock_float = html.escape(str(item.get("float", "")) or "-")
-        relative_volume = format_rel_volume(item.get("relative_volume"))
-        change_text, change_class = format_change_pct(item.get("change_pct"))
-
-        rows.append(
-            f"""
+    for item in rows:
+        change_text, change_class = format_pct(item.get("change_pct"))
+        html_rows.append(f"""
             <tr>
-                <td class="ticker-cell">{ticker}</td>
-                <td>{sector}</td>
-                <td>{industry}</td>
-                <td class="description-cell">{description}</td>
+                <td class="ticker-cell">{html_escape(item.get("ticker", ""))}</td>
+                <td>{html_escape(item.get("sector", ""))}</td>
+                <td>{html_escape(item.get("industry", ""))}</td>
+                <td class="description-cell">{html_escape(item.get("description", ""))}</td>
                 <td class="{change_class}">{change_text}</td>
-                <td class="number-cell">{price}</td>
-                <td class="number-cell">{volume}</td>
-                <td class="number-cell">{average_volume}</td>
-                <td class="number-cell">{stock_float}</td>
-                <td class="number-cell">{relative_volume}</td>
+                <td class="number-cell">{format_price(item.get("price"))}</td>
+                <td class="number-cell">{format_number(item.get("volume"))}</td>
+                <td class="number-cell">{format_number(item.get("average_volume"))}</td>
+                <td class="number-cell">{html_escape(item.get("float", ""))}</td>
+                <td class="number-cell">{html_escape(item.get("relative_volume", ""))}</td>
             </tr>
-            """
-        )
+        """)
 
     return f"""
     <div class="stocks-subtle">
@@ -231,74 +178,92 @@ def render_top_stocks(top_stocks: list) -> str:
           </tr>
         </thead>
         <tbody>
-          {''.join(rows)}
+          {''.join(html_rows)}
         </tbody>
       </table>
     </div>
     """
 
 
-def render_market_drivers_table(market_drivers: str) -> str:
-    text = (market_drivers or "").strip()
+def render_sources(rows: list[dict]) -> str:
+    if not rows:
+        return '<div class="empty-note">No hay fuentes disponibles.</div>'
 
-    if not text:
-        return '<div class="empty-note">No se identificaron drivers relevantes para hoy.</div>'
+    items = []
+    for item in rows:
+        items.append(f"""
+            <div class="source-item">
+                <div class="source-header">
+                    <div class="source-name">{html_escape(item.get("fuente", ""))}</div>
+                    <div class="source-date">{format_source_date(item.get("fecha", ""))}</div>
+                </div>
+                <div class="source-detail">{html_escape(item.get("detalle", ""))}</div>
+            </div>
+        """)
 
-    raw_lines = [line.strip() for line in text.splitlines() if line.strip()]
+    return "".join(items)
 
-    cleaned_lines = []
-    for line in raw_lines:
-        line = line.lstrip("-•● ").strip()
 
-        if not line:
-            continue
+def catalyst_class(value: str) -> str:
+    value = str(value or "").upper()
+    if value == "HIGH":
+        return "positive"
+    if value == "LOW":
+        return "negative"
+    return "neutral"
 
-        normalized = line.replace("─", "").replace("-", "").strip()
-        if not normalized:
-            continue
 
-        cleaned_lines.append(line)
+def sentiment_class(value: str) -> str:
+    value = str(value or "").lower()
+    if value == "bullish":
+        return "positive"
+    if value == "bearish":
+        return "negative"
+    return "neutral"
 
-    if not cleaned_lines:
-        return '<div class="empty-note">No se identificaron drivers relevantes para hoy.</div>'
 
-    rows = []
-    for line in cleaned_lines:
-        rows.append(
-            f"""
+def render_ticker_rows(rows: list[dict]) -> str:
+    if not rows:
+        return """
+        <tr>
+            <td colspan="7" class="empty-note">No hay información de ticker intelligence.</td>
+        </tr>
+        """
+
+    html_rows = []
+
+    for item in rows:
+        html_rows.append(f"""
             <tr>
-                <td class="driver-bullet">●</td>
-                <td class="driver-text">{html.escape(line)}</td>
+                <td class="ticker-cell">{html_escape(item.get("ticker", ""))}</td>
+                <td>{html_escape(item.get("gap_pct", ""))}</td>
+                <td>{html_escape(item.get("volume", ""))}</td>
+                <td>{html_escape(item.get("relative_volume", ""))}</td>
+                <td class="description-cell">{html_escape(item.get("what_is_happening", ""))}</td>
+                <td class="{catalyst_class(item.get("catalyst_strength", ""))}">
+                    {html_escape(item.get("catalyst_strength", ""))}
+                </td>
+                <td class="{sentiment_class(item.get("sentiment", ""))}">
+                    {html_escape(item.get("sentiment", ""))}
+                </td>
             </tr>
-            """
-        )
+        """)
 
-    return f"""
-    <div class="drivers-table-wrap">
-      <table class="drivers-table">
-        <tbody>
-          {''.join(rows)}
-        </tbody>
-      </table>
-    </div>
+    return "".join(html_rows)
+
+
+def build_html(macro_payload: dict, ticker_payload: dict) -> str:
+    last_refresh = macro_payload.get("meta", {}).get("last_refresh_display", "")
+    narrative_html = f"""
+    <div class="last-update">Última actualización: {html_escape(last_refresh)}</div>
+    {paragraphs_from_text(macro_payload.get("narrative", ""))}
     """
-
-
-def build_html(payload: dict) -> str:
-    meta = payload.get("meta", {})
-    narrative = payload.get("narrative", "")
-    regime = payload.get("regime", "")
-    market_drivers = payload.get("market_drivers", "")
-    sources = payload.get("sources", [])
-    top_stocks = payload.get("top_stocks_in_play", [])
-
-    last_refresh = html.escape(str(meta.get("last_refresh_display", "No disponible")))
-    narrative_html = render_paragraphs(narrative)
-    regime_html = render_paragraphs(format_regime_text(regime))
-    market_drivers_html = render_market_drivers_table(market_drivers)
-    regime_accent = get_regime_accent_color(regime)
-    sources_html = render_sources(sources)
-    top_stocks_html = render_top_stocks(top_stocks)
+    regime_html = paragraphs_from_text(macro_payload.get("regime", ""))
+    drivers_html = render_market_drivers(macro_payload.get("market_drivers", ""))
+    top_stocks_html = render_top_stocks(macro_payload.get("top_stocks_in_play", []))
+    sources_html = render_sources(macro_payload.get("sources", []))
+    ticker_generated_at = html_escape(ticker_payload.get("generated_at", ""))
+    ticker_rows_html = render_ticker_rows(ticker_payload.get("rows", []))
 
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -308,7 +273,7 @@ def build_html(payload: dict) -> str:
   <title>Daily Market Dashboard</title>
   <style>
     :root {{
-      --regime-accent: {regime_accent};
+      --regime-accent: #fbbf24;
     }}
 
     html, body {{
@@ -337,6 +302,36 @@ def build_html(payload: dict) -> str:
       color: #94a3b8;
       font-size: 15px;
       margin-bottom: 18px;
+    }}
+
+    .tabs {{
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+    }}
+
+    .tab-button {{
+      background: #111827;
+      color: #cbd5e1;
+      border: 1px solid #374151;
+      border-radius: 10px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: 700;
+    }}
+
+    .tab-button.active {{
+      background: #2563eb;
+      color: #ffffff;
+      border-color: #2563eb;
+    }}
+
+    .tab-content {{
+      display: none;
+    }}
+
+    .tab-content.active {{
+      display: block;
     }}
 
     .grid {{
@@ -369,7 +364,7 @@ def build_html(payload: dict) -> str:
       overflow-y: auto;
       overflow-x: hidden;
       font-size: 14px;
-      line-height: 1.3;
+      line-height: 2.5;
     }}
 
     .regime-card {{
@@ -409,6 +404,13 @@ def build_html(payload: dict) -> str:
 
     .drivers-table tbody tr:last-child {{
       border-bottom: none;
+    }}
+
+    .last-update {{
+      color: #94a3b8;
+      font-style: italic;
+      font-size: 13px;
+      margin-bottom: 10px;
     }}
 
     .driver-bullet {{
@@ -585,56 +587,115 @@ def build_html(payload: dict) -> str:
 <body>
   <div class="container">
     <div class="title">Daily Market Dashboard v1.0</div>
-    <div class="subtle">Última actualización: {last_refresh}</div>
+  
+    <div class="tabs">
+      <button class="tab-button active" onclick="showTab('macro-tab', this)">Noticias Macro</button>
+      <button class="tab-button" onclick="showTab('ticker-tab', this)">Ticker Intelligence</button>
+    </div>
 
-    <div class="grid">
-      <div>
-        <div class="section-title">Narrativa macro</div>
-        <div class="card narrative-card">
-          {narrative_html}
+    <div id="macro-tab" class="tab-content active">
+      <div class="grid">
+        <div>
+          <div class="section-title">Narrativa macro</div>
+          <div class="card narrative-card">
+            {narrative_html}
+          </div>
+
+          <div style="height:14px;"></div>
+
+          <!--
+          <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
+          <div class="card regime-card">
+            {regime_html}
+          </div>
+          -->
+
+          <div style="height:14px;"></div>
+
+          <div class="section-title">Market Drivers Today</div>
+          <div class="card drivers-card">
+            {drivers_html}
+          </div>
+
+          <div style="height:14px;"></div>
+
+          <div class="section-title">Top 6 Stocks In Play Today</div>
+          <div class="card stocks-card">
+            {top_stocks_html}
+          </div>
         </div>
 
-        <div style="height:14px;"></div>
-
-        <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
-        <div class="card regime-card">
-          {regime_html}
-        </div>
-
-        <div style="height:14px;"></div>
-
-        <div class="section-title">Market Drivers Today</div>
-        <div class="card drivers-card">
-          {market_drivers_html}
-        </div>
-
-        <div style="height:14px;"></div>
-
-        <div class="section-title">Top 6 Stocks In Play Today</div>
-        <div class="card stocks-card">
-          {top_stocks_html}
-        </div>
-      </div>
-
-      <div>
-        <div class="section-title">Fuentes</div>
-        <div class="card sources-card">
-          {sources_html}
+        <div>
+          <div class="section-title">Fuentes</div>
+          <div class="card sources-card">
+            {sources_html}
+          </div>
         </div>
       </div>
     </div>
+
+    <div id="ticker-tab" class="tab-content">
+      <div class="section-title">Ticker Intelligence</div>
+      <div class="card stocks-card">
+        <div class="last-update">Última actualización: {ticker_generated_at}</div>
+        <div class="stocks-table-wrap">
+          <table class="stocks-table">
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>% GAP</th>
+                <th>Volumen</th>
+                <th>Relative Volume</th>
+                <th>¿Qué está pasando?</th>
+                <th>Calificación del catalizador</th>
+                <th>Sentiment</th>
+              </tr>
+            </thead>
+            <tbody>
+              {ticker_rows_html}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
   </div>
+
+  <script>
+    function showTab(tabId, buttonElement) {{
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-button').forEach(el => el.classList.remove('active'));
+
+      document.getElementById(tabId).classList.add('active');
+      buttonElement.classList.add('active');
+    }}
+  </script>
 </body>
-</html>
-"""
+</html>"""
 
 
-def main():
-    payload = load_payload()
-    DIST_DIR.mkdir(parents=True, exist_ok=True)
-    html_output = build_html(payload)
-    OUTPUT_FILE.write_text(html_output, encoding="utf-8")
-    print(f"Archivo generado: {OUTPUT_FILE}")
+def main() -> None:
+    macro_payload = load_json(MACRO_PAYLOAD_PATH, {
+        "meta": {},
+        "narrative": "",
+        "regime": "",
+        "market_drivers": "",
+        "top_stocks_in_play": [],
+        "sources": [],
+    })
+
+    ticker_payload = load_json(TICKER_PAYLOAD_PATH, {
+        "generated_at": "",
+        "rows": [],
+    })
+
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    html = build_html(macro_payload, ticker_payload)
+
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    print(f"Dashboard generado: {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
