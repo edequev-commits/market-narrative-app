@@ -44,28 +44,28 @@ INPUT:
 
 
 {
-  "driver_principal": "Las negociaciones de paz entre Estados Unidos e Irán en Pakistán y las condiciones impuestas por Irán, junto con la postura de Israel y la situación en el Estrecho de Hormuz, dominan la percepción de riesgo y el movimiento del mercado.",
+  "driver_principal": "El fracaso de las negociaciones de paz entre Estados Unidos e Irán y la posterior amenaza de bloqueo del Estrecho de Hormuz por parte de Estados Unidos, incrementan la tensión geopolítica en el Medio Oriente y elevan la percepción de riesgo en los mercados energéticos y regionales.",
   "hechos_confirmados": [
-    "Equipos de Estados Unidos e Irán llegaron a Islamabad para negociaciones destinadas a poner fin a la guerra de seis semanas.",
-    "Irán demandó que Israel detenga los ataques contra militantes de Hezbollah y que Estados Unidos desbloquee activos iraníes como condiciones para las conversaciones.",
-    "Israel y Estados Unidos declararon que Líbano no forma parte del alto el fuego entre Estados Unidos e Irán.",
-    "Productores de petróleo de Medio Oriente solicitaron a refinadores asiáticos programas de carga de crudo para abril y mayo, indicando preparativos para la reanudación del envío en el Estrecho de Hormuz."
+    "Las negociaciones de paz entre Estados Unidos e Irán en Pakistán concluyeron sin acuerdo tras 14 horas de diálogo.",
+    "Las delegaciones de Estados Unidos e Irán abandonaron Pakistán tras el fracaso de las negociaciones.",
+    "Un funcionario del Ministerio de Petróleo de Irán declaró que Irán apunta a restaurar la mayoría de su capacidad de refinación en dos meses.",
+    "El expresidente Trump declaró que Estados Unidos bloqueará el Estrecho de Hormuz tras el fracaso de las negociaciones con Irán."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que las negociaciones entre Estados Unidos e Irán avancen hacia un acuerdo de alto el fuego limitado, aunque con condiciones que podrían retrasar o complicar su implementación. La postura de Israel y la situación en el Estrecho de Hormuz mantendrán la tensión regional en niveles moderados, afectando la estabilidad del suministro energético y la volatilidad de los precios del petróleo.",
-  "interpretacion_institucional": "Las negociaciones en Pakistán reflejan un intento significativo de reducir el conflicto entre Estados Unidos e Irán, lo que podría aliviar presiones inflacionarias derivadas del aumento en precios de combustibles. Sin embargo, las demandas de Irán y la negativa de Israel a integrarse en el alto el fuego sugieren que la paz podría ser parcial y frágil. La preparación para reanudar el tránsito petrolero en el Estrecho de Hormuz indica expectativas de estabilización en el suministro energético, aunque la región seguirá siendo un foco de riesgo geopolítico que podría influir en la volatilidad de los mercados globales.",
+  "escenario_dominante": "Existe una alta probabilidad de que la tensión geopolítica en el Medio Oriente se mantenga elevada en el corto plazo, con riesgos persistentes para el suministro energético global debido a la amenaza de bloqueo del Estrecho de Hormuz y la falta de avances en el diálogo diplomático entre Estados Unidos e Irán.",
+  "interpretacion_institucional": "El fracaso de las negociaciones y la amenaza explícita de bloqueo del Estrecho de Hormuz por parte de Estados Unidos sugieren un aumento en la percepción de riesgo geopolítico que podría traducirse en volatilidad en los mercados energéticos y regionales. La intención de Irán de restaurar su capacidad de refinación indica un esfuerzo por mitigar el impacto económico de las sanciones y tensiones actuales. Los mercados podrían reaccionar con cautela ante la posibilidad de interrupciones en el suministro de petróleo, afectando precios y flujos comerciales. La situación demanda monitoreo constante de desarrollos diplomáticos y militares en la región.",
   "riesgos_secundarios": [
-    "La recuperación del nuevo líder supremo de Irán tras heridas graves podría afectar la dinámica interna y la postura negociadora del país.",
-    "Informes de inteligencia indican que China podría estar preparando un envío de armas a Irán, lo que podría escalar tensiones regionales.",
-    "La creación de zonas de amortiguamiento por parte de Israel en Gaza, Siria y Líbano sugiere una disposición a mantener un estado de conflicto prolongado.",
-    "La posibilidad de que Irán imponga un peaje a los petroleros que transitan por el Estrecho de Hormuz, lo que podría afectar el comercio energético global.",
-    "La incertidumbre sobre la extensión y efectividad de las exenciones de sanciones estadounidenses para la compra de petróleo ruso, que impacta los precios del combustible."
+    "La posibilidad de que Estados Unidos implemente efectivamente un bloqueo naval en el Estrecho de Hormuz, lo que podría escalar el conflicto.",
+    "Intervenciones o pactos militares adicionales en la región, como el envío de aviones de combate de Pakistán a Arabia Saudita bajo un pacto de defensa mutua.",
+    "Acciones militares o mineras en el Estrecho de Hormuz que compliquen la navegación y el comercio internacional.",
+    "Reacciones inesperadas de otros actores regionales que podrían alterar la dinámica geopolítica.",
+    "La evolución de la guerra en Medio Oriente y su impacto en la economía global y en las reuniones del FMI y Banco Mundial."
   ],
   "eventos_clave": [
-    "Desarrollo y resultados de las negociaciones de paz entre Estados Unidos e Irán en Pakistán en los próximos días.",
-    "Decisiones de Israel respecto a su postura en el conflicto y la creación o mantenimiento de zonas de amortiguamiento en la región.",
-    "Anuncios oficiales sobre la reanudación o interrupción del tránsito de petróleo a través del Estrecho de Hormuz.",
-    "Medidas del gobierno de Estados Unidos sobre la extensión o modificación de las exenciones de sanciones para la compra de petróleo ruso.",
-    "Informes adicionales sobre la salud y rol del nuevo líder supremo de Irán en la conducción de la política exterior y militar."
+    "Intercambio de documentos técnicos entre expertos de Estados Unidos e Irán tras la conclusión de las negociaciones.",
+    "Decisiones o acciones concretas de Estados Unidos respecto al bloqueo del Estrecho de Hormuz.",
+    "Restauración completa de la capacidad de refinación de Irán en los próximos dos meses.",
+    "Reacciones y movimientos en los mercados energéticos y bursátiles del Golfo Pérsico en respuesta a la escalada de tensiones.",
+    "Desarrollo de la situación militar y diplomática en el Medio Oriente en las próximas semanas."
   ]
 }
 
