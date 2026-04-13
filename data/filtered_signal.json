@@ -1,25 +1,25 @@
 {
-  "driver_principal": "The U.S. has initiated a naval blockade of Iranian ports in the Strait of Hormuz following failed peace talks with Iran, escalating geopolitical tensions and impacting global energy markets and financial conditions.",
+  "driver_principal": "The dominant market driver is the U.S. initiation of a naval blockade of Iranian ports in the Strait of Hormuz following failed peace talks with Iran, which threatens the fragile ceasefire and escalates geopolitical risk, impacting global energy markets and financial conditions.",
   "hechos_confirmados": [
-    "The U.S. military began blockading all maritime traffic entering and exiting Iranian ports and coastal areas as of April 13, 2026.",
-    "Peace talks between the U.S. and Iran in Pakistan over the weekend failed to yield a deal to end the war, putting a fragile two-week ceasefire at risk.",
-    "Oil prices surged above $100 per barrel following the announcement of the U.S. blockade of the Strait of Hormuz.",
+    "The U.S. military has begun a blockade of all maritime traffic entering and exiting Iranian ports and coastal areas in the Strait of Hormuz.",
+    "Peace talks between the U.S. and Iran in Pakistan over the weekend failed to yield a deal to end the war, putting the fragile two-week ceasefire at risk.",
+    "Oil prices surged above $100 per barrel following the announcement of the U.S. blockade.",
     "The U.S. Navy is focused on interdicting ships traveling to or from Iranian ports, not all vessels transiting the Strait of Hormuz."
   ],
-  "escenario_dominante": "There is a high probability that the U.S.-Iran conflict will remain tense but contained without immediate large-scale military escalation, as the blockade is limited to Iranian ports and both sides appear to maintain some diplomatic engagement. The fragile ceasefire is likely to hold in the short term, but the risk of unplanned escalation remains moderate given the fluid situation. Global energy prices will likely stay elevated, sustaining inflationary pressures and influencing central bank policy decisions.",
-  "interpretacion_institucional": "The U.S. blockade of Iranian ports represents a significant escalation in the geopolitical risk premium, directly impacting global oil supply routes and contributing to a sharp rise in energy prices. While the blockade is less comprehensive than initially feared, it signals a constrained U.S. military strategy that avoids full-scale bombing or ground troop deployment due to the high costs and risks involved. Market reactions reflect cautious concern, with equities retreating from recent relief rallies and safe-haven assets like the U.S. dollar strengthening. The ongoing diplomatic efforts and the continuation of the ceasefire suggest that a negotiated resolution or sustained détente remains possible, but the economic fallout from elevated energy prices and regional instability will likely persist. Central banks, including the Federal Reserve and the Bank of Japan, are expected to maintain cautious monetary policies amid inflationary pressures linked to the conflict.",
+  "escenario_dominante": "There is a high probability that the U.S.-Iran conflict will remain tense but contained, with the blockade in place and ongoing diplomatic efforts continuing. The fragile ceasefire is likely to hold in the near term, avoiding immediate large-scale military escalation. Oil prices are expected to remain elevated due to supply concerns, contributing to inflationary pressures globally. Financial markets will likely experience volatility, with cautious investor sentiment prevailing amid geopolitical uncertainty.",
+  "interpretacion_institucional": "The U.S. blockade of Iranian ports represents a significant escalation in the Middle East conflict, increasing geopolitical risk and energy market volatility. However, the blockade is targeted and not a full closure of the Strait of Hormuz, which may limit the scale of disruption. The failure of peace talks underscores the complexity of resolving the conflict, but ongoing diplomacy and the holding ceasefire suggest a pathway to de-escalation remains possible. Elevated oil prices will likely sustain inflationary pressures, complicating central bank policy decisions. Market reactions reflect a cautious stance, with selective sector performance favoring energy and defensive assets. The situation remains fluid, requiring close monitoring of diplomatic developments and military actions.",
   "riesgos_secundarios": [
-    "Potential unplanned military escalation triggered by incidents related to the blockade or Iran's control of mines in the Strait of Hormuz.",
-    "Resumption of U.S. bombing campaigns or deployment of ground troops in Iran, despite current indications of low appetite for such actions.",
-    "Iran's possible economic warfare against regional critical infrastructure, further destabilizing energy markets.",
-    "China's planned delivery of new air defense systems to Iran, which could complicate the conflict dynamics.",
-    "Political instability in the region, including the ongoing Lebanon war and shifts in Israeli military strategy, that could spill over into broader conflict."
+    "Potential unplanned escalation triggered by the blockade, including military confrontations or attacks on shipping.",
+    "Resumption of aggressive U.S. military actions against Iran, including bombing campaigns or ground troop deployments.",
+    "Iran’s continued ability to control or disrupt the Strait of Hormuz through mines or missile capabilities.",
+    "Further deterioration of the ceasefire in Lebanon and escalation of conflict involving Israel.",
+    "Geopolitical complications arising from China’s potential delivery of air defense systems to Iran."
   ],
   "eventos_clave": [
-    "Monitoring of the effectiveness and enforcement of the U.S. blockade of Iranian ports starting April 13, 2026.",
-    "Scheduled diplomatic meetings in Washington during the week of April 13, 2026, involving officials from the U.S., Israel, and Lebanon.",
-    "Expiration of the current ceasefire on April 21, 2026, and any developments related to its extension or collapse.",
-    "Release of U.S. economic data including PPI, import/export prices, and the Fed's Beige Book during the week of April 13, which will reflect inflationary impacts of the energy shock.",
-    "Key U.S. and European corporate earnings reports during the week of April 13, which may indicate economic resilience or stress amid geopolitical tensions."
+    "Implementation and operational effectiveness of the U.S. blockade of Iranian ports starting April 13, 2026.",
+    "Scheduled diplomatic meetings in Washington between officials from the U.S., Israel, and Lebanon during the week of April 13, 2026.",
+    "Expiration of the current ceasefire on April 21, 2026.",
+    "Ongoing U.S.-Iran communications and potential follow-up negotiations following the failed Pakistan talks.",
+    "Upcoming U.S. and global economic data releases including U.S. PPI for March, Fed Beige Book, and China’s retail sales and industrial production for March."
   ]
 }
