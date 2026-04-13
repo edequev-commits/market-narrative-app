@@ -233,13 +233,33 @@ def render_ticker_rows(rows: list[dict]) -> str:
     html_rows = []
 
     for item in rows:
+        what_is_happening = html_escape(item.get("what_is_happening", ""))
+        business_impact = html_escape(item.get("business_impact", ""))
+
+        company_name = html_escape(item.get("company_name", ""))
+        sector = html_escape(item.get("sector", ""))
+        industry = html_escape(item.get("industry", ""))
+
+        description_block = what_is_happening
+        if business_impact:
+            description_block += f'<div class="ticker-impact"><strong>Impacto:</strong> {business_impact}</div>'
+
+        meta_parts = [part for part in [sector, industry] if part]
+        meta_text = " · ".join(meta_parts)
+
+        ticker_block = f"""
+            <div class="ticker-main">{html_escape(item.get("ticker", ""))} <span class="company-name">{company_name}</span></div>
+            <div class="ticker-meta">{meta_text}</div>
+        """
+    
         html_rows.append(f"""
             <tr>
-                <td class="ticker-cell">{html_escape(item.get("ticker", ""))}</td>
+                <td class="ticker-cell">{ticker_block}</td>
                 <td>{html_escape(item.get("gap_pct", ""))}</td>
                 <td>{html_escape(item.get("volume", ""))}</td>
+                <td>{html_escape(item.get("average_volume", ""))}</td>
                 <td>{html_escape(item.get("relative_volume", ""))}</td>
-                <td class="description-cell">{html_escape(item.get("what_is_happening", ""))}</td>
+                <td class="description-cell">{description_block}</td>
                 <td class="{catalyst_class(item.get("catalyst_strength", ""))}">
                     {html_escape(item.get("catalyst_strength", ""))}
                 </td>
@@ -250,6 +270,29 @@ def render_ticker_rows(rows: list[dict]) -> str:
         """)
 
     return "".join(html_rows)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 def build_html(macro_payload: dict, ticker_payload: dict) -> str:
@@ -454,7 +497,7 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
 
     .stocks-table {{
       width: 100%;
-      min-width: 1180px;
+      table-layout: fixed;
       border-collapse: collapse;
       background: #0f172a;
     }}
@@ -464,39 +507,71 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       top: 0;
       background: #111827;
       color: #cbd5e1;
-      font-size: 12px;
+      font-size: 11px;
       text-transform: uppercase;
       letter-spacing: 0.6px;
       text-align: left;
-      padding: 12px 10px;
+      padding: 10px 6px;
       border-bottom: 1px solid #1f2937;
       white-space: nowrap;
     }}
 
+
     .stocks-table tbody td {{
-      font-size: 13px;
+      font-size: 12px;
       color: #e5e7eb;
-      padding: 12px 10px;
+      padding: 8px 6px;
       border-bottom: 1px solid #172033;
       vertical-align: top;
+      word-wrap: break-word;
     }}
+
 
     .stocks-table tbody tr:hover {{
       background: rgba(148, 163, 184, 0.06);
     }}
 
+
     .ticker-cell {{
+      width: 18%;
+      font-size: 12px;
+      vertical-align: top;
+    }}
+
+
+   .description-cell {{
+      width: 38%;
+      line-height: 1.4;
+      font-size: 12px;
+      color: #cbd5e1;
+   }}
+
+
+    .ticker-main {{
       font-weight: 800;
       color: #ffffff;
       white-space: nowrap;
     }}
 
-    .description-cell {{
-      min-width: 320px;
-      line-height: 1.45;
-      color: #cbd5e1;
+    .company-name {{
+      color: #60a5fa;
+      font-weight: 700;
     }}
 
+    .ticker-meta {{
+      margin-top: 4px;
+      font-size: 11px;
+      color: #94a3b8;
+      line-height: 1.3;
+    }}
+
+    .ticker-impact {{
+      margin-top: 8px;
+      color: #cbd5e1;
+      font-size: 12px;
+      line-height: 1.4;
+    }}
+    
     .number-cell {{
       text-align: right;
       white-space: nowrap;
@@ -586,7 +661,7 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
 </head>
 <body>
   <div class="container">
-    <div class="title">Daily Market Dashboard v1.0</div>
+    <div class="title">Daily Market Dashboard v 1.1</div>
   
     <div class="tabs">
       <button class="tab-button active" onclick="showTab('macro-tab', this)">Noticias Macro</button>
@@ -645,6 +720,7 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
                 <th>Ticker</th>
                 <th>% GAP</th>
                 <th>Volumen</th>
+                <th>Average Volume</th>
                 <th>Relative Volume</th>
                 <th>¿Qué está pasando?</th>
                 <th>Calificación del catalizador</th>
