@@ -1,17 +1,29 @@
 {
-  "source_subject": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
+  "source_subject": "U.S. begins blockade of Strait of Hormuz",
   "source_from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-  "source_date": "2026-04-12T07:02:03-06:00",
-  "body_excerpt": "[CNBC #1] Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail\nFecha: 2026-04-12T07:02:03-06:00\nTrump says U.S. will blockade Strait of Hormuz after Iran peace talks fail\nThis is a developing news story. Please check back for updates:",
+  "source_date": "2026-04-13T08:15:03-06:00",
+  "body_excerpt": "[CNBC #1] U.S. begins blockade of Strait of Hormuz\nFecha: 2026-04-13T08:15:03-06:00\nU.S. begins blockade of Strait of Hormuz\nThis is a developing news story. Please check back for updates:\n\n[CNBC #2] Dow falls more than 200 points as oil prices jump with the U.S. set to block the Strait of Hormuz: Live updates\nFecha: 2026-04-13T07:33:05-06:00\nDow falls more than 200 points as oil prices jump with the U.S. set to block the Strait of Hormuz: Live updates\nThis is a developing news story. Please check back for updates:\n\n[CNBC #3] Open AI touts Amazon alliance in memo, says Microsoft has 'limited our ability' to reach clients\nFecha: 2026-04-13T06:39:03-06:00\nOpen AI touts Amazon alliance in memo, says Microsoft has 'limited our ability' to reach clients\nThis is a developing news story. Please check back for updates:",
   "links": [],
   "fetched_links": [],
   "selected_emails": [
     {
-      "subject": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
+      "subject": "U.S. begins blockade of Strait of Hormuz",
       "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-      "date": "2026-04-12T07:02:03-06:00",
+      "date": "2026-04-13T08:15:03-06:00",
       "recency_rank": 1
+    },
+    {
+      "subject": "Dow falls more than 200 points as oil prices jump with the U.S. set to block the Strait of Hormuz: Live updates",
+      "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
+      "date": "2026-04-13T07:33:05-06:00",
+      "recency_rank": 2
+    },
+    {
+      "subject": "Open AI touts Amazon alliance in memo, says Microsoft has 'limited our ability' to reach clients",
+      "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
+      "date": "2026-04-13T06:39:03-06:00",
+      "recency_rank": 3
     }
   ],
-  "parsed_at": "2026-04-12T22:16:47"
+  "parsed_at": "2026-04-13T23:32:38"
 }

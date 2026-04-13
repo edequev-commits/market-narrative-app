@@ -1,25 +1,25 @@
 {
-  "driver_principal": "El fracaso de las negociaciones de paz entre Estados Unidos e Irán y la posterior amenaza de bloqueo del Estrecho de Hormuz por parte de Estados Unidos.",
+  "driver_principal": "The dominant market driver is the U.S. initiation of a naval blockade of Iranian ports in the Strait of Hormuz following failed peace talks with Iran, which threatens the fragile ceasefire and escalates geopolitical risk, impacting global energy markets and financial conditions.",
   "hechos_confirmados": [
-    "Las negociaciones de paz entre Estados Unidos e Irán en Pakistán concluyeron sin acuerdo tras 14 horas de diálogo.",
-    "Las delegaciones de Estados Unidos e Irán abandonaron Pakistán tras el fin de las negociaciones.",
-    "Un funcionario del Ministerio de Petróleo de Irán declaró que Irán apunta a restaurar la mayoría de su capacidad de refinación en dos meses.",
-    "El expresidente Trump declaró que Estados Unidos bloqueará el Estrecho de Hormuz tras el fracaso de las negociaciones."
+    "The U.S. military has begun a blockade of all maritime traffic entering and exiting Iranian ports and coastal areas in the Strait of Hormuz.",
+    "Peace talks between the U.S. and Iran in Pakistan over the weekend failed to yield a deal to end the war, putting the fragile two-week ceasefire at risk.",
+    "Oil prices surged above $100 per barrel following the announcement of the U.S. blockade.",
+    "The U.S. Navy is focused on interdicting ships traveling to or from Iranian ports, not all vessels transiting the Strait of Hormuz."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que continúe la tensión geopolítica en el Golfo Pérsico, con riesgos elevados para el suministro energético global debido a la posible interrupción en el Estrecho de Hormuz. Se espera que las partes mantengan posturas firmes, pero sin una escalada militar inmediata a gran escala.",
-  "interpretacion_institucional": "El fracaso de las negociaciones refleja la persistencia de diferencias profundas entre Estados Unidos e Irán, lo que mantiene un entorno de riesgo elevado para los mercados energéticos y financieros globales. La amenaza de bloqueo del Estrecho de Hormuz por parte de Estados Unidos intensifica la percepción de riesgo geopolítico, afectando la confianza en los activos vinculados a la región. La restauración de la capacidad de refinación iraní en el corto plazo podría moderar parcialmente el impacto en el mercado petrolero, pero la incertidumbre prevalece. Los mercados probablemente reaccionarán con volatilidad ante cualquier nueva señal relacionada con la seguridad en el Golfo y la evolución de las tensiones.",
+  "escenario_dominante": "There is a high probability that the U.S.-Iran conflict will remain tense but contained without immediate large-scale military escalation, as the blockade is limited to Iranian port traffic and diplomatic efforts continue. The fragile ceasefire is likely to hold in the short term, but the situation remains fluid and could deteriorate if unplanned escalations occur. Markets will likely experience volatility driven by energy price shocks and geopolitical uncertainty.",
+  "interpretacion_institucional": "The U.S. blockade represents a significant escalation in the Iran conflict, increasing geopolitical risk and contributing to higher energy prices, which in turn pressures inflation and complicates monetary policy. While the blockade is less severe than a full closure of the Strait, it disrupts Iranian oil exports and heightens the risk of unintended escalation. The failure of talks and the blockade suggest limited near-term progress toward a diplomatic resolution, though ongoing negotiations and regional ceasefires provide some stabilizing influence. Market reactions reflect cautious risk-off sentiment with sectoral divergences, notably strength in energy and defensive sectors. The Fed and other central banks are likely to maintain accommodative stances amid uncertainty, but inflationary pressures from energy could persist longer than expected.",
   "riesgos_secundarios": [
-    "Posible escalada militar en el Golfo Pérsico derivada de acciones unilaterales o incidentes en el Estrecho de Hormuz.",
-    "Intervenciones o cambios en la postura de otros actores regionales como Arabia Saudita o Pakistán que modifiquen el equilibrio de poder.",
-    "Negociaciones técnicas posteriores que puedan abrir una ventana para un acuerdo o reducción de tensiones.",
-    "Impactos económicos globales derivados de la prolongación del conflicto en Medio Oriente que afecten la estabilidad financiera internacional.",
-    "Declaraciones o acciones de líderes políticos que puedan aumentar la retórica o la presión militar en la región."
+    "Potential unplanned military escalation triggered by the blockade or Iranian retaliation.",
+    "Resumption of U.S. bombing campaigns or deployment of ground troops in Iran, though currently assessed as unlikely.",
+    "Iran’s continued capability to disrupt the Strait of Hormuz through mines or missile attacks.",
+    "Further deterioration of the ceasefire in Lebanon and escalation of Israeli military operations.",
+    "Geopolitical complications from China’s potential arms shipments to Iran and broader international responses."
   ],
   "eventos_clave": [
-    "Intercambio de documentos técnicos entre expertos de Estados Unidos e Irán tras la conclusión de las negociaciones.",
-    "Evolución de la capacidad de refinación de Irán en los próximos dos meses.",
-    "Movimientos y operaciones militares en el Estrecho de Hormuz, incluyendo la posible implementación del bloqueo anunciado por Estados Unidos.",
-    "Reacciones y decisiones de países del Golfo Pérsico, especialmente Arabia Saudita y Pakistán, en el contexto de la defensa regional.",
-    "Declaraciones oficiales adicionales de Estados Unidos e Irán que puedan modificar la percepción de riesgo geopolítico."
+    "Monitoring of the effectiveness and enforcement of the U.S. blockade of Iranian ports starting April 13, 2026.",
+    "Scheduled negotiations between officials from Lebanon, the U.S., and Israel in Washington during the week of April 13, 2026.",
+    "Expiration of the current ceasefire on April 21, 2026.",
+    "Upcoming U.S. and European corporate earnings reports, including major banks and luxury firms, which may reflect economic impacts of the conflict.",
+    "Release of key economic data including U.S. PPI, import/export prices, and China’s retail sales and industrial production during the week of April 13, 2026."
   ]
 }
