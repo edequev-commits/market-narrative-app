@@ -1,25 +1,25 @@
 {
-  "driver_principal": "The U.S. has initiated a naval blockade of Iranian ports in the Strait of Hormuz following failed peace talks with Iran, escalating geopolitical tensions and impacting global energy markets.",
+  "driver_principal": "The dominant market driver is the ongoing US-Iran conflict dynamics, specifically the potential for a durable détente amid active negotiations despite the US naval blockade of Iranian ports, which is influencing global risk perception, oil markets, and equity valuations.",
   "hechos_confirmados": [
-    "The U.S. military began blockading all maritime traffic entering and exiting Iranian ports and coastal areas as of April 13, 2026.",
-    "Peace talks between the U.S. and Iran in Pakistan over the weekend failed to yield a deal to end the war, jeopardizing a fragile two-week ceasefire.",
-    "Oil prices surged above $100 per barrel following the announcement of the U.S. blockade of the Strait of Hormuz.",
-    "The U.S. Navy is focused on interdicting ships traveling to or from Iranian ports, not all vessels transiting the Strait of Hormuz."
+    "The US and Iran remain in active talks with potential for another face-to-face meeting before the current ceasefire expires next week.",
+    "The US has imposed a naval blockade on Iranian ports, focusing on interdicting ships traveling to/from Iranian ports but not all vessels through the Strait of Hormuz.",
+    "Oil market shortages are expected to become more acute as final oil cargoes that left Hormuz before the war commenced arrive at their destinations.",
+    "The S&P 500 has rallied approximately 8.7% (~550 points) from its trough to peak in recent sessions, returning to the pre-war resistance zone (~6900-7000)."
   ],
-  "escenario_dominante": "There is a high probability that the U.S.-Iran conflict will remain tense but contained, with the blockade in place and ongoing diplomatic efforts continuing. The ceasefire is likely to hold in the short term, though the risk of unplanned escalation remains. Global markets will experience volatility, particularly in energy prices, with inflationary pressures persisting. The U.S. is unlikely to escalate to full-scale military action such as bombing campaigns or ground troop deployments in Iran in the immediate future.",
-  "interpretacion_institucional": "The U.S. blockade of Iranian ports represents a significant escalation in the geopolitical conflict, directly impacting global oil supply routes and contributing to a sharp rise in energy prices. While the blockade increases the risk of military confrontation, current intelligence and official statements suggest that the U.S. administration is avoiding more aggressive kinetic actions due to the high costs and regional instability risks. The failure of peace talks and the continuation of the Lebanon conflict complicate the situation, but ongoing diplomacy and scheduled negotiations among regional actors may provide avenues for de-escalation. Market reactions reflect cautious sentiment, with energy and defense sectors outperforming amid broader equity weakness. Inflation concerns are heightened by the energy shock, influencing central bank policy outlooks globally. The situation remains fluid, requiring close monitoring of diplomatic developments and military activities in the region.",
+  "escenario_dominante": "There is a high probability that the US-Iran ceasefire will hold in the near term with ongoing negotiations leading to a potential extension or permanent agreement, supporting equities. However, the macroeconomic environment is expected to experience a months-long stagflationary effect due to the conflict, limiting upside. Oil prices and Treasury yields may remain elevated or volatile given supply concerns and geopolitical risks. The risk/reward for equities is increasingly neutral as valuations approach pre-war resistance levels.",
+  "interpretacion_institucional": "The market is currently pricing in optimism about a durable US-Iran détente, reflected in equity rallies and improved sentiment. However, the incomplete alignment of oil prices and Treasury yields with this optimism suggests caution. The ongoing blockade and military tensions maintain a risk premium, while the economic impact of the conflict is expected to weigh on growth and inflation dynamics for months. Central banks, including the Fed, are adopting a wait-and-see approach to monetary policy given the uncertain economic fallout. Investors should monitor negotiation progress and macroeconomic data closely, as the conflict remains a key source of market volatility and stagflation risk.",
   "riesgos_secundarios": [
-    "Potential unplanned escalation triggered by the blockade, including military confrontations between U.S. and Iranian forces.",
-    "Iran’s capability to maintain or intensify economic warfare through missile strikes or disruption of critical energy infrastructure in the region.",
-    "Resumption of limited U.S. military strikes against Iran if diplomatic efforts fail.",
-    "China’s possible delivery of air defense systems to Iran, which could alter the regional military balance.",
-    "Instability in Lebanon and Israel’s ongoing military operations could exacerbate regional tensions and complicate U.S.-Iran relations."
+    "The blockade could escalate into uncontrolled military conflict, forcing increased US military engagement and prolonged regional instability.",
+    "Reports suggest the recent US military campaign against Iran has failed to achieve key objectives, potentially emboldening Iran and complicating negotiations.",
+    "China's potential military support to Iran could increase geopolitical tensions between Washington and Beijing.",
+    "Economic data may reveal deeper stagflationary pressures than currently anticipated, negatively impacting risk assets.",
+    "The White House lacks control over the Lebanon conflict, which is closely linked to Iran, posing a risk of broader regional escalation."
   ],
   "eventos_clave": [
-    "Effectiveness and enforcement of the U.S. blockade of Iranian ports starting April 13, 2026.",
-    "Scheduled negotiations between officials from Lebanon, the U.S., and Israel in Washington during the week of April 13, 2026.",
-    "Continuation or breakdown of the current ceasefire, which is set to last until April 21, 2026.",
-    "Release and market reaction to U.S. and global economic data including U.S. PPI for March, Fed Beige Book, and China’s retail sales and industrial production for March during the week of April 13, 2026.",
-    "U.S. bank earnings reports starting with Goldman Sachs on April 13, 2026, which may reflect market volatility and economic conditions influenced by geopolitical risks."
+    "Potential face-to-face US-Iran meeting before the current ceasefire expires next week.",
+    "US PPI data release for March, expected to show acceleration, providing insight into inflation dynamics amid the conflict.",
+    "Meeting between US, Israeli, and Lebanese officials in Washington scheduled for Tuesday.",
+    "Updated IMF/World Bank economic outlook press briefing.",
+    "US Federal Reserve's monetary policy decisions and communications in response to the economic impact of the Iran war."
   ]
 }
