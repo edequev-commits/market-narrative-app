@@ -356,11 +356,28 @@ def read_messages_from_label(
         except Exception:
             continue
 
+     
         sender_clean = clean_text(sender)
         sender_lower = sender_clean.lower()
 
         if any(excluded in sender_lower for excluded in exclude_senders):
             continue
+
+        sender_type = "OTHER"
+
+        if "morningsquawk@response.cnbc.com" in sender_lower:
+            sender_type = "CNBC_MORNING_SQUAWK"
+        elif "cnbc" in sender_lower:
+            sender_type = "CNBC"
+        elif "reuters" in sender_lower:
+            sender_type = "REUTERS"
+        elif "vital" in sender_lower:
+            sender_type = "VITAL_KNOWLEDGE"
+        elif "macro view" in sender_lower or "macroview" in sender_lower:
+            sender_type = "MACRO_VIEW_DAILY"
+
+
+
 
         if email_date == today and start_time <= email_time <= end_time:
             output.append({
@@ -368,8 +385,10 @@ def read_messages_from_label(
                 "subject": clean_text(subject),
                 "from": sender_clean,
                 "date": parsed_date.isoformat(),
-                "body": body_text
+                "body": body_text,
+                "sender_type": sender_type
             })
+
 
     output.sort(key=lambda x: x["date"])
     return output

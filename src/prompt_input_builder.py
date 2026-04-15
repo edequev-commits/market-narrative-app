@@ -91,7 +91,25 @@ def build_prompt_input_from_emails(
                     lines.append(f"  Detalle: {p}")
             lines.append("")
 
-    lines.append("=== FUENTE PRIORITARIA 3: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===")
+
+    lines.append("=== FUENTE PRIORITARIA 3: CNBC MORNING SQUAWK ===")
+
+    morning_squawk_emails = [
+        e for e in emails
+        if e.get("sender_type") == "CNBC_MORNING_SQUAWK"
+    ]
+
+    if morning_squawk_emails:
+        for email in morning_squawk_emails:
+            lines.append(f"Remitente: {email.get('from', '')}")
+            lines.append(f"Asunto: {email.get('subject', '')}")
+            lines.append(f"Fecha: {email.get('date', '')}")
+            lines.append("Contenido:")
+            lines.append(email.get("body", "")[:3000])
+            lines.append("")
+
+ 
+    lines.append("=== FUENTE PRIORITARIA 4: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===")
     if cnbc_data:
         lines.append(f"Remitente principal: {cnbc_data.get('source_from', '')}")
         lines.append(f"Asunto principal: {cnbc_data.get('source_subject', '')}")
@@ -134,6 +152,9 @@ def build_prompt_input_from_emails(
             continue
         if "breakingnews@response.cnbc.com" in sender_lower:
             continue
+        if "morningsquawk@response.cnbc.com" in sender_lower:
+            continue
+
 
         lines.append(f"CORREO {i}")
         lines.append(f"Remitente: {sender}")

@@ -7,78 +7,138 @@ MARKET DRIVERS TODAY
 REGLA MAESTRA:
 Este bloque debe ayudar a operar HOY.
 No repitas la Narrativa Macro.
-Prioriza acciones, sectores y catalizadores por encima de contexto general.
+Debe reflejar qué está moviendo el mercado en este momento.
+
+---
 
 FORMATO OBLIGATORIO:
-- Cada driver debe iniciar con: ●
-- Cada driver debe ser UNA sola línea
+- Cada driver inicia con: ●
+- Una sola línea por driver
 - Máximo 20 palabras
-- No usar párrafos
-- No usar etiquetas como "Macro", "Geopolítica", etc.
-- Debe existir un salto de línea entre drivers
+- Sin párrafos
+- Sin etiquetas como "Macro" o "Geopolítica"
+- Separar con salto de línea
+
+---
+
+REGLA CRÍTICA DE ORDEN:
+
+El PRIMER driver SIEMPRE debe describir:
+
+- dirección de los futuros
+- si el mercado recupera pérdidas o cae
+- interpretación clara del movimiento
+
+Ejemplo:
+● Futuros del S&P 500 recuperan pérdidas, señal de rebote y menor preocupación por el conflicto.
+
+---
 
 FORMATO DE EMPRESAS:
-- Si se menciona una empresa, incluye ticker inmediatamente:
-  Ejemplo: TSMC ($TSM), Amazon ($AMZN)
+- Siempre incluir ticker:
+Ejemplo: Amazon ($AMZN)
 
-PRIORIDAD ESTRICTA:
-1. Earnings, guidance, preanuncios
-2. Noticias/catalizadores de acciones
-3. Upgrades/downgrades
-4. Comentarios de management, demanda, backlog, capex
-5. Macro con impacto directo hoy
-6. Geopolítica solo si mueve precios hoy
+---
+
+PRIORIDAD (DESPUÉS DEL PRIMER DRIVER):
+
+1. Earnings y resultados
+2. Catalizadores de acciones
+3. Cambios de recomendación
+4. Señales institucionales
+5. Macro relevante
+6. Geopolítica si mueve el mercado hoy
+
+---
 
 REGLAS DURAS:
-- Las primeras líneas deben ser acciones si existen
-- Debes incluir al menos 4 drivers de empresas si existen
-- Máximo 1 línea geopolítica
-- Máximo 1 línea macro si micro domina
-- No repetir el mismo tema con distintos ángulos
-- Elimina ruido y temas secundarios
+
+- Primer driver = futuros (obligatorio si existe info)
+- Mínimo 4 drivers de acciones si existen
+- Máximo 1 driver geopolítico
+- Máximo 1 macro si micro domina
+- No repetir temas
 - Máximo 8 drivers
 
-REGLA DE IDIOMA (OBLIGATORIA):
+---
 
-- Todo el output debe estar en ESPAÑOL
-- No mezclar inglés y español
-- Traducir completamente:
-  - "Q1 revenue" → "ingresos del primer trimestre"
-  - "YoY" → "interanual"
-  - "forecast" → "estimaciones"
-  - "guidance" → "guía"
-  - "backlog" → "cartera de pedidos"
-  - "beating expectations" → "superando expectativas"
+REGLA DE INTERPRETACIÓN
 
-- Si detectas texto en inglés, debes traducirlo antes de generar el output
+Cada driver debe decir:
 
-REGLA DE IMPACTO EN PRECIO:
-Prioriza acciones que puedan moverse HOY por volatilidad, volumen, hype o catalizador.
+- qué está pasando
+- por qué importa
+- qué efecto tiene en el mercado
 
-REGLAS MACRO:
-- Incluye números
-- Compara contra dato previo o expectativa si está disponible
+---
 
-REGLA DE CLARIDAD:
-- Evita términos técnicos poco claros
-- No uses siglas difíciles sin explicarlas
-- Simplifica o elimina:
-  - TWD1.13T
-  - FXN
-  - DTC/retail
-  - CPI
-  - Brent
-  - bp
-- Usa lenguaje simple:
-  - "inflación en EE.UU."
-  - "precio del petróleo"
-  - "ventas directas al consumidor"
-  - "ingresos trimestrales"
-- Si una expresión no se entiende en menos de 3 segundos, reescríbela
-- Si no puedes simplificarla, elimínala
+REGLA ESPECIAL PARA MORNING SQUAWK
 
-REGLA FINAL:
-Cada línea debe cerrar con impacto claro en el mercado HOY o en el sector HOY.
+Debes convertir en drivers:
+
+- futuros (PRIMER driver)
+- rebote o caída del mercado
+- cambios de sentimiento
+- petróleo (explicando impacto)
+- señales institucionales
+
+---
+
+REGLA DE CAMBIO DE RÉGIMEN
+
+Si el mercado recupera pérdidas:
+→ interpretar como reducción de riesgo
+
+---
+
+REGLA INSTITUCIONAL
+
+Si aparece BlackRock u otra institución:
+
+→ crear driver independiente
+
+No mezclar con earnings.
+
+---
+
+REGLA DE CONSOLIDACIÓN
+
+Si varias fuentes dicen lo mismo:
+→ un solo driver más fuerte
+
+---
+
+REGLA DE RELEVANCIA:
+
+Eliminar drivers que no tengan impacto claro en el mercado estadounidense en el corto plazo.
+
+Ejemplo:
+- política monetaria de países pequeños → omitir si no impacta directamente hoy
+
+
+REGLA DE CLARIDAD
+
+Evitar términos técnicos.
+
+Ejemplos:
+
+- "rendimientos" → "rendimientos de bonos del Tesoro"
+- "inflación" → "aumento en precios"
+- "commodities" → "materias primas"
+
+Si no es claro, reescribir.
+
+---
+
+REGLA FINAL
+
+Cada línea debe explicar el impacto HOY en:
+
+- acciones
+- sectores
+- o comportamiento del mercado
+
+---
 
 INPUT:
 {news_data}

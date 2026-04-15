@@ -41,7 +41,6 @@ def paragraphs_from_text(text: str) -> str:
     return "".join(
         f'<p style="margin:0 0 14px 0; line-height:1.8;">{html_escape(part)}</p>'
         for part in parts
-
     )
 
 
@@ -77,7 +76,7 @@ def format_number(value) -> str:
         return ""
 
     try:
-        num = float(value)
+        num = float(str(value).replace(",", ""))
     except Exception:
         return html_escape(str(value))
 
@@ -106,18 +105,20 @@ def format_price(value) -> str:
 
 def format_pct(value) -> tuple[str, str]:
     if value in (None, "", "nan"):
-        return "", "neutral"
+        return "", "gap-flat"
 
     try:
-        num = float(str(value).replace("%", ""))
+        clean = str(value).replace("%", "").replace(",", "").strip()
+        num = float(clean)
     except Exception:
-        return html_escape(str(value)), "neutral"
+        return html_escape(str(value)), "gap-flat"
 
-    css = "neutral"
     if num > 0:
-        css = "positive"
+        css = "gap-up"
     elif num < 0:
-        css = "negative"
+        css = "gap-down"
+    else:
+        css = "gap-flat"
 
     return f"{num:.2f}%", css
 
@@ -142,13 +143,19 @@ def render_top_stocks(rows: list[dict]) -> str:
 
     for item in rows:
         change_text, change_class = format_pct(item.get("change_pct"))
+        color_class = "neutral"
+        if change_class == "gap-up":
+            color_class = "positive"
+        elif change_class == "gap-down":
+            color_class = "negative"
+
         html_rows.append(f"""
             <tr>
                 <td class="ticker-cell">{html_escape(item.get("ticker", ""))}</td>
                 <td>{html_escape(item.get("sector", ""))}</td>
                 <td>{html_escape(item.get("industry", ""))}</td>
                 <td class="description-cell">{html_escape(item.get("description", ""))}</td>
-                <td class="{change_class}">{change_text}</td>
+                <td class="{color_class}">{change_text}</td>
                 <td class="number-cell">{format_price(item.get("price"))}</td>
                 <td class="number-cell">{format_number(item.get("volume"))}</td>
                 <td class="number-cell">{format_number(item.get("average_volume"))}</td>
@@ -204,24 +211,6 @@ def render_sources(rows: list[dict]) -> str:
     return "".join(items)
 
 
-def catalyst_class(value: str) -> str:
-    value = str(value or "").upper()
-    if value == "HIGH":
-        return "positive"
-    if value == "LOW":
-        return "negative"
-    return "neutral"
-
-
-def sentiment_class(value: str) -> str:
-    value = str(value or "").lower()
-    if value == "bullish":
-        return "positive"
-    if value == "bearish":
-        return "negative"
-    return "neutral"
-
-
 def render_ticker_rows(rows: list[dict]) -> str:
     if not rows:
         return """
@@ -233,6 +222,7 @@ def render_ticker_rows(rows: list[dict]) -> str:
     html_rows = []
 
     for item in rows:
+        gap_text, gap_class = format_pct(item.get("gap_pct", ""))
         what_is_happening = html_escape(item.get("what_is_happening", ""))
         business_impact = html_escape(item.get("business_impact", ""))
 
@@ -251,48 +241,20 @@ def render_ticker_rows(rows: list[dict]) -> str:
             <div class="ticker-main">{html_escape(item.get("ticker", ""))} <span class="company-name">{company_name}</span></div>
             <div class="ticker-meta">{meta_text}</div>
         """
-    
+
         html_rows.append(f"""
             <tr>
-                <td class="ticker-cell">{ticker_block}</td>
-                <td>{html_escape(item.get("gap_pct", ""))}</td>
-                <td>{html_escape(item.get("volume", ""))}</td>
-                <td>{html_escape(item.get("average_volume", ""))}</td>
-                <td>{html_escape(item.get("relative_volume", ""))}</td>
-                <td class="description-cell">{description_block}</td>
-                <td class="{catalyst_class(item.get("catalyst_strength", ""))}">
-                    {html_escape(item.get("catalyst_strength", ""))}
-                </td>
-                <td class="{sentiment_class(item.get("sentiment", ""))}">
-                    {html_escape(item.get("sentiment", ""))}
-                </td>
+                <td class="ticker-cell compact-ticker-cell">{ticker_block}</td>
+                <td class="{gap_class} compact-col">{gap_text}</td>
+                <td class="compact-col">{html_escape(item.get("volume", ""))}</td>
+                <td class="compact-col">{html_escape(item.get("average_volume", ""))}</td>
+                <td class="compact-col">{html_escape(item.get("relative_volume", ""))}</td>
+                <td class="description-cell ticker-description-cell">{description_block}</td>
+                <td class="compact-col score-cell">{html_escape(item.get("score", 0))}</td>
             </tr>
         """)
 
     return "".join(html_rows)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 def build_html(macro_payload: dict, ticker_payload: dict) -> str:
@@ -489,7 +451,7 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
 
     .stocks-table-wrap {{
       width: 100%;
-      overflow-x: auto;
+      overflow-x: hidden;
       overflow-y: hidden;
       border: 1px solid #172033;
       border-radius: 14px;
@@ -509,13 +471,13 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       color: #cbd5e1;
       font-size: 11px;
       text-transform: uppercase;
-      letter-spacing: 0.6px;
+      letter-spacing: 0.5px;
       text-align: left;
-      padding: 10px 6px;
+      padding: 9px 6px;
       border-bottom: 1px solid #1f2937;
-      white-space: nowrap;
+      white-space: normal;
+      line-height: 1.2;
     }}
-
 
     .stocks-table tbody td {{
       font-size: 12px;
@@ -524,33 +486,44 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       border-bottom: 1px solid #172033;
       vertical-align: top;
       word-wrap: break-word;
+      overflow-wrap: break-word;
     }}
-
 
     .stocks-table tbody tr:hover {{
       background: rgba(148, 163, 184, 0.06);
     }}
 
-
     .ticker-cell {{
-      width: 18%;
-      font-size: 12px;
-      vertical-align: top;
+      font-weight: 800;
+      color: #ffffff;
+      white-space: nowrap;
     }}
 
+    .compact-ticker-cell {{
+      white-space: normal;
+    }}
 
-   .description-cell {{
-      width: 38%;
-      line-height: 1.4;
-      font-size: 12px;
+    .compact-col {{
+      white-space: nowrap;
+      font-size: 11px;
+    }}
+
+    .description-cell {{
+      min-width: 320px;
+      line-height: 1.45;
       color: #cbd5e1;
-   }}
+    }}
 
+    .ticker-description-cell {{
+      font-size: 12px;
+      line-height: 1.35;
+    }}
 
     .ticker-main {{
       font-weight: 800;
       color: #ffffff;
-      white-space: nowrap;
+      white-space: normal;
+      line-height: 1.25;
     }}
 
     .company-name {{
@@ -560,18 +533,19 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
 
     .ticker-meta {{
       margin-top: 4px;
-      font-size: 11px;
+      font-size: 10px;
       color: #94a3b8;
-      line-height: 1.3;
+      line-height: 1.25;
+      white-space: normal;
     }}
 
     .ticker-impact {{
-      margin-top: 8px;
+      margin-top: 6px;
       color: #cbd5e1;
-      font-size: 12px;
-      line-height: 1.4;
+      font-size: 11px;
+      line-height: 1.35;
     }}
-    
+
     .number-cell {{
       text-align: right;
       white-space: nowrap;
@@ -593,6 +567,27 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       color: #cbd5e1;
       font-weight: 700;
       white-space: nowrap;
+    }}
+
+    .gap-up {{
+      color: #22c55e !important;
+      font-weight: 700;
+    }}
+
+    .gap-down {{
+      color: #f472b6 !important;
+      font-weight: 700;
+    }}
+
+    .gap-flat {{
+      color: #cbd5e1 !important;
+      font-weight: 700;
+    }}
+
+    .score-cell {{
+      color: #fbbf24;
+      font-weight: 800;
+      font-size: 13px;
     }}
 
     .sources-card {{
@@ -661,8 +656,8 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
 </head>
 <body>
   <div class="container">
-    <div class="title">Daily Market Dashboard v 1.1</div>
-  
+    <div class="title">Daily Market Dashboard v1.1</div>
+
     <div class="tabs">
       <button class="tab-button active" onclick="showTab('macro-tab', this)">Noticias Macro</button>
       <button class="tab-button" onclick="showTab('ticker-tab', this)">Ticker Intelligence</button>
@@ -714,17 +709,25 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       <div class="card stocks-card">
         <div class="last-update">Última actualización: {ticker_generated_at}</div>
         <div class="stocks-table-wrap">
-          <table class="stocks-table">
+          <table class="stocks-table ticker-intel-table">
+            <colgroup>
+              <col style="width: 13%;">
+              <col style="width: 6%;">
+              <col style="width: 8%;">
+              <col style="width: 8%;">
+              <col style="width: 6%;">
+              <col style="width: 49%;">
+              <col style="width: 10%;">
+            </colgroup>
             <thead>
               <tr>
                 <th>Ticker</th>
-                <th>% GAP</th>
-                <th>Volumen</th>
-                <th>Average Volume</th>
-                <th>Relative Volume</th>
+                <th>% Gap</th>
+                <th>Volume</th>
+                <th>Avg. Vol.</th>
+                <th>RVOL</th>
                 <th>¿Qué está pasando?</th>
-                <th>Calificación del catalizador</th>
-                <th>Sentiment</th>
+                <th>Score</th>
               </tr>
             </thead>
             <tbody>
