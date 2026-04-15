@@ -1,3 +1,33 @@
+from datetime import datetime, time
+
+
+MARKET_OPEN_CUTOFF = time(9, 30)
+
+
+def _parse_email_datetime(date_str: str):
+    if not date_str:
+        return None
+    try:
+        return datetime.fromisoformat(date_str)
+    except Exception:
+        return None
+
+
+def _is_valid_macro_news(date_str: str) -> bool:
+    dt = _parse_email_datetime(date_str)
+    if dt is None:
+        return True
+
+    now = datetime.now()
+
+    # Solo noticias del día actual
+    if dt.date() != now.date():
+        return False
+
+    # Solo hasta 9:30 AM
+    return dt.time() <= MARKET_OPEN_CUTOFF
+
+
 def build_prompt_input_from_emails(
     emails: list,
     vital_data: dict | None = None,
@@ -91,12 +121,12 @@ def build_prompt_input_from_emails(
                     lines.append(f"  Detalle: {p}")
             lines.append("")
 
-
     lines.append("=== FUENTE PRIORITARIA 3: CNBC MORNING SQUAWK ===")
 
     morning_squawk_emails = [
         e for e in emails
         if e.get("sender_type") == "CNBC_MORNING_SQUAWK"
+        and _is_valid_macro_news(e.get("date", ""))
     ]
 
     if morning_squawk_emails:
@@ -108,7 +138,6 @@ def build_prompt_input_from_emails(
             lines.append(email.get("body", "")[:3000])
             lines.append("")
 
- 
     lines.append("=== FUENTE PRIORITARIA 4: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===")
     if cnbc_data:
         lines.append(f"Remitente principal: {cnbc_data.get('source_from', '')}")
@@ -116,9 +145,14 @@ def build_prompt_input_from_emails(
         lines.append(f"Fecha principal: {cnbc_data.get('source_date', '')}")
         lines.append("")
 
-        if cnbc_data.get("selected_emails"):
+        selected_emails = [
+            item for item in cnbc_data.get("selected_emails", [])
+            if _is_valid_macro_news(item.get("date", ""))
+        ]
+
+        if selected_emails:
             lines.append("HEADLINES CNBC PRIORIZADOS POR RECIENCIA:")
-            for item in cnbc_data.get("selected_emails", []):
+            for item in selected_emails:
                 rank = item.get("recency_rank", "")
                 date = item.get("date", "")
                 subject = item.get("subject", "")
@@ -145,6 +179,9 @@ def build_prompt_input_from_emails(
         date = email.get("date", "").strip()
         body = email.get("body", "").strip()
 
+        if not _is_valid_macro_news(date):
+            continue
+
         sender_lower = sender.lower()
         if "vital knowledge" in sender_lower:
             continue
@@ -155,7 +192,6 @@ def build_prompt_input_from_emails(
         if "morningsquawk@response.cnbc.com" in sender_lower:
             continue
 
-
         lines.append(f"CORREO {i}")
         lines.append(f"Remitente: {sender}")
         lines.append(f"Asunto: {subject}")
@@ -164,9 +200,6 @@ def build_prompt_input_from_emails(
         lines.append(body[:2000])
         lines.append("-" * 60)
 
-     # =========================
-    # 🔥 MICRO DRIVERS DINÁMICOS (ROBUSTO)
-    # =========================
     lines.append("=== MICRO DRIVERS (ACCIONES Y SECTORES) ===")
 
     if vital_data:

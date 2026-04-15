@@ -94,15 +94,6 @@ def format_number(value) -> str:
     return f"{num:.2f}"
 
 
-def format_price(value) -> str:
-    if value in (None, "", "nan"):
-        return ""
-    try:
-        return f"{float(value):.2f}"
-    except Exception:
-        return html_escape(str(value))
-
-
 def format_pct(value) -> tuple[str, str]:
     if value in (None, "", "nan"):
         return "", "gap-flat"
@@ -133,63 +124,6 @@ def format_source_date(value: str) -> str:
         return dt.strftime("%d/%m/%Y - %H:%M")
     except Exception:
         return html_escape(value)
-
-
-def render_top_stocks(rows: list[dict]) -> str:
-    if not rows:
-        return '<div class="empty-note">No hay acciones disponibles.</div>'
-
-    html_rows = []
-
-    for item in rows:
-        change_text, change_class = format_pct(item.get("change_pct"))
-        color_class = "neutral"
-        if change_class == "gap-up":
-            color_class = "positive"
-        elif change_class == "gap-down":
-            color_class = "negative"
-
-        html_rows.append(f"""
-            <tr>
-                <td class="ticker-cell">{html_escape(item.get("ticker", ""))}</td>
-                <td>{html_escape(item.get("sector", ""))}</td>
-                <td>{html_escape(item.get("industry", ""))}</td>
-                <td class="description-cell">{html_escape(item.get("description", ""))}</td>
-                <td class="{color_class}">{change_text}</td>
-                <td class="number-cell">{format_price(item.get("price"))}</td>
-                <td class="number-cell">{format_number(item.get("volume"))}</td>
-                <td class="number-cell">{format_number(item.get("average_volume"))}</td>
-                <td class="number-cell">{html_escape(item.get("float", ""))}</td>
-                <td class="number-cell">{html_escape(item.get("relative_volume", ""))}</td>
-            </tr>
-        """)
-
-    return f"""
-    <div class="stocks-subtle">
-      Seleccionadas por alineación con narrativa, régimen y fuerza real de movimiento
-    </div>
-    <div class="stocks-table-wrap">
-      <table class="stocks-table">
-        <thead>
-          <tr>
-            <th>Ticker</th>
-            <th>Sector</th>
-            <th>Industria</th>
-            <th>Descripción</th>
-            <th>% Cambio</th>
-            <th>Precio</th>
-            <th>Volumen</th>
-            <th>Average Volume</th>
-            <th>Float</th>
-            <th>Relative Volume</th>
-          </tr>
-        </thead>
-        <tbody>
-          {''.join(html_rows)}
-        </tbody>
-      </table>
-    </div>
-    """
 
 
 def render_sources(rows: list[dict]) -> str:
@@ -263,9 +197,7 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
     <div class="last-update">Última actualización: {html_escape(last_refresh)}</div>
     {paragraphs_from_text(macro_payload.get("narrative", ""))}
     """
-    regime_html = paragraphs_from_text(macro_payload.get("regime", ""))
     drivers_html = render_market_drivers(macro_payload.get("market_drivers", ""))
-    top_stocks_html = render_top_stocks(macro_payload.get("top_stocks_in_play", []))
     sources_html = render_sources(macro_payload.get("sources", []))
     ticker_generated_at = html_escape(ticker_payload.get("generated_at", ""))
     ticker_rows_html = render_ticker_rows(ticker_payload.get("rows", []))
@@ -301,12 +233,6 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       font-weight: 800;
       color: #f8fafc;
       margin-bottom: 10px;
-    }}
-
-    .subtle {{
-      color: #94a3b8;
-      font-size: 15px;
-      margin-bottom: 18px;
     }}
 
     .tabs {{
@@ -372,17 +298,6 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       line-height: 2.5;
     }}
 
-    .regime-card {{
-      height: 195px;
-      overflow-y: auto;
-      overflow-x: hidden;
-      background: #111827;
-      border: 1px solid #374151;
-      border-left: 4px solid var(--regime-accent);
-      font-size: 14px;
-      line-height: 1.3;
-    }}
-
     .drivers-card {{
       max-height: 260px;
       overflow-y: auto;
@@ -442,13 +357,6 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       padding: 18px 18px 14px 18px;
     }}
 
-    .stocks-subtle {{
-      color: #94a3b8;
-      font-size: 13px;
-      margin-bottom: 12px;
-      line-height: 1.5;
-    }}
-
     .stocks-table-wrap {{
       width: 100%;
       overflow-x: hidden;
@@ -487,10 +395,6 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       vertical-align: top;
       word-wrap: break-word;
       overflow-wrap: break-word;
-    }}
-
-    .stocks-table tbody tr:hover {{
-      background: rgba(148, 163, 184, 0.06);
     }}
 
     .ticker-cell {{
@@ -546,27 +450,10 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       line-height: 1.35;
     }}
 
-    .number-cell {{
-      text-align: right;
-      white-space: nowrap;
-    }}
-
-    .positive {{
-      color: #22c55e;
-      font-weight: 700;
-      white-space: nowrap;
-    }}
-
-    .negative {{
-      color: #ef4444;
-      font-weight: 700;
-      white-space: nowrap;
-    }}
-
-    .neutral {{
-      color: #cbd5e1;
-      font-weight: 700;
-      white-space: nowrap;
+    .score-cell {{
+      color: #fbbf24;
+      font-weight: 800;
+      font-size: 13px;
     }}
 
     .gap-up {{
@@ -584,38 +471,32 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       font-weight: 700;
     }}
 
-    .score-cell {{
-      color: #fbbf24;
-      font-weight: 800;
-      font-size: 13px;
-    }}
-
     .sources-card {{
-      height: 940px;
+      height: 320px;
       overflow-y: auto;
       overflow-x: hidden;
-      padding: 14px 14px 8px 14px;
+      padding: 10px 12px 6px 12px;
     }}
 
     .source-item {{
       border-bottom: 1px solid #172033;
-      padding: 0 0 12px 0;
-      margin: 0 0 12px 0;
+      padding: 0 0 8px 0;
+      margin: 0 0 8px 0;
     }}
 
     .source-header {{
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      gap: 12px;
-      margin-bottom: 4px;
+      gap: 8px;
+      margin-bottom: 3px;
     }}
 
     .source-name {{
       color: #ffffff;
-      font-size: 15px;
+      font-size: 12px;
       font-weight: 700;
-      line-height: 1.4;
+      line-height: 1.25;
       flex: 1;
       min-width: 0;
       word-break: break-word;
@@ -623,18 +504,18 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
 
     .source-date {{
       color: #94a3b8;
-      font-size: 12px;
-      line-height: 1.4;
+      font-size: 10px;
+      line-height: 1.25;
       white-space: nowrap;
       text-align: right;
       flex-shrink: 0;
-      padding-top: 2px;
+      padding-top: 1px;
     }}
 
     .source-detail {{
       color: #cbd5e1;
-      font-size: 13px;
-      line-height: 1.5;
+      font-size: 11px;
+      line-height: 1.3;
       word-break: break-word;
     }}
 
@@ -673,25 +554,9 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
 
           <div style="height:14px;"></div>
 
-          <!--
-          <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
-          <div class="card regime-card">
-            {regime_html}
-          </div>
-          -->
-
-          <div style="height:14px;"></div>
-
           <div class="section-title">Market Drivers Today</div>
           <div class="card drivers-card">
             {drivers_html}
-          </div>
-
-          <div style="height:14px;"></div>
-
-          <div class="section-title">Top 6 Stocks In Play Today</div>
-          <div class="card stocks-card">
-            {top_stocks_html}
           </div>
         </div>
 

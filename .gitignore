@@ -17,3 +17,10 @@ data/*
 !data/cnbc_extracted.json
 !data/market_regime.txt
 !data/final_regime_prompt.txt
+
+dist/
+__pycache__/
+*.bat
+backups/
+*copia*
+*backup*

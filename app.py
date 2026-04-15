@@ -64,13 +64,25 @@ def build_sources_fallback(vital_data: dict, reuters_data: dict, cnbc_data: dict
             "detalle": reuters_data.get("source_subject", "Reuters Daily Briefing"),
         })
 
+
     if cnbc_data and cnbc_data.get("selected_emails"):
-        for item in cnbc_data.get("selected_emails", [])[:3]:
+        for item in cnbc_data.get("selected_emails", []):
+
+            sender = (item.get("from") or "").lower()
+
+            if "morningsquawk@response.cnbc.com" in sender:
+                fuente = "CNBC Morning Squawk"
+            elif "breakingnews@response.cnbc.com" in sender:
+                fuente = "CNBC Breaking News"
+            else:
+                fuente = "CNBC"
+
             fallback.append({
-                "fuente": "CNBC Breaking News",
+                "fuente": fuente,
                 "fecha": item.get("date", ""),
                 "detalle": item.get("subject", ""),
             })
+
 
     return fallback
 
@@ -115,7 +127,7 @@ def main():
     reuters_data = extract_reuters_sections(reuters_email)
     save_json(reuters_data, reuters_output_file)
 
-    cnbc_emails = find_cnbc_emails(emails, limit=3)
+    cnbc_emails = find_cnbc_emails(emails, limit=10)
     cnbc_data = extract_cnbc_sections(cnbc_emails)
     save_json(cnbc_data, cnbc_output_file)
 
@@ -168,6 +180,7 @@ def main():
     )
     save_json(top_stocks_in_play, top_stocks_output_file)
 
+   
     try:
         sources_payload = build_sources_payload(
             emails=emails,
@@ -176,7 +189,17 @@ def main():
             filtered_signal=filtered_signal
         )
     except Exception:
-        sources_payload = []
+         sources_payload = []
+
+    # 🔥 AGREGAR ESTE BLOQUE JUSTO DEBAJO
+    cnbc_sources = build_sources_fallback(
+        vital_data={},
+        reuters_data={},
+        cnbc_data=cnbc_data
+    )
+
+    sources_payload.extend(cnbc_sources)
+
 
     if not sources_payload:
         sources_payload = build_sources_fallback(
