@@ -1,25 +1,25 @@
 {
-  "driver_principal": "The dominant market driver is the evolving US-Iran conflict dynamics, characterized by ongoing negotiations toward a potential permanent détente amid a US naval blockade of Iranian ports, which is influencing global risk perception, oil markets, and equity valuations.",
+  "driver_principal": "The dominant market driver is the evolving geopolitical situation in the Middle East, specifically the Iran war, where a tentative ceasefire and prospects for renewed peace talks are shaping market sentiment and risk perceptions.",
   "hechos_confirmados": [
-    "The US and Iran remain in active talks with potential for another face-to-face meeting before the current ceasefire expires next week.",
-    "The US has imposed a naval blockade on Iranian ports, focusing on interdicting ships traveling to/from Iranian ports but not all vessels through the Strait of Hormuz.",
-    "Oil market shortages are expected to become more acute as final oil cargoes that left Hormuz before the war commenced arrive at their destinations.",
-    "The S&P 500 has erased its losses since the Iran war began, rallying amid optimism about a US-Iran deal, while Brent crude oil prices have dipped below $100 per barrel."
+    "The US military has completely halted maritime trade going in and out of Iran, impacting 90% of the Iranian economy.",
+    "President Donald Trump stated in multiple interviews that the Iran war is 'very close to being over' and that additional peace negotiations could occur within days.",
+    "The Pentagon is moving thousands of additional troops into the Middle East, though these movements are part of ongoing deployments rather than new escalations.",
+    "Global stock markets, including US indices, have largely recovered to near pre-war levels, with the S&P 500 approaching its all-time high amid optimism about the ceasefire and peace talks."
   ],
-  "escenario_dominante": "There is a high probability that the US-Iran ceasefire will hold in the near term with ongoing negotiations leading to a gradual de-escalation, supporting equity markets. However, the macroeconomic environment will likely experience stagflationary pressures for several months due to the war's impact on energy prices and supply chains. Oil market disruptions will persist but may stabilize if diplomatic progress continues. The risk/reward for equities is becoming more neutral as valuations approach pre-war resistance levels.",
-  "interpretacion_institucional": "The market is currently pricing in a relatively durable détente between the US and Iran, which is underpinning the recent equity rally despite the US naval blockade and geopolitical tensions. The optimism is supported by technical factors such as lean long positioning and negative sentiment that have reversed. However, the macroeconomic backdrop remains challenged by stagflationary effects from the conflict, including elevated inflation and supply chain disruptions, particularly in energy markets. The divergence between equity enthusiasm and more cautious signals from oil and bond markets suggests that investors should remain prudent. The ongoing talks and potential for further diplomatic engagement are key to sustaining market confidence, but the risk of escalation or prolonged conflict remains a material concern. Central banks, including the Fed, are adopting a wait-and-see approach to monetary policy given the uncertain economic impact of the war.",
+  "escenario_dominante": "There is a high probability that the current ceasefire in the Middle East will hold and that diplomatic negotiations between the US and Iran will continue, leading to a sustained détente. However, economic fallout from the conflict will persist, including elevated energy prices with Brent crude likely to remain around $90 per barrel into the summer. Market volatility may remain elevated but with a neutral to cautiously optimistic bias as earnings reports continue to show resilience. Technical market momentum has diminished, suggesting limited near-term upside despite positive sentiment.",
+  "interpretacion_institucional": "The market is currently pricing in a scenario where kinetic escalation in the Middle East is unlikely, reflecting confidence in diplomatic efforts to resolve the conflict. This has supported a rally in equities, particularly in technology and financial sectors, while energy prices remain elevated due to supply concerns. The US blockade on Iranian ports and troop deployments maintain geopolitical risk, which could re-emerge if negotiations falter. Inflationary pressures from higher energy costs are expected to delay Federal Reserve rate cuts, despite some easing in producer price inflation. Investors should remain cautious given the potential for setbacks in peace talks and the ongoing economic impact of the conflict. Earnings season is providing some support, but valuations are approaching pre-war resistance levels, warranting a neutral stance in the near term.",
   "riesgos_secundarios": [
-    "The US naval blockade could escalate into uncontrolled military conflict, forcing increased US military engagement in the Middle East.",
-    "Iran could consolidate control over the Strait of Hormuz, further disrupting global oil flows and increasing geopolitical tensions.",
-    "Reports of China supplying weaponry to Iran could exacerbate US-China tensions and complicate diplomatic resolutions.",
-    "The recent US military campaign against Iran may have failed to achieve key objectives, potentially prolonging the conflict.",
-    "Economic data may reveal worsening stagflationary pressures or a sharper economic slowdown than currently anticipated."
+    "Potential breakdown of the ceasefire or renewed military escalation in the Middle East.",
+    "Widening gap in negotiations between the US and Iran, particularly on nuclear enrichment suspension terms.",
+    "Continued or increased US military presence in the region leading to heightened tensions.",
+    "Economic stagflationary pressures intensifying due to prolonged conflict and energy price shocks.",
+    "Geopolitical risks related to Lebanon conflict and broader regional instability."
   ],
   "eventos_clave": [
-    "Potential face-to-face US-Iran meeting before the current ceasefire expires next week.",
-    "US Producer Price Index (PPI) release for March, expected to show inflation dynamics influenced by the war.",
-    "Meeting between US, Israeli, and Lebanese officials in Washington to discuss regional ceasefire and stability.",
-    "Updated IMF/World Bank economic outlook press briefing.",
-    "US Federal Reserve's monetary policy decisions and communications regarding the economic impact of the Iran war."
+    "Upcoming US-Iran peace talks potentially scheduled within days.",
+    "US import/export price data for March and the Fed Beige Book release on April 15.",
+    "China’s retail sales, industrial production for March, and Q1 GDP data release on April 15 night.",
+    "Key US and European earnings reports throughout the week, including major banks and technology companies.",
+    "US Federal Reserve decision and related communications scheduled for April 29."
   ]
 }

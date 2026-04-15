@@ -1,29 +1,41 @@
 {
-  "source_subject": "Oracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal",
+  "source_subject": "S&P 500 ticks higher as benchmark approaches all-time high: Live updates",
   "source_from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-  "source_date": "2026-04-14T08:48:05-06:00",
-  "body_excerpt": "[CNBC #1] Oracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal\nFecha: 2026-04-14T08:48:05-06:00\nOracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal\nThis is a developing news story. Please check back for updates:\n\n[CNBC #2] S&P 500 continues higher a day after benchmark wipes out Iran war losses: Live updates\nFecha: 2026-04-14T07:31:04-06:00\nS&P 500 continues higher a day after benchmark wipes out Iran war losses: Live updates\nThis is a developing news story. Please check back for updates:\n\n[CNBC #3] Wholesale prices rose 0.5% in March, much less than expected despite war impact\nFecha: 2026-04-14T06:34:05-06:00\nWholesale prices rose 0.5% in March, much less than expected despite war impact\nThis is a developing news story. Please check back for updates:",
+  "source_date": "2026-04-15T07:32:05-06:00",
+  "body_excerpt": "[CNBC #1] S&P 500 ticks higher as benchmark approaches all-time high: Live updates\nFecha: 2026-04-15T07:32:05-06:00\nS&P 500 ticks higher as benchmark approaches all-time high: Live updates\nThis is a developing news story. Please check back for updates:\n\n[CNBC #2] Allbirds announces stunning pivot from shoes to AI, stock explodes 175%\nFecha: 2026-04-15T07:26:06-06:00\nAllbirds announces stunning pivot from shoes to AI, stock explodes 175%\nThis is a developing news story. Please check back for updates:\nhttps://www.cnbc.com/2026/04/15/allbirds-bird-stock-shoes-ai.html\n\n[CNBC #3] Morgan Stanley tops estimates as trading revenue exceeds expectations by $1 billion\nFecha: 2026-04-15T05:33:04-06:00\nMorgan Stanley tops estimates as trading revenue exceeds expectations by $1 billion\nThis is a developing news story. Please check back for updates:\n\n[CNBC #4] Stocks making the biggest moves premarket: Bank of America, Broadcom, Robinhood & more\nFecha: 2026-04-15T05:30:05-06:00\nStocks making the biggest moves premarket: Bank of America, Broadcom, Robinhood & more\nThis is a developing news story. Please check back for updates:\n\n[CNBC #5] Bank of America tops estimates as CEO Brian Moynihan says consumer banking is 'healthy'\nFecha: 2026-04-15T04:46:02-06:00\nBank of America tops estimates as CEO Brian Moynihan says consumer banking is 'healthy'\nThis is a developing news story. Please check back for updates:",
   "links": [],
   "fetched_links": [],
   "selected_emails": [
     {
-      "subject": "Oracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal",
+      "subject": "S&P 500 ticks higher as benchmark approaches all-time high: Live updates",
       "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-      "date": "2026-04-14T08:48:05-06:00",
+      "date": "2026-04-15T07:32:05-06:00",
       "recency_rank": 1
     },
     {
-      "subject": "S&P 500 continues higher a day after benchmark wipes out Iran war losses: Live updates",
+      "subject": "Allbirds announces stunning pivot from shoes to AI, stock explodes 175%",
       "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-      "date": "2026-04-14T07:31:04-06:00",
+      "date": "2026-04-15T07:26:06-06:00",
       "recency_rank": 2
     },
     {
-      "subject": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
+      "subject": "Morgan Stanley tops estimates as trading revenue exceeds expectations by $1 billion",
       "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
-      "date": "2026-04-14T06:34:05-06:00",
+      "date": "2026-04-15T05:33:04-06:00",
       "recency_rank": 3
+    },
+    {
+      "subject": "Stocks making the biggest moves premarket: Bank of America, Broadcom, Robinhood & more",
+      "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
+      "date": "2026-04-15T05:30:05-06:00",
+      "recency_rank": 4
+    },
+    {
+      "subject": "Bank of America tops estimates as CEO Brian Moynihan says consumer banking is 'healthy'",
+      "from": "CNBC Breaking News <breakingnews@response.cnbc.com>",
+      "date": "2026-04-15T04:46:02-06:00",
+      "recency_rank": 5
     }
   ],
-  "parsed_at": "2026-04-15T00:29:46"
+  "parsed_at": "2026-04-15T22:06:14"
 }
