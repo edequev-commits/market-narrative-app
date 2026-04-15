@@ -449,33 +449,103 @@ Want to stop receiving this email?
 
 This email includes limited tracking for Reuters to understand whether you’ve engaged with its contents. For more information on how we process 
 
-=== FUENTE PRIORITARIA 3: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===
+=== FUENTE PRIORITARIA 3: CNBC MORNING SQUAWK ===
+Remitente: CNBC Morning Squawk <morningsquawk@response.cnbc.com>
+Asunto: S&P 500 erases its Iran war losses
+Fecha: 2026-04-14T06:32:02-06:00
+Contenido:
+5 things to know before the market opens Tuesday
+
+VIEW IN BROWSER | CNBC NEWSLETTERS
+
+TUE, APR 14, 2026
+
+DOW FUTURES
+
++0.08%
+
+S&P 500 FUTURES
+
++0.31%
+
+NASDAQ 100 FUTURES
+
++0.58%
+
+Data as of 8:10 a.m. ET
+
+Think a friend or colleague should be getting this newsletter? Share this link with them to sign up.
+
+Josephine Rozzelle
+
+News Editor
+
+Good morning. If you’re looking for someone to blame for the rising cost of your Netflix subscription, you might take a look at Wall Street. CNBC’s Sarah Whitten and Lillian Rizzo explain how investors’ focus on profitability is prompting streamers to hike their prices .
+
+Stock futures are higher this morning following a positive day for all three major indexes.
+
+Here are five key things investors need to know to start the trading day.
+
+1. Bouncing back
+
+Stocks rose yesterday, boosted by investors’ optimism that the U.S. and Iran would reach a peace deal. The gains came even as U.S. forces began blockading Iranian ports in the Persian Gulf. The S&P 500 added 1.02% in Monday’s session, erasing its losses since the Iran war began.
+Here’s what to know:
+
+• President Donald Trump indicated yesterday that representatives from Iran have reached out to the U.S. He said, ”[W]e’ve been called by the other side. They’d like to make a deal very badly.”
+•
+
+Following unsuccessful peace talks in Pakistan over the weekend, Vice President J.D. Vance told Fox News yesterday that “the ball is in the Iranian court.”
+•
+
+Oil prices are lower after closing just shy of $100 per barrel on Monday. The International Energy Agency warned this morning that the Iran war could cause global oil demand to fall to its lowest level since the Covid-19 pandemic.
+•
+
+Black Rock raised its outlook for U.S. stocks yesterday, citing “tangible evidence” that traffic through the Strait of Hormuz would resume and signs that the war’s economic fallout would be “contained.”
+• Meanwhile, market watchers will get another read on inflation at 8:30 a.m. ET with the release of the producer price index for March.
+
+• Follow live market updates here.
+
+2. Bank check
+
+JPMorgan Chase topped analysts’ first-quarter earnings and revenue expectations this morning, reporting a 13% annual increase in net income and 10% annual increase in revenue.
+
+The bank posted particularly strong results for its fixed-income unit: Trading revenue was 21% higher than the year-ago period, or about $370 million above analysts’ estimates. But JPMorgan also lowered its net interest income forecast for 2026, sending shares lower in pre-market trading.
+
+Citigroup also beat expectations on the top and bottom lines this morning. The bank posted $24.63 billion in revenue for the quarter, its best in a decade. Earnings per share also impressed with a 56% jump from a year ago.
+
+3. In full Bloom
+
+Last Thursday, Oracle was issued a warrant to buy up to 3.53 million shares of Bloom Energy’s stock. Its investment, if it exercises the warrant, is already up more than $300 million.
+
+Shares of Bloom rose mor
+
+=== FUENTE PRIORITARIA 4: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===
 Remitente principal: CNBC Breaking News <breakingnews@response.cnbc.com>
-Asunto principal: Stocks making the biggest moves premarket: Novo Nordisk, JPMorgan Chase, United Airlines & more
-Fecha principal: 2026-04-14T04:53:05-06:00
+Asunto principal: Oracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal
+Fecha principal: 2026-04-14T08:48:05-06:00
 
 HEADLINES CNBC PRIORIZADOS POR RECIENCIA:
-- Prioridad 1 | Fecha: 2026-04-14T04:53:05-06:00 | Headline: Stocks making the biggest moves premarket: Novo Nordisk, JPMorgan Chase, United Airlines & more
-- Prioridad 2 | Fecha: 2026-04-14T04:40:04-06:00 | Headline: JPMorgan Chase tops estimates on fixed income, investment banking as Wall Street hums
-- Prioridad 3 | Fecha: 2026-04-14T04:36:04-06:00 | Headline: JPMorgan Chase earnings are out – Here are the numbers
+- Prioridad 1 | Fecha: 2026-04-14T08:48:05-06:00 | Headline: Oracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal
+- Prioridad 2 | Fecha: 2026-04-14T07:31:04-06:00 | Headline: S&P 500 continues higher a day after benchmark wipes out Iran war losses: Live updates
+- Prioridad 3 | Fecha: 2026-04-14T06:34:05-06:00 | Headline: Wholesale prices rose 0.5% in March, much less than expected despite war impact
 
 REGLA DE USO PARA EL MODELO:
 Los headlines de CNBC seleccionados por recencia deben tener mayor peso relativo que los más antiguos al evaluar el tono inmediato del mercado, la narrativa de la mañana y el régimen de mercado. No deben usarse como evidencia única ni definir por sí solos el régimen; deben complementar el resto de fuentes.
 
 EXTRACTO CONSOLIDADO CNBC:
-[CNBC #1] Stocks making the biggest moves premarket: Novo Nordisk, JPMorgan Chase, United Airlines & more
-Fecha: 2026-04-14T04:53:05-06:00
-Stocks making the biggest moves premarket: Novo Nordisk, JPMorgan Chase, United Airlines & more
+[CNBC #1] Oracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal
+Fecha: 2026-04-14T08:48:05-06:00
+Oracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal
 This is a developing news story. Please check back for updates:
 
-[CNBC #2] JPMorgan Chase tops estimates on fixed income, investment banking as Wall Street hums
-Fecha: 2026-04-14T04:40:04-06:00
-JPMorgan Chase tops estimates on fixed income, investment banking as Wall Street hums
+[CNBC #2] S&P 500 continues higher a day after benchmark wipes out Iran war losses: Live updates
+Fecha: 2026-04-14T07:31:04-06:00
+S&P 500 continues higher a day after benchmark wipes out Iran war losses: Live updates
 This is a developing news story. Please check back for updates:
 
-[CNBC #3] JPMorgan Chase earnings are out – Here are the numbers
-Fecha: 2026-04-14T04:36:04-06:00
-JPMorgan Chase earnings are out – Here are the numbers
+[CNBC #3] Wholesale prices rose 0.5% in March, much less than expected despite war impact
+Fecha: 2026-04-14T06:34:05-06:00
+Wholesale prices rose 0.5% in March, much less than expected despite war impact
 This is a developing news story. Please check back for updates:
 
 === OTROS CORREOS DE MERCADO ===
@@ -712,6 +782,547 @@ Earning season is officially here and with it brings plenty of opportunities and
 Using data from [Benzinga Pro]( options markets are pricing up to 30% swings in these 10 companies with market capitalizations of more than $10 billion this week.
 
 In moments like this, timing becomes everything. [Are you on the right side o
+------------------------------------------------------------
+CORREO 11
+Remitente: Barchart Partner <bcmembers@partners.barchart.com>
+Asunto: Flying Cars Are Closer Than You Think
+Fecha: 2026-04-14T05:46:45-06:00
+Contenido:
+A $9 trillion market is taking off—and early investors are
+getting in now.
+( )
+Below is a message from one of our sponsors Doroni Logo
+
+( )
+After more than a century, flying cars are finally
+transitioning from promise to reality, creating an industry
+preparing for liftoff.
+
+Consider this. Today, the global market for urban air mobility
+is worth $4.5 billion. But by 2040, they project it will reach $1
+trillion. By 2050, it will be worth $9 trillion.
+
+That’s a 199,900% increase in 25 years.
+
+To put that in perspective, that would make it nearly 3 X more
+valuable than the current global automotive market
+( )
+.
+
+Why so optimistic? Because the conditions making flying cars
+possible are finally falling into place.
+
+Cities are choking with gridlocked traffic, and as urban
+populations rise, road capacity can’t scale forever. Battery tech
+is advancing and becoming more affordable. Regulators are opening
+doors to technology like electric vertical takeoff and landing
+(e VTOL) aircrafts.
+
+So with an opportunity this big, it’s no surprise major players
+are getting involved. Airbus, Boeing, Embraer, Honda, and Hyundai
+are investing into fleets of autonomous or piloted air taxis,
+competing for city contracts and commercial flight networks.
+
+But one company is quietly building for a segment with serious
+untapped potential: personal flight for everyday people
+( )
+.
+
+Futuristic electric air taxi flying over heavy highway
+traffic, illustrating urban air mobility as a solution to
+congestion.
+( )
+After all, the average person spends up to 9 days’ worth of
+time stuck in a car commuting. And 4,000+ investors believe in
+Doroni’s vision to solve this
+( )
+. For a short while longer, you can, too.
+
+What sets Doroni apart? Their H1-X aircraft is designed for
+everyday life.
+
+It’s an e VTOL built to fit in a two-car garage and take off from
+the driveway. It plugs in like an EV and recharges in as little
+as 25 minutes. It comes with an AI assistant with flight planning
+and in-air awareness. It op
+------------------------------------------------------------
+CORREO 12
+Remitente: Benzinga <hello@markets.benzinga.com>
+Asunto: Intel Just Surged 30% — Here’s How the Smart Money Is Playing It Now
+Fecha: 2026-04-14T06:00:36-06:00
+Contenido:
+Benzinga Pro traders Update Newsletter Intel just had one of the best months of
+
+any mega-cap stock in the market — shares surged more than 30% in March, and
+
+the rally has been hard to ignore. But the more interesting signal may not be
+
+in the stock price at all.
+
+You're receiving this email as a Benzinga subscriber. Update email preferences
+
+using links at bottom.
+
+<https://www.benzinga.com/>
+
+Trending
+• Intel Just Surged 30% — Here’s How the Smart Money Is Playing It Now
+
+<
+• How to Trade the Drone Maker Winning the New Reality of Modern Warfare
+
+<
+• Run These Scans to Find Stocks Moving Right Now
+
+<
+
+Intel Just Surged 30% — Here’s How the Smart Money Is Playing It Now
+
+<
+
+<
+
+Intel just had one of the best months of any mega-cap stock in the market —
+
+shares surged more than 30% in March, and the rally has been hard to ignore.
+
+But the more interesting signal may not be in the stock price at all.
+
+While momentum traders were chasing the breakout, a different kind of options
+
+activity was quietly building. On April 10, with Intel trading near $62.50,
+
+more than 7,300 May 60 puts changed hands — a trade that points less to
+
+reckless optimism and more to a measured, cushioned kind of bullishness. Put
+
+sellers aren't chasing. They're expressing confidence that the stock can hold
+
+up, even after a big move, while giving themselves room to be wrong.
+
+That distinction matters — because it raises the harder question underneath
+
+the rally: is Intel just having a moment, or is this the beginning of something
+
+more durable?
+
+Here's what the options market knows that the stock chart doesn't show you.
+
+<
+
+Run These Scans to Find Stocks Moving Right Now
+
+<
+
+Stocks are reacting to oil, rates, and headlines, but the real setups aren’t
+
+on CNBC. They’re showing up in the scans first, before the move gets obvious.
+
+Todayat 6 PM ET, Ryan Faloona and Tim Melvin will run those scans live and show
+
+exactly how they surface trade-ready names.
+
+Reserve Your Free Seat
+
+<
+
+This communicat
+------------------------------------------------------------
+CORREO 18
+Remitente: Stock Analysis <contact@stockanalysis.com>
+Asunto: Market Bullets: United and American gain on merger speculation, Amazon may buy Globalstar, JPMorgan and Citigroup beat
+Fecha: 2026-04-14T07:05:08-06:00
+Contenido:
+​
+
+🏠 Home sales slump |
+
+Tuesday - April 14, 2026 |
+
+Presented by The Motley Fool
+
+Market Overview
+
+S&P 500
+
++1.02%
+
+Pre: +0.26%
+
+Nasdaq
+
++1.23%
+
+Pre: +0.54%
+
+Dow
+
++0.63%
+
+Pre: +0.09%
+
+Stock & Market News
+
+•
+Market recap: All 3 main indices surged amid speculation of an Iran-U.S. peace deal, with the Dow up over 300 points and the S&P 500 erasing all losses since the start of the war. Palantir ( PLTR ) in particular rose 3%. Source: CNBC .
+
+•
+Possible airline megamerger: United's ( UAL ) CEO has pitched a potential tie-up with American ( AAL ) — a deal that would create the world’s largest airline but would face major antitrust hurdles. United rose 2% premarket, with American up 5%. Source: Bloomberg .
+
+•
+Oracle deepens Bloom partnership: Oracle ( ORCL ) expanded its deal with Bloom Energy ( BE ) to secure up to 2.8 GW of fuel-cell power for data centers. Oracle rocketed 13% yesterday, with Bloom up 13% premarket today. Source: CNBC .
+
+•
+JPMorgan beats estimates: JPMorgan ( JPM ) posted Q1 profit of $16.5 B and strong revenue growth driven by trading and dealmaking. Still, CEO Jamie Dimon warned that geopolitical and macro risks could threaten its outlook, with shares down 1%. Source: WSJ .
+
+•
+Citigroup posts strong earnings: Citigroup ( C ) reported Q1 results above expectations, with revenue of $24.63 B and EPS of $3.06, marking its strongest quarterly revenue in a decade. Source: CNBC .
+
+•
+Amazon eyes Globalstar deal: Amazon ( AMZN ) is nearing an agreement to buy Globalstar ( GSAT ) to accelerate its satellite network and compete with Starlink . Globalstar rocketed 16% premarket. Source: Bloomberg .
+
+•
+BP trading surges on oil spike: BP ( BP ) flagged “exceptional” Q1 oil trading gains from price spikes driven by the Iran war, while net debt rose to $25–27 B amid higher working capital needs. Source: CNBC .
+
+•
+Novo partners with Open AI: Novo Nordisk ( NVO ) formed a pact with Open AI to deploy AI across drug discovery and operations, aiming to boost productivit
+------------------------------------------------------------
+CORREO 19
+Remitente: Open Outcrier <oyez@openoutcrier.com>
+Asunto: Open Outcrier Digest: 04-14-26
+Fecha: 2026-04-14T07:07:57-06:00
+Contenido:
+Macro
+
+Econ Calendar Tues 4/14/26<br /><br />NFIB Small Business Optimism Index<br /> 6:00 AM ET<br /><br />PPI-Final Demand<br /> 8:30 AM ET<br /><br />Treasury Buyback & Bill Announcements<br /> 11:00 AM ET<br /><br />Bill Auctions<br /> 11:30 AM ET<br /><br />Austan Goolsbee Speaks<br /> 12:15 PM ET<br /><br />Michael Barr Speaks<br /> 12:45 PM ET<br /><br />Strengthening America's Economy Through Rural Investment Forum<br /> 1:00 PM ET
+
+US stock futures climb as traders cling to de-escalation hopes, await earnings
+
+https://ooc.bz/l/98589
+
+US, Iran may resume talks this week despite port blockade - Reuters
+
+https://ooc.bz/l/98591
+
+Tankers pass Strait of Hormuz on first day of US blockade, data shows - Reuters
+
+https://ooc.bz/l/98593
+
+Israel and Lebanon Set for US Talks to Defuse War With Hezbollah - BBG
+
+https://ooc.bz/l/98595
+
+Saudi Arabia Is Pressing U.S. to Drop Its Hormuz Blockade - WSJ
+
+https://ooc.bz/l/98597
+
+How an Image Depicting Trump as Christ Sparked a Backlash on the Religious Right - WSJ
+
+https://ooc.bz/l/98600
+
+The Salary Penalty: Why Trump’s Tax Bill Hits a Banker Harder Than a Plumber - BBG
+
+https://ooc.bz/l/98602
+
+House Republican campaign arm touts tax cuts in new 2026 election ad - CNBC
+
+https://ooc.bz/l/98605
+
+Swalwell, Gonzales to Quit Congress After Sex Misconduct Claims - BBG
+
+https://ooc.bz/l/98607
+
+Soaring power bills threaten to swing US elections. - BBG
+
+https://ooc.bz/l/98609
+
+Bessent Says Bank Citizenship Proof Order is ‘In Process’ - BBG
+
+https://ooc.bz/l/98611
+
+Fed nominee Warsh files financial disclosures suggesting assets worth over $100 million - Reuters
+
+https://ooc.bz/l/98613
+
+Bernie Sanders Is Back as a Left-Wing Kingmaker - WSJ
+
+https://ooc.bz/l/98615
+
+Pope says he will continue to speak out against war after Trump attack - Reuters
+
+https://ooc.bz/l/98617
+
+Bond investors target steeper US yield curve on bets for slower growth, more debt issuance
+
+https://ooc.bz/l/98619
+
+IRAN MULLS PAUSING ITS HORMUZ SHIPPING TO AVOID DERAILIN
+------------------------------------------------------------
+CORREO 21
+Remitente: Macro View Daily <account@seekingalpha.com>
+Asunto: The Market Doesn't Seem To Care About The Naval Blockade
+Fecha: 2026-04-14T08:02:18-06:00
+Contenido:
+Macro View Daily
+
+Macro View Daily
+
+Market Outlook
+
+The Market Doesn't Seem To Care About The Naval Blockade
+
+By JR Research
+
+This Rally On Rhetoric Is Long In The Tooth
+
+By Lawrence Fuller
+
+Markets Love The Blockade, Because - 'It's Showtime'
+
+By Uttam Dey
+
+Blockading The Blockade
+
+By Jack Bowman
+
+A Scenario Where The S&P 500 Drops 80%
+
+By Blo Fin Research
+
+Hormuz Blockade: U.S. Oil Dividend Stocks To Watch
+
+By Brett Ashcroft Green
+
+Q2 2026 Outlook: The Reset Is Your Entry Point
+
+By Van Eck
+
+The Snapshot: March And Q1 2026
+
+By Markit
+
+AI And The Future Of Healthcare
+
+By William Blair
+
+One Streak Ends, Others Make History
+
+By Bespoke Investment Group
+
+1999 Vs. 2026: No Contest
+
+By Bret Jensen
+
+Why We Are 'Buying The Dips'
+
+By ANG Traders
+
+The Best Buying Opportunity Since Liberation Day
+
+By Multiplo Invest
+
+Iran War: What's Driving Market Sentiment?
+
+By Invesco US
+
+The War Isn't Over And Markets Don't Care
+
+By Tech Contrarians
+
+War, Inflation - No Problem; Next Challenge - Earnings
+
+By Market Gauge
+
+Climbing A Wall Of Worry
+
+By David I. Templeton, CFA
+
+Dow Jones And U.S. Stock Market Outlook: U.S. Blockade On Hormuz Begins - Wall Street Withstands The Pressure
+
+By Market Pulse by OANDA Group
+
+More Market Outlook Analysis »
+
+FEATURED: Join Seeking Alpha Premium—with a special introductory offer Claim Offer »
+
+Gold & Precious Metals
+
+China Gold Market Update: A Seasonal Demand Rebound In March
+
+By World Gold Council
+
+Silver At A Crossroads: Bullish Breakout Meets Overbought Momentum (Technical Analysis)
+
+By Market Pulse by OANDA Group
+
+The War Premium Vs. The Yield Premium: Which Force Will Seize Control And Drive Gold's Next Move?
+
+By Market Pulse by OANDA Group
+
+Gold Just Crossed A Historical Point
+
+By Envision Research
+
+More Gold & Precious Metals Analysis »
+
+Commodities
+
+Oil Dynamics And Intraday Analysis: WTI Drops Back Below $100 After US-Iran Talks Set To Resume
+
+By Market Pulse by OANDA Group
+
+More Commodities Analysis »
+
+Economy
+
+In 2026's Wartime Markets, Ri
+------------------------------------------------------------
+CORREO 22
+Remitente: ETF Market Insights <etfmarketinsights@bmoam.com>
+Asunto: Have an ETF Question? Ask Us Live at Noon
+Fecha: 2026-04-14T08:07:52-06:00
+Contenido:
+96
+
+BMO Exchange Traded Funds
+
+View in browser
+
+Check out what's new this week!
+
+Live Today at Noon: Ask Your Asset Allocation ETF Questions on Reddit
+
+What questions do you have about your portfolio allocation? Join Danielle Neziol, VP Online Distribution, BMO ETFs, live today at 12 PM ET for a Reddit Ask Me Anything focused on Asset Allocation and All in One ETFs.
+
+This is your chance to ask real, timely questions about portfolio construction, diversification, and how asset allocation ETFs can fit into your investment strategy.
+
+Post your question on Reddit now
+
+and join the discussion at noon today.
+
+Don’t miss it.
+
+Why Now Is the Best Time to Be a DIY Investor
+
+Is now the best time to be a do it yourself investor in Canada?
+
+In today's video, Rob Carrick of The Globe and Mail explains how falling investment fees, zero commission trading, and the rise of ETFs and asset allocation ETFs have changed investing for Canadians. Rob also shares how DIY investors should prepare for market corrections, manage portfolio risk, and think about retirement planning, including when to take CPP.
+
+WATCH ON YOUTUBE
+
+WATCH ON YOUTUBE
+
+Cutting Through the Credit Noise
+
+What's really moving credit markets in 2026? In this episode, Mark Jarosz joins host Acushla Vestby to cut through the headlines — breaking down where the opportunities lie, what risks to watch, and how credit alternatives fit into today's portfolios.
+
+LISTEN TO THE EPISODE
+
+LISTEN TO THE EPISODE
+
+Now streaming on Apple Podcasts and Spotify
+
+BMO ETF Investor Day Is Coming to Your City
+
+Join us for BMO ETF Investor Day, coming to Toronto and Montreal. Designed for DIY investors, this live event delivers timely ETF insights, market perspectives, and the opportunity to connect directly with the BMO ETFs team.
+
+Seating is limited and filling fast—register now to avoid missing out.
+
+BMO ETF Investor Day – Toronto Stock Exchange
+
+Tuesday, May 26, 2026 @ 8:30am - 1pm
+
+Secure Your Seat in Toronto
+
+BMO ETF Investor Day – Saint
+------------------------------------------------------------
+CORREO 23
+Remitente: Finviz Alert <no-reply@finviz.com>
+Asunto: Economic Calendar Alert [6-Week Bill Auction]
+Fecha: 2026-04-14T08:31:35-06:00
+Contenido:
+Economic Calendar Alert [6-Week Bill Auction]
+
+Event 6-Week Bill Auction is scheduled for 1 hour from now.
+
+Please click the link below for more information:
+
+https://elite.finviz.com/calendar/economic?date From=2026-04-14
+
+You can manage your alerts here:
+
+https://elite.finviz.com/alerts.ashx
+
+Best regards,
+
+Finviz.com Team
+------------------------------------------------------------
+CORREO 24
+Remitente: Chart of the Day <newsletters@newsdesk.barchart.com>
+Asunto: In These Uncertain Times
+Fecha: 2026-04-14T08:43:59-06:00
+Contenido:
+Jim’s found another winner, but it’s at the mercy of the Iran
+War Chart of the Day for April 14, 2026
+
+Barchart Brief logo
+( ) Together With
+prosperity pub
+( )
+• Glencore (GLNCY) has strong momentum and is trading
+at new all-time highs.
+• Shares are up more than 120% over the past 52 weeks.
+• The stock maintains a 100% “Buy” technical opinion from
+Barchart.
+• Despite positive sentiment from Wall Street, Morningstar flags
+GLNCY as overvalued, and the stock remains sensitive to
+international uncertainty.
+• “Type in any ticker you want, let this indicator do the rest”
+( )
+• Today’s Featured Stock
+
+Valued at $89.19 billion, Glencore (GLNCY)
+( )
+is a diversified natural resource company. It operates in three
+groups: Metals and Minerals, Energy Products, and Agricultural
+Products.
+
+The company’s operations consist of mining and metallurgical
+sites, offshore oil production assets, farms, and agricultural
+facilities. It is a producer and marketer of commodities, such as
+mobile phones, bicycles, cutlery, plastics, and electricity.
+
+What I’m Watching
+
+I found today’s Chart of the Day by using Barchart’s powerful
+screening functions to sort for stocks with the highest technical
+buy signals; superior current momentum in both strength and
+direction; and a Trend Seeker “buy” signal
+( )
+. I then used Barchart’s Flipcharts feature
+( )
+to review the charts for consistent price appreciation. GLNCY
+checks those boxes. The Trend Seeker issued a new “Buy” signal on
+Feb. 9. Since then, the stock has gained 11.82%.
+
+GLNCY stock chart
+( )
+Sponsored By Prosperity Pub
+
+Promotional graphic for “Alpha Arrows Playbook” showing a rising
+stock chart and text about a new indicator on an overlooked
+stock.
+( )
+The Ultimate Buy Signal For 2026
+
+One indicator predicted the Covid crash, Nvidia’s rise and the
+2022 bear market. Now this same indicator just signaled a big
+opportunity on one overlooked stock. If you want the name for
+free, get it here before the move happens
+( )
+.
+
+Get your free report her
 ------------------------------------------------------------
 === MICRO DRIVERS (ACCIONES Y SECTORES) ===
 MARKET_IN_A_MINUTE_MICRO_TUESDAY_MORNING:
