@@ -1,25 +1,25 @@
 {
   "driver_principal": "The dominant market driver is the evolving geopolitical situation in the Middle East, specifically the Iran war, where a tentative ceasefire and prospects for renewed peace talks are shaping market sentiment and risk perceptions.",
   "hechos_confirmados": [
-    "The US military has completely halted maritime trade going in and out of Iran, impacting 90% of the Iranian economy.",
-    "President Donald Trump stated in multiple interviews that the Iran war is 'very close to being over' and that additional peace negotiations could occur within days.",
-    "The Pentagon is moving thousands of additional troops into the Middle East, though these movements are part of ongoing deployments rather than new escalations.",
-    "Global stock markets, including US indices, have largely recovered to near pre-war levels, with the S&P 500 approaching its all-time high amid optimism about the ceasefire and peace talks."
+    "The US military has completely halted trade going in and out of Iran by sea, impacting 90% of the Iranian economy.",
+    "President Donald Trump stated in multiple interviews that the Iran war is 'very close to being over' and that additional peace negotiations could happen within days.",
+    "The Pentagon is moving thousands of additional troops into the Middle East, though these movements are part of ongoing deployments rather than a new escalation.",
+    "Global stock markets, including US indices, have largely recovered to pre-war levels, with the S&P 500 approaching all-time highs amid optimism about the ceasefire and peace talks."
   ],
-  "escenario_dominante": "There is a high probability that the current ceasefire in the Middle East will hold and that diplomatic negotiations between the US and Iran will continue, leading to a sustained détente. However, economic fallout from the conflict will persist, including elevated energy prices with Brent crude likely to remain around $90 per barrel into the summer. Market volatility may remain elevated but with a neutral to cautiously optimistic bias as earnings reports continue to show resilience. Technical market momentum has diminished, suggesting limited near-term upside despite positive sentiment.",
-  "interpretacion_institucional": "The market is currently pricing in a scenario where kinetic escalation in the Middle East is unlikely, reflecting confidence in diplomatic efforts to resolve the conflict. This has supported a rally in equities, particularly in technology and financial sectors, while energy prices remain elevated due to supply concerns. The US blockade on Iranian ports and troop deployments maintain geopolitical risk, which could re-emerge if negotiations falter. Inflationary pressures from higher energy costs are expected to delay Federal Reserve rate cuts, despite some easing in producer price inflation. Investors should remain cautious given the potential for setbacks in peace talks and the ongoing economic impact of the conflict. Earnings season is providing some support, but valuations are approaching pre-war resistance levels, warranting a neutral stance in the near term.",
+  "escenario_dominante": "There is a high probability that the current ceasefire in the Middle East will hold and that diplomatic efforts between the US and Iran will continue, potentially leading to a sustainable understanding. However, economic fallout from the conflict will persist, including elevated energy prices with Brent crude likely to remain around $90 per barrel into the summer. Market volatility may remain elevated due to geopolitical uncertainties, and near-term equity market momentum is expected to moderate after recent strong gains.",
+  "interpretacion_institucional": "The market is currently pricing in a de-escalation of military conflict in the Middle East, supported by statements from US leadership and ongoing diplomatic communications. This has led to a rebound in risk assets, particularly in technology and financial sectors, while energy prices have stabilized at elevated levels reflecting ongoing supply concerns. Despite optimism, skepticism remains due to unresolved issues such as the wide gap in nuclear enrichment suspension terms and the Lebanon conflict. The economic impact of the war is beginning to manifest in inflationary pressures, notably in energy costs, which may delay Federal Reserve rate cuts. Investors should remain cautious given the potential for setbacks in negotiations and the persistence of stagflationary risks.",
   "riesgos_secundarios": [
-    "Potential breakdown of the ceasefire or renewed military escalation in the Middle East.",
-    "Widening gap in negotiations between the US and Iran, particularly on nuclear enrichment suspension terms.",
-    "Continued or increased US military presence in the region leading to heightened tensions.",
-    "Economic stagflationary pressures intensifying due to prolonged conflict and energy price shocks.",
-    "Geopolitical risks related to Lebanon conflict and broader regional instability."
+    "Potential failure or delay in peace negotiations between the US and Iran, which could reignite military conflict.",
+    "Escalation of the Lebanon conflict, which remains unresolved and could exacerbate regional instability.",
+    "Significant reduction in Iranian oil production if the US blockade continues, potentially tightening global energy markets further.",
+    "Geopolitical risks related to troop movements and military posturing in the Middle East that could be misinterpreted or escalate tensions.",
+    "Economic risks from prolonged stagflationary pressures due to sustained high energy prices and disrupted supply chains."
   ],
   "eventos_clave": [
     "Upcoming US-Iran peace talks potentially scheduled within days.",
-    "US import/export price data for March and the Fed Beige Book release on April 15.",
-    "China’s retail sales, industrial production for March, and Q1 GDP data release on April 15 night.",
-    "Key US and European earnings reports throughout the week, including major banks and technology companies.",
-    "US Federal Reserve decision and related communications scheduled for April 29."
+    "US import/export price data for March and the Fed Beige Book release on April 15, which will provide insight into inflation and economic conditions amid the conflict.",
+    "China’s retail sales, industrial production for March, and Q1 GDP data to be released on April 15 night, reflecting global economic impact.",
+    "Earnings reports from major US banks (Bank of America, PNC, Morgan Stanley) on April 15, which will indicate financial sector resilience amid geopolitical risks.",
+    "US Federal Reserve decision and related communications scheduled for April 29, which will be influenced by inflation and economic data affected by the Middle East situation."
   ]
 }
