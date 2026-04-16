@@ -16,10 +16,36 @@ from src.signal_filter_llm import run_signal_filter
 from src.top_stocks_builder import build_top_stocks_in_play
 from src.dashboard_mailer import send_dashboard_email
 
-BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "data"
+
+CONFIG_PATH = Path(__file__).resolve().parent / "config" / "app_config.json"
+
+def load_config():
+    if not CONFIG_PATH.exists():
+        raise FileNotFoundError(f"No se encontró el archivo de configuración: {CONFIG_PATH}")
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+CONFIG = load_config()
+
+BASE_DIR = Path(CONFIG["paths"]["market_narrative_app_base_dir"])
+DATA_DIR = Path(CONFIG["paths"]["data_dir"])
 PROMPTS_DIR = BASE_DIR / "prompts"
+DIST_DIR = Path(CONFIG["paths"]["dist_dir"])
+RUNS_DIR = Path(CONFIG["paths"]["runs_dir"])
+LOGS_DIR = Path(CONFIG["paths"]["logs_dir"])
+DASHBOARD_PAYLOAD_FILE = Path(CONFIG["paths"]["macro_payload_path"])
+
+GMAIL_LABEL_NAME = CONFIG["gmail"]["label_name"]
+GMAIL_MAX_MESSAGES = CONFIG["gmail"]["max_messages"]
+
+MACRO_WINDOW_START = CONFIG["windows"]["macro"]["start_time"]
+MACRO_WINDOW_END = CONFIG["windows"]["macro"]["end_time"]
+
 MONTERREY_TZ = timezone(timedelta(hours=-6))
+
+
+
+
 
 
 def extract_raw_micro_from_vital(vital_data: dict) -> str:
@@ -90,16 +116,25 @@ def build_sources_fallback(vital_data: dict, reuters_data: dict, cnbc_data: dict
 def main():
     load_dotenv()
 
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    DIST_DIR.mkdir(parents=True, exist_ok=True)
+    RUNS_DIR.mkdir(parents=True, exist_ok=True)
+    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+
+    macro_start_hour, macro_start_minute = map(int, MACRO_WINDOW_START.split(":"))
+    macro_end_hour, macro_end_minute = map(int, MACRO_WINDOW_END.split(":"))
+
     emails = read_messages_from_label(
-        label_name="Noticias Trading",
-        max_results=200,
+        label_name=GMAIL_LABEL_NAME,
+        max_results=GMAIL_MAX_MESSAGES,
         timezone_name="America/Monterrey",
-        start_hour=1,
-        start_minute=0,
-        end_hour=9,
-        end_minute=0,
+        start_hour=macro_start_hour,
+        start_minute=macro_start_minute,
+        end_hour=macro_end_hour,
+        end_minute=macro_end_minute,
         exclude_senders=["edequev@gmail.com"],
     )
+
 
     json_output_file = str(DATA_DIR / "gmail_today.json")
     raw_prompt_input_file = str(DATA_DIR / "gmail_input_for_prompt.txt")
@@ -114,7 +149,7 @@ def main():
     reuters_output_file = str(DATA_DIR / "reuters_extracted.json")
     cnbc_output_file = str(DATA_DIR / "cnbc_extracted.json")
     refresh_meta_file = str(DATA_DIR / "last_refresh.json")
-    dashboard_payload_file = str(DATA_DIR / "dashboard_payload.json")
+    dashboard_payload_file = str(DASHBOARD_PAYLOAD_FILE)
     top_stocks_output_file = str(DATA_DIR / "top_stocks_in_play.json")
 
     save_json(emails, json_output_file)

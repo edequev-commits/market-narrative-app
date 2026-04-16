@@ -24,3 +24,11 @@ __pycache__/
 backups/
 *copia*
 *backup*
+
+# --- Ticker Intelligence ---
+data/ticker/*
+!data/ticker/ticker_dashboard_payload.json
+
+# Finviz outputs (no subir CSVs)
+../finviz_news/outputs/*.csv
+../finviz_news/outputs/*.xlsx

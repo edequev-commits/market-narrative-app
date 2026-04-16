@@ -3,10 +3,22 @@ import json
 from datetime import datetime
 
 
-BASE_DIR = Path(__file__).resolve().parent
-MACRO_PAYLOAD_PATH = BASE_DIR / "data" / "dashboard_payload.json"
-TICKER_PAYLOAD_PATH = BASE_DIR / "data" / "ticker" / "ticker_dashboard_payload.json"
-OUTPUT_PATH = BASE_DIR / "dist" / "index.html"
+CONFIG_PATH = Path(__file__).resolve().parent / "config" / "app_config.json"
+
+def load_config():
+    if not CONFIG_PATH.exists():
+        raise FileNotFoundError(f"No se encontró el archivo de configuración: {CONFIG_PATH}")
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+CONFIG = load_config()
+
+BASE_DIR = Path(CONFIG["paths"]["market_narrative_app_base_dir"])
+MACRO_PAYLOAD_PATH = Path(CONFIG["paths"]["macro_payload_path"])
+TICKER_PAYLOAD_PATH = Path(CONFIG["paths"]["ticker_payload_path"])
+OUTPUT_PATH = Path(CONFIG["paths"]["dist_dir"]) / "index.html"
+
+
 
 
 def load_json(path: Path, default: dict) -> dict:
@@ -147,15 +159,21 @@ def render_ticker_rows(rows: list[dict]) -> str:
     html_rows = []
 
     for item in rows:
+      
         gap_text, gap_class = format_pct(item.get("gap_pct", ""))
-        what_is_happening = html_escape(item.get("what_is_happening", ""))
+        what_happened = html_escape(item.get("what_happened", item.get("what_is_happening", "")))
+        market_read = html_escape(item.get("market_read", ""))
         business_impact = html_escape(item.get("business_impact", ""))
 
         company_name = html_escape(item.get("company_name", ""))
         sector = html_escape(item.get("sector", ""))
         industry = html_escape(item.get("industry", ""))
 
-        description_block = what_is_happening
+        description_block = ""
+        if what_happened:
+            description_block += f'<div class="ticker-fact"><strong>Qué pasó:</strong> {what_happened}</div>'
+        if market_read:
+            description_block += f'<div class="ticker-read"><strong>Lectura:</strong> {market_read}</div>'
         if business_impact:
             description_block += f'<div class="ticker-impact"><strong>Impacto:</strong> {business_impact}</div>'
 
@@ -455,6 +473,20 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       color: #cbd5e1;
       font-size: 11px;
       line-height: 1.35;
+    }}
+
+    .ticker-fact {{
+     color: #e5e7eb;
+     font-size: 12px;
+     line-height: 1.35;
+     margin-bottom: 6px;
+    }}
+
+    .ticker-read {{
+     color: #93c5fd;
+     font-size: 12px;
+     line-height: 1.35;
+     margin-bottom: 6px;
     }}
 
     .gap-up {{

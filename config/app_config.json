@@ -1,0 +1,50 @@
+{
+  "environment": {
+    "timezone": "America/Monterrey",
+    "project_name": "trading_dashboard",
+    "version": "1.2"
+  },
+  "paths": {
+    "market_narrative_app_base_dir": "C:/Trading/market_narrative_app",
+    "finviz_news_base_dir": "C:/Trading/finviz_news",
+    "data_dir": "C:/Trading/market_narrative_app/data",
+    "dist_dir": "C:/Trading/market_narrative_app/dist",
+    "ticker_output_dir": "C:/Trading/market_narrative_app/data/ticker",
+    "runs_dir": "C:/Trading/market_narrative_app/data/runs",
+    "logs_dir": "C:/Trading/market_narrative_app/logs",
+    "macro_payload_path": "C:/Trading/market_narrative_app/data/dashboard_payload.json",
+    "ticker_payload_path": "C:/Trading/market_narrative_app/data/ticker/ticker_dashboard_payload.json",
+    "finviz_outputs_dir": "C:/Trading/finviz_news/outputs",
+    "gap_up_file": "C:/Trading/finviz_news/tradeideas_gap_up.txt",
+    "gap_down_file": "C:/Trading/finviz_news/tradeideas_gap_down.txt"
+  },
+  "gmail": {
+    "label_name": "Noticias Trading",
+    "max_messages": 50
+  },
+  "windows": {
+    "macro": {
+      "start_time": "01:00",
+      "end_time": "09:00"
+    },
+    "ticker": {
+      "start_time": "00:00",
+      "end_time": "09:30"
+    }
+  },
+  "ticker": {
+    "max_tickers": 15,
+    "use_latest_finviz_files": true,
+    "require_same_day_news": true
+  },
+  "dashboard": {
+    "show_market_regime": true,
+    "show_ticker_intelligence": true,
+    "show_sources_box": true
+  },
+  "runs": {
+    "write_run_manifest": true,
+    "copy_outputs_to_run_folder": true,
+    "latest_alias_enabled": true
+  }
+}

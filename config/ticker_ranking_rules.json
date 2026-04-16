@@ -1,0 +1,28 @@
+{
+  "weights": {
+    "catalyst": 2,
+    "rvol": 1,
+    "premarket_volume": 4,
+    "gap_pct": 1
+  },
+  "catalyst_keywords": {
+    "earnings": ["earnings", "revenue", "eps", "guidance"],
+    "fda": ["fda", "approval", "phase 3", "fast track"],
+    "m_and_a": ["acquire", "acquisition", "merger", "buyout"],
+    "analyst": ["upgrade", "downgrade", "price target", "initiated"],
+    "contract": ["contract", "deal", "partnership", "agreement", "award"],
+    "sector_sympathy": ["sector", "peer", "supplier", "industry", "sympathy"],
+    "product": ["launch", "product", "device", "platform", "chip"],
+    "financing": ["offering", "dilution", "convertible", "raise capital"]
+  },
+  "catalyst_strength_map": {
+    "earnings": 3,
+    "fda": 3,
+    "m_and_a": 3,
+    "contract": 2,
+    "analyst": 2,
+    "product": 2,
+    "sector_sympathy": 1,
+    "financing": 1
+  }
+}
