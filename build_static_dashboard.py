@@ -71,27 +71,49 @@ def render_market_drivers(drivers_text: str) -> str:
     """
 
 
-def format_number(value) -> str:
-    if value in (None, "", "nan"):
+def format_source_date(value: str) -> str:
+    value = str(value or "").strip()
+    if not value:
         return ""
 
     try:
-        num = float(str(value).replace(",", ""))
+        dt = datetime.fromisoformat(value)
+        return dt.strftime("%d/%m/%Y - %H:%M")
     except Exception:
-        return html_escape(str(value))
+        return html_escape(value)
 
-    abs_num = abs(num)
 
-    if abs_num >= 1_000_000_000:
-        return f"{num / 1_000_000_000:.2f}B"
-    if abs_num >= 1_000_000:
-        return f"{num / 1_000_000:.2f}M"
-    if abs_num >= 1_000:
-        return f"{num / 1_000:.2f}K"
+def render_sources(rows: list[dict]) -> str:
+    if not rows:
+        return '<div class="empty-note">No hay fuentes disponibles.</div>'
 
-    if num.is_integer():
-        return str(int(num))
-    return f"{num:.2f}"
+    def _sort_key(item: dict):
+        value = str(item.get("fecha", "") or "").strip()
+        try:
+            return datetime.fromisoformat(value)
+        except Exception:
+            return datetime.min
+
+    def clean_source_name(raw_name: str) -> str:
+        if not raw_name:
+            return ""
+        return str(raw_name).split("<")[0].strip()
+
+    sorted_rows = sorted(rows, key=_sort_key, reverse=True)
+
+    items = []
+    for item in sorted_rows:
+        items.append(f"""
+            <div class="source-item">
+                <div class="source-header">
+                    <div class="source-name">{html_escape(clean_source_name(item.get("fuente", "")))}</div>
+                    <div class="source-date">{format_source_date(item.get("fecha", ""))}</div>
+                </div>
+                <div class="source-detail">{html_escape(item.get("detalle", ""))}</div>
+            </div>
+        """)
+
+    return "".join(items)
 
 
 def format_pct(value) -> tuple[str, str]:
@@ -112,37 +134,6 @@ def format_pct(value) -> tuple[str, str]:
         css = "gap-flat"
 
     return f"{num:.2f}%", css
-
-
-def format_source_date(value: str) -> str:
-    value = str(value or "").strip()
-    if not value:
-        return ""
-
-    try:
-        dt = datetime.fromisoformat(value)
-        return dt.strftime("%d/%m/%Y - %H:%M")
-    except Exception:
-        return html_escape(value)
-
-
-def render_sources(rows: list[dict]) -> str:
-    if not rows:
-        return '<div class="empty-note">No hay fuentes disponibles.</div>'
-
-    items = []
-    for item in rows:
-        items.append(f"""
-            <div class="source-item">
-                <div class="source-header">
-                    <div class="source-name">{html_escape(item.get("fuente", ""))}</div>
-                    <div class="source-date">{format_source_date(item.get("fecha", ""))}</div>
-                </div>
-                <div class="source-detail">{html_escape(item.get("detalle", ""))}</div>
-            </div>
-        """)
-
-    return "".join(items)
 
 
 def render_ticker_rows(rows: list[dict]) -> str:
@@ -197,6 +188,7 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
     <div class="last-update">Última actualización: {html_escape(last_refresh)}</div>
     {paragraphs_from_text(macro_payload.get("narrative", ""))}
     """
+    regime_html = paragraphs_from_text(macro_payload.get("regime", ""))
     drivers_html = render_market_drivers(macro_payload.get("market_drivers", ""))
     sources_html = render_sources(macro_payload.get("sources", []))
     ticker_generated_at = html_escape(ticker_payload.get("generated_at", ""))
@@ -298,6 +290,17 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       line-height: 2.5;
     }}
 
+    .regime-card {{
+      height: 195px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      background: #111827;
+      border: 1px solid #374151;
+      border-left: 4px solid var(--regime-accent);
+      font-size: 14px;
+      line-height: 1.3;
+    }}
+
     .drivers-card {{
       max-height: 260px;
       overflow-y: auto;
@@ -397,6 +400,10 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       overflow-wrap: break-word;
     }}
 
+    .stocks-table tbody tr:hover {{
+      background: rgba(148, 163, 184, 0.06);
+    }}
+
     .ticker-cell {{
       font-weight: 800;
       color: #ffffff;
@@ -450,12 +457,6 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       line-height: 1.35;
     }}
 
-    .score-cell {{
-      color: #fbbf24;
-      font-weight: 800;
-      font-size: 13px;
-    }}
-
     .gap-up {{
       color: #22c55e !important;
       font-weight: 700;
@@ -471,30 +472,36 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
       font-weight: 700;
     }}
 
+    .score-cell {{
+      color: #fbbf24;
+      font-weight: 800;
+      font-size: 13px;
+    }}
+
     .sources-card {{
       height: 320px;
       overflow-y: auto;
       overflow-x: hidden;
-      padding: 10px 12px 6px 12px;
+      padding: 10px 10px 6px 10px;
     }}
 
     .source-item {{
       border-bottom: 1px solid #172033;
-      padding: 0 0 8px 0;
-      margin: 0 0 8px 0;
+      padding: 0 0 6px 0;
+      margin: 0 0 6px 0;
     }}
 
     .source-header {{
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      gap: 8px;
-      margin-bottom: 3px;
+      gap: 12px;
+      margin-bottom: 4px;
     }}
 
     .source-name {{
       color: #ffffff;
-      font-size: 12px;
+      font-size: 10px;
       font-weight: 700;
       line-height: 1.25;
       flex: 1;
@@ -514,8 +521,8 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
 
     .source-detail {{
       color: #cbd5e1;
-      font-size: 11px;
-      line-height: 1.3;
+      font-size: 9px;
+      line-height: 1.25;
       word-break: break-word;
     }}
 
@@ -551,6 +558,15 @@ def build_html(macro_payload: dict, ticker_payload: dict) -> str:
           <div class="card narrative-card">
             {narrative_html}
           </div>
+
+          <div style="height:14px;"></div>
+
+          <!--
+          <div class="section-title" style="color: var(--regime-accent);">Market Regime</div>
+          <div class="card regime-card">
+            {regime_html}
+          </div>
+          -->
 
           <div style="height:14px;"></div>
 
