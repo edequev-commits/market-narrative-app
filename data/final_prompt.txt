@@ -195,26 +195,27 @@ INPUT:
 
 
 {
-  "driver_principal": "La entrada de un actor institucional importante en el trading directo de criptomonedas impulsa la percepción de integración y legitimidad del mercado cripto, afectando la dinámica competitiva y la confianza del inversor.",
+  "driver_principal": "La entrada de un actor institucional importante en el trading directo de criptomonedas impulsa la percepción de integración y legitimidad del mercado cripto, afectando la dinámica de riesgo y apetito en activos digitales y mercados relacionados.",
   "hechos_confirmados": [
     "Charles Schwab lanzará trading directo de bitcoin y ethereum.",
-    "El lanzamiento busca competir con plataformas existentes como Robinhood.",
-    "El S&P 500 alcanzó un nuevo récord en el contexto de una semana fuerte en Wall Street."
+    "El lanzamiento busca competir con plataformas como Robinhood.",
+    "El S&P 500 alcanzó un nuevo récord en una semana de fortaleza en Wall Street."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que la entrada de un actor institucional relevante en el trading directo de criptomonedas fomente una mayor adopción y liquidez en el mercado cripto, contribuyendo a un entorno de mercado más integrado y competitivo, mientras que la fortaleza general del mercado accionario respalda un apetito de riesgo moderado.",
-  "interpretacion_institucional": "La decisión de un actor institucional consolidado de ofrecer trading directo en criptomonedas puede interpretarse como un paso hacia la normalización y aceptación de estos activos dentro del sistema financiero tradicional. Esto podría atraer a inversores más conservadores y aumentar la competencia en el segmento de trading minorista de criptoactivos. La fortaleza del mercado accionario general sugiere un contexto favorable para la toma de riesgo, aunque se debe mantener vigilancia sobre la volatilidad inherente a los activos digitales.",
+  "escenario_dominante": "Existe una alta probabilidad de que la incorporación de un actor institucional relevante en el trading directo de criptomonedas fomente un mayor interés y liquidez en activos digitales, contribuyendo a un entorno de mercado con apetito por riesgo moderado a alto, apoyado por la fortaleza general del mercado accionario.",
+  "interpretacion_institucional": "La decisión de Charles Schwab de ofrecer trading directo en bitcoin y ethereum puede interpretarse como un paso hacia la normalización y aceptación institucional de las criptomonedas, lo que podría atraer a inversores tradicionales hacia estos activos. Esto puede aumentar la correlación entre mercados tradicionales y digitales, elevando la sensibilidad del mercado cripto a factores macroeconómicos y de riesgo global. La fortaleza del S&P 500 refuerza un contexto de confianza que podría facilitar esta transición, aunque se debe mantener cautela ante posibles volatilidades inherentes a los activos digitales.",
   "riesgos_secundarios": [
-    "La competencia intensificada podría generar volatilidad en precios de criptomonedas.",
-    "Cambios regulatorios inesperados podrían afectar la operativa de trading directo en criptomonedas.",
-    "Reacciones adversas de plataformas competidoras podrían alterar dinámicas de mercado.",
-    "La fortaleza del mercado accionario podría revertirse, afectando el apetito por activos de riesgo.",
-    "La integración institucional podría no traducirse en adopción masiva inmediata."
+    "La competencia entre plataformas podría generar presiones en márgenes y cambios en la estructura de comisiones.",
+    "La volatilidad inherente a bitcoin y ethereum podría impactar negativamente la percepción de riesgo de inversores institucionales.",
+    "Factores regulatorios futuros podrían alterar la operativa o accesibilidad del trading directo en criptomonedas.",
+    "Un cambio abrupto en la tendencia del mercado accionario podría reducir el apetito por riesgo en activos digitales.",
+    "La integración de criptomonedas en plataformas tradicionales podría aumentar la correlación sistémica y riesgos de contagio."
   ],
   "eventos_clave": [
-    "Lanzamiento oficial y operatividad del trading directo de bitcoin y ethereum por parte de Charles Schwab.",
-    "Publicación de datos macroeconómicos relevantes que afecten el apetito por riesgo en mercados globales.",
+    "Lanzamiento oficial y operatividad del trading directo de bitcoin y ethereum por Charles Schwab.",
+    "Publicación de datos macroeconómicos relevantes que afecten la percepción de riesgo global.",
+    "Evolución del índice S&P 500 en las próximas semanas para validar la fortaleza del mercado accionario.",
     "Anuncios regulatorios relacionados con criptomonedas en jurisdicciones clave.",
-    "Evolución del índice S&P 500 en las próximas semanas como indicador de sentimiento de mercado."
+    "Reacciones y movimientos de competidores directos como Robinhood tras el lanzamiento."
   ]
 }
 
