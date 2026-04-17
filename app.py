@@ -27,13 +27,18 @@ def load_config():
 
 CONFIG = load_config()
 
-BASE_DIR = Path(CONFIG["paths"]["market_narrative_app_base_dir"])
-DATA_DIR = Path(CONFIG["paths"]["data_dir"])
-PROMPTS_DIR = BASE_DIR / "prompts"
-DIST_DIR = Path(CONFIG["paths"]["dist_dir"])
-RUNS_DIR = Path(CONFIG["paths"]["runs_dir"])
-LOGS_DIR = Path(CONFIG["paths"]["logs_dir"])
-DASHBOARD_PAYLOAD_FILE = Path(CONFIG["paths"]["macro_payload_path"])
+REPO_DIR = Path(__file__).resolve().parent
+
+BASE_DIR = REPO_DIR
+DATA_DIR = REPO_DIR / "data"
+PROMPTS_DIR = REPO_DIR / "prompts"
+DIST_DIR = REPO_DIR / "dist"
+RUNS_DIR = REPO_DIR / "data" / "runs"
+LOGS_DIR = REPO_DIR / "logs"
+DASHBOARD_PAYLOAD_FILE = REPO_DIR / "data" / "dashboard_payload.json"
+
+
+
 
 GMAIL_LABEL_NAME = CONFIG["gmail"]["label_name"]
 GMAIL_MAX_MESSAGES = CONFIG["gmail"]["max_messages"]
