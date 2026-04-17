@@ -1,24 +1,25 @@
 {
-  "driver_principal": "La entrada de un actor institucional importante en el trading directo de criptomonedas impulsa la percepción de integración y legitimidad del mercado cripto, afectando la dinámica de riesgo y apetito en activos digitales y mercados relacionados.",
+  "driver_principal": "The dominant market driver is the significant de-escalation in the Middle East conflict, particularly the reopening of the Strait of Hormuz and progress toward a US-Iran nuclear deal, which is driving risk-on sentiment and equity market rallies.",
   "hechos_confirmados": [
-    "Charles Schwab lanzará trading directo de bitcoin y ethereum.",
-    "El lanzamiento busca competir con plataformas como Robinhood.",
-    "El S&P 500 alcanzó un nuevo récord en una semana de fortaleza en Wall Street."
+    "Iran declared the Strait of Hormuz completely open to commercial traffic during a ceasefire between Israel and Lebanon.",
+    "US President Donald Trump expressed optimism that an agreement with Iran is near, with Tehran agreeing to hand over enriched uranium and abandon nuclear weapon ambitions.",
+    "The US and Iran are reportedly close to signing a memorandum of understanding (MOU) to extend the ceasefire and work toward a nuclear/Hormuz deal.",
+    "Following these developments, US equity indices reached new highs, with the S&P 500 topping 7,100 and the Dow soaring 1,000 points."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que la incorporación de un actor institucional relevante en el trading directo de criptomonedas fomente un mayor interés y liquidez en activos digitales, contribuyendo a un entorno de mercado con apetito por riesgo moderado a alto, apoyado por la fortaleza general del mercado accionario.",
-  "interpretacion_institucional": "La decisión de Charles Schwab de ofrecer trading directo en bitcoin y ethereum puede interpretarse como un paso hacia la normalización y aceptación institucional de las criptomonedas, lo que podría atraer a inversores tradicionales hacia estos activos. Esto puede aumentar la correlación entre mercados tradicionales y digitales, elevando la sensibilidad del mercado cripto a factores macroeconómicos y de riesgo global. La fortaleza del S&P 500 refuerza un contexto de confianza que podría facilitar esta transición, aunque se debe mantener cautela ante posibles volatilidades inherentes a los activos digitales.",
+  "escenario_dominante": "There is a high probability that the Middle East conflict will continue to de-escalate in the near term, supported by diplomatic progress between the US and Iran and temporary ceasefires in the region. This is likely to sustain positive risk sentiment in global equity markets, although some geopolitical and supply chain uncertainties remain. Oil prices are expected to remain volatile but may trend lower as the Strait of Hormuz reopens and supply disruptions ease.",
+  "interpretacion_institucional": "The market is currently pricing in a constructive resolution to the Middle East conflict, with the reopening of the Strait of Hormuz alleviating a major supply shock and supporting risk assets. However, the consensus view that a deal with Iran is imminent reduces the potential for further upside from peace-related headlines. Elevated inflationary pressures and supply chain disruptions, particularly in commodities and energy, are likely to persist, influencing corporate margins and pricing strategies. Market participants should remain cautious given the complexity of negotiations and the potential for setbacks. Upcoming macroeconomic data and earnings will provide additional context for market direction.",
   "riesgos_secundarios": [
-    "La competencia entre plataformas podría generar presiones en márgenes y cambios en la estructura de comisiones.",
-    "La volatilidad inherente a bitcoin y ethereum podría impactar negativamente la percepción de riesgo de inversores institucionales.",
-    "Factores regulatorios futuros podrían alterar la operativa o accesibilidad del trading directo en criptomonedas.",
-    "Un cambio abrupto en la tendencia del mercado accionario podría reducir el apetito por riesgo en activos digitales.",
-    "La integración de criptomonedas en plataformas tradicionales podría aumentar la correlación sistémica y riesgos de contagio."
+    "The peace deal between the US and Iran is not guaranteed; significant differences remain to be resolved, and the timeline for a durable agreement may extend to six months or longer.",
+    "Renewed acrimony or conflict escalation involving Israel, Lebanon, or Hezbollah could disrupt the fragile ceasefire and regional stability.",
+    "Supply chain disruptions and stagflationary effects from the conflict may persist, impacting commodity prices and corporate earnings.",
+    "US government fiscal and political uncertainties, including volatility related to Trump’s administration, could weigh on investor confidence and USD borrowing costs.",
+    "Geopolitical tensions and macroeconomic uncertainties, including those related to China-Taiwan dynamics and global trade, may introduce volatility."
   ],
   "eventos_clave": [
-    "Lanzamiento oficial y operatividad del trading directo de bitcoin y ethereum por Charles Schwab.",
-    "Publicación de datos macroeconómicos relevantes que afecten la percepción de riesgo global.",
-    "Evolución del índice S&P 500 en las próximas semanas para validar la fortaleza del mercado accionario.",
-    "Anuncios regulatorios relacionados con criptomonedas en jurisdicciones clave.",
-    "Reacciones y movimientos de competidores directos como Robinhood tras el lanzamiento."
+    "Potential US-Iran face-to-face talks over the weekend to advance the ceasefire and nuclear deal negotiations.",
+    "US Federal Reserve confirmation hearing for Kevin Warsh on April 21, which may influence monetary policy expectations.",
+    "US retail sales data for March on April 21, providing insight into consumer demand amid inflationary pressures.",
+    "US flash Purchasing Managers' Indices (PMIs) for April on April 23, indicating economic activity trends.",
+    "Ongoing corporate earnings releases throughout the week, including key reports from financials and technology sectors."
   ]
 }
