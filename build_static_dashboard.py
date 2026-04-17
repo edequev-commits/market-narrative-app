@@ -11,14 +11,15 @@ def load_config():
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
+
 CONFIG = load_config()
 
-BASE_DIR = Path(CONFIG["paths"]["market_narrative_app_base_dir"])
-MACRO_PAYLOAD_PATH = Path(CONFIG["paths"]["macro_payload_path"])
-TICKER_PAYLOAD_PATH = Path(CONFIG["paths"]["ticker_payload_path"])
-OUTPUT_PATH = Path(CONFIG["paths"]["dist_dir"]) / "index.html"
+REPO_DIR = Path(__file__).resolve().parent
 
-
+BASE_DIR = REPO_DIR
+MACRO_PAYLOAD_PATH = REPO_DIR / "data" / "dashboard_payload.json"
+TICKER_PAYLOAD_PATH = REPO_DIR / "data" / "ticker" / "ticker_dashboard_payload.json"
+OUTPUT_PATH = REPO_DIR / "dist" / "index.html"
 
 
 def load_json(path: Path, default: dict) -> dict:
