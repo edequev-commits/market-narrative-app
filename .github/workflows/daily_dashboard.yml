@@ -39,6 +39,9 @@ jobs:
       - name: Ejecutar app
         run: python app.py
 
+      - name: Ejecutar finviz news export
+        run: python finviz_news_export.py
+
       - name: Ejecutar ticker intelligence
         run: python build_ticker_dashboard.py
 
