@@ -32,8 +32,8 @@ APP_BASE_DIR = REPO_DIR
 FINVIZ_BASE_DIR = Path(CONFIG["paths"]["finviz_news_base_dir"])
 TICKER_OUTPUT_DIR = REPO_DIR / "data" / "ticker"
 FINVIZ_OUTPUTS_DIR = Path(CONFIG["paths"]["finviz_outputs_dir"])
-GAP_UP_FILE_PATH = CONFIG["paths"]["gap_up_file"]
-GAP_DOWN_FILE_PATH = CONFIG["paths"]["gap_down_file"]
+GAP_UP_FILE_PATH = REPO_DIR / "tradeideas_gap_up.txt"
+GAP_DOWN_FILE_PATH = REPO_DIR / "tradeideas_gap_down.txt"
 TICKER_WINDOW_START = CONFIG["windows"]["ticker"]["start_time"]
 TICKER_WINDOW_END = CONFIG["windows"]["ticker"]["end_time"]
 
@@ -45,12 +45,8 @@ PROMPT_FILE = REPO_DIR / "prompts" / "ticker" / "ticker_catalyst_analysis.txt"
 FINVIZ_DIR = FINVIZ_BASE_DIR
 FINVIZ_OUTPUT_DIR = FINVIZ_BASE_DIR / "finviz_news"
 
-GAP_UP_FILE = Path(GAP_UP_FILE_PATH)
-GAP_DOWN_FILE = Path(GAP_DOWN_FILE_PATH)
-
-
-
-
+GAP_UP_FILE = GAP_UP_FILE_PATH
+GAP_DOWN_FILE = GAP_DOWN_FILE_PATH
 
 
 PREMARKET_START = dt_time(0, 0)
