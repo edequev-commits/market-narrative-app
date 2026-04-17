@@ -674,13 +674,17 @@ def main() -> None:
     log(f"[EXPORT] CSV copiado a outputs: {finviz_csv_copy}")
 
 
+   
+    if os.getenv("GMAIL_USER"):
+       try:
+           send_email([news_csv, finviz_csv], email_subject)
+           log(f"Email enviado correctamente con asunto: {email_subject}")
+           log(f"Adjuntos enviados: {os.path.basename(news_csv)}, {os.path.basename(finviz_csv)}")
+       except Exception as e:
+           log(f"[ERROR EMAIL] {e}")
+    else:
+       log("[INFO] Email omitido en entorno sin credenciales")
 
-    try:
-        send_email([news_csv, finviz_csv], email_subject)
-        log(f"Email enviado correctamente con asunto: {email_subject}")
-        log(f"Adjuntos enviados: {os.path.basename(news_csv)}, {os.path.basename(finviz_csv)}")
-    except Exception as e:
-        log(f"[ERROR EMAIL] {e}")
 
     log("Fin de ejecución")
 
