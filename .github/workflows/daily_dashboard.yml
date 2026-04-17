@@ -39,9 +39,12 @@ jobs:
       - name: Ejecutar app
         run: python app.py
 
+      - name: Ejecutar ticker intelligence
+        run: python build_ticker_dashboard.py
+
       - name: Generar HTML estático
         run: python build_static_dashboard.py
-
+   
       - name: Validar JSON generado
         run: |
           python -m json.tool data/dashboard_payload.json > /dev/null
@@ -49,6 +52,7 @@ jobs:
           python -m json.tool data/vital_knowledge_extracted.json > /dev/null
           python -m json.tool data/reuters_extracted.json > /dev/null
           python -m json.tool data/cnbc_extracted.json > /dev/null
+          python -m json.tool data/ticker/ticker_dashboard_payload.json > /dev/null
 
       - name: Validar artefacto HTML
         run: |
@@ -60,11 +64,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+
       - name: Commit de outputs
         run: |
-          git add data/dashboard_payload.json data/market_narrative.txt data/market_regime.txt data/last_refresh.json data/filtered_signal.json data/vital_knowledge_extracted.json         data/reuters_extracted.json data/cnbc_extracted.json data/gmail_input_for_prompt.txt data/final_prompt.txt data/final_regime_prompt.txt
-    
+          git add data/dashboard_payload.json data/market_narrative.txt data/market_regime.txt data/last_refresh.json data/filtered_signal.json data/vital_knowledge_extracted.json data/reuters_extracted.json data/cnbc_extracted.json data/gmail_input_for_prompt.txt data/final_prompt.txt data/final_regime_prompt.txt data/ticker/ticker_dashboard_payload.json
+
           git diff --cached --quiet || git commit -m "Auto-update dashboard data"
+
+
+
+
 
       - name: Push de outputs
         run: |
@@ -77,4 +86,5 @@ jobs:
           path: |
             data/dashboard_payload.json
             data/cnbc_extracted.json
+            data/ticker/ticker_dashboard_payload.json
             dist/index.html
