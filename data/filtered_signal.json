@@ -1,25 +1,25 @@
 {
-  "driver_principal": "The dominant market driver is growing optimism about a negotiated resolution to the Iran war, which is reducing geopolitical risk premiums and supporting equity markets despite ongoing stagflationary pressures from elevated energy prices.",
+  "driver_principal": "La percepción de que el conflicto en Irán será breve y que los precios del petróleo se normalizarán en la segunda mitad de 2026, impulsando la confianza en los mercados globales.",
   "hechos_confirmados": [
-    "US and Iran are reportedly negotiating a ceasefire extension, with Pakistani mediators involved and potential announcements imminent.",
-    "Israel and Lebanon may announce a ceasefire soon, contributing to the easing of Middle East tensions.",
-    "Brent crude oil prices have risen to approximately $96.40 per barrel, reflecting a new higher price range compared to pre-war levels of $60-70.",
-    "China reported Q1 GDP growth of 5%, above expectations, with industrial production also beating estimates, while retail sales underperformed."
+    "Los mercados globales de acciones están en máximos históricos con inversores apostando a que lo peor del conflicto en Medio Oriente ha pasado.",
+    "El Fondo Monetario Internacional recortó su pronóstico de crecimiento pero asume una guerra corta en Irán y una normalización de los precios del petróleo en la segunda mitad de 2026, con un promedio anual de 82 dólares por barril.",
+    "El precio físico del petróleo en Asia está cerca de 120 dólares por barril, significativamente por encima del precio de futuros de referencia de 96 dólares, reflejando una realidad de oferta limitada.",
+    "Las previsiones de crecimiento de ganancias corporativas para 2027 se mantienen altas, con un 18% para empresas estadounidenses y 11% para europeas, a pesar del choque petrolero."
   ],
-  "escenario_dominante": "There is a high probability that a negotiated détente or ceasefire in the Iran conflict will be reached in the near term, leading to a reduction in geopolitical risk premiums. However, the economic impact of the war, including elevated energy prices and supply chain disruptions, will likely continue to exert stagflationary pressures on global growth and inflation through at least the summer or fall. Equity markets have priced in much of the positive news, and with indices in overbought territory, immediate-term upside from further peace-related headlines is expected to be limited.",
-  "interpretacion_institucional": "The market is currently embracing a consensus view that the Iran war will de-escalate through diplomatic means, which has supported record highs in US equity indices and positive earnings surprises, particularly in technology and transportation sectors. Nonetheless, the persistence of higher energy prices and commodity cost inflation, as evidenced by widespread corporate price increases, suggests that inflationary pressures will remain elevated. The economic data from China indicates resilience but also mixed signals, reinforcing a cautious stance. Given the overbought conditions in equities and the diminishing impact of peace-related news, investors should moderate aggressive buying and prepare for a market environment characterized by volatility and stagflationary risks.",
+  "escenario_dominante": "Existe una alta probabilidad de que la guerra en Irán sea relativamente corta y que los precios del petróleo comiencen a normalizarse en la segunda mitad de 2026, aunque la recuperación plena de la producción y exportación petrolera tomará meses o años. La confianza del mercado en esta perspectiva sostiene los máximos históricos en acciones, pero persisten riesgos inflacionarios derivados de los altos precios físicos del crudo.",
+  "interpretacion_institucional": "La narrativa dominante en los mercados refleja un optimismo condicionado sobre la resolución rápida del conflicto en Irán y la estabilización de los precios del petróleo, lo que sostiene las valoraciones elevadas en acciones globales. Sin embargo, la divergencia entre los precios físicos y los futuros del petróleo indica que la oferta real está más restringida de lo que el mercado de futuros anticipa, lo que podría generar presiones inflacionarias adicionales y riesgos para el crecimiento económico global. La prudencia aconseja monitorear de cerca la evolución geopolítica y la dinámica de oferta petrolera, ya que cualquier retraso en la recuperación de la producción podría alterar significativamente las expectativas actuales.",
   "riesgos_secundarios": [
-    "Potential for renewed military escalation if the Strait of Hormuz blockade persists or if unexpected confrontations occur.",
-    "Delays or failure in ceasefire negotiations between US, Iran, Israel, and Lebanon.",
-    "Supply chain disruptions and inflationary pressures intensifying beyond current expectations, impacting corporate earnings and consumer demand.",
-    "Political uncertainty in the US related to Federal Reserve leadership and regulatory investigations, which could affect market sentiment.",
-    "Geopolitical tensions outside the Middle East, such as US military planning in Cuba, adding to global risk."
+    "La recuperación de la producción y exportación petrolera en Medio Oriente podría tardar más de lo esperado, prolongando la presión sobre los precios físicos del crudo.",
+    "Un posible fracaso en las negociaciones para resolver el conflicto en Irán o una escalada del mismo que prolongue la guerra.",
+    "Impactos económicos negativos más profundos en economías avanzadas, como Reino Unido, que ya han sufrido recortes significativos en sus pronósticos de crecimiento debido al conflicto.",
+    "La inflación derivada de los altos precios del petróleo podría forzar ajustes en políticas monetarias que afecten la confianza y valoración de activos.",
+    "La divergencia entre precios físicos y futuros podría generar volatilidad en los mercados energéticos y financieros si las expectativas de normalización no se cumplen."
   ],
   "eventos_clave": [
-    "Announcements regarding ceasefire extensions or peace deals involving Iran, Israel, and Lebanon expected imminently.",
-    "US earnings reports from key companies before and after market open on April 16 and 17, which will provide insight into economic resilience amid geopolitical uncertainty.",
-    "US economic data releases including weekly jobless claims, Philadelphia Fed manufacturing index, and industrial production on April 16.",
-    "US retail sales data for March and Federal Reserve confirmation hearing for Kevin Warsh on April 21.",
-    "US flash Purchasing Managers' Indices (PMIs) for April on April 23, which will indicate economic momentum."
+    "Evolución de las negociaciones y desarrollo del conflicto en Irán en las próximas semanas.",
+    "Datos de demanda petrolera durante el pico estacional del hemisferio norte en verano 2026.",
+    "Publicación de nuevos pronósticos económicos y de crecimiento por parte del FMI y otras instituciones internacionales.",
+    "Indicadores de inflación global y respuesta de bancos centrales a la presión inflacionaria derivada del petróleo.",
+    "Reportes sobre la recuperación de la producción y exportación petrolera en Medio Oriente."
   ]
 }

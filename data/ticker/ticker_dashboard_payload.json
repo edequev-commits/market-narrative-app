@@ -1,0 +1,92 @@
+{
+  "generated_at": "17-04-2026 03:46:55",
+  "rows": [
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla Inc",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "gap_pct": "-0.78%",
+      "volume": "63,246,535",
+      "average_volume": "62.72M",
+      "relative_volume": "1.01",
+      "what_happened": "La acción de Tesla cae ligeramente cerca del 0.8% en volumen normal, aunque el mercado muestra interés renovado por sus planes relacionados con chips, impulsados por declaraciones de Elon Musk.",
+      "market_read": "Tesla muestra una leve caída en su acción, pero el interés en sus planes tecnológicos relacionados con chips genera expectativas positivas moderadas para el negocio.",
+      "what_is_happening": "La acción de Tesla cae ligeramente cerca del 0.8% en volumen normal, aunque el mercado muestra interés renovado por sus planes relacionados con chips, impulsados por declaraciones de Elon Musk.",
+      "catalyst_strength": "MEDIUM",
+      "sentiment": "Mixed",
+      "key_driver": "El interés en los planes de Tesla para desarrollar o mejorar chips impulsa el sentimiento, aunque el precio se mantiene con ligera baja.",
+      "business_impact": "Los planes de Musk sobre chips podrían mejorar la eficiencia y reducir costos en la producción de vehículos, lo que a largo plazo puede aumentar márgenes y competitividad, pero aún no hay impacto financiero inmediato.",
+      "catalyst_type": "product",
+      "is_extraordinary": "No",
+      "institutional_relevance": "El anuncio puede atraer interés institucional por la innovación tecnológica, aunque la falta de resultados inmediatos mantiene cautela.",
+      "score": 20,
+      "score_breakdown": {
+        "catalyst_type": 4,
+        "rvol": 0,
+        "premarket_volume": 16,
+        "gap_pct": 0,
+        "sentiment": 0,
+        "extraordinary": 0
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corp",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "gap_pct": "-0.26%",
+      "volume": "133,431,361",
+      "average_volume": "178.54M",
+      "relative_volume": "0.75",
+      "what_happened": "La acción de NVIDIA muestra una leve caída del 0.26% con volumen algo menor al promedio, sin noticias propias recientes que impulsen un movimiento fuerte.",
+      "market_read": "NVIDIA no presenta noticias propias relevantes hoy, por lo que su acción se mantiene estable con ligera baja. El mercado observa avances en la industria que podrían beneficiar a NVIDIA a mediano plazo, pero sin impacto inmediato.",
+      "what_is_happening": "La acción de NVIDIA muestra una leve caída del 0.26% con volumen algo menor al promedio, sin noticias propias recientes que impulsen un movimiento fuerte.",
+      "catalyst_strength": "LOW",
+      "sentiment": "Neutral",
+      "key_driver": "La falta de catalizadores directos para NVIDIA hoy, mientras el mercado se enfoca en noticias relacionadas de la industria como avances de Samsung y movimientos de competidores.",
+      "business_impact": "Aunque no hay noticias directas de NVIDIA, el impulso de Samsung en memoria para NVIDIA y la actividad en el sector de semiconductores pueden mejorar la percepción futura del negocio, pero sin impacto inmediato en ingresos o costos.",
+      "catalyst_type": "unknown",
+      "is_extraordinary": "No",
+      "institutional_relevance": "Poco probable que atraiga o aleje interés institucional hoy, dado que no hay eventos corporativos o resultados que cambien la perspectiva inmediata.",
+      "score": 14,
+      "score_breakdown": {
+        "catalyst_type": 0,
+        "rvol": -2,
+        "premarket_volume": 16,
+        "gap_pct": 0,
+        "sentiment": 0,
+        "extraordinary": 0
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "gap_pct": "-1.14%",
+      "volume": "43,103,767",
+      "average_volume": "47.24M",
+      "relative_volume": "0.91",
+      "what_happened": "La acción de Apple cae un 1.14% tras el cierre del mercado, reflejando una toma de ganancias o preocupación en el corto plazo.",
+      "market_read": "Apple baja tras cierre por preocupaciones derivadas del reporte de TSMC, su proveedor principal, que aunque mostró ganancias fuertes, alertó sobre riesgos geopolíticos que podrían afectar la producción.",
+      "what_is_happening": "La acción de Apple cae un 1.14% tras el cierre del mercado, reflejando una toma de ganancias o preocupación en el corto plazo.",
+      "catalyst_strength": "MEDIUM",
+      "sentiment": "Bearish",
+      "key_driver": "La caída se da en un contexto donde TSMC, proveedor clave de Apple, reporta un fuerte aumento en ganancias pero advierte riesgos geopolíticos, generando incertidumbre.",
+      "business_impact": "Aunque Apple no reportó resultados nuevos, la advertencia de TSMC sobre riesgos por la guerra en Irán puede afectar la cadena de suministro y costos futuros, lo que podría presionar márgenes o retrasar productos.",
+      "catalyst_type": "unknown",
+      "is_extraordinary": "No",
+      "institutional_relevance": "El riesgo en la cadena de suministro puede hacer que inversores institucionales sean cautelosos, pero no hay un evento directo que provoque una salida masiva.",
+      "score": 11,
+      "score_breakdown": {
+        "catalyst_type": 0,
+        "rvol": -2,
+        "premarket_volume": 12,
+        "gap_pct": 1,
+        "sentiment": 0,
+        "extraordinary": 0
+      }
+    }
+  ]
+}
