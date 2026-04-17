@@ -49,28 +49,28 @@ INPUT:
 
 
 {
-  "driver_principal": "La percepción de que el conflicto en Irán será breve y que los precios del petróleo se normalizarán en la segunda mitad de 2026, impulsando la confianza en los mercados globales.",
+  "driver_principal": "La percepción de que el conflicto en Irán será breve y que la producción petrolera se normalizará pronto impulsa la confianza en los mercados globales, a pesar de la evidencia de presiones inflacionarias por altos precios físicos del petróleo.",
   "hechos_confirmados": [
     "Los mercados globales de acciones están en máximos históricos con inversores apostando a que lo peor del conflicto en Medio Oriente ha pasado.",
     "El Fondo Monetario Internacional recortó su pronóstico de crecimiento pero asume una guerra corta en Irán y una normalización de los precios del petróleo en la segunda mitad de 2026, con un promedio anual de 82 dólares por barril.",
-    "El precio físico del petróleo en Asia está cerca de 120 dólares por barril, significativamente por encima del precio de futuros de referencia de 96 dólares, reflejando una realidad de oferta limitada.",
-    "Las previsiones de crecimiento de ganancias corporativas para 2027 se mantienen altas, con un 18% para empresas estadounidenses y 11% para europeas, a pesar del choque petrolero."
+    "El precio físico del petróleo en Asia está cerca de 120 dólares por barril, significativamente por encima del precio de futuros de referencia de alrededor de 96 dólares.",
+    "Los pronósticos de crecimiento de ganancias corporativas para 2027 se mantienen elevados, con 18% para empresas estadounidenses y 11% para europeas."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que la guerra en Irán sea relativamente corta y que los precios del petróleo comiencen a normalizarse en la segunda mitad de 2026, aunque la recuperación plena de la producción y exportación petrolera tomará meses o años. La confianza del mercado en esta perspectiva sostiene los máximos históricos en acciones, pero persisten riesgos inflacionarios derivados de los altos precios físicos del crudo.",
-  "interpretacion_institucional": "La narrativa dominante en los mercados refleja un optimismo condicionado sobre la resolución rápida del conflicto en Irán y la estabilización de los precios del petróleo, lo que sostiene las valoraciones elevadas en acciones globales. Sin embargo, la divergencia entre los precios físicos y los futuros del petróleo indica que la oferta real está más restringida de lo que el mercado de futuros anticipa, lo que podría generar presiones inflacionarias adicionales y riesgos para el crecimiento económico global. La prudencia aconseja monitorear de cerca la evolución geopolítica y la dinámica de oferta petrolera, ya que cualquier retraso en la recuperación de la producción podría alterar significativamente las expectativas actuales.",
+  "escenario_dominante": "Existe una alta probabilidad de que la percepción optimista sobre la duración del conflicto y la recuperación de la producción petrolera impulse la continuidad del mercado alcista, aunque persisten riesgos inflacionarios derivados de los altos precios físicos del petróleo que podrían limitar la expansión económica.",
+  "interpretacion_institucional": "La narrativa dominante en los mercados refleja un sesgo hacia la desestimación del impacto prolongado del conflicto en Irán, apoyada por pronósticos oficiales que anticipan una rápida normalización. Sin embargo, la discrepancia entre los precios físicos y los futuros del petróleo indica tensiones inflacionarias subyacentes que podrían materializarse si la oferta no se recupera según lo esperado. Esto sugiere que, aunque la confianza actual sostiene los activos de riesgo, la vigilancia sobre la evolución geopolítica y los precios energéticos es crucial para ajustar estrategias de inversión y gestión de riesgos.",
   "riesgos_secundarios": [
-    "La recuperación de la producción y exportación petrolera en Medio Oriente podría tardar más de lo esperado, prolongando la presión sobre los precios físicos del crudo.",
-    "Un posible fracaso en las negociaciones para resolver el conflicto en Irán o una escalada del mismo que prolongue la guerra.",
-    "Impactos económicos negativos más profundos en economías avanzadas, como Reino Unido, que ya han sufrido recortes significativos en sus pronósticos de crecimiento debido al conflicto.",
-    "La inflación derivada de los altos precios del petróleo podría forzar ajustes en políticas monetarias que afecten la confianza y valoración de activos.",
-    "La divergencia entre precios físicos y futuros podría generar volatilidad en los mercados energéticos y financieros si las expectativas de normalización no se cumplen."
+    "La recuperación de la producción y exportación petrolera en Medio Oriente podría tardar meses o años, incluso si el conflicto termina pronto.",
+    "Si los suministros de petróleo esperados para el verano boreal no se materializan, podría haber consecuencias negativas para la economía global.",
+    "El conflicto en Irán podría prolongarse o intensificarse, afectando la estabilidad regional y los mercados energéticos.",
+    "Los recortes significativos en las previsiones de crecimiento económico para países afectados por el conflicto, como Reino Unido, podrían impactar la demanda global.",
+    "La divergencia entre precios físicos y futuros del petróleo podría generar volatilidad en los mercados financieros y presiones inflacionarias inesperadas."
   ],
   "eventos_clave": [
-    "Evolución de las negociaciones y desarrollo del conflicto en Irán en las próximas semanas.",
-    "Datos de demanda petrolera durante el pico estacional del hemisferio norte en verano 2026.",
-    "Publicación de nuevos pronósticos económicos y de crecimiento por parte del FMI y otras instituciones internacionales.",
-    "Indicadores de inflación global y respuesta de bancos centrales a la presión inflacionaria derivada del petróleo.",
-    "Reportes sobre la recuperación de la producción y exportación petrolera en Medio Oriente."
+    "Evolución del conflicto en Irán y posibles avances o retrocesos en negociaciones de paz.",
+    "Datos de producción y exportación petrolera en Medio Oriente durante los próximos meses.",
+    "Comportamiento de los precios físicos y futuros del petróleo en el segundo trimestre de 2026.",
+    "Publicación de nuevas revisiones del FMI y otros organismos sobre crecimiento económico global.",
+    "Indicadores económicos clave en economías relevantes, como ventas minoristas y solicitudes de desempleo en EE.UU., en abril de 2026."
   ]
 }
 
