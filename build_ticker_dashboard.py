@@ -26,31 +26,32 @@ def load_ranking_config():
 
 RANKING_CONFIG = load_ranking_config()
 
-APP_BASE_DIR = Path(CONFIG["paths"]["market_narrative_app_base_dir"])
+REPO_DIR = Path(__file__).resolve().parent
+
+APP_BASE_DIR = REPO_DIR
 FINVIZ_BASE_DIR = Path(CONFIG["paths"]["finviz_news_base_dir"])
-TICKER_OUTPUT_DIR = Path(CONFIG["paths"]["ticker_output_dir"])
+TICKER_OUTPUT_DIR = REPO_DIR / "data" / "ticker"
 FINVIZ_OUTPUTS_DIR = Path(CONFIG["paths"]["finviz_outputs_dir"])
 GAP_UP_FILE_PATH = CONFIG["paths"]["gap_up_file"]
 GAP_DOWN_FILE_PATH = CONFIG["paths"]["gap_down_file"]
 TICKER_WINDOW_START = CONFIG["windows"]["ticker"]["start_time"]
 TICKER_WINDOW_END = CONFIG["windows"]["ticker"]["end_time"]
 
+BASE_DIR = REPO_DIR
 
-BASE_DIR = Path(APP_BASE_DIR)
-
-TICKER_OUTPUT_DIR = Path(TICKER_OUTPUT_DIR)
 TICKER_OUTPUT_PATH = TICKER_OUTPUT_DIR / "ticker_dashboard_payload.json"
+PROMPT_FILE = REPO_DIR / "prompts" / "ticker" / "ticker_catalyst_analysis.txt"
 
-PROMPT_FILE = BASE_DIR / "prompts" / "ticker" / "ticker_catalyst_analysis.txt"
+FINVIZ_DIR = FINVIZ_BASE_DIR
+FINVIZ_OUTPUT_DIR = FINVIZ_BASE_DIR / "finviz_news"
 
-FINVIZ_DIR = Path(FINVIZ_BASE_DIR)
+GAP_UP_FILE = Path(GAP_UP_FILE_PATH)
+GAP_DOWN_FILE = Path(GAP_DOWN_FILE_PATH)
 
-from pathlib import Path
 
-FINVIZ_OUTPUT_DIR = Path(FINVIZ_BASE_DIR) / "finviz_news"
 
-GAP_UP_FILE = Path(CONFIG["paths"]["gap_up_file"])
-GAP_DOWN_FILE = Path(CONFIG["paths"]["gap_down_file"])
+
+
 
 PREMARKET_START = dt_time(0, 0)
 PREMARKET_END = dt_time(9, 30)
