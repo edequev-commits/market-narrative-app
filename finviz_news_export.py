@@ -10,6 +10,7 @@ import time
 import smtplib
 import mimetypes
 from datetime import datetime, timedelta
+from pathlib import Path
 from email.message import EmailMessage
 from typing import Dict, List, Optional, Tuple
 
@@ -23,12 +24,15 @@ from bs4 import BeautifulSoup
 # =========================
 
 
-BASE_DIR = r"C:\Trading\finviz_news"
-OUTPUT_DIR = os.path.join(BASE_DIR, "finviz_news")
-OUTPUTS_DIR = os.path.join(BASE_DIR, "outputs")
+REPO_DIR = Path(__file__).resolve().parent
 
-GAP_UP_FILE = os.path.join(BASE_DIR, "tradeideas_gap_up.txt")
-GAP_DOWN_FILE = os.path.join(BASE_DIR, "tradeideas_gap_down.txt")
+BASE_DIR = str(REPO_DIR)
+OUTPUT_DIR = str(REPO_DIR / "finviz_news")
+OUTPUTS_DIR = str(REPO_DIR / "outputs")
+
+GAP_UP_FILE = str(REPO_DIR / "tradeideas_gap_up.txt")
+GAP_DOWN_FILE = str(REPO_DIR / "tradeideas_gap_down.txt")
+
 
 
 EMAIL_TO = "edequev@gmail.com"
