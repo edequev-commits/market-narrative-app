@@ -80,24 +80,31 @@ def load_all_tickers() -> list[str]:
 
 
 def get_latest_file(prefix):
-    # --- FINVIZ FILE DETECTION (FASE 1 CONTROLADA) ---
+    outputs_dir = REPO_DIR / "outputs"
+    finviz_dir = REPO_DIR / "finviz_news"
 
-    finviz_outputs_dir = Path(FINVIZ_OUTPUTS_DIR)
-    finviz_base_dir = Path(FINVIZ_BASE_DIR)
+    files = []
 
-    # 1. Buscar en outputs/
-    files = sorted(finviz_outputs_dir.glob(f"{prefix}_*.csv"), reverse=True)
+    # Buscar en outputs/ de forma directa y recursiva
+    files.extend(outputs_dir.glob(f"{prefix}_*.csv"))
+    files.extend(outputs_dir.glob(f"**/{prefix}_*.csv"))
+
+    # Buscar en finviz_news/ de forma directa y recursiva
+    files.extend(finviz_dir.glob(f"{prefix}_*.csv"))
+    files.extend(finviz_dir.glob(f"**/{prefix}_*.csv"))
+
+    # Quitar duplicados y ordenar por fecha de modificación
+    files = list({f.resolve(): f for f in files}.values())
+    files = sorted(files, key=lambda p: p.stat().st_mtime, reverse=True)
 
     if files:
-        print(f"[CONFIG OVERRIDE] {prefix} desde outputs/")
-    else:
-        print(f"[FALLBACK] {prefix} desde raíz finviz_news/")
-        files = sorted(finviz_base_dir.glob(f"**/{prefix}_*.csv"), reverse=True)
+        log(f"[FILE DETECTION] {prefix} encontrado: {files[0]}")
+        return files[0]
 
-    if not files:
-        raise FileNotFoundError(f"No se encontró ningún archivo para {prefix}")
+    raise FileNotFoundError(f"No se encontró ningún archivo para {prefix}")
 
-    return files[0]
+
+
 
 
 def read_csv_flexible(path: Path) -> pd.DataFrame:
