@@ -195,28 +195,26 @@ INPUT:
 
 
 {
-  "driver_principal": "La percepción de que el conflicto en Irán será breve y que la producción petrolera se normalizará pronto impulsa la confianza en los mercados globales, a pesar de la evidencia de presiones inflacionarias por altos precios físicos del petróleo.",
+  "driver_principal": "La entrada de un actor institucional importante en el trading directo de criptomonedas impulsa la percepción de integración y legitimidad del mercado cripto, afectando la dinámica competitiva y la confianza del inversor.",
   "hechos_confirmados": [
-    "Los mercados globales de acciones están en máximos históricos con inversores apostando a que lo peor del conflicto en Medio Oriente ha pasado.",
-    "El Fondo Monetario Internacional recortó su pronóstico de crecimiento pero asume una guerra corta en Irán y una normalización de los precios del petróleo en la segunda mitad de 2026, con un promedio anual de 82 dólares por barril.",
-    "El precio físico del petróleo en Asia está cerca de 120 dólares por barril, significativamente por encima del precio de futuros de referencia de alrededor de 96 dólares.",
-    "Los pronósticos de crecimiento de ganancias corporativas para 2027 se mantienen elevados, con 18% para empresas estadounidenses y 11% para europeas."
+    "Charles Schwab lanzará trading directo de bitcoin y ethereum.",
+    "El lanzamiento busca competir con plataformas existentes como Robinhood.",
+    "El S&P 500 alcanzó un nuevo récord en el contexto de una semana fuerte en Wall Street."
   ],
-  "escenario_dominante": "Existe una alta probabilidad de que la percepción optimista sobre la duración del conflicto y la recuperación de la producción petrolera impulse la continuidad del mercado alcista, aunque persisten riesgos inflacionarios derivados de los altos precios físicos del petróleo que podrían limitar la expansión económica.",
-  "interpretacion_institucional": "La narrativa dominante en los mercados refleja un sesgo hacia la desestimación del impacto prolongado del conflicto en Irán, apoyada por pronósticos oficiales que anticipan una rápida normalización. Sin embargo, la discrepancia entre los precios físicos y los futuros del petróleo indica tensiones inflacionarias subyacentes que podrían materializarse si la oferta no se recupera según lo esperado. Esto sugiere que, aunque la confianza actual sostiene los activos de riesgo, la vigilancia sobre la evolución geopolítica y los precios energéticos es crucial para ajustar estrategias de inversión y gestión de riesgos.",
+  "escenario_dominante": "Existe una alta probabilidad de que la entrada de un actor institucional relevante en el trading directo de criptomonedas fomente una mayor adopción y liquidez en el mercado cripto, contribuyendo a un entorno de mercado más integrado y competitivo, mientras que la fortaleza general del mercado accionario respalda un apetito de riesgo moderado.",
+  "interpretacion_institucional": "La decisión de un actor institucional consolidado de ofrecer trading directo en criptomonedas puede interpretarse como un paso hacia la normalización y aceptación de estos activos dentro del sistema financiero tradicional. Esto podría atraer a inversores más conservadores y aumentar la competencia en el segmento de trading minorista de criptoactivos. La fortaleza del mercado accionario general sugiere un contexto favorable para la toma de riesgo, aunque se debe mantener vigilancia sobre la volatilidad inherente a los activos digitales.",
   "riesgos_secundarios": [
-    "La recuperación de la producción y exportación petrolera en Medio Oriente podría tardar meses o años, incluso si el conflicto termina pronto.",
-    "Si los suministros de petróleo esperados para el verano boreal no se materializan, podría haber consecuencias negativas para la economía global.",
-    "El conflicto en Irán podría prolongarse o intensificarse, afectando la estabilidad regional y los mercados energéticos.",
-    "Los recortes significativos en las previsiones de crecimiento económico para países afectados por el conflicto, como Reino Unido, podrían impactar la demanda global.",
-    "La divergencia entre precios físicos y futuros del petróleo podría generar volatilidad en los mercados financieros y presiones inflacionarias inesperadas."
+    "La competencia intensificada podría generar volatilidad en precios de criptomonedas.",
+    "Cambios regulatorios inesperados podrían afectar la operativa de trading directo en criptomonedas.",
+    "Reacciones adversas de plataformas competidoras podrían alterar dinámicas de mercado.",
+    "La fortaleza del mercado accionario podría revertirse, afectando el apetito por activos de riesgo.",
+    "La integración institucional podría no traducirse en adopción masiva inmediata."
   ],
   "eventos_clave": [
-    "Evolución del conflicto en Irán y posibles avances o retrocesos en negociaciones de paz.",
-    "Datos de producción y exportación petrolera en Medio Oriente durante los próximos meses.",
-    "Comportamiento de los precios físicos y futuros del petróleo en el segundo trimestre de 2026.",
-    "Publicación de nuevas revisiones del FMI y otros organismos sobre crecimiento económico global.",
-    "Indicadores económicos clave en economías relevantes, como ventas minoristas y solicitudes de desempleo en EE.UU., en abril de 2026."
+    "Lanzamiento oficial y operatividad del trading directo de bitcoin y ethereum por parte de Charles Schwab.",
+    "Publicación de datos macroeconómicos relevantes que afecten el apetito por riesgo en mercados globales.",
+    "Anuncios regulatorios relacionados con criptomonedas en jurisdicciones clave.",
+    "Evolución del índice S&P 500 en las próximas semanas como indicador de sentimiento de mercado."
   ]
 }
 

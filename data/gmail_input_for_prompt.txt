@@ -4,84 +4,11 @@ Asunto:
 Fecha: 
 
 === FUENTE PRIORITARIA 2: REUTERS DAILY BRIEFING ===
-Remitente: Reuters Econ World <econworld@thomsonreuters.com>
-Asunto: Positive thinking
-Fecha: 2026-04-16T06:01:46-06:00
+Remitente: 
+Asunto: 
+Fecha: 
 Extracto:
-Plus, the economics of $60-plus cigarettes
 
-Econ World
-
-Econ World
-
-By Carmel Crimmins, Host, Reuters Econ World
-
-Hello there,
-
-Global stocks are at record highs as investors bet we are over the worst in the Middle East. Are they being overly optimistic about the prospects for peace ? Who knows, but it feels like part of a broader theme of positive thinking on geopolitical risk.
-
-Look at the International Monetary Fund. Yes, it cut its growth outlook but it’s still assuming a short-lived war in Iran and oil prices normalizing in the second half of 2026, with an $82 per-barrel average for the year - well below today’s benchmark Brent crude futures price of around $96.00.
-
-Corporate earnings forecasts have hardly been affected by the oil shock, with 2027 growth forecasts at 18% and 11% for U.S. and European blue chips, respectively. As my colleague Mike Dolan points out, the temptation to screen out the war, bet on eventual de-escalation and focus on the year ahead has been hard to pass up, particularly with AI continuing to boost demand.
-
-But what if the market’s compass is wrong? The price of a physical barrel of oil is trading at record highs while futures benchmarks signal calm. In practical terms, that means the real cost of crude for refiners, particularly in Asia, is far closer to $120 a barrel - about 65% above pre-war levels and ⁠the highest since 2022 -- than the $96 suggested by headline benchmarks. That means inflationary pressure is building up in the system.
-The futures price reflects optimism about the war ending, while the physical price reflects the reality on the ground - that Middle East oil production and exports will take months, if not years, to recover to pre-war levels, even if the conflict ends now.
-
-As my colleague Ron Bousso points out, if oil supplies currently being priced into the futures market fail to materialise by early summer - the peak demand period in the Northern Hemisphere - that could have broad consequences for the global economy.
-
-While we wait to see how the geopolitics develop, China’s economy put on a better-than-expected performance in the first quarter, riding an export surge before the Iran war sent energy costs soaring. Britain too enjoyed a burst of growth in February, suggesting it was in slightly better shape before the start of the Iran war than many economists had feared. But the joy may be short-lived: Britain suffered the sharpest cut to economic growth forecasts for large rich economies by the IMF, due largely to the conflict.
-
-Before I sign off, a shoutout to this week’s Econ World podcast. We went Down Under to look at what happens when sin taxes encourage more bad behaviour. Specifically, how Australia’s sky-high cigarette taxes have helped drive a booming black market for illegal tobacco. You can listen here .
-
-If you want to reach out to me, you can catch me here .
-
-The headlines
-
-• Hopes for deal to end Iran war grow, but nuclear issues unresolved
-
-• Exclusive: Starlink outage hit drone tests, exposing Pentagon’s growing reliance on Space X
-•
-Trump tries economic reset as Republicans fret over high gas prices
-•
-China's Q1 economic rebound faces rough seas as Iran war jolts global outlook
-
-The chart
-
-The world's major economies have fallen deeper into debt since the COVID-19 pandemic. That means they have less flexibility to deal with increasing spending demands from the conflict in the Middle East.
-
-The podcast
-
-"There is no reasonable level of excise reduction which would make any material difference to the situation that we now face."
-Australia's Assistant Customs Minister Julian Hill on Reuters Econ World.
-
-On this week's show, we look at whether Australia’s tobacco excise has overshot its mark - economically and politically. Listen here .
-
-The real world
-
-• Missouri: How the AI boom derailed clean‑air efforts in one of America's most polluted cities
-•
-Tokyo : Rattled by Trump, US allies eye Japan's biggest arms opening since WW2
-•
-Cox's Bazar: Myanmar refugees seek risky sea routes to safety
-
-The week ahead
-
-• April 21: Kevin Warsh's Senate panel hearing
-• April 21: U.S. retail sales
-• April 23: U.S. jobless claims
-
-Sponsors are not involved in the creation of newsletters or other Reuters news content. Advertise in this newsletter or on Reuters' website
-
-Econ World is sent weekly. Think your friend or colleague should know about us? Forward this newsletter to them. They can also sign up here .
-
-Want to stop receiving this email?
-
-This email includes limited tracking for Reuters to understand whether you’ve engaged with its contents. For more information on how we process your personal information and your rights, please see our Privacy Statement .
-
-Terms & Conditions
-
-© 2026 Thomson Reuters. All rights reserved.
-3 Times Square, New York, NY 10036
 
 === FUENTE PRIORITARIA 3: CNBC MORNING SQUAWK ===
 === FUENTE PRIORITARIA 4: CNBC BREAKING NEWS (MAYOR PESO POR RECIENCIA) ===
@@ -101,11 +28,6 @@ This is a developing news story. Please check back for updates:
 [CNBC #2] S&P 500 hits fresh record as Wall Street continues strong week: Live updates
 Fecha: 2026-04-16T07:32:03-06:00
 S&P 500 hits fresh record as Wall Street continues strong week: Live updates
-This is a developing news story. Please check back for updates:
-
-[CNBC #3] Stocks making the biggest moves premarket: Pepsi Co, Taiwan Semiconductor, Voyager Technologies, PPG & more
-Fecha: 2026-04-16T05:44:04-06:00
-Stocks making the biggest moves premarket: Pepsi Co, Taiwan Semiconductor, Voyager Technologies, PPG & more
 This is a developing news story. Please check back for updates:
 
 === OTROS CORREOS DE MERCADO ===
