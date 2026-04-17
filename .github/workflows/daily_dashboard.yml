@@ -70,12 +70,10 @@ jobs:
 
       - name: Commit de outputs
         run: |
-          git add data/dashboard_payload.json data/market_narrative.txt data/market_regime.txt data/last_refresh.json data/filtered_signal.json data/vital_knowledge_extracted.json data/reuters_extracted.json data/cnbc_extracted.json data/gmail_input_for_prompt.txt data/final_prompt.txt data/final_regime_prompt.txt data/ticker/ticker_dashboard_payload.json
+          git add data/dashboard_payload.json data/market_narrative.txt data/market_regime.txt data/last_refresh.json data/filtered_signal.json data/vital_knowledge_extracted.json data/reuters_extracted.json data/cnbc_extracted.json data/gmail_input_for_prompt.txt data/final_prompt.txt data/final_regime_prompt.txt
+          git add -f data/ticker/ticker_dashboard_payload.json
 
           git diff --cached --quiet || git commit -m "Auto-update dashboard data"
-
-
-
 
 
       - name: Push de outputs
