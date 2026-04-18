@@ -60,7 +60,8 @@ jobs:
       - name: Validar artefacto HTML
         run: |
           test -f dist/index.html
-          grep -q "Daily Market Dashboard" dist/index.html
+          grep -q "<html" dist/index.html
+          grep -q "history-ribbon" dist/index.html
 
       - name: Configurar git
         run: |
