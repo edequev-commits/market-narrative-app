@@ -49,28 +49,28 @@ INPUT:
 
 
 {
-  "driver_principal": "The dominant market driver is the significant de-escalation in the Middle East conflict, particularly the Iran war, marked by the reopening of the Strait of Hormuz and progress toward a US-Iran nuclear deal, which is driving risk-on sentiment and equity market rallies.",
+  "driver_principal": "The dominant market driver is the de-escalation of the Iran conflict, highlighted by Iran's declaration of the Strait of Hormuz reopening to commercial traffic and optimistic rhetoric from US leadership about a near-term deal with Iran to abandon nuclear ambitions.",
   "hechos_confirmados": [
-    "President Donald Trump stated that Iran has agreed to hand over its enriched uranium and abandon plans for a nuclear weapon.",
-    "Iran declared the Strait of Hormuz completely open to commercial traffic during the Israel-Lebanon ceasefire.",
-    "A 10-day ceasefire between Israel and Lebanon is in effect.",
-    "US equity markets reached new all-time highs, with the S&P 500 topping 7,100 and the Dow soaring 1,000 points following the Strait of Hormuz reopening announcement."
+    "Iran declared the Strait of Hormuz completely open to commercial traffic during a ceasefire between Israel and Lebanon.",
+    "US President Trump stated that Iran has agreed to hand over its enriched uranium and abandon plans for a nuclear weapon.",
+    "Pakistani sources indicated that a memorandum of understanding (MOU) between the US and Iran could be signed soon.",
+    "The US and Iran are on a path of de-escalation, with a potential face-to-face meeting over the weekend, though not officially confirmed."
   ],
-  "escenario_dominante": "There is a high probability that the Middle East conflict will continue to de-escalate in the near term, supporting risk appetite and equity market strength. The reopening of the Strait of Hormuz and progress toward a US-Iran deal are likely to sustain positive market momentum, although some geopolitical and macroeconomic uncertainties remain.",
-  "interpretacion_institucional": "The market is currently pricing in a scenario of easing geopolitical tensions in the Middle East, which is reflected in strong equity performance and declining oil prices. The reopening of the Strait of Hormuz alleviates a major supply disruption risk, contributing to lower energy prices and improved market sentiment. However, the consensus view that a deal between the US and Iran is forthcoming may limit further upside from peace-related headlines. Market participants should remain cautious given the potential for unresolved differences between involved parties and the lingering stagflationary effects from the conflict. Additionally, corporate earnings have been mixed, with some companies citing headwinds from the conflict and supply chain disruptions, which could temper broader market gains.",
+  "escenario_dominante": "There is a high probability that the US-Iran conflict will continue to de-escalate in the near term, supporting a reopening of the Strait of Hormuz and easing geopolitical tensions. However, the full resolution of the conflict and a durable nuclear deal may take several months, and some regional tensions remain unresolved.",
+  "interpretacion_institucional": "The market is currently pricing in a positive trajectory toward a diplomatic resolution between the US and Iran, which has led to a rally in US equity futures and a sharp decline in oil prices. While this de-escalation reduces immediate geopolitical risk premiums, the consensus view that a deal is imminent may limit further upside from Iran-related headlines. The reopening of the Strait of Hormuz alleviates a critical supply risk for global energy markets, contributing to lower oil prices. Nonetheless, lingering uncertainties about the durability of the ceasefire and the timeline for a comprehensive agreement suggest maintaining a cautious stance. Elevated inflation and supply shocks related to the conflict continue to pressure commodity prices and corporate margins, as reflected in recent earnings reports.",
   "riesgos_secundarios": [
-    "A durable détente between the US and Iran is not guaranteed, with significant differences still to be resolved between Washington and Tehran, as well as between Israel and Lebanon.",
-    "Some Gulf and European governments estimate that a US-Iran deal could take about six months to finalize, longer than current market expectations.",
-    "The ongoing conflict has caused delays in US munitions supplies to Europe, potentially impacting geopolitical stability.",
-    "The stagflationary effects of the Middle East conflict, including elevated commodity prices, may persist even if a deal is reached.",
-    "Supply chain and operational challenges remain for certain companies due to the conflict and related disruptions."
+    "The possibility that Washington and Tehran fail to iron out key differences, delaying a comprehensive deal beyond the market's current expectations.",
+    "Continued regional tensions, including the fragile ceasefire between Israel and Lebanon, which could reignite conflict.",
+    "Supply chain disruptions and stagflationary pressures from the ongoing conflict, which may persist even if a deal is reached.",
+    "Potential delays in US munitions supplies to Europe due to the conflict's impact.",
+    "Volatility in US government borrowing costs due to investor wariness of political instability."
   ],
   "eventos_clave": [
-    "Potential face-to-face meeting between US and Iran officials over the weekend, as indicated by President Trump, though not officially confirmed.",
-    "Senate banking committee hearing on Kevin Warsh’s Fed chair nomination scheduled for Tuesday, April 21.",
-    "US retail sales data for March to be released on Tuesday, April 21.",
-    "US flash Purchasing Managers' Indices (PMIs) for April scheduled for Thursday, April 23.",
-    "Federal Reserve decision and related communications expected on Wednesday, April 29."
+    "Potential US-Iran face-to-face meeting over the weekend to advance negotiations.",
+    "US Federal Reserve confirmation hearing for Kevin Warsh on April 21, which may influence monetary policy amid inflation concerns.",
+    "US flash Purchasing Managers' Index (PMI) data for April on April 23, providing insight into economic momentum.",
+    "US retail sales data for March on April 21, indicating consumer spending trends.",
+    "Ongoing corporate earnings releases throughout the week, which will reflect the impact of macroeconomic and geopolitical factors on business performance."
   ]
 }
 
