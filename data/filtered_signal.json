@@ -1,25 +1,25 @@
 {
-  "driver_principal": "The dominant market driver is the de-escalation of the Iran conflict, highlighted by Iran's declaration of the Strait of Hormuz reopening to commercial traffic and optimistic rhetoric from US leadership about a near-term deal with Iran to abandon nuclear ambitions.",
+  "driver_principal": "The dominant market driver is the indefinite extension of the U.S.-Iran ceasefire amid ongoing geopolitical tensions, including the blockade of the Strait of Hormuz and stalled peace talks, which is influencing market risk perception and commodity prices.",
   "hechos_confirmados": [
-    "Iran declared the Strait of Hormuz completely open to commercial traffic during a ceasefire between Israel and Lebanon.",
-    "US President Trump stated that Iran has agreed to hand over its enriched uranium and abandon plans for a nuclear weapon.",
-    "Pakistani sources indicated that a memorandum of understanding (MOU) between the US and Iran could be signed soon.",
-    "The US and Iran are on a path of de-escalation, with a potential face-to-face meeting over the weekend, though not officially confirmed."
+    "President Donald Trump indefinitely extended the ceasefire with Iran, originally set to expire on April 22, 2026.",
+    "Despite the ceasefire extension, Iran's navy seized two container ships in the Strait of Hormuz, and three ships were reportedly attacked in the strait.",
+    "The U.S. maintains a naval blockade near the Strait of Hormuz, a key global oil route.",
+    "The U.S. and Iran have made significant behind-the-scenes progress on key issues, including Iran's nuclear program, but intense distrust and internal divisions in Tehran are preventing formal talks."
   ],
-  "escenario_dominante": "There is a high probability that the US-Iran conflict will continue to de-escalate in the near term, supporting a reopening of the Strait of Hormuz and easing geopolitical tensions. However, the full resolution of the conflict and a durable nuclear deal may take several months, and some regional tensions remain unresolved.",
-  "interpretacion_institucional": "The market is currently pricing in a positive trajectory toward a diplomatic resolution between the US and Iran, which has led to a rally in US equity futures and a sharp decline in oil prices. While this de-escalation reduces immediate geopolitical risk premiums, the consensus view that a deal is imminent may limit further upside from Iran-related headlines. The reopening of the Strait of Hormuz alleviates a critical supply risk for global energy markets, contributing to lower oil prices. Nonetheless, lingering uncertainties about the durability of the ceasefire and the timeline for a comprehensive agreement suggest maintaining a cautious stance. Elevated inflation and supply shocks related to the conflict continue to pressure commodity prices and corporate margins, as reflected in recent earnings reports.",
+  "escenario_dominante": "There is a high probability that the ceasefire extension will hold in the near term, allowing for continued behind-the-scenes negotiations between the U.S. and Iran. However, given the intense distrust and ongoing blockade, there remains a moderate probability of unintended escalation or disruptions in the Strait of Hormuz. Markets are likely to remain sensitive to developments in the conflict and oil supply, with earnings season providing additional support amid geopolitical uncertainty.",
+  "interpretacion_institucional": "The indefinite ceasefire extension signals a tactical pause rather than a resolution, reflecting the complex and fractured nature of Iran's government and the U.S. administration's limited options for kinetic escalation. The blockade and recent attacks on shipping vessels maintain elevated risks for global oil supply, sustaining upward pressure on energy prices and cost pressures for travel and transport sectors. Market participants appear cautiously optimistic about a potential deal but remain wary of volatility due to the fragile ceasefire and geopolitical risks. Strong corporate earnings provide some offset to geopolitical concerns, supporting equity markets despite the risk environment.",
   "riesgos_secundarios": [
-    "The possibility that Washington and Tehran fail to iron out key differences, delaying a comprehensive deal beyond the market's current expectations.",
-    "Continued regional tensions, including the fragile ceasefire between Israel and Lebanon, which could reignite conflict.",
-    "Supply chain disruptions and stagflationary pressures from the ongoing conflict, which may persist even if a deal is reached.",
-    "Potential delays in US munitions supplies to Europe due to the conflict's impact.",
-    "Volatility in US government borrowing costs due to investor wariness of political instability."
+    "Potential for unintended military escalation due to incidents in the Strait of Hormuz or miscalculations amid high tensions.",
+    "Internal divisions within the Iranian government could derail negotiations or lead to hardline actions.",
+    "Prolonged blockade of the Strait of Hormuz could cause significant disruptions to global oil and food markets.",
+    "Depletion of U.S. missile stockpiles may limit military options and affect strategic calculations.",
+    "Market volatility could increase if peace talks fail to materialize or if new sanctions or military actions are announced."
   ],
   "eventos_clave": [
-    "Potential US-Iran face-to-face meeting over the weekend to advance negotiations.",
-    "US Federal Reserve confirmation hearing for Kevin Warsh on April 21, which may influence monetary policy amid inflation concerns.",
-    "US flash Purchasing Managers' Index (PMI) data for April on April 23, providing insight into economic momentum.",
-    "US retail sales data for March on April 21, indicating consumer spending trends.",
-    "Ongoing corporate earnings releases throughout the week, which will reflect the impact of macroeconomic and geopolitical factors on business performance."
+    "Iran's engagement or response within the next 3-5 days as demanded by the White House for negotiations to proceed.",
+    "Potential face-to-face meetings between U.S. and Iranian officials if Tehran signals readiness to negotiate.",
+    "Upcoming FOMC decision and central bank meetings that may influence market liquidity and risk appetite amid geopolitical uncertainty.",
+    "Q1 earnings reports from key companies, especially in travel, energy, and technology sectors, which will provide insight into economic resilience amid geopolitical pressures.",
+    "Developments in the security situation in the Strait of Hormuz, including any further attacks or seizures of vessels."
   ]
 }
